@@ -1,4 +1,26 @@
 Rails.application.routes.draw do
+  get 'viewings/index'
+
+  get 'viewings/show'
+
+  get 'viewings/new'
+
+  get 'viewings/edit'
+
+  get 'requests/index'
+
+  get 'requests/show'
+
+  get 'requests/new'
+
+  get 'requests/edit'
+
+  get 'flats/show'
+
+  get 'flats/new'
+
+  get 'flats/edit'
+
   get 'rooms/index'
 
   get 'rooms/show'
