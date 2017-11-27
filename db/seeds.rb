@@ -62,3 +62,43 @@ user_five = User.create!(
 )
 
 users = [user_one, user_two, user_three, user_four, user_five]
+
+puts "Users created"
+
+flat_one = Flat.create!(
+  description: "This large & modern penthouse is in a great, central area & consists of 3 floors, all boasting unbelievable views. The top floor has a private plunge pool & magical 360° vistas. Situated on the slopes of Table Mountain & close to everything!",
+  monthly_price: 440,
+  number_of_flatmates: 3,
+  amenities: "Internet, Free parking, Smoking allowed",
+  address: "Axel-Springer-Straße 41, 10969 Berlin",
+  neighborhood: "Rudi-Dutschke-Straße 26, 10969 Berlin",
+  # latitude: 52.507535,
+  # longitude: 13.399219,
+  )
+
+puts "Flat 1 created"
+
+room_one = Room.create!(
+  move_in_date: '01-12-2017',
+  move_out_date: '01-05-2018',
+  flat_id: 1,
+  )
+
+puts "Room 1 created"
+
+request_one = Request.create!(
+  slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  )
+request_one.accepted!
+request_one.save!
+
+puts "Request 1 created"
+
+viewing_one = Viewing.create!(
+  start_time: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 1,
+  )
+
+puts "Viewing 1 created"

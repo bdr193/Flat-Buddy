@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :flats do
+  resources :flats, only: [:show, :new, :edit] do
     resources :rooms, only: [:index, :show, :new, :edit]
   end
 
