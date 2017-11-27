@@ -7,16 +7,16 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 puts "Clearing database"
+
 puts "Clearing users"
-puts "Clearing flats"
-puts "Clearing rooms"
-
-
 User.destroy_all
+puts "Clearing flats"
 Flat.destroy_all
+puts "Clearing rooms"
 Room.destroy_all
-
+puts "Clearing requests"
 Request.destroy_all
+puts "Clearing Viewings"
 Viewing.destroy_all
 
 puts "Creating users"
