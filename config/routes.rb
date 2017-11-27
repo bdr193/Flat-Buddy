@@ -1,36 +1,52 @@
 Rails.application.routes.draw do
-  get 'viewings/index'
 
-  get 'viewings/show'
+  resources :flats, only: [:show, :new, :edit] do
+    resources :rooms, only: [:index, :show, :new, :edit]
+  end
 
-  get 'viewings/new'
+  resources :viewings, only: [:index, :show, :new, :edit]
 
-  get 'viewings/edit'
+  resources :requests, only: [:index, :show, :new, :edit]
 
-  get 'requests/index'
+  devise_for :users
+  root to: 'pages#home'
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
 
-  get 'requests/show'
+  # get 'viewings/index'
 
-  get 'requests/new'
+  # get 'viewings/show'
 
-  get 'requests/edit'
+  # get 'viewings/new'
 
-  get 'flats/show'
+  # get 'viewings/edit'
 
-  get 'flats/new'
+  # get 'requests/index'
 
-  get 'flats/edit'
+  # get 'requests/show'
 
-  get 'rooms/index'
+  # get 'requests/new'
 
-  get 'rooms/show'
+  # get 'requests/edit'
 
-  get 'rooms/new'
+  # get 'flats/show'
 
-  get 'rooms/edit'
+  # get 'flats/new'
 
+<<<<<<< HEAD
   devise_for :users
   
   root to: 'pages#home'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
+=======
+  # get 'flats/edit'
+
+  # get 'rooms/index'
+
+  # get 'rooms/show'
+
+  # get 'rooms/new'
+
+  # get 'rooms/edit'
+>>>>>>> master
