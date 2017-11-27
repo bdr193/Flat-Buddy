@@ -10,10 +10,42 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171127093602) do
+ActiveRecord::Schema.define(version: 20171127143808) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "flats", force: :cascade do |t|
+    t.string   "title"
+    t.text     "description"
+    t.integer  "monthly_price"
+    t.integer  "number_of_flatmates"
+    t.text     "amenities"
+    t.string   "address"
+    t.string   "lat"
+    t.string   "lng"
+    t.string   "neighborhood"
+    t.datetime "created_at",          null: false
+    t.datetime "updated_at",          null: false
+  end
+
+  create_table "requests", force: :cascade do |t|
+    t.datetime "slot"
+    t.integer  "status",     default: 0
+    t.integer  "user_id"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+    t.index ["user_id"], name: "index_requests_on_user_id", using: :btree
+  end
+
+  create_table "rooms", force: :cascade do |t|
+    t.date     "move_in_date"
+    t.date     "move_out_date"
+    t.integer  "flat_id"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.index ["flat_id"], name: "index_rooms_on_flat_id", using: :btree
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -28,8 +60,28 @@ ActiveRecord::Schema.define(version: 20171127093602) do
     t.inet     "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "first_name"
+    t.string   "last_name"
+    t.integer  "flat_id"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
+    t.index ["flat_id"], name: "index_users_on_flat_id", using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
+  create_table "viewings", force: :cascade do |t|
+    t.datetime "start_time"
+    t.integer  "duration"
+    t.integer  "room_id"
+    t.integer  "request_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["request_id"], name: "index_viewings_on_request_id", using: :btree
+    t.index ["room_id"], name: "index_viewings_on_room_id", using: :btree
+  end
+
+  add_foreign_key "requests", "users"
+  add_foreign_key "rooms", "flats"
+  add_foreign_key "users", "flats"
+  add_foreign_key "viewings", "requests"
+  add_foreign_key "viewings", "rooms"
 end
