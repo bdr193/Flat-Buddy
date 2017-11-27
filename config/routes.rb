@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :users
   resources :flats do
     resources :rooms, only: [:index, :show, :new, :edit]
   end
