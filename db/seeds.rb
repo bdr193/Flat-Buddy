@@ -66,6 +66,7 @@ users = [user_one, user_two, user_three, user_four, user_five]
 puts "Users created"
 
 flat_one = Flat.create!(
+  title: "Flatshare - We're lovin it!",
   description: "This large & modern penthouse is in a great, central area & consists of 3 floors, all boasting unbelievable views. The top floor has a private plunge pool & magical 360° vistas. Situated on the slopes of Table Mountain & close to everything!",
   monthly_price: 440,
   number_of_flatmates: 3,
