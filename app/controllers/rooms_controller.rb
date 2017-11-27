@@ -1,4 +1,6 @@
 class RoomsController < ApplicationController
+  before_action :find_room_id, only: [:show, :edit]
+
   def index
   end
 
@@ -9,5 +11,9 @@ class RoomsController < ApplicationController
   end
 
   def edit
+  end
+
+  def find_room_id
+    @room = Room.find(params[:id])
   end
 end
