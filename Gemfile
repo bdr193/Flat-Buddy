@@ -11,6 +11,9 @@ gem 'redis'
 gem 'omniauth-facebook'
 
 
+gem 'bootstrap-datepicker-rails'
+gem 'geocoder'
+
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
