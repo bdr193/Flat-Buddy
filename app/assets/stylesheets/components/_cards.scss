@@ -1,0 +1,33 @@
+.wrapper {
+  padding: 1em;
+  border-radius: 2px;
+  position: relative;
+  &:hover {
+  opacity: 0.6;
+  }
+}
+
+.card-header {
+  height: 70%;
+}
+
+.card-link {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.card {
+  height: 300px;
+  color: black;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 1em;
+  background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
