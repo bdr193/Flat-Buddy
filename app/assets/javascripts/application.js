@@ -4,7 +4,9 @@
 //= require jquery-fileupload/basic
 //= require cloudinary/jquery.cloudinary
 //= require attachinary
+//= require bootstrap-datepicker
 //= require_tree .
+
 $('.datepicker').datepicker({
   format: 'yyyy-mm-dd',
   autoclose: true,
