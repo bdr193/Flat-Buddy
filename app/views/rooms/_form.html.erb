@@ -1,4 +1,4 @@
     <%= simple_form_for @request do |m| %>
-      <%= m.association :viewing, collection: @room.viewings %>
+      <%= m.association :viewing, collection: @viewing_times %>
       <%= m.button :submit %>
     <% end %>

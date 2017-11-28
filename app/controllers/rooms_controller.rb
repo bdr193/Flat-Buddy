@@ -6,6 +6,15 @@ class RoomsController < ApplicationController
   end
 
   def show
+    @viewing_times = []
+    @room.viewings.each do |viewing|
+      @viewing_times << viewing.start_time.to_s
+    end
+    @hash = Gmaps4rails.build_markers(@room.flat) do |room, marker|
+      marker.lat room.latitude
+      marker.lng room.longitude
+    end
+    @room_photo = @room.flat.photos.first
     @request = Request.new
   end
 
