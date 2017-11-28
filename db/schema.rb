@@ -42,6 +42,8 @@ ActiveRecord::Schema.define(version: 20171128145941) do
     t.string   "neighborhood"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+    t.float    "latitude"
+    t.float    "longitude"
   end
 
   create_table "requests", force: :cascade do |t|
