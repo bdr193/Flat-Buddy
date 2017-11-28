@@ -1,19 +1,21 @@
 <h1>My viewings</h1>
 <p>Show calendar</p>
-<p>Find me in app/views/requests/index.html.erb</p>
 
 <ul> <% @requests.each do |request| %>
   <li>
-    <%= request.viewing.room.flat.description %>
-    flat title
-    District (Neighborhood)
-    Address
-    Price
+    <%= request.status %>
+    <%= request.viewing.room.flat.title %>
+    <%= request.viewing.room.flat.neighborhood %>
+    <%= request.viewing.room.flat.address %>
+    <%= request.viewing.room.flat.monthly_price %>
    <p>Send Message</p>
     <p>Cancel</p>
+
   </li>
   <% end %>
 </ul>
+
+
 
 <div class="message">
   <img class="avatar-large" src="https://kitt.lewagon.com/placeholder/users/gabriel-dehan">
