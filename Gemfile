@@ -18,6 +18,9 @@ source 'https://rails-assets.org' do
 end
 
 
+gem 'bootstrap-datepicker-rails'
+gem 'geocoder'
+
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
@@ -30,6 +33,9 @@ gem 'cloudinary', '1.1.7'
 gem 'attachinary', github: 'assembler/attachinary'
 gem 'jquery-fileupload-rails'
 gem 'coffee-rails'
+gem "gmaps4rails"
+gem 'gmaps-autocomplete-rails'
+
 
 group :development, :test do
   gem 'pry-byebug'
