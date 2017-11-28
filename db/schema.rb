@@ -34,8 +34,10 @@ ActiveRecord::Schema.define(version: 20171128145941) do
     t.string   "title"
     t.text     "description"
     t.integer  "number_of_flatmates"
+    t.integer  "flat_size"
     t.text     "amenities"
     t.string   "address"
+    t.string   "currency"
     t.string   "lat"
     t.string   "lng"
     t.string   "neighborhood"
@@ -57,10 +59,26 @@ ActiveRecord::Schema.define(version: 20171128145941) do
   create_table "rooms", force: :cascade do |t|
     t.date     "move_in_date"
     t.date     "move_out_date"
+    t.text     "searching_for"
     t.integer  "monthly_price"
+    t.integer  "room_size"
+    t.integer  "deposit"
+    t.boolean  "has_parking"
+    t.boolean  "allow_students"
+    t.boolean  "allow_pets"
+    t.integer  "bills_included"
+    t.integer  "allow_smokers"
+    t.integer  "furnished"
+    t.boolean  "copplues_allowd"
+    t.boolean  "ensuite"
+    t.boolean  "accessible"
+    t.integer  "minimum_stay"
+    t.integer  "preffered_min_age"
+    t.integer  "preffered_max_age"
+    t.integer  "preffered_gender"
     t.integer  "flat_id"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
     t.index ["flat_id"], name: "index_rooms_on_flat_id", using: :btree
   end
 

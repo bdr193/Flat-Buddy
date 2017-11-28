@@ -1,5 +1,12 @@
 require 'json'
 require 'open-uri'
+require_relative 'urls'
+
+
+# Users need to have a flat ID
+# Profiles and interests
+
+AMENITIES = ["Wifi", "TV", "Elevator", "Doorman", "Washer", "Dryer", "Gym", "Iron", "Kitchen", "Hot tub", "Air conditioning", "Heating"]
 
 puts "Clearing database"
 
@@ -60,39 +67,92 @@ users = [user_one, user_two, user_three, user_four, user_five]
 
 puts "Users created"
 
-url = 'http://www.wg-gesucht.de/en/wg-zimmer-in-Berlin.8.0.1.0.html?offer_filter=1&sort_column=0&noDeact=1&city_id=8&category=0&rent_type=0&img_only=1'
-html_file = open(url).read
-html_doc = Nokogiri::HTML(html_file)
+def analyze_room_db(room_db_string)
+  room = JSON.parse(room_db_string)
+  flat = Flat.create!(
+    # title: flat_attr[:title],
+    description: room["description"],
+    number_of_flatmates: rand(1..3),
+    flat_size: rand(70..125),
+    amenities: 'Wifi',
+    neighborhood: room["place"],
+    currency: room["currency"],
+    lat: room["latitude"],
+    lng: room["longitude"]
+  )
 
-html_doc.search('.detailansicht').each do |element|
-  title = element.text.strip
-  link = element.attribute('href').value
-  unless (( link.include? 'affiliate' ) || ( link.include? 'airbnb' ))
-    scrap_the_flat(link,title)
+  Room.create!(
+    # move_in_date: Date.new(room["availableDate"]),
+    monthly_price: room["price"].to_i,
+    room_size: rand(12..30),
+    has_parking: room["hasParking"] == 'true' ,
+    deposit: room["deposit"].to_i,
+    allow_students: room["allowStudents"] == 'true',
+    allow_pets: room["allowPets"] == 'true',
+    allow_smokers: room["allowSmokers"].to_i,
+    bills_included: room["billsIncluded"].to_i,
+    furnished: room["furnished"].to_i,
+    copplues_allowd: room["allowCouples"] == 'true',
+    ensuite: room["ensuite"] == 'true',
+    accessible: room["accessible"] == 'true',
+    minimum_stay: room["minimumStay"].to_i,
+    preffered_min_age: room["preferredMinAge"].to_i,
+    preffered_max_age: room["preferredMaxAge"].to_i,
+    preffered_gender: room["preferredGender"].to_i,
+    searching_for: room["preferredRoommateDescription"],
+    flat_id: flat.id
+  )
+end
+
+def scrape_room(room_url)
+  puts "Scraping a room #{room_url[-2]}"
+  url = "https://kangaroom.com/#{room_url}"
+  html_file = open(url).read
+  html_doc = Nokogiri::HTML(html_file)
+  html_doc.css('script').each do |script|
+    all_scripts = script.content
+    scripts_split = all_scripts.split("obj.room =")
+
+    unless scripts_split[1].nil?
+      room_db = scripts_split[1].split("};")[0]
+      room_db_fixed = room_db + '}'
+      analyze_room_db(room_db_fixed)
+    end
   end
 end
 
-def scrap_the_flat(link, title)
-  url = "http://www.wg-gesucht.de/en/#{link}"
-  flat_html_file = open(url).read
-  html_doc = Nokogiri::HTML(flat_html_file)
-
-  html_doc.search('.detailansicht').each do |element|
-
-  end
-  create_flat(attributes)
+Urls.get_urls.each do |room_url|
+  scrape_room(room_url)
 end
 
-
-def create_flat(attributes)
-  # title:
-  # description:
-  # number_of_flatmates:
-  # amenities:
-  # address:
-  # neighborhood:
-end
-
+# def analyze_flats_db(data_base)
+#   room_urls = []
+#   # JSONifying the flats object from string
+#   db_json = JSON.parse(data_base).map(&:with_indifferent_access)
+#   db_json.each do |apt|
+#     # getting the apartment url of each flat and scraping the apartment
+#     room_urls << apt[:url]
+#     # scrape_room(apt[:url])
+#   end
+#   p room_urls
+#   raise
+# end
+#
+# # Reading Kangaroom url, apartments only in london
+# url = 'https://kangaroom.com/room/search?exp=London&lat=51.5073509&lon=-0.12775829999998223&countryId=76'
+# html_file = open(url).read
+# html_doc = Nokogiri::HTML(html_file)
+#
+# # The html_doc contains objects of all the flats in london
+# html_doc.css('script').each do |script|
+#   all_scripts = script.content
+#   scripts_split = all_scripts.split("obj.rooms =")
+#   unless scripts_split[1].nil?
+#     # Separating the flats string object from other scripts
+#     database_string = scripts_split[1].split(";")[0]
+#     analyze_flats_db(database_string)
+#   end
+# end
 
 
 
