@@ -1,8 +1,10 @@
 <div class="container">
-  <div class="room-banner">
+  <div class="room-banner", style="background-image:
+      url('<%= cl_image_path @room_photo.path, crop: :fit %>')">
     <div class="room-price">
-      <p><%= @room.flat.monthly_price%>€/month</p>
+      <p><%= @room.flat.monthly_price%>€/m</p>
     </div>
+    <div class="room-title-background"></div>
     <div class="room-title">
       <h2> <b>Title:</b> <%= @room.flat.title %> </h2>
       <p> <b>District:</b> <%= @room.flat.neighborhood%>, <%= @room.flat.address%> </p>
@@ -22,15 +24,17 @@
     </div>
     <% end %>
   </div>
-  <div class="col-xs-12 col-sm-4">
+  <div class="col-xs-12 col-sm-4 flat-form">
     <h3>Pick a meeting date</h3>
     <%= render 'form' %>
-    <div class="room-description">
-      <h4>About the flat</h4>
-      <%= @room.flat.description%>
-    </div>
   </div>
+  <div class="room-description">
+    <h4>About the flat</h4>
+    <%= @room.flat.description%>
+  </div>
+  <br>
+  <br>
   <div id="map">
-    <p>Map is going here</p>
+    <h2>Map is going here</h2>
   </div>
 </div>
