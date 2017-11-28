@@ -9,6 +9,9 @@
   justify-content: space-around;
   border-bottom: 1px solid rgba(220,224,244,0.4);
   border: 1px solid grey;
+  margin: 20px 0px;
+  width: 90%;
+  height: 100px;
 }
 
 .request-body h3 {
@@ -30,9 +33,23 @@
 .request-status {
   font-size: 14px;
   font-weight: bold;
+  width: 10%;
+  height: 100px;
+  background-color: yellow;
 }
 
 .request-price {
+  font-weight: bold;
 
 }
 
+.btn-calendar {
+  margin: 20px;
+}
+
+.listing {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
