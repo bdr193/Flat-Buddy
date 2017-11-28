@@ -2,6 +2,7 @@ class RoomsController < ApplicationController
   before_action :find_room_id, only: [:show, :edit]
 
   def index
+    @rooms = Room.all
   end
 
   def show

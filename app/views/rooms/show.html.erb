@@ -1,18 +1,26 @@
-<h2> <b>Title:</b> <%= @room.flat.title %> </h4>
-<h4> <b>Price per Month:</b> <%= @room.flat.monthly_price%> €</h4>
-<h4> <b>District:</b> <%= @room.flat.neighborhood%> </h4>
-<br>
-<h4> <b>Available from:</b> <%= @room.move_in_date %> </h4>
-<h4> <b>Available until:</b> <%= @room.move_out_date %> </h4>
+<div class="container">
 
-<br>
+  <div class="room-price">
+    <h4> <b>Price per Month:</b> <%= @room.flat.monthly_price%> €</h4>
+  </div>
+  <div class="room-title">
+    <h2> <b>Title:</b> <%= @room.flat.title %> </h4>
+    <p> <b>District:</b> <%= @room.flat.neighborhood%>, <%= @room.flat.address%> </p>
+  </div>
+
+
+    <br>
+    <h4> <b>Available from:</b> <%= @room.move_in_date %> </h4>
+    <h4> <b>Available until:</b> <%= @room.move_out_date %> </h4>
+
+    <br>
 
 <!-- Section about Buddies
- --><h4> <b>Number of FlatBuddies:</b> <%= @room.flat.number_of_flatmates%> </h4>
+--><h4> <b>Number of FlatBuddies:</b> <%= @room.flat.number_of_flatmates%> </h4>
 
 <br>
 <!-- Sections about flat
- --><h4> <b>Description:</b> <%= @room.flat.description%> </h4>
+--><h4> <b>Description:</b> <%= @room.flat.description%> </h4>
 
 <br>
 
@@ -20,6 +28,8 @@
 
 <br>
 <!-- Comes with a map
- --><h4> <b>Address:</b> <%= @room.flat.address%> </h4>
+--><h4> <b>Address:</b> <%= @room.flat.address%> </h4>
 
 </b>
+
+</div>
