@@ -97,14 +97,6 @@ room_one = Room.create!(
 
 puts "Room 1 created"
 
-request_one = Request.create!(
-  slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
-  user_id: 1,
-  )
-request_one.accepted!
-request_one.save!
-
-puts "Request 1 created"
 
 viewing_one = Viewing.create!(
   start_time: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
@@ -113,3 +105,12 @@ viewing_one = Viewing.create!(
   )
 
 puts "Viewing 1 created"
+request_one = Request.create!(
+  slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  viewing_id: 1,
+  )
+request_one.accepted!
+request_one.save!
+
+puts "Request 1 created"
