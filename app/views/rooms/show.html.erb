@@ -1,40 +1,53 @@
 <div class="container">
   <div class="room-banner", style="background-image:
-      url('<%= cl_image_path @room_photo.path, crop: :fit %>')">
-    <div class="room-price">
-      <p><%= @room.flat.monthly_price%>€/m</p>
-    </div>
-    <div class="room-title-background"></div>
-    <div class="room-title">
-      <h2> <b>Title:</b> <%= @room.flat.title %> </h2>
-      <p> <b>District:</b> <%= @room.flat.neighborhood%>, <%= @room.flat.address%> </p>
-    </div>
+  url('<%= cl_image_path @room_photo.path, crop: :fit %>')">
+  <div class="room-price">
+    <p><%= @room.flat.monthly_price%>€/m</p>
   </div>
-  <div class="interests">
-    <h3> There are <%= @room.flat.users.length %> in this flat! </h3>
-    <% @room.flat.users.each do |user| %>
-    <%= user %>
-    <% end %>
+  <div class="room-title-background"></div>
+  <div class="room-title">
+    <h2> <b>Title:</b> <%= @room.flat.title %> </h2>
+    <p> <b>District:</b> <%= @room.flat.neighborhood%>, <%= @room.flat.address%> </p>
   </div>
-  <div class="col-xs-12 col-sm-8">
-    <% @room.flat.users.each do |user| %>
-    <div class="row">
-      <%= cl_image_tag user.photo.path %>
-      <%= user.first_name %>
-    </div>
-    <% end %>
+</div>
+<div class="interests text-center">
+  <h3> There are <%= @room.flat.users.length %> in this flat! </h3>
+  <% @room.flat.users.each do |user| %>
+  <%= user %>
+  <% end %>
+</div>
+<div class="col-xs-12 col-sm-8">
+  <% @room.flat.users.each do |user| %>
+  <div class="row">
+    <%= cl_image_tag user.photo.path %>
+    <%= user.first_name %>
   </div>
-  <div class="col-xs-12 col-sm-4 flat-form">
-    <h3>Pick a meeting date</h3>
-    <%= render 'form' %>
-  </div>
+  <% end %>
   <div class="room-description">
     <h4>About the flat</h4>
     <%= @room.flat.description%>
   </div>
-  <br>
-  <br>
-  <div id="map">
-    <h2>Map is going here</h2>
-  </div>
 </div>
+<div class="col-xs-12 col-sm-4 flat-form">
+  <h3>Pick a meeting date</h3>
+  <%= render 'form' %>
+</div>
+</div>
+<div id="show-map"></div>
+
+<% content_for(:after_js) do %>
+<%= javascript_tag do %>
+
+var handler = Gmaps.build('Google');
+handler.buildMap({ internal: { id: 'show-map' } }, function() {
+markers = handler.addMarkers(<%= raw @hash.to_json %>);
+handler.bounds.extendWith(markers);
+handler.fitMapToBounds();
+if (markers.length == 0) {
+handler.getMap().setZoom(2);
+} else if (markers.length == 1) {
+handler.getMap().setZoom(14);
+}
+});
+<% end %>
+<% end %>
