@@ -1,14 +1,23 @@
 <div class="navbar-wagon">
   <!-- Logo -->
+
+  <div class="navbar-wagon-left">
   <a href="/" class="navbar-wagon-brand">
     <%= image_tag "house-logo.png" %>
     <!-- <img src="../../assets/images/bikey-logo.png" alt="logo"> -->
+
   </a>
+    <%= link_to('Flatbuddy', root_path, class: "navbar-wagon-item navbar-wagon-link logo")  %>
+  </div>
+
   <% if current_user %>
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <%= link_to('My Requests', requests_path, class: "navbar-wagon-item navbar-wagon-link")  %>
-    
+    <%= link_to('My Viewings', requests_path, class: "navbar-wagon-item navbar-wagon-link")  %>
+    <%= link_to('Messages', requests_path, class: "navbar-wagon-item navbar-wagon-link")  %>
+    <%= link_to('List a flat', requests_path, class: "navbar-wagon-item navbar-wagon-link")  %>
+
+
     <!-- Profile picture with dropdown list -->
     <div class="navbar-wagon-item">
       <div class="dropdown">
