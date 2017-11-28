@@ -1,4 +1,4 @@
 class Viewing < ApplicationRecord
   belongs_to :room
-  belongs_to :request
+  has_one :request
 end
