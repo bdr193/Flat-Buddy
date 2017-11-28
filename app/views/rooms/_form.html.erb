@@ -1,0 +1,4 @@
+    <%= simple_form_for @request do |m| %>
+      <%= m.association :viewing, collection: @room.viewings.first.start_time %>
+      <%= m.button :submit %>
+    <% end %>
