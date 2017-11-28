@@ -10,6 +10,7 @@ gem 'rails', '5.0.6'
 gem 'redis'
 gem 'omniauth-facebook'
 
+
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
@@ -17,6 +18,11 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
+
+gem 'cloudinary', '1.1.7'
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'jquery-fileupload-rails'
+gem 'coffee-rails'
 
 group :development, :test do
   gem 'pry-byebug'
