@@ -1,36 +1,32 @@
-<h1>My viewings</h1>
-<p>Show calendar</p>
+<div class="container text-center col-xs-12 col-sm-12">
+  <h1>My viewings</h1>
+  <p class="btn btn-hover btn-calendar">Show calendar</p>
 
-<ul> <% @requests.each do |request| %>
-  <li>
-    <%= request.status %>
-    <%= request.viewing.room.flat.title %>
-    <%= request.viewing.room.flat.neighborhood %>
-    <%= request.viewing.room.flat.address %>
-    <%= request.viewing.room.flat.monthly_price %>
-   <p>Send Message</p>
-    <p>Cancel</p>
+  <% @requests.each do |request| %>
 
-  </li>
+  <div class="listing">
+
+    <div class="request-status request">
+      <%= request.status %>
+    </div>
+    <div class="request">
+      <div class="request-price"> <%= request.viewing.room.flat.monthly_price %>€ </div>
+
+      <div class="request-body">
+        <h3> <b>  <%= request.viewing.room.flat.title %></b></h3>
+        <p><%= request.viewing.room.flat.neighborhood %></p>
+        <p><%= request.viewing.room.flat.address %></p>
+      </div>
+
+      <div>
+        <p class="btn btn-hover">Send Message</p>
+      </div>
+
+      <div>
+        <p class="btn btn-hover">Cancel</p>
+      </div>
+    </div>
+
+  </div>
   <% end %>
-</ul>
-
-
-
-<div class="message">
-  <img class="avatar-large" src="https://kitt.lewagon.com/placeholder/users/gabriel-dehan">
-  <div class="message-name">
-    <h3>Gab Dehan</h3>
-    <p>10/07/17</p>
-  </div>
-  <div class="message-body">
-    <p><strong>I am not sure yet!</strong></p>
-    <p>
-      I am not sure yet! I might be in Shanghai at this moment... Can I tell you later?
-    </p>
-  </div>
-  <div class="message-status">
-    <p class="status pending">Pending</p>
-    <p class="price">€345</p>
-  </div>
 </div>

@@ -81,7 +81,7 @@ flat_one = Flat.create!(
   number_of_flatmates: 3,
   amenities: "Internet, Free parking, Smoking allowed",
   address: "Axel-Springer-Straße 41, 10969 Berlin",
-  neighborhood: "Rudi-Dutschke-Straße 26, 10969 Berlin",
+  neighborhood: "Kreuzberg",
   photo_urls: flat_one_urls
   # latitude: 52.507535,
   # longitude: 13.399219,
