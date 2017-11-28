@@ -1,33 +1,40 @@
 <div class="container">
-
-  <div class="room-price">
-    <h4> <b>Price per Month:</b> <%= @room.flat.monthly_price%> €</h4>
+  <div class="room-banner", style="background-image:
+      url('<%= cl_image_path @room_photo.path, crop: :fit %>')">
+    <div class="room-price">
+      <p><%= @room.flat.monthly_price%>€/m</p>
+    </div>
+    <div class="room-title-background"></div>
+    <div class="room-title">
+      <h2> <b>Title:</b> <%= @room.flat.title %> </h2>
+      <p> <b>District:</b> <%= @room.flat.neighborhood%>, <%= @room.flat.address%> </p>
+    </div>
   </div>
-  <div class="room-title">
-    <h2> <b>Title:</b> <%= @room.flat.title %> </h4>
-    <p> <b>District:</b> <%= @room.flat.neighborhood%>, <%= @room.flat.address%> </p>
+  <div class="interests">
+    <h3> There are <%= @room.flat.users.length %> in this flat! </h3>
+    <% @room.flat.users.each do |user| %>
+    <%= user %>
+    <% end %>
   </div>
-
-
-    <br>
-    <h4> <b>Available from:</b> <%= @room.move_in_date %> </h4>
-    <h4> <b>Available until:</b> <%= @room.move_out_date %> </h4>
-
-    <br>
-
-<!-- Section about Buddies
---><h4> <b>Number of FlatBuddies:</b> <%= @room.flat.number_of_flatmates%> </h4>
-
-<br>
-<!-- Sections about flat
---><h4> <b>Description:</b> <%= @room.flat.description%> </h4>
-
-<br>
-
-<h4> <b>Amenities:</b> <%= @room.flat.amenities%> </h4>
-
-<br>
-
-<%= render 'form' %>
-
+  <div class="col-xs-12 col-sm-8">
+    <% @room.flat.users.each do |user| %>
+    <div class="row">
+      <%= cl_image_tag user.photo.path %>
+      <%= user.first_name %>
+    </div>
+    <% end %>
+  </div>
+  <div class="col-xs-12 col-sm-4 flat-form">
+    <h3>Pick a meeting date</h3>
+    <%= render 'form' %>
+  </div>
+  <div class="room-description">
+    <h4>About the flat</h4>
+    <%= @room.flat.description%>
+  </div>
+  <br>
+  <br>
+  <div id="map">
+    <h2>Map is going here</h2>
+  </div>
 </div>
