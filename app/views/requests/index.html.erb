@@ -1,9 +1,17 @@
-<h1>Requests#index</h1>
+<h1>My viewings</h1>
+<p>Show calendar</p>
 <p>Find me in app/views/requests/index.html.erb</p>
 
 <ul> <% @requests.each do |request| %>
   <li>
-    <p> request.status </p>
+    <p> <%= request.status %>  </p>
+    <p> <%= request.room.flat.title %>  </p>
+    flat title
+    District (Neighborhood)
+    Address
+    Price
+   <p>Send Message</p>
+    <p>Cancel</p>
   </li>
   <% end %>
 </ul>
