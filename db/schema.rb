@@ -33,7 +33,6 @@ ActiveRecord::Schema.define(version: 20171128115541) do
   create_table "flats", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
-    t.integer  "monthly_price"
     t.integer  "number_of_flatmates"
     t.text     "amenities"
     t.string   "address"
@@ -56,6 +55,7 @@ ActiveRecord::Schema.define(version: 20171128115541) do
   create_table "rooms", force: :cascade do |t|
     t.date     "move_in_date"
     t.date     "move_out_date"
+    t.integer  "monthly_price"
     t.integer  "flat_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
