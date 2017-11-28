@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  mount Attachinary::Engine => "/attachinary"
 
   resources :flats, only: [:show, :new, :edit] do
     resources :rooms, only: [:new, :edit]

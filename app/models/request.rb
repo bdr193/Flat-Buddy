@@ -1,6 +1,6 @@
 class Request < ApplicationRecord
   belongs_to :user
-  has_one :viewing
+  belongs_to :viewing
 
   enum status: [ :pending, :accepted]
 

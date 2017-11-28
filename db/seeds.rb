@@ -65,6 +65,15 @@ users = [user_one, user_two, user_three, user_four, user_five]
 
 puts "Users created"
 
+flat_one_urls = [
+'https://a0.muscache.com/im/pictures/19755676/c2d3162d_original.jpg?aki_policy=xx_large',
+'https://a0.muscache.com/im/pictures/19755406/7d2cd964_original.jpg?aki_policy=x_large',
+'https://a0.muscache.com/im/pictures/19754957/12890c27_original.jpg?aki_policy=x_large',
+'https://a0.muscache.com/im/pictures/19755883/ff9db51b_original.jpg?aki_policy=x_large',
+'https://a0.muscache.com/im/pictures/19755968/b3e4b8e9_original.jpg?aki_policy=x_large',
+'https://a0.muscache.com/im/pictures/19755768/95112653_original.jpg?aki_policy=x_large'
+]
+
 flat_one = Flat.create!(
   title: "Flatshare - We're lovin it!",
   description: "This large & modern penthouse is in a great, central area & consists of 3 floors, all boasting unbelievable views. The top floor has a private plunge pool & magical 360° vistas. Situated on the slopes of Table Mountain & close to everything!",
@@ -72,7 +81,8 @@ flat_one = Flat.create!(
   number_of_flatmates: 3,
   amenities: "Internet, Free parking, Smoking allowed",
   address: "Axel-Springer-Straße 41, 10969 Berlin",
-  neighborhood: "Rudi-Dutschke-Straße 26, 10969 Berlin",
+  neighborhood: "Kreuzberg",
+  photo_urls: flat_one_urls
   # latitude: 52.507535,
   # longitude: 13.399219,
   )
@@ -82,19 +92,11 @@ puts "Flat 1 created"
 room_one = Room.create!(
   move_in_date: '01-12-2017',
   move_out_date: '01-05-2018',
-  flat_id: 1,
+  flat_id: flat_one[:id],
   )
 
 puts "Room 1 created"
 
-request_one = Request.create!(
-  slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
-  user_id: 1,
-  )
-request_one.accepted!
-request_one.save!
-
-puts "Request 1 created"
 
 viewing_one = Viewing.create!(
   start_time: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
@@ -103,3 +105,12 @@ viewing_one = Viewing.create!(
   )
 
 puts "Viewing 1 created"
+request_one = Request.create!(
+  slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  viewing_id: 1,
+  )
+request_one.accepted!
+request_one.save!
+
+puts "Request 1 created"
