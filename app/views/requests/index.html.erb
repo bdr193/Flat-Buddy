@@ -4,6 +4,7 @@
 
 <ul> <% @requests.each do |request| %>
   <li>
+    <%= request.viewing.room.flat.description %>
     flat title
     District (Neighborhood)
     Address
