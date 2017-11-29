@@ -21,69 +21,28 @@ Request.destroy_all
 puts "Clearing Viewings"
 Viewing.destroy_all
 
-puts "Creating users"
-
-user_one = User.create!(
-  email: "rabea_bader@gmail.com",
-  password: "secret123",
-  first_name: "Rabea",
-  last_name: "Badea",
-  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/11267855_494475644050145_7650517800177078839_n.jpg?oh=88f598f1fc8228a3a81f204d69ab47bb&oe=5A916072"
-)
-
-user_two = User.create!(
-  email: "sarah_lafer@yahoo.com",
-  password: "secret123",
-  first_name: "Sarah",
-  last_name: "Lafer",
-  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15123387_1524489700911298_8540080221667972968_o.jpg?oh=81c74c24d54e1d3f4989184e7a9ee45a&oe=5AA0CACD"
-)
-
-user_three = User.create!(
-  email: "stephan_is_great@gmail.com",
-  password: "secret123",
-  first_name: "Stephan",
-  last_name: "Schmidbauer",
-  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/12472516_1150297835028069_8300065499297260894_n.jpg?oh=61fd7f780e66b7d600be2918c009e714&oe=5AA8DD43"
-)
-
-user_four = User.create!(
-  email: "richard_ogrady@gmail.com",
-  password: "secret123",
-  first_name: "Richard",
-  last_name: "O'Grady",
-  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15972751_237246466721822_1634594414421206870_o.jpg?oh=51c4df723a1a2e64c7972c3e34468b0b&oe=5A8F41B5"
-)
-
-user_five = User.create!(
-  email: "david_beckham@hotmail.com",
-  password: "secret123",
-  first_name: "David",
-  last_name: "Beckham",
-  facebook_picture_url: "https://www.famousbirthdays.com/headshots/david-beckham-4.jpg"
-)
-
-users = [user_one, user_two, user_three, user_four, user_five]
-
-puts "Users created"
-
-def analyze_room_db(room_db_string)
+def analyze_room_db(room_db_string, title)
   room = JSON.parse(room_db_string)
+  raw_urls = room["photos"]
+  urls = []
+  unless raw_urls.nil?
+    raw_urls.each do |raw_url|
+      url = "https://kangaroom.azureedge.net/photos-medium/#{raw_url["guid"]}"
+      urls << url
+    end
+  end
+
   flat = Flat.create!(
-    # title: flat_attr[:title],
+    title: title,
+    monthly_price: room["price"].to_i,
     description: room["description"],
     number_of_flatmates: rand(1..3),
     flat_size: rand(70..125),
-    amenities: 'Wifi',
+    amenities: AMENITIES.sample(6).join(','),
     neighborhood: room["place"],
     currency: room["currency"],
     lat: room["latitude"],
-    lng: room["longitude"]
-  )
-
-  Room.create!(
-    # move_in_date: Date.new(room["availableDate"]),
-    monthly_price: room["price"].to_i,
+    lng: room["longitude"],
     room_size: rand(12..30),
     has_parking: room["hasParking"] == 'true' ,
     deposit: room["deposit"].to_i,
@@ -92,7 +51,7 @@ def analyze_room_db(room_db_string)
     allow_smokers: room["allowSmokers"].to_i,
     bills_included: room["billsIncluded"].to_i,
     furnished: room["furnished"].to_i,
-    copplues_allowd: room["allowCouples"] == 'true',
+    couples_allowed: room["allowCouples"] == 'true',
     ensuite: room["ensuite"] == 'true',
     accessible: room["accessible"] == 'true',
     minimum_stay: room["minimumStay"].to_i,
@@ -100,15 +59,25 @@ def analyze_room_db(room_db_string)
     preffered_max_age: room["preferredMaxAge"].to_i,
     preffered_gender: room["preferredGender"].to_i,
     searching_for: room["preferredRoommateDescription"],
+    card_image: room["thumbnailImageUrl"],
+    photo_urls: urls
+  )
+
+  Room.create!(
+    move_in_date: DateTime.parse(room["availableDate"]),
     flat_id: flat.id
   )
 end
 
 def scrape_room(room_url)
-  puts "Scraping a room #{room_url[-2]}"
   url = "https://kangaroom.com/#{room_url}"
   html_file = open(url).read
   html_doc = Nokogiri::HTML(html_file)
+  title = ''
+  html_doc.xpath("//meta[@property='og:title']/@content").each do |attr|
+    title = attr.value[0..-12]
+  end
+
   html_doc.css('script').each do |script|
     all_scripts = script.content
     scripts_split = all_scripts.split("obj.room =")
@@ -116,14 +85,38 @@ def scrape_room(room_url)
     unless scripts_split[1].nil?
       room_db = scripts_split[1].split("};")[0]
       room_db_fixed = room_db + '}'
-      analyze_room_db(room_db_fixed)
+      analyze_room_db(room_db_fixed, title)
     end
   end
 end
 
-Urls.get_urls.each do |room_url|
+Urls.get_urls.each_with_index do |room_url, index|
   scrape_room(room_url)
+  puts "Created #{index + 1} flats and Rooms"
 end
+
+puts "Creating users"
+
+100.times do |counter|
+  user = JSON.load(open("https://uinames.com/api/?ext"))
+  begin
+    User.create!(
+      email: user["email"],
+      password: user["password"],
+      first_name: user["name"],
+      last_name: user["surname"],
+      facebook_picture_url: user["photo"],
+      flat_id: Flat.all[counter][:id]
+    )
+  rescue ActiveRecord::RecordInvalid => invalid
+    puts invalid.record.errors.messages
+  end
+
+  puts "Creating user # #{counter}"
+end
+
+puts "Users created"
+
 
 # def analyze_flats_db(data_base)
 #   room_urls = []
@@ -155,42 +148,6 @@ end
 # end
 
 
-
-
-
-#
-# flat_one_urls = [
-# 'https://a0.muscache.com/im/pictures/19755676/c2d3162d_original.jpg?aki_policy=xx_large',
-# 'https://a0.muscache.com/im/pictures/19755406/7d2cd964_original.jpg?aki_policy=x_large',
-# 'https://a0.muscache.com/im/pictures/19754957/12890c27_original.jpg?aki_policy=x_large',
-# 'https://a0.muscache.com/im/pictures/19755883/ff9db51b_original.jpg?aki_policy=x_large',
-# 'https://a0.muscache.com/im/pictures/19755968/b3e4b8e9_original.jpg?aki_policy=x_large',
-# 'https://a0.muscache.com/im/pictures/19755768/95112653_original.jpg?aki_policy=x_large'
-# ]
-#
-# flat_one = Flat.create!(
-#   title: "Flatshare - We're lovin it!",
-#   description: "This large & modern penthouse is in a great, central area & consists of 3 floors, all boasting unbelievable views. The top floor has a private plunge pool & magical 360° vistas. Situated on the slopes of Table Mountain & close to everything!",
-#   monthly_price: 440,
-#   number_of_flatmates: 3,
-#   amenities: "Internet, Free parking, Smoking allowed",
-#   address: "Axel-Springer-Straße 41, 10969 Berlin",
-#   neighborhood: "Rudi-Dutschke-Straße 26, 10969 Berlin",
-#   photo_urls: flat_one_urls
-#   # latitude: 52.507535,
-#   # longitude: 13.399219,
-#   )
-#
-# puts "Flat 1 created"
-#
-# room_one = Room.create!(
-#   move_in_date: '01-12-2017',
-#   move_out_date: '01-05-2018',
-#   flat_id: flat_one[:id],
-#   )
-#
-# puts "Room 1 created"
-#
 # request_one = Request.create!(
 #   slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
 #   user_id: 1,
