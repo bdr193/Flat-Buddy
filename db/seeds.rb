@@ -1,6 +1,7 @@
 require 'json'
 require 'open-uri'
 require_relative 'urls'
+require "yaml"
 
 
 # Users need to have a flat ID
@@ -32,7 +33,7 @@ def analyze_room_db(room_db_string, title)
     end
   end
 
-  flat = Flat.create!(
+  flat_attr = {
     title: title,
     monthly_price: room["price"].to_i,
     description: room["description"],
@@ -61,12 +62,14 @@ def analyze_room_db(room_db_string, title)
     searching_for: room["preferredRoommateDescription"],
     card_image: room["thumbnailImageUrl"],
     photo_urls: urls
-  )
+  }
 
-  Room.create!(
+  room_atr = {
     move_in_date: DateTime.parse(room["availableDate"]),
-    flat_id: flat.id
-  )
+    # flat_id: flat.id
+  }
+
+  return flat_attr, room_atr
 end
 
 def scrape_room(room_url)
@@ -77,46 +80,72 @@ def scrape_room(room_url)
   html_doc.xpath("//meta[@property='og:title']/@content").each do |attr|
     title = attr.value[0..-12]
   end
-
   html_doc.css('script').each do |script|
     all_scripts = script.content
     scripts_split = all_scripts.split("obj.room =")
-
     unless scripts_split[1].nil?
       room_db = scripts_split[1].split("};")[0]
       room_db_fixed = room_db + '}'
-      analyze_room_db(room_db_fixed, title)
+      flat, room = analyze_room_db(room_db_fixed, title)
+      return flat, room
     end
   end
 end
 
-Urls.get_urls.each_with_index do |room_url, index|
-  scrape_room(room_url)
-  puts "Created #{index + 1} flats and Rooms"
+
+def checking_urls
+  flats = []
+  rooms = []
+  Urls.get_urls.each_with_index do |room_url, index|
+    flat, room = scrape_room(room_url)
+    flats << flat
+    rooms << room
+    puts "Created #{index + 1} flats and Rooms"
+  end
+
+  puts "Saving flats to YML"
+  File.open("/Users/rabeabader/code/bdr193/Flat-Buddy/db/flats_info.yml", "r+") do |f|
+    f.write(flats.to_yaml)
+  end
+
+  puts "Saving rooms to YML"
+  File.open("/Users/rabeabader/code/bdr193/Flat-Buddy/db/rooms_info.yml", "r+") do |f|
+    f.write(rooms.to_yaml)
+  end
+
 end
 
 puts "Creating users"
 
-100.times do |counter|
-  user = JSON.load(open("https://uinames.com/api/?ext"))
-  begin
-    User.create!(
-      email: user["email"],
-      password: user["password"],
-      first_name: user["name"],
-      last_name: user["surname"],
-      facebook_picture_url: user["photo"],
-      flat_id: Flat.all[counter][:id]
-    )
-  rescue ActiveRecord::RecordInvalid => invalid
-    puts invalid.record.errors.messages
+def create_users
+  users = []
+  100.times do |counter|
+    user = JSON.load(open("https://uinames.com/api/?ext"))
+    begin
+      user_attr = {
+        email: user["email"],
+        password: user["password"],
+        first_name: user["name"],
+        last_name: user["surname"],
+        facebook_picture_url: user["photo"],
+        # flat_id: Flat.all[counter][:id]
+      }
+      users << user_attr
+    rescue ActiveRecord::RecordInvalid => invalid
+      puts invalid.record.errors.messages
+    end
+    puts "Creating user # #{counter}"
   end
-
-  puts "Creating user # #{counter}"
+  puts "Saving users to YML"
+  File.open("/Users/rabeabader/code/bdr193/Flat-Buddy/db/users_info.yml", "r+") do |f|
+    f.write(users.to_yaml)
+  end
 end
 
 puts "Users created"
 
+checking_urls
+create_users
 
 # def analyze_flats_db(data_base)
 #   room_urls = []
