@@ -7,6 +7,8 @@
 //= require cloudinary/jquery.cloudinary
 //= require attachinary
 //= require bootstrap-datepicker
+//= require moment
+//= require fullcalendar
 //= require_tree .
 
 $('.datepicker').datepicker({
@@ -15,3 +17,12 @@ $('.datepicker').datepicker({
   todayHighlight: true,
   startDate: new Date(),
 });
+
+$('#calendar').fullCalendar({
+  events: '/requests.json'
+});
+
+// const calendar = document.getElementById("calendar-button");
+// calendar.addEventListener(click, (event) => {
+//   render 'calendar'
+// });

@@ -1,6 +1,6 @@
 <div class="container text-center col-xs-12 col-sm-12">
   <h1>My viewings</h1>
-  <p class="btn btn-hover btn-calendar">Show calendar</p>
+  <p id="calendar-button" class="btn btn-hover btn-calendar">Show calendar</p>
 
   <% @requests.each do |request| %>
 
@@ -30,3 +30,5 @@
   </div>
   <% end %>
 </div>
+
+<div id="calendar"></div>
