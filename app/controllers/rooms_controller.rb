@@ -2,6 +2,10 @@ class RoomsController < ApplicationController
   before_action :find_room_id, only: [:show, :edit]
 
   def index
+    @city = params[:room][:city] || session[:city]
+    @move_in_date = params[:room][:move_in_date] || session[:move_in_date]
+    @move_out_date = params[:room][:move_out_date] || session[:move_out_date]
+    info(city: @city, move_in_date: @move_in_date, move_out_date: @move_out_date)
     @rooms = Room.all
   end
 
