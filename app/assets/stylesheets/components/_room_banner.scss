@@ -24,15 +24,14 @@
   padding: 10px;
   color: black;
   background-color: rgba(255,255,255,0.4);
-  border-bottom: 2px solid $yellow;
-  border-right: 2px solid $yellow;
+  // border-bottom: 2px solid $yellow;
+  // border-right: 2px solid $yellow;
 
 }
 
 .flat-form {
   position: sticky !important;
   top: 0px;
-  // border: 2px solid $yellow;
   background-color: $yellow;
   padding: 10px 30px 30px 30px;
 }
