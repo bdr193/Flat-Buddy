@@ -14,7 +14,7 @@
     <div id="main">
       <%= render 'shared/navbar' %>
       <%= render 'shared/flashes' %>
-      <%= yield %>
+    <%= yield %>
     </div>
   </div>
   <%= render 'shared/footer' %>
@@ -24,6 +24,7 @@
   <%= javascript_include_tag "https://cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js" %>
 
   <%= javascript_include_tag 'application' %>
+  <%= yield(:after_js) %>
   <%= cloudinary_js_config %>
 </body>
 </html>
