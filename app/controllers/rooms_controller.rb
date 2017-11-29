@@ -14,7 +14,7 @@ class RoomsController < ApplicationController
       marker.lat room.latitude
       marker.lng room.longitude
     end
-    @room_photo = @room.flat.photos.first
+    @room_photo = @room.flat.card_image
     @request = Request.new
   end
 
