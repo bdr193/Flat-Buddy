@@ -37,9 +37,9 @@ class RoomsController < ApplicationController
       @rooms = @rooms.select("*").joins(:flat).where("flats.monthly_price <= ?", @monthly_price )
     end
 
-    if params[:room][:has_parking].present?
-      @has_parking = params[:room][:has_parking]
-      @rooms = @rooms.select("*").joins(:flat).where("flats.has_parking = ?", @has_parking )
+    if params[:room][:allow_students].present?
+      @allow_students = params[:room][:allow_students]
+      @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students )
     end
 
     info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
