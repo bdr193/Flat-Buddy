@@ -1,6 +1,5 @@
 require 'json'
 require 'open-uri'
-require_relative 'urls'
 require "yaml"
 
 
