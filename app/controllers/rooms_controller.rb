@@ -20,13 +20,6 @@ class RoomsController < ApplicationController
       end
       @rooms = @rooms.where("move_in_date < ?", params[:room][:move_in_date]) unless params[:room][:move_in_date].blank?
       @rooms = @rooms.where("move_out_date > ?", params[:room][:move_out_date]) unless params[:room][:move_out_date].blank?
-      # raise # delete after AR
-      # @rooms = @flats.joins(:rooms)
-      # @rooms = @rooms.where(:room => { move_in_date: params[:room][:move_in_date]}) if params[:room][:move_in_date]
-      # @rooms = @rooms.where(:room => { move_out_date: params[:room][:move_out_date]}) if params[:room][:move_out_date]
-
-      # info( move_in_date: params[:room][:move_in_date], params[:room][:move_out_date])
-
     else
       @rooms = Room.all
     end
