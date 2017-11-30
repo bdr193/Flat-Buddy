@@ -14,13 +14,13 @@
 # end
 
 json.array!(@requests) do |request|
-
+  if request.status == "accepted"
     json.extract! request, :id
     json.start request.slot
     json.end request.slot
     json.title request.viewing.room.flat.title
     json.address request.viewing.room.flat.address
     json.url request_url(request, format: :html)
-
+  end
 end
 
