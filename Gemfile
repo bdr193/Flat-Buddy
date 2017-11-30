@@ -12,11 +12,12 @@ gem 'omniauth-facebook'
 gem "geocoder"
 gem "coffee-rails"
 gem "gmaps4rails"
+gem 'bootstrap-toggle-rails'
+
 
 source 'https://rails-assets.org' do
   gem "rails-assets-underscore"
 end
-
 
 gem 'bootstrap-datepicker-rails'
 gem 'geocoder'
@@ -53,3 +54,5 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+gem 'redactor-rails', github: 'glyph-fr/redactor-rails'

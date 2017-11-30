@@ -7,39 +7,35 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 1px solid rgba(220,224,244,0.4);
-  border: 1px solid grey;
   margin: 20px 0px;
   width: 90%;
   height: 100px;
 }
 
-.request-body h3 {
-  font-size: 13px;
+.request-title h3 {
+  font-size: 14px;
   margin-bottom: 0px;
 }
 .request-body p {
-  font-size: 13px;
-  font-weight: lighter;
-  opacity: 0.6;
+  font-size: 14px;
+  font-weight: medium;
+  opacity: 0.8;
   margin-top: 5px;
-}
-.request-body {
   padding-left: 10px;
-  font-size: 13px;
-  color: rgba(0,0,0,0.7);
 }
 
+
 .request-status {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   width: 10%;
   height: 100px;
-  background-color: yellow;
+  background-color: $green;
 }
 
 .request-price {
   font-weight: bold;
+  font-size: 20px;
 
 }
 
@@ -52,4 +48,15 @@
   align-items: center;
   justify-content: flex-start;
   margin-top: 20px;
+  padding: 0 40px;
+}
+
+.request-border {
+  border: 1px solid grey;
+}
+
+.request-border-right {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
 }

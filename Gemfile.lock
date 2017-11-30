@@ -6,6 +6,14 @@ GIT
       cloudinary (~> 1.1.0)
       rails (>= 3.2)
 
+GIT
+  remote: git://github.com/glyph-fr/redactor-rails.git
+  revision: 6f6655fd71199700f2e5d7bc1f7f3c19f37dde50
+  specs:
+    redactor-rails (0.6.0)
+      mime-types
+      orm_adapter
+
 GEM
   remote: https://rubygems.org/
   remote: https://rails-assets.org/
@@ -58,6 +66,7 @@ GEM
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+    bootstrap-toggle-rails (2.2.1.0)
     builder (3.2.3)
     byebug (9.1.0)
     client_side_validations (11.0.0)
@@ -274,6 +283,7 @@ DEPENDENCIES
   bootstrap-sass
   client_side_validations
   client_side_validations-simple_form
+  bootstrap-toggle-rails
   cloudinary (= 1.1.7)
   coffee-rails
   devise
@@ -296,6 +306,7 @@ DEPENDENCIES
   puma
   rails (= 5.0.6)
   rails-assets-underscore!
+  redactor-rails!
   redis
   sass-rails
   simple_form
