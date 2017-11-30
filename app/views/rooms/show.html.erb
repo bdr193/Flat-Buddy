@@ -21,12 +21,22 @@
   </div>
   <% end %>
   <div class="room-description">
-    <h4>About the flat</h4>
     <br>
+    <h4>About the flat</h4>
     <%= @room.flat.description%>
     <br>
-    <%= "Deposit: #{@room.flat.deposit}#{@room.flat.currency}" if @room.flat.deposit %>
-    <%= "Minimum Stay: #{@room.flat.minimum_stay} days" if @room.flat.minimum_stay %>
+    <ul id="description-list">
+    <% if @room.flat.deposit %>
+      <li><%= "Deposit: #{@room.flat.deposit}#{@room.flat.currency}" %></li>
+    <% end %>
+    <% if @room.flat.minimum_stay %>
+      <li><%= "Minimum Stay: #{@room.flat.minimum_stay} days" %></li>
+    <% end %>
+      <% if @room.flat.deposit %>
+      <li><%= "Deposit: #{@room.flat.deposit}#{@room.flat.currency}" %></li>
+    <% end %>
+
+    <%=   %>
     <%= "Preferred minimum age: #{@room.flat.preffered_min_age} years old" if @room.flat.preffered_min_age %>
     <%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" if @room.flat.preffered_max_age %>
     <%= "Includes parking" if @room.flat.has_parking == true %>
@@ -38,8 +48,11 @@
     <%= "Ensuite included" if @room.flat.ensuite == true %>
     <%= "Wheelchair accessible" if @room.flat.accessible == true %>
     <%= "Wheelchair accessible" if @room.flat.accessible == true %>
+    </ul>
   </div>
+  <br>
   <div class="room-amenities list-inline">
+    <h4>Amenities</h4>
     <% @room_amenities.each do |amenitie| %>
       <div class="col-xs-6">
         <%= amenitie %>
