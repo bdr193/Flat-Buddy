@@ -2,9 +2,9 @@
   <%= f.input :city, name: 'city', value: '', placeholder: 'City', label: false %>
   <%= f.input :lat, as: :hidden %>
   <%= f.input :lng, as: :hidden %>
-  <%= f.input :move_in_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move in Date', label: false %>
+  <%= f.input :move_in_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move in', label: false %>
 
-  <%= f.input :move_out_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move out Date', label: false %>
+  <%= f.input :move_out_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move out (optional)', label: false %>
   <%= f.submit "Find FlatBuddies", class: "btn" %>
 <% end %>
 
