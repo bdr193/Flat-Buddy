@@ -12,15 +12,17 @@
           </div>
           <div class="card-footer">
             <h6><%= room.flat.title %></h6>
+            <!-- <div class="flat-price"><%= room.flat.monthly_price %>£</div> -->
             <p>
               <% room.flat.users.each do |user| %>
-              <%= user %>
+              <%= user.first_name %>
               <% end %>
             </p>
-            <p><%= room.flat.address %></p>
+            <p><%= room.flat.address %>(show on map)</p>
           </div>
         </div>
       </div>
+      <% end %>
     </div>
-    <% end %>
   </div>
+
