@@ -7,6 +7,8 @@
 //= require cloudinary/jquery.cloudinary
 //= require attachinary
 //= require bootstrap-datepicker
+//= require moment
+//= require fullcalendar
 //= require_tree .
 
 $('.datepicker').datepicker({
@@ -14,4 +16,8 @@ $('.datepicker').datepicker({
   autoclose: true,
   todayHighlight: true,
   startDate: new Date(),
+});
+
+$('#calendar').fullCalendar({
+  events: '/requests.json'
 });
