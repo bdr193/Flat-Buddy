@@ -16,6 +16,7 @@ class RoomsController < ApplicationController
     end
     @room_photo = @room.flat.card_image
     @request = Request.new
+    @room_amenities = @room.flat.amenities.split(",")
   end
 
   def new

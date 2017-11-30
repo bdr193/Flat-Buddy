@@ -11,10 +11,7 @@
   </div>
 </div>
 <div class="interests text-center">
-  <h3> There are <%= @room.flat.users.length %> in this flat! </h3>
-  <% @room.flat.users.each do |user| %>
-  <%= user %>
-  <% end %>
+  <h3> You share some interests! </h3>
 </div>
 <div class="col-xs-12 col-sm-8">
   <% @room.flat.users.each do |user| %>
@@ -25,23 +22,29 @@
   <% end %>
   <div class="room-description">
     <h4>About the flat</h4>
+    <br>
     <%= @room.flat.description%>
-    <li><%= "Deposit: #{@room.flat.deposit}#{@room.flat.currency}" if @room.flat.deposit %></li>
-    <li><%= "Minimum Stay: #{@room.flat.minimum_stay} days" if @room.flat.minimum_stay %></li>
-    <li><%= "Preferred minimum age: #{@room.flat.preffered_min_age} years old" if @room.flat.preffered_min_age %></li>
-    <li><%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" if @room.flat.preffered_max_age %></li>
-    <li><%= "Includes parking" if @room.flat.has_parking == true %></li>
-    <li><%= "Allows students" if @room.flat.allow_students == true %></li>
-    <li><%= "Allows pets" if @room.flat.allow_pets == true %></li>
-    <li><%= "Allows smokers" if @room.flat.allow_smokers == true %></li>
-    <li><%= "Bills included" if @room.flat.bills_included == true %></li>
-    <li><%= "Couples allowed" if @room.flat.couples_allowed == true %></li>
-    <li><%= "Ensuite included" if @room.flat.ensuite == true %></li>
-    <li><%= "Wheelchair accessible" if @room.flat.accessible == true %></li>
-    <li><%= "Wheelchair accessible" if @room.flat.accessible == true %></li>
+    <br>
+    <%= "Deposit: #{@room.flat.deposit}#{@room.flat.currency}" if @room.flat.deposit %>
+    <%= "Minimum Stay: #{@room.flat.minimum_stay} days" if @room.flat.minimum_stay %>
+    <%= "Preferred minimum age: #{@room.flat.preffered_min_age} years old" if @room.flat.preffered_min_age %>
+    <%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" if @room.flat.preffered_max_age %>
+    <%= "Includes parking" if @room.flat.has_parking == true %>
+    <%= "Allows students" if @room.flat.allow_students == true %>
+    <%= "Allows pets" if @room.flat.allow_pets == true %>
+    <%= "Allows smokers" if @room.flat.allow_smokers == true %>
+    <%= "Bills included" if @room.flat.bills_included == true %>
+    <%= "Couples allowed" if @room.flat.couples_allowed == true %>
+    <%= "Ensuite included" if @room.flat.ensuite == true %>
+    <%= "Wheelchair accessible" if @room.flat.accessible == true %>
+    <%= "Wheelchair accessible" if @room.flat.accessible == true %>
   </div>
   <div class="room-amenities list-inline">
-    <%= @room.flat.amenities %>
+    <% @room_amenities.each do |amenitie| %>
+      <div class="col-xs-6">
+        <%= amenitie %>
+      </div>
+    <% end  %>
   </div>
 </div>
 <div class="col-xs-12 col-sm-4 flat-form">
