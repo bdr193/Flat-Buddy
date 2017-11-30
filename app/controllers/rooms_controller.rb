@@ -11,8 +11,8 @@ class RoomsController < ApplicationController
       @viewing_times << viewing.start_time.to_s
     end
     @hash = Gmaps4rails.build_markers(@room.flat) do |room, marker|
-      marker.lat room.latitude
-      marker.lng room.longitude
+      marker.lat room.lat
+      marker.lng room.lng
     end
     @room_photo = @room.flat.card_image
     @request = Request.new

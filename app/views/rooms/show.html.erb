@@ -26,26 +26,23 @@
   <div class="room-description">
     <h4>About the flat</h4>
     <%= @room.flat.description%>
-    <%= "Deposit: #{@room.deposit}#{@room.currency}" if @room.deposit %>
-    <%= "Minimum Stay: #{@room.minimum_stay} days" if @room.minimum_stay %>
-    <%= "Preferred minimum age: #{@room.preferred_minimum_age} years old" if @room.preferred_min_age %>
-    <%= "Preferred maximum age: #{@room.preferred_maximum_age} years old" if @room.preferred_max_age %>
-    <%= "Preferred gender: #{@room.preferred_gender}" if @room.preferred_gender %>
-    <%= "Includes parking" if @room.has_parking == true %>
-    <%= "Allows students" if @room.allow_students == true %>
-    <%= "Allows pets" if @room.allow_pets == true %>
-    <%= "Allows smokers" if @room.allow_smokers == true %>
-    <%= "Bills included" if @room.bills_included == true %>
-    <%= "Couples allowed" if @room.couples_allowed == true %>
-    <%= "Ensuite included" if @room.ensuite == true %>
-    <%= "Wheelchair accessible" if @room.accessible == true %>
-    <%= "Wheelchair accessible" if @room.accessible == true %>
+    <li><%= "Deposit: #{@room.flat.deposit}#{@room.flat.currency}" if @room.flat.deposit %></li>
+    <li><%= "Minimum Stay: #{@room.flat.minimum_stay} days" if @room.flat.minimum_stay %></li>
+    <li><%= "Preferred minimum age: #{@room.flat.preffered_min_age} years old" if @room.flat.preffered_min_age %></li>
+    <li><%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" if @room.flat.preffered_max_age %></li>
+    <li><%= "Includes parking" if @room.flat.has_parking == true %></li>
+    <li><%= "Allows students" if @room.flat.allow_students == true %></li>
+    <li><%= "Allows pets" if @room.flat.allow_pets == true %></li>
+    <li><%= "Allows smokers" if @room.flat.allow_smokers == true %></li>
+    <li><%= "Bills included" if @room.flat.bills_included == true %></li>
+    <li><%= "Couples allowed" if @room.flat.couples_allowed == true %></li>
+    <li><%= "Ensuite included" if @room.flat.ensuite == true %></li>
+    <li><%= "Wheelchair accessible" if @room.flat.accessible == true %></li>
+    <li><%= "Wheelchair accessible" if @room.flat.accessible == true %></li>
   </div>
-  <ul class="room-amenities list-inline">
-    <% @room.amenities.each do |amenitie| %>
-      <li><%= amenitie %></li>
-    <% end %>
-  </ul>
+  <div class="room-amenities list-inline">
+    <%= @room.flat.amenities %>
+  </div>
 </div>
 <div class="col-xs-12 col-sm-4 flat-form">
   <h3>Pick a meeting date</h3>
