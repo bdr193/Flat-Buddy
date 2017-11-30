@@ -1,3 +1,28 @@
-.filter {
+.filter-form {
   background-color: $purple;
+  color: $yellow;
+  padding: 30px 30px 50px 30px;
+  font-size: 18px;
+  border-radius: 4px;
 }
+
+.filter {
+  margin-top: 20px;
+}
+
+
+.filter-style {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+
+// .min-max {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 250px;
+
+// }
+
+

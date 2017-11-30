@@ -1,22 +1,22 @@
-<%= simple_form_for :flats, url: rooms_path, method: 'GET', :html => { :class => 'form-group row' } do |f| %>
-<%= f.input :neighborhood, name: 'neighborhood', :prompt => "Neighborhood", value: '', label: false,  collection: [ "North London", "South London", "West London", "East London", "Central London"], selected: @neighborhood %>
-<%= f.input :monthly_price, name: 'monthly_price', value: '', :prompt => "Monthly price", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @monthly_price %>
-<%= f.input :number_of_flatmates, name: 'number_of_flatmates', value: '', :prompt => "Number of FlatBuddies", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @number_of_flatmates %>
-<%= f.input :flat_size, name: 'flat_size', value: '', :prompt => "Flat size", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @flat_size %>
-<%= f.input :amenities, name: 'amenities', value: '', :prompt => "Amenities", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @amenities %>
-<%= f.input :room_size, name: 'room_size', value: '', :prompt => "Room size", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @room_size %>
-<%= f.input :has_parking, name: 'has_parking', value: '', :prompt => "Parking", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @has_parking %>
-<%= f.input :allow_students, name: 'allow_students', value: '', :prompt => "Allow students", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @allow_students %>
-<%= f.input :allow_pets, name: 'allow_pets', value: '', :prompt => "Allow pets", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @allow_pets %>
-<%= f.input :bills_included, name: 'bills_included', value: '', :prompt => "Bills included", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @bills_included %>
-<%= f.input :allow_smokers, name: 'allow_smokers', value: '', :prompt => "Allow smokers", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @allow_smokers %>
-<%= f.input :furnished, name: 'furnished', value: '', :prompt => "Furnished", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @furnished %>
-<%= f.input :couples_allowed, name: 'couples_allowed', value: '', :prompt => "Couples allowed", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @couples_allowed %>
-<%= f.input :ensuite, name: 'ensuite', value: '', :prompt => "Ensuite", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @ensuite %>
-<%= f.input :accessible, name: 'accessible', value: '', :prompt => "Accessible", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @accessible %>
-<%= f.input :minimum_stay, name: 'minimum_stay', value: '', :prompt => "Minimum_stay", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @minimum_stay %>
-<%= f.input :preffered_min_age, name: 'preffered_min_age', value: '', :prompt => "Preffered min age", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @preffered_min_age %>
-<%= f.input :preffered_max_age, name: 'preffered_max_age', value: '', :prompt => "Preffered max age", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @preffered_max_age %>
-<%= f.input :preffered_gender, name: 'preffered_gender', value: '', :prompt => "Preffered gender", label: false, collection: [ "< 20€", "20€ - 50€", "50€ - 70€", "70€ - 100€", "100€ <"], selected: @preffered_gender %>
+<%= simple_form_for :room, url: rooms_path, method: 'GET', :html => { :class => 'form-group row filter-style' } do |f| %>
+<%= f.input :neighborhood, name: 'neighborhood', :prompt => "Neighborhood", value: '', label: 'Neighborhood', required: false, collection: @flats_neighbourhood, selected: @neighborhood %>
+<%= f.input :monthly_price, name: 'monthly_price', value: '', :prompt => "min", label: 'Rent £', required: false, placeholder: 'max price per month', selected: @monthly_price %>
+<%= f.input :furnished, name: 'furnished', value: '', label: 'Furnished', required: false, collection: [ 'furnished', 'unfurnished'], selected: @furnished %>
+
+
+<%= f.input :number_of_flatmates, name: 'number_of_flatmates', :prompt => "Max FlatBuddies", value: '', label: 'Number of FlatBuddies', required: false, placeholder: 'max FlatBuddies', collection: [ 1,2,3,4,5,6,'7+'], selected: @number_of_flatmates %>
+
+
+<%= f.input :has_parking, name: 'has_parking', value: '', :prompt => "Parking", label: 'Parking', required: false, as: :radio_buttons, selected: @has_parking %>
+<%= f.input :allow_students, name: 'allow_students', value: '', :prompt => "Allow students", label: 'Allow students', required: false, as: :radio_buttons, selected: @allow_students %>
+<%= f.input :allow_pets, name: 'allow_pets', value: '', :prompt => "Allow pets", label: 'Allow pets', required: false, as: :radio_buttons, selected: @allow_pets %>
+<%= f.input :bills_included, name: 'bills_included', value: '', :prompt => "Bills included", label: 'Bills included', required: false, as: :radio_buttons, selected: @bills_included %>
+<%= f.input :allow_smokers, name: 'allow_smokers', value: '', :prompt => "Allow smokers", label: 'Allow smokers', required: false, as: :radio_buttons, selected: @allow_smokers %>
+<%= f.input :couples_allowed, name: 'couples_allowed', value: '', :prompt => "Allow couples", label: 'Allow couples', required: false, as: :radio_buttons, selected: @couples_allowed %>
+<%= f.input :ensuite, name: 'ensuite', value: '', :prompt => "Ensuite", label: 'Ensuite', required: false, as: :radio_buttons, selected: @ensuite %>
+<%= f.input :accessible, name: 'accessible', value: '', :prompt => "Accessible", label: 'Accessible', required: false, as: :radio_buttons, selected: @accessible %>
+
+
 <%= f.submit "Filter", class: "btn"%>
 <% end %>
+
