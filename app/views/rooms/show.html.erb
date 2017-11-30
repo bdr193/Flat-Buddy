@@ -26,7 +26,26 @@
   <div class="room-description">
     <h4>About the flat</h4>
     <%= @room.flat.description%>
+    <%= "Deposit: #{@room.deposit}#{@room.currency}" if @room.deposit %>
+    <%= "Minimum Stay: #{@room.minimum_stay} days" if @room.minimum_stay %>
+    <%= "Preferred minimum age: #{@room.preferred_minimum_age} years old" if @room.preferred_min_age %>
+    <%= "Preferred maximum age: #{@room.preferred_maximum_age} years old" if @room.preferred_max_age %>
+    <%= "Preferred gender: #{@room.preferred_gender}" if @room.preferred_gender %>
+    <%= "Includes parking" if @room.has_parking == true %>
+    <%= "Allows students" if @room.allow_students == true %>
+    <%= "Allows pets" if @room.allow_pets == true %>
+    <%= "Allows smokers" if @room.allow_smokers == true %>
+    <%= "Bills included" if @room.bills_included == true %>
+    <%= "Couples allowed" if @room.couples_allowed == true %>
+    <%= "Ensuite included" if @room.ensuite == true %>
+    <%= "Wheelchair accessible" if @room.accessible == true %>
+    <%= "Wheelchair accessible" if @room.accessible == true %>
   </div>
+  <ul class="room-amenities list-inline">
+    <% @room.amenities.each do |amenitie| %>
+      <li><%= amenitie %></li>
+    <% end %>
+  </ul>
 </div>
 <div class="col-xs-12 col-sm-4 flat-form">
   <h3>Pick a meeting date</h3>
