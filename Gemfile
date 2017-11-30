@@ -20,6 +20,9 @@ end
 gem 'bootstrap-datepicker-rails'
 gem 'geocoder'
 
+gem 'fullcalendar-rails'
+gem 'momentjs-rails'
+
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
