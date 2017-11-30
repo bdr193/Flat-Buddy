@@ -8,7 +8,7 @@
       <div class="col-xs-12 col-md-6 wrapper">
         <%= link_to('', room_path(room), class: "card-link") %>
         <div class="card">
-          <div class="card-header", style="background-image: url('<%# cl_image_path(room.flat.photos.first) %>')">
+          <div class="card-header", style="background-image: url('<%= cl_image_path(room.flat.card_image) %>')">
         </div>
         <div class="card-footer">
           <h6><%= room.flat.title %></h6>

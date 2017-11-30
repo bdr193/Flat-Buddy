@@ -260,14 +260,13 @@ DEPENDENCIES
   figaro
   font-awesome-sass
   geocoder
-
   gmaps-autocomplete-rails
-
   gmaps4rails
   jbuilder (~> 2.0)
   jquery-fileupload-rails
   jquery-rails
   listen (~> 3.0.5)
+  nokogiri
   omniauth-facebook
   pg
   pry-byebug
