@@ -20,6 +20,7 @@
   p {
     margin: 0;
   }
+  font-weight: medium;
 }
 
 .room-title {
@@ -29,9 +30,24 @@
   padding: 10px;
   color: black;
   background-color: rgba(255,255,255,0.4);
+  // border-bottom: 2px solid $yellow;
+  // border-right: 2px solid $yellow;
+
 }
 
 .flat-form {
   position: sticky !important;
   top: 0px;
+  background-color: $yellow;
+  padding: 10px 30px 30px 30px;
+}
+
+.room-price p {
+  padding: 8px 12px;
+  margin: 0;
+}
+
+.user-description {
+  padding-left: 15px;
+  margin-top: 20px;
 }
