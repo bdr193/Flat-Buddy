@@ -16,8 +16,7 @@ class RoomsController < ApplicationController
     @move_in_date = params[:room][:move_in_date] || session[:move_in_date]
     @move_out_date = params[:room][:move_out_date] || session[:move_out_date]
 
-    @flats = Flat.near([@lat, @lng], 20).all
-    @flats_ids = @flats.map(&:id)
+    @flats_ids = Flat.near([@lat, @lng], 30).map(&:id)
     @rooms = Room.where(flat_id: @flats_ids)
 
     @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
@@ -25,17 +24,21 @@ class RoomsController < ApplicationController
 
     if params[:room][:neighborhood].present?
       @neighborhood = params[:room][:neighborhood]
-      @rooms = @rooms.where(neighborhood: @neighborhood)
+      @rooms = @rooms.select("*").joins(:flat).where(flats: { neighborhood: @neighborhood } )
     end
 
     if params[:room][:number_of_flatmates].present?
       @number_of_flatmates = params[:room][:number_of_flatmates]
-      @rooms = @rooms.where("number_of_flatmates <= ?", @number_of_flatmates)
+      @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= ?", @number_of_flatmates )
+    end
+
+    if params[:room][:monthly_price].present?
+      @monthly_price = params[:room][:monthly_price]
+      @rooms = @rooms.select("*").joins(:flat).where("flats.monthly_price <= ?", @monthly_price )
     end
 
     info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
 
-    # monthly_price
     # has_parking
     # allow_students
     # allow_pets
@@ -53,8 +56,8 @@ class RoomsController < ApplicationController
       @viewing_times << viewing.start_time.to_s
     end
     @hash = Gmaps4rails.build_markers(@room.flat) do |room, marker|
-      marker.lat room.lat
-      marker.lng room.lng
+      marker.lat room.latitude
+      marker.lng room.longitude
     end
     @room_photo = @room.flat.card_image
     @request = Request.new
