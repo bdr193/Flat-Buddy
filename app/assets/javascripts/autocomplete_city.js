@@ -6,12 +6,12 @@ function onPlaceChanged() {
  document.getElementById('room_lat').setAttribute('value', lat);
  document.getElementById('room_lng').setAttribute('value', lng);
 
- var flatAddress = document.getElementById('bike_city');
+ var flatAddress = document.getElementById('room_city');
  flatAddress.blur();
 }
 
 document.addEventListener("DOMContentLoaded", function() {
- var flatAddress = document.getElementById('bike_city');
+ var flatAddress = document.getElementById('room_city');
 
  if (flatAddress) {
    var autocomplete = new google.maps.places.Autocomplete(flatAddress, { types: ['geocode'] });
