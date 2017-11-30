@@ -1,0 +1,20 @@
+.user-img {
+  border-radius: 50%;
+  border: 1px solid $pink;
+  margin-right: 30px;
+}
+
+.flat-form {
+  border-radius: 4px;
+  background-color: $purple;
+  color: $yellow;
+  padding: 20px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+#description-list li {
+  list-style-type: none;
+  margin-left: -40px;
+}
