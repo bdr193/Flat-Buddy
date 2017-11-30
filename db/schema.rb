@@ -38,8 +38,6 @@ ActiveRecord::Schema.define(version: 20171128145941) do
     t.text     "amenities"
     t.string   "address"
     t.string   "currency"
-    t.string   "lat"
-    t.string   "lng"
     t.string   "neighborhood"
     t.text     "searching_for"
     t.integer  "monthly_price"

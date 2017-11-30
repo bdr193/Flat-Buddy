@@ -55,6 +55,9 @@ user_one = User.create!(
 create_flats_and_rooms
 create_users
 
+puts neighborhoods
+
+
 viewing_one = Viewing.create!(
   start_time: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
   duration: 45,
@@ -163,6 +166,3 @@ puts "Request 2 created"
 #     analyze_flats_db(database_string)
 #   end
 # end
-
-
-

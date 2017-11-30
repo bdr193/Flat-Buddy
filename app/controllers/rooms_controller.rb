@@ -8,21 +8,43 @@ class RoomsController < ApplicationController
   end
 
   def index
+    @neighborhoods = ["Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
 
+    @lat = params[:room][:lat] || session[:lat]
+    @lng = params[:room][:lng] || session[:lng]
 
-    if params[:room]
-       # @flats = Flat.joins(:rooms).near([params[:room][:lat],params[:room][:lng]], 15)
-      if params[:room][:city]
-        @flats_ids = Flat.near([52.5075681, 13.3994533], 15).map(&:id)
-        @rooms = Room.where(flat_id: @flats_ids)
-      else
-        @rooms = Room.all
-      end
-      @rooms = @rooms.where("move_in_date < ?", params[:room][:move_in_date]) unless params[:room][:move_in_date].blank?
-      @rooms = @rooms.where("move_out_date > ?", params[:room][:move_out_date]) unless params[:room][:move_out_date].blank?
-    else
-      @rooms = Room.all
+    @move_in_date = params[:room][:move_in_date] || session[:move_in_date]
+    @move_out_date = params[:room][:move_out_date] || session[:move_out_date]
+
+    @flats = Flat.near([@lat, @lng], 20).all
+    @flats_ids = @flats.map(&:id)
+    @rooms = Room.where(flat_id: @flats_ids)
+
+    @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
+    @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
+
+    if params[:room][:neighborhood].present?
+      @neighborhood = params[:room][:neighborhood]
+      @rooms = @rooms.where(neighborhood: @neighborhood)
     end
+
+    if params[:room][:number_of_flatmates].present?
+      @number_of_flatmates = params[:room][:number_of_flatmates]
+      @rooms = @rooms.where("number_of_flatmates <= ?", @number_of_flatmates)
+    end
+
+    info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
+
+    # monthly_price
+    # has_parking
+    # allow_students
+    # allow_pets
+    # bills_included
+    # allow_smokers
+    # furnished
+    # couples_allowed
+    # ensuite
+    # accessible
   end
 
   def show

@@ -15,8 +15,8 @@
   :amenities: Kitchen,Hot tub,Doorman,Heating,Wifi,Dryer
   :neighborhood: Waterloo
   :currency: "£"
-  :lat: 51.4951174
-  :lng: -0.11389329999997244
+  :latitude: 51.4951174
+  :longitude: -0.11389329999997244
   :room_size: 16
   :has_parking: false
   :deposit: 610
@@ -59,8 +59,8 @@
   :amenities: Hot tub,Doorman,Kitchen,Wifi,Elevator,Gym
   :neighborhood: Waterloo
   :currency: "£"
-  :lat: 51.4951174
-  :lng: -0.11389329999997244
+  :latitude: 51.4951174
+  :longitude: -0.11389329999997244
   :room_size: 28
   :has_parking: false
   :deposit: 435
@@ -100,8 +100,8 @@
   :amenities: Washer,TV,Elevator,Dryer,Doorman,Gym
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52270129999999
-  :lng: -0.14230459999998857
+  :latitude: 51.52270129999999
+  :longitude: -0.14230459999998857
   :room_size: 21
   :has_parking: false
   :deposit: 1214
@@ -156,8 +156,8 @@
   :amenities: Gym,Hot tub,Air conditioning,Doorman,Elevator,Dryer
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52270129999999
-  :lng: -0.14230459999998857
+  :latitude: 51.52270129999999
+  :longitude: -0.14230459999998857
   :room_size: 27
   :has_parking: false
   :deposit: 997
@@ -223,8 +223,8 @@
   :amenities: Washer,Kitchen,Doorman,Dryer,Elevator,TV
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49364139999999
-  :lng: -0.10378370000000814
+  :latitude: 51.49364139999999
+  :longitude: -0.10378370000000814
   :room_size: 15
   :has_parking: false
   :deposit: 1600
@@ -260,8 +260,8 @@
   :amenities: Air conditioning,Washer,Wifi,Dryer,Hot tub,Iron
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49286310000001
-  :lng: -0.10014249999994718
+  :latitude: 51.49286310000001
+  :longitude: -0.10014249999994718
   :room_size: 23
   :has_parking: false
   :deposit: 850
@@ -306,8 +306,8 @@
   :amenities: Dryer,Iron,Heating,Washer,TV,Gym
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49286310000001
-  :lng: -0.10014249999994718
+  :latitude: 51.49286310000001
+  :longitude: -0.10014249999994718
   :room_size: 26
   :has_parking: false
   :deposit: 850
@@ -353,8 +353,8 @@
   :amenities: Air conditioning,Iron,Kitchen,Washer,TV,Doorman
   :neighborhood: King's Cross
   :currency: "£"
-  :lat: 51.5312657
-  :lng: -0.11882990000003701
+  :latitude: 51.5312657
+  :longitude: -0.11882990000003701
   :room_size: 21
   :has_parking: false
   :deposit: 1000
@@ -403,8 +403,8 @@
   :amenities: Air conditioning,Heating,Dryer,Wifi,Washer,Hot tub
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.4908911
-  :lng: -0.0977612000000363
+  :latitude: 51.4908911
+  :longitude: -0.0977612000000363
   :room_size: 16
   :has_parking: false
   :deposit: 0
@@ -440,8 +440,8 @@
   :amenities: Heating,Iron,Hot tub,TV,Dryer,Doorman
   :neighborhood: Old Street
   :currency: "£"
-  :lat: 51.5274005
-  :lng: -0.09995939999998882
+  :latitude: 51.5274005
+  :longitude: -0.09995939999998882
   :room_size: 23
   :has_parking: false
   :deposit: 400
@@ -501,8 +501,8 @@
   :amenities: Washer,Iron,Kitchen,Heating,Wifi,Doorman
   :neighborhood: Southwark
   :currency: "£"
-  :lat: 51.4928392
-  :lng: -0.08981459999995423
+  :latitude: 51.4928392
+  :longitude: -0.08981459999995423
   :room_size: 13
   :has_parking: false
   :deposit: 1000
@@ -545,8 +545,8 @@
   :amenities: Washer,Doorman,Iron,Heating,Gym,Kitchen
   :neighborhood: Vauxhall
   :currency: "£"
-  :lat: 51.4811323
-  :lng: -0.11919499999999061
+  :latitude: 51.4811323
+  :longitude: -0.11919499999999061
   :room_size: 29
   :has_parking: false
   :deposit: 730
@@ -591,8 +591,8 @@
   :amenities: Doorman,Hot tub,Washer,Gym,Kitchen,TV
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.5215233
-  :lng: -0.1657331000000113
+  :latitude: 51.5215233
+  :longitude: -0.1657331000000113
   :room_size: 17
   :has_parking: false
   :deposit: 830
@@ -652,8 +652,8 @@
   :amenities: Kitchen,Gym,Wifi,Hot tub,Iron,Dryer
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5126353
-  :lng: -0.17473719999998139
+  :latitude: 51.5126353
+  :longitude: -0.17473719999998139
   :room_size: 15
   :has_parking: false
   :deposit: 1600
@@ -701,8 +701,8 @@
   :amenities: Kitchen,Hot tub,Doorman,Heating,TV,Gym
   :neighborhood: Spitalfields
   :currency: "£"
-  :lat: 51.5162238
-  :lng: -0.07410630000003948
+  :latitude: 51.5162238
+  :longitude: -0.07410630000003948
   :room_size: 27
   :has_parking: false
   :deposit: 760
@@ -745,8 +745,8 @@
   :amenities: Air conditioning,Doorman,TV,Wifi,Washer,Iron
   :neighborhood: Bermondsey
   :currency: "£"
-  :lat: 51.50107320000001
-  :lng: -0.07313130000000001
+  :latitude: 51.50107320000001
+  :longitude: -0.07313130000000001
   :room_size: 27
   :has_parking: false
   :deposit: 600
@@ -798,8 +798,8 @@
   :amenities: Iron,TV,Air conditioning,Hot tub,Kitchen,Doorman
   :neighborhood: Islington
   :currency: "£"
-  :lat: 51.54101800000001
-  :lng: -0.11071259999994254
+  :latitude: 51.54101800000001
+  :longitude: -0.11071259999994254
   :room_size: 21
   :has_parking: false
   :deposit: 870
@@ -846,8 +846,8 @@
   :amenities: TV,Dryer,Heating,Gym,Wifi,Iron
   :neighborhood: Chalk Farm
   :currency: "£"
-  :lat: 51.5397994
-  :lng: -0.15163059999997586
+  :latitude: 51.5397994
+  :longitude: -0.15163059999997586
   :room_size: 29
   :has_parking: false
   :deposit: 0
@@ -886,8 +886,8 @@
   :amenities: Wifi,Iron,Hot tub,Gym,Heating,Doorman
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.5242026
-  :lng: -0.1766675999999734
+  :latitude: 51.5242026
+  :longitude: -0.1766675999999734
   :room_size: 28
   :has_parking: false
   :deposit: 425
@@ -930,8 +930,8 @@
   :amenities: Dryer,Doorman,Gym,Iron,TV,Washer
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.52171519999999
-  :lng: -0.17862650000006397
+  :latitude: 51.52171519999999
+  :longitude: -0.17862650000006397
   :room_size: 19
   :has_parking: false
   :deposit: 90
@@ -973,8 +973,8 @@
   :amenities: Kitchen,Heating,Doorman,Washer,Iron,Hot tub
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.5217064
-  :lng: -0.0722892999999658
+  :latitude: 51.5217064
+  :longitude: -0.0722892999999658
   :room_size: 21
   :has_parking: false
   :deposit: 606
@@ -1011,8 +1011,8 @@
   :amenities: Washer,Dryer,Hot tub,Doorman,Air conditioning,Heating
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.5217064
-  :lng: -0.0722892999999658
+  :latitude: 51.5217064
+  :longitude: -0.0722892999999658
   :room_size: 16
   :has_parking: false
   :deposit: 541
@@ -1053,8 +1053,8 @@
   :amenities: Hot tub,Dryer,Wifi,Iron,Air conditioning,Gym
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53229140000001
-  :lng: -0.08096839999996064
+  :latitude: 51.53229140000001
+  :longitude: -0.08096839999996064
   :room_size: 25
   :has_parking: false
   :deposit: 0
@@ -1090,8 +1090,8 @@
   :amenities: Dryer,Washer,Heating,Air conditioning,Elevator,Gym
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.5323518
-  :lng: -0.0804040000000441
+  :latitude: 51.5323518
+  :longitude: -0.0804040000000441
   :room_size: 26
   :has_parking: false
   :deposit: 1250
@@ -1132,8 +1132,8 @@
   :amenities: Heating,Air conditioning,Iron,Wifi,Hot tub,Gym
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5119103
-  :lng: -0.06663560000004054
+  :latitude: 51.5119103
+  :longitude: -0.06663560000004054
   :room_size: 23
   :has_parking: false
   :deposit: 1000
@@ -1176,8 +1176,8 @@
   :amenities: Dryer,Kitchen,Air conditioning,Elevator,Gym,Heating
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5262357
-  :lng: -0.0726603000000523
+  :latitude: 51.5262357
+  :longitude: -0.0726603000000523
   :room_size: 14
   :has_parking: false
   :deposit: 0
@@ -1224,8 +1224,8 @@
   :amenities: Gym,TV,Kitchen,Doorman,Washer,Elevator
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5110683
-  :lng: -0.0651073000000224
+  :latitude: 51.5110683
+  :longitude: -0.0651073000000224
   :room_size: 21
   :has_parking: false
   :deposit: 880
@@ -1274,8 +1274,8 @@
   :amenities: TV,Air conditioning,Elevator,Gym,Hot tub,Wifi
   :neighborhood: Kensington
   :currency: "£"
-  :lat: 51.5114262
-  :lng: -0.18664609999996173
+  :latitude: 51.5114262
+  :longitude: -0.18664609999996173
   :room_size: 19
   :has_parking: false
   :deposit: 2015
@@ -1323,8 +1323,8 @@
   :amenities: Doorman,Heating,Hot tub,Gym,Air conditioning,Washer
   :neighborhood: Bayswater
   :currency: "£"
-  :lat: 51.5114262
-  :lng: -0.18664609999996173
+  :latitude: 51.5114262
+  :longitude: -0.18664609999996173
   :room_size: 30
   :has_parking: false
   :deposit: 1560
@@ -1375,8 +1375,8 @@
   :amenities: TV,Iron,Dryer,Washer,Wifi,Heating
   :neighborhood: Stockwell
   :currency: "£"
-  :lat: 51.4702281
-  :lng: -0.12243599999999333
+  :latitude: 51.4702281
+  :longitude: -0.12243599999999333
   :room_size: 23
   :has_parking: false
   :deposit: 1073
@@ -1431,8 +1431,8 @@
   :amenities: Kitchen,Air conditioning,Dryer,TV,Iron,Elevator
   :neighborhood: Battersea
   :currency: "£"
-  :lat: 51.47333759999999
-  :lng: -0.15403029999993123
+  :latitude: 51.47333759999999
+  :longitude: -0.15403029999993123
   :room_size: 17
   :has_parking: false
   :deposit: 850
@@ -1489,8 +1489,8 @@
   :amenities: Hot tub,Gym,Elevator,Kitchen,Washer,Heating
   :neighborhood: Clapham North
   :currency: "£"
-  :lat: 51.4697294
-  :lng: -0.1374018999999862
+  :latitude: 51.4697294
+  :longitude: -0.1374018999999862
   :room_size: 17
   :has_parking: false
   :deposit: 0
@@ -1539,8 +1539,8 @@
   :amenities: Washer,Heating,Air conditioning,Iron,TV,Gym
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5330124
-  :lng: -0.07370800000001054
+  :latitude: 51.5330124
+  :longitude: -0.07370800000001054
   :room_size: 22
   :has_parking: false
   :deposit: 0
@@ -1595,8 +1595,8 @@
   :amenities: Air conditioning,Dryer,Kitchen,Elevator,Heating,Doorman
   :neighborhood: Bermondsey
   :currency: "£"
-  :lat: 51.4982157
-  :lng: -0.06234540000002653
+  :latitude: 51.4982157
+  :longitude: -0.06234540000002653
   :room_size: 23
   :has_parking: false
   :deposit: 825
@@ -1647,8 +1647,8 @@
   :amenities: Dryer,Doorman,TV,Heating,Elevator,Washer
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.52624299999999
-  :lng: -0.06658229999993637
+  :latitude: 51.52624299999999
+  :longitude: -0.06658229999993637
   :room_size: 16
   :has_parking: false
   :deposit: 0
@@ -1685,8 +1685,8 @@
   :amenities: Washer,Iron,Doorman,Dryer,Air conditioning,Kitchen
   :neighborhood: Chalk Farm
   :currency: "£"
-  :lat: 51.5464127
-  :lng: -0.15416060000006837
+  :latitude: 51.5464127
+  :longitude: -0.15416060000006837
   :room_size: 28
   :has_parking: false
   :deposit: 495
@@ -1745,8 +1745,8 @@
   :amenities: Doorman,Washer,Hot tub,Gym,Iron,Elevator
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5260343
-  :lng: -0.06424970000000485
+  :latitude: 51.5260343
+  :longitude: -0.06424970000000485
   :room_size: 26
   :has_parking: false
   :deposit: 0
@@ -1785,8 +1785,8 @@
   :amenities: Air conditioning,Doorman,Elevator,Heating,Iron,Washer
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5151008
-  :lng: -0.05835720000004585
+  :latitude: 51.5151008
+  :longitude: -0.05835720000004585
   :room_size: 26
   :has_parking: false
   :deposit: 640
@@ -1841,8 +1841,8 @@
   :amenities: Dryer,Gym,Doorman,Elevator,Washer,Air conditioning
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.51958769999999
-  :lng: -0.0594204000000218
+  :latitude: 51.51958769999999
+  :longitude: -0.0594204000000218
   :room_size: 29
   :has_parking: false
   :deposit: 1260
@@ -1888,8 +1888,8 @@
   :amenities: Heating,TV,Iron,Kitchen,Gym,Washer
   :neighborhood: Camberwell
   :currency: "£"
-  :lat: 51.4696718
-  :lng: -0.09574989999998706
+  :latitude: 51.4696718
+  :longitude: -0.09574989999998706
   :room_size: 14
   :has_parking: false
   :deposit: 600
@@ -1938,8 +1938,8 @@
   :amenities: Iron,Hot tub,Wifi,TV,Gym,Washer
   :neighborhood: Kentish Town
   :currency: "£"
-  :lat: 51.54848699999999
-  :lng: -0.1522592999999688
+  :latitude: 51.54848699999999
+  :longitude: -0.1522592999999688
   :room_size: 20
   :has_parking: false
   :deposit: 1600
@@ -2001,8 +2001,8 @@
   :amenities: Kitchen,Air conditioning,Wifi,Gym,Washer,Doorman
   :neighborhood: Clapham North
   :currency: "£"
-  :lat: 51.465
-  :lng: -0.12784780000004048
+  :latitude: 51.465
+  :longitude: -0.12784780000004048
   :room_size: 24
   :has_parking: false
   :deposit: 900
@@ -2072,8 +2072,8 @@
   :amenities: Dryer,TV,Elevator,Air conditioning,Doorman,Heating
   :neighborhood: Lower Holloway
   :currency: "£"
-  :lat: 51.5515021
-  :lng: -0.11287459999994098
+  :latitude: 51.5515021
+  :longitude: -0.11287459999994098
   :room_size: 28
   :has_parking: false
   :deposit: 1800
@@ -2118,8 +2118,8 @@
   :amenities: Kitchen,Washer,Dryer,Heating,TV,Iron
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5171681
-  :lng: -0.05612169999994876
+  :latitude: 51.5171681
+  :longitude: -0.05612169999994876
   :room_size: 12
   :has_parking: false
   :deposit: 696
@@ -2163,8 +2163,8 @@
   :amenities: Hot tub,Wifi,Washer,Dryer,TV,Gym
   :neighborhood: Kentish Town
   :currency: "£"
-  :lat: 51.5522249
-  :lng: -0.1401212000000669
+  :latitude: 51.5522249
+  :longitude: -0.1401212000000669
   :room_size: 23
   :has_parking: false
   :deposit: 1268
@@ -2223,8 +2223,8 @@
   :amenities: Air conditioning,Wifi,Elevator,Doorman,Washer,Heating
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5172341
-  :lng: -0.055156099999976504
+  :latitude: 51.5172341
+  :longitude: -0.055156099999976504
   :room_size: 19
   :has_parking: false
   :deposit: 0
@@ -2265,8 +2265,8 @@
   :amenities: Gym,Air conditioning,TV,Elevator,Wifi,Heating
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.5075164
-  :lng: -0.053789400000027854
+  :latitude: 51.5075164
+  :longitude: -0.053789400000027854
   :room_size: 24
   :has_parking: false
   :deposit: 100
@@ -2334,8 +2334,8 @@
   :amenities: Doorman,Kitchen,Dryer,TV,Hot tub,Washer
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5250449
-  :lng: -0.058251400000017384
+  :latitude: 51.5250449
+  :longitude: -0.058251400000017384
   :room_size: 13
   :has_parking: false
   :deposit: 0
@@ -2380,8 +2380,8 @@
   :amenities: Doorman,Gym,Kitchen,Washer,TV,Dryer
   :neighborhood: West Brompton
   :currency: "£"
-  :lat: 51.48495769999999
-  :lng: -0.18815719999997782
+  :latitude: 51.48495769999999
+  :longitude: -0.18815719999997782
   :room_size: 14
   :has_parking: false
   :deposit: 815
@@ -2419,8 +2419,8 @@
   :amenities: Dryer,Doorman,Wifi,Washer,Kitchen,Gym
   :neighborhood: Chelsea
   :currency: "£"
-  :lat: 51.4848783
-  :lng: -0.18835139999998773
+  :latitude: 51.4848783
+  :longitude: -0.18835139999998773
   :room_size: 19
   :has_parking: false
   :deposit: 815
@@ -2461,8 +2461,8 @@
   :amenities: Elevator,Wifi,Kitchen,Hot tub,Gym,Iron
   :neighborhood: Earls Court
   :currency: "£"
-  :lat: 51.4845634
-  :lng: -0.18824480000000676
+  :latitude: 51.4845634
+  :longitude: -0.18824480000000676
   :room_size: 25
   :has_parking: false
   :deposit: 600
@@ -2499,8 +2499,8 @@
   :amenities: Hot tub,Air conditioning,Elevator,TV,Dryer,Iron
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5250953
-  :lng: -0.0569517999999789
+  :latitude: 51.5250953
+  :longitude: -0.0569517999999789
   :room_size: 27
   :has_parking: false
   :deposit: 800
@@ -2556,8 +2556,8 @@
   :amenities: Washer,Doorman,Wifi,Kitchen,Dryer,Hot tub
   :neighborhood: Surrey Quays
   :currency: "£"
-  :lat: 51.49615169999999
-  :lng: -0.05391850000000886
+  :latitude: 51.49615169999999
+  :longitude: -0.05391850000000886
   :room_size: 22
   :has_parking: false
   :deposit: 800
@@ -2611,8 +2611,8 @@
   :amenities: Heating,Kitchen,TV,Wifi,Air conditioning,Washer
   :neighborhood: Swiss Cottage
   :currency: "£"
-  :lat: 51.5446617
-  :lng: -0.17328280000003815
+  :latitude: 51.5446617
+  :longitude: -0.17328280000003815
   :room_size: 12
   :has_parking: false
   :deposit: 150
@@ -2665,8 +2665,8 @@
   :amenities: Doorman,Iron,Washer,Wifi,Air conditioning,Gym
   :neighborhood: Fulham
   :currency: "£"
-  :lat: 51.4803519
-  :lng: -0.18805169999995996
+  :latitude: 51.4803519
+  :longitude: -0.18805169999995996
   :room_size: 29
   :has_parking: false
   :deposit: 840
@@ -2712,8 +2712,8 @@
   :amenities: Doorman,Wifi,Dryer,Kitchen,Air conditioning,Heating
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54561140000001
-  :lng: -0.07684619999997722
+  :latitude: 51.54561140000001
+  :longitude: -0.07684619999997722
   :room_size: 17
   :has_parking: false
   :deposit: 0
@@ -2758,8 +2758,8 @@
   :amenities: Wifi,Kitchen,Doorman,Air conditioning,TV,Heating
   :neighborhood: Brixton Hill
   :currency: "£"
-  :lat: 51.4603133
-  :lng: -0.12043889999995372
+  :latitude: 51.4603133
+  :longitude: -0.12043889999995372
   :room_size: 13
   :has_parking: false
   :deposit: 0
@@ -2798,8 +2798,8 @@
   :amenities: Kitchen,Doorman,Gym,Dryer,Iron,Hot tub
   :neighborhood: Brixton Hill
   :currency: "£"
-  :lat: 51.4603133
-  :lng: -0.12043889999995372
+  :latitude: 51.4603133
+  :longitude: -0.12043889999995372
   :room_size: 16
   :has_parking: false
   :deposit: 0
@@ -2832,8 +2832,8 @@
   :amenities: Heating,Elevator,Washer,Wifi,Hot tub,Iron
   :neighborhood: Notting Hill
   :currency: "£"
-  :lat: 51.51591079999999
-  :lng: -0.2022500000000491
+  :latitude: 51.51591079999999
+  :longitude: -0.2022500000000491
   :room_size: 12
   :has_parking: false
   :deposit: 12046
@@ -2863,8 +2863,8 @@
   :amenities: Heating,Hot tub,Doorman,Air conditioning,Dryer,TV
   :neighborhood: Notting Hill
   :currency: "£"
-  :lat: 51.51591079999999
-  :lng: -0.2022500000000491
+  :latitude: 51.51591079999999
+  :longitude: -0.2022500000000491
   :room_size: 30
   :has_parking: false
   :deposit: 1203
@@ -2908,8 +2908,8 @@
   :amenities: Wifi,Air conditioning,Heating,TV,Elevator,Washer
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5396702
-  :lng: -0.06553140000005442
+  :latitude: 51.5396702
+  :longitude: -0.06553140000005442
   :room_size: 16
   :has_parking: false
   :deposit: 581
@@ -2966,8 +2966,8 @@
   :amenities: Elevator,Kitchen,Iron,Doorman,Hot tub,Wifi
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52129
-  :lng: -0.1412089
+  :latitude: 51.52129
+  :longitude: -0.1412089
   :room_size: 20
   :has_parking: false
   :deposit: 0
@@ -3004,8 +3004,8 @@
   :amenities: Elevator,Kitchen,Hot tub,Doorman,Washer,Dryer
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52207
-  :lng: -0.1529541
+  :latitude: 51.52207
+  :longitude: -0.1529541
   :room_size: 23
   :has_parking: false
   :deposit: 0
@@ -3052,8 +3052,8 @@
   :amenities: Hot tub,Iron,Kitchen,TV,Wifi,Dryer
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49096
-  :lng: -0.100207
+  :latitude: 51.49096
+  :longitude: -0.100207
   :room_size: 16
   :has_parking: false
   :deposit: 0
@@ -3097,8 +3097,8 @@
   :amenities: Kitchen,Gym,TV,Doorman,Air conditioning,Wifi
   :neighborhood: Vauxhall
   :currency: "£"
-  :lat: 51.48443
-  :lng: -0.12056
+  :latitude: 51.48443
+  :longitude: -0.12056
   :room_size: 14
   :has_parking: false
   :deposit: 0
@@ -3144,8 +3144,8 @@
   :amenities: Air conditioning,Heating,Hot tub,Kitchen,Iron,Dryer
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52316
-  :lng: -0.158907
+  :latitude: 51.52316
+  :longitude: -0.158907
   :room_size: 25
   :has_parking: false
   :deposit: 0
@@ -3191,8 +3191,8 @@
   :amenities: Hot tub,Heating,Iron,Elevator,Gym,Kitchen
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52316
-  :lng: -0.158907
+  :latitude: 51.52316
+  :longitude: -0.158907
   :room_size: 24
   :has_parking: false
   :deposit: 0
@@ -3235,8 +3235,8 @@
   :amenities: Doorman,Iron,Kitchen,Gym,Dryer,Hot tub
   :neighborhood: Finsbury
   :currency: "£"
-  :lat: 51.53089
-  :lng: -0.1009677
+  :latitude: 51.53089
+  :longitude: -0.1009677
   :room_size: 25
   :has_parking: false
   :deposit: 0
@@ -3270,8 +3270,8 @@
   :amenities: Kitchen,Washer,Heating,Air conditioning,Elevator,Dryer
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.52599
-  :lng: -0.1626128
+  :latitude: 51.52599
+  :longitude: -0.1626128
   :room_size: 16
   :has_parking: false
   :deposit: 0
@@ -3310,8 +3310,8 @@
   :amenities: Wifi,Elevator,Heating,Air conditioning,TV,Gym
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5194
-  :lng: -0.1764701
+  :latitude: 51.5194
+  :longitude: -0.1764701
   :room_size: 22
   :has_parking: false
   :deposit: 0
@@ -3350,8 +3350,8 @@
   :amenities: Dryer,Heating,Doorman,Wifi,Kitchen,Iron
   :neighborhood: Islington
   :currency: "£"
-  :lat: 51.53986
-  :lng: -0.09743613
+  :latitude: 51.53986
+  :longitude: -0.09743613
   :room_size: 27
   :has_parking: false
   :deposit: 0
@@ -3404,8 +3404,8 @@
   :amenities: Heating,Dryer,Washer,Gym,TV,Air conditioning
   :neighborhood: Old Street
   :currency: "£"
-  :lat: 51.53102
-  :lng: -0.08001342
+  :latitude: 51.53102
+  :longitude: -0.08001342
   :room_size: 17
   :has_parking: false
   :deposit: 0
@@ -3463,8 +3463,8 @@
   :amenities: Doorman,Iron,Dryer,Hot tub,Gym,Kitchen
   :neighborhood: Battersea
   :currency: "£"
-  :lat: 51.4751
-  :lng: -0.1493221
+  :latitude: 51.4751
+  :longitude: -0.1493221
   :room_size: 25
   :has_parking: false
   :deposit: 0
@@ -3508,8 +3508,8 @@
   :amenities: Hot tub,Washer,Elevator,Air conditioning,Kitchen,Wifi
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.52363
-  :lng: -0.07220819
+  :latitude: 51.52363
+  :longitude: -0.07220819
   :room_size: 20
   :has_parking: false
   :deposit: 0
@@ -3544,8 +3544,8 @@
   :amenities: Heating,Kitchen,Doorman,Hot tub,Elevator,Washer
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5261
-  :lng: -0.07299737
+  :latitude: 51.5261
+  :longitude: -0.07299737
   :room_size: 20
   :has_parking: false
   :deposit: 0
@@ -3593,8 +3593,8 @@
   :amenities: Iron,Air conditioning,Gym,Hot tub,Kitchen,Dryer
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5207
-  :lng: -0.1827463
+  :latitude: 51.5207
+  :longitude: -0.1827463
   :room_size: 14
   :has_parking: false
   :deposit: 0
@@ -3642,8 +3642,8 @@
   :amenities: Kitchen,Iron,Dryer,Doorman,Elevator,TV
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5207
-  :lng: -0.1827463
+  :latitude: 51.5207
+  :longitude: -0.1827463
   :room_size: 17
   :has_parking: false
   :deposit: 0
@@ -3676,8 +3676,8 @@
   :amenities: Hot tub,Iron,Doorman,Wifi,Kitchen,Washer
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53407
-  :lng: -0.08067809
+  :latitude: 51.53407
+  :longitude: -0.08067809
   :room_size: 14
   :has_parking: false
   :deposit: 0
@@ -3726,8 +3726,8 @@
   :amenities: Air conditioning,Heating,Wifi,Dryer,Kitchen,Iron
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.52794
-  :lng: -0.07316488
+  :latitude: 51.52794
+  :longitude: -0.07316488
   :room_size: 12
   :has_parking: false
   :deposit: 0
@@ -3766,8 +3766,8 @@
   :amenities: Iron,TV,Washer,Air conditioning,Kitchen,Gym
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.50667
-  :lng: -0.06378792
+  :latitude: 51.50667
+  :longitude: -0.06378792
   :room_size: 13
   :has_parking: false
   :deposit: 0
@@ -3806,8 +3806,8 @@
   :amenities: Gym,Doorman,Dryer,Kitchen,Washer,Elevator
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5305
-  :lng: -0.07276858
+  :latitude: 51.5305
+  :longitude: -0.07276858
   :room_size: 19
   :has_parking: false
   :deposit: 0
@@ -3849,8 +3849,8 @@
   :amenities: Iron,Wifi,TV,Gym,Elevator,Washer
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5276
-  :lng: -0.06839285
+  :latitude: 51.5276
+  :longitude: -0.06839285
   :room_size: 17
   :has_parking: false
   :deposit: 0
@@ -3897,8 +3897,8 @@
   :amenities: Kitchen,Gym,TV,Dryer,Iron,Air conditioning
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.50728
-  :lng: -0.05965528
+  :latitude: 51.50728
+  :longitude: -0.05965528
   :room_size: 16
   :has_parking: false
   :deposit: 0
@@ -3939,8 +3939,8 @@
   :amenities: Dryer,Hot tub,Air conditioning,Gym,Wifi,Doorman
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53618
-  :lng: -0.07642189
+  :latitude: 51.53618
+  :longitude: -0.07642189
   :room_size: 30
   :has_parking: false
   :deposit: 0
@@ -3973,8 +3973,8 @@
   :amenities: Wifi,Heating,Iron,Air conditioning,Gym,Washer
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53746
-  :lng: -0.0760507
+  :latitude: 51.53746
+  :longitude: -0.0760507
   :room_size: 16
   :has_parking: false
   :deposit: 0
@@ -4024,8 +4024,8 @@
   :amenities: Washer,Gym,Doorman,Kitchen,Iron,Air conditioning
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53329
-  :lng: -0.0703869
+  :latitude: 51.53329
+  :longitude: -0.0703869
   :room_size: 15
   :has_parking: false
   :deposit: 0
@@ -4074,8 +4074,8 @@
   :amenities: Hot tub,Wifi,Iron,Gym,Washer,Heating
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53329
-  :lng: -0.0703869
+  :latitude: 51.53329
+  :longitude: -0.0703869
   :room_size: 17
   :has_parking: false
   :deposit: 0
@@ -4121,8 +4121,8 @@
   :amenities: Air conditioning,Washer,TV,Dryer,Heating,Hot tub
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.51958
-  :lng: -0.05942089
+  :latitude: 51.51958
+  :longitude: -0.05942089
   :room_size: 28
   :has_parking: false
   :deposit: 0
@@ -4168,8 +4168,8 @@
   :amenities: Hot tub,Kitchen,Doorman,Wifi,TV,Air conditioning
   :neighborhood: Chelsea
   :currency: "£"
-  :lat: 51.47679
-  :lng: -0.172986
+  :latitude: 51.47679
+  :longitude: -0.172986
   :room_size: 12
   :has_parking: false
   :deposit: 0
@@ -4219,8 +4219,8 @@
   :amenities: Dryer,Iron,Gym,TV,Doorman,Washer
   :neighborhood: Shadwell
   :currency: "£"
-  :lat: 51.51214
-  :lng: -0.05643684
+  :latitude: 51.51214
+  :longitude: -0.05643684
   :room_size: 20
   :has_parking: false
   :deposit: 0
@@ -4274,8 +4274,8 @@
   :amenities: Dryer,Air conditioning,TV,Hot tub,Iron,Kitchen
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54115
-  :lng: -0.07788516
+  :latitude: 51.54115
+  :longitude: -0.07788516
   :room_size: 24
   :has_parking: false
   :deposit: 0
@@ -4315,8 +4315,8 @@
   :amenities: Air conditioning,TV,Gym,Elevator,Doorman,Heating
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53094
-  :lng: -0.06362344
+  :latitude: 51.53094
+  :longitude: -0.06362344
   :room_size: 13
   :has_parking: false
   :deposit: 0
@@ -4372,8 +4372,8 @@
   :amenities: Air conditioning,Washer,TV,Dryer,Wifi,Doorman
   :neighborhood: Maida Hill
   :currency: "£"
-  :lat: 51.52205
-  :lng: -0.1947147
+  :latitude: 51.52205
+  :longitude: -0.1947147
   :room_size: 13
   :has_parking: false
   :deposit: 0
@@ -4429,8 +4429,8 @@
   :amenities: Hot tub,Washer,Dryer,TV,Wifi,Air conditioning
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5455
-  :lng: -0.0821151
+  :latitude: 51.5455
+  :longitude: -0.0821151
   :room_size: 21
   :has_parking: false
   :deposit: 0
@@ -4484,8 +4484,8 @@
   :amenities: Heating,Gym,Wifi,Iron,Doorman,Hot tub
   :neighborhood: Clapham
   :currency: "£"
-  :lat: 51.46433
-  :lng: -0.1515867
+  :latitude: 51.46433
+  :longitude: -0.1515867
   :room_size: 24
   :has_parking: false
   :deposit: 0
@@ -4546,8 +4546,8 @@
   :amenities: Washer,Air conditioning,Heating,Gym,Wifi,Elevator
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54535
-  :lng: -0.07734763
+  :latitude: 51.54535
+  :longitude: -0.07734763
   :room_size: 15
   :has_parking: false
   :deposit: 0
@@ -4608,8 +4608,8 @@
   :amenities: Gym,TV,Kitchen,Heating,Elevator,Wifi
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54535
-  :lng: -0.07734763
+  :latitude: 51.54535
+  :longitude: -0.07734763
   :room_size: 14
   :has_parking: false
   :deposit: 0
@@ -4642,8 +4642,8 @@
   :amenities: Kitchen,Air conditioning,Heating,Wifi,Hot tub,Elevator
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5492
-  :lng: -0.08585372
+  :latitude: 51.5492
+  :longitude: -0.08585372
   :room_size: 26
   :has_parking: false
   :deposit: 0
@@ -4692,8 +4692,8 @@
   :amenities: Air conditioning,Wifi,Gym,Heating,Doorman,Washer
   :neighborhood: Brixton
   :currency: "£"
-  :lat: 51.46127
-  :lng: -0.11313
+  :latitude: 51.46127
+  :longitude: -0.11313
   :room_size: 27
   :has_parking: false
   :deposit: 0
@@ -4729,8 +4729,8 @@
   :amenities: TV,Doorman,Washer,Kitchen,Gym,Elevator
   :neighborhood: Earls Court
   :currency: "£"
-  :lat: 51.49059
-  :lng: -0.1982334
+  :latitude: 51.49059
+  :longitude: -0.1982334
   :room_size: 21
   :has_parking: false
   :deposit: 0
