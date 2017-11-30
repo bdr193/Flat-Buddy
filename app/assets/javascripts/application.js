@@ -21,8 +21,3 @@ $('.datepicker').datepicker({
 $('#calendar').fullCalendar({
   events: '/requests.json'
 });
-
-// const calendar = document.getElementById("calendar-button");
-// calendar.addEventListener(click, (event) => {
-//   render 'calendar'
-// });
