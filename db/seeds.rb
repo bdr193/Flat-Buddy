@@ -14,10 +14,6 @@ puts "Clearing rooms"
 Room.destroy_all
 puts "Clearing flats"
 Flat.destroy_all
-puts "Clearing requests"
-Request.destroy_all
-puts "Clearing Viewings"
-Viewing.destroy_all
 puts "Clearing users"
 User.destroy_all
 
