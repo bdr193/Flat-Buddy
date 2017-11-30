@@ -1,8 +1,8 @@
 <div class="container">
   <div class="room-banner", style="background-image:
-  url('<%= cl_image_path @room_photo.path, crop: :fill %>')">
+  url('<%= cl_image_path @room_photo, crop: :fill %>')">
   <div class="room-price">
-    <p><%= @room.flat.monthly_price%>€/m</p>
+    <p>£<%= @room.flat.monthly_price%>/m</p>
   </div>
   <div class="room-title-background"></div>
   <div class="room-title">
@@ -11,24 +11,79 @@
   </div>
 </div>
 <div class="interests text-center">
-  <h3> There are <%= @room.flat.users.length %> in this flat! </h3>
-  <% @room.flat.users.each do |user| %>
-  <%= user %>
-  <% end %>
+  <h3> You share some interests! </h3>
 </div>
-<div class="col-xs-12 col-sm-8">
+<div class="col-xs-12 col-sm-7">
+  <h4> There are <%= @room.flat.users.length %> FlatBuddies in this flat! </h4>
   <% @room.flat.users.each do |user| %>
   <div class="row">
-    <%= cl_image_tag user.photo.path %>
+    <%= cl_image_tag(user.facebook_picture_url, :width =>100, :height => 100, :crop => :thumb, :gravity => :face, class: "user-img") %>
     <%= user.first_name %>
   </div>
   <% end %>
   <div class="room-description">
+    <br>
     <h4>About the flat</h4>
     <%= @room.flat.description%>
+    <br>
+    <br>
+    <ul id="description-list">
+    <% if @room.flat.deposit %>
+      <li><%= "Deposit: #{@room.flat.currency}#{@room.flat.deposit}" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.preffered_max_age %>
+      <li><%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.has_parking %>
+      <li><%= "Includes parking" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.allow_students %>
+      <li><%= "Allows students" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.allow_pets %>
+      <li><%= "Allows pets" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.allow_smokers %>
+      <li><%= "Allows smokers" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.bills_included %>
+      <li><%= "Bills included" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.couples_allowed %>
+      <li><%= "Couples allowed" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.ensuite  %>
+      <li><%= "Ensuite included"%></li>
+      <br>
+    <% end %>
+    <% if @room.flat.accessible %>
+      <li><%= "Wheelchair accessible" %></li>
+      <br>
+    <% end %>
+    <% if @room.flat.accessible %>
+      <li><%= "Wheelchair accessible" %></li>
+      <br>
+    <% end %>
+    </ul>
+  </div>
+  <div class="room-amenities list-inline">
+    <h4>Amenities</h4>
+    <% @room_amenities.each do |amenitie| %>
+      <div class="col-xs-6">
+        <%= amenitie %>
+      </div>
+    <% end  %>
   </div>
 </div>
-<div class="col-xs-12 col-sm-4 flat-form">
+<div class="col-xs-12 col-sm-4 col-sm-offset-1 flat-form text-center">
   <h3>Pick a meeting date</h3>
   <%= render 'form' %>
 </div>
