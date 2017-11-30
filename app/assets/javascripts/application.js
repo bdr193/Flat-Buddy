@@ -9,6 +9,8 @@
 //= require bootstrap-datepicker
 //= require moment
 //= require fullcalendar
+//= require rails.validations
+//= require rails.validations.simple_form
 //= require_tree .
 
 $('.datepicker').datepicker({
