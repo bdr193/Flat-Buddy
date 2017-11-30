@@ -6,15 +6,18 @@
 
   <div class="listing">
 
-    <div class="request-status request">
+    <div class="request-status request request-border-right">
       <%= request.status %>
     </div>
-    <div class="request">
+    <div class="request request-border">
       <div class="request-price"> <%= request.viewing.room.flat.monthly_price %>€ </div>
+      <div class="request-title">
+        <h3><%= request.viewing.room.flat.title %></h3>
 
-      <div class="request-body">
-        <h3> <b>  <%= request.viewing.room.flat.title %></b></h3>
-        <p><%= request.viewing.room.flat.neighborhood %></p>
+      </div>
+
+      <div class="request-body text-left">
+        <p><strong><%= request.viewing.room.flat.neighborhood %></strong></p>
         <p><%= request.viewing.room.flat.address %></p>
       </div>
 
