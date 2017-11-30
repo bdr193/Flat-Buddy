@@ -1,9 +1,8 @@
-<%=  simple_form_for :room, url: rooms_path, method: 'GET', :html => { :class => 'form-inline' } do |f|  %>
-  <%= f.input :city, name: 'city', value: '', placeholder: 'City', label: false %>
+<%=  simple_form_for Search.new, url: rooms_path, method: 'GET', :html => { :class => 'form-inline' } do |f|  %>
+  <%= f.input :city, name: 'city', value: '', placeholder: 'City', label: false, error: 'Error, cannot be blank' %>
   <%= f.input :lat, as: :hidden %>
   <%= f.input :lng, as: :hidden %>
-  <%= f.input :move_in_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move in', label: false %>
-
+  <%= f.input :move_in_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move in', label: false, required: true %>
   <%= f.input :move_out_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move out (optional)', label: false %>
   <%= f.submit "Find FlatBuddies", class: "btn btn-green" %>
 <% end %>

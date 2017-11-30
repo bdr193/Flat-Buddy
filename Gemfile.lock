@@ -69,6 +69,13 @@ GEM
     bootstrap-toggle-rails (2.2.1.0)
     builder (3.2.3)
     byebug (9.1.0)
+    client_side_validations (11.0.0)
+      jquery-rails (~> 4.3)
+      js_regex (~> 2.1)
+      rails (>= 5.0.0.1, <= 5.2.0.beta2)
+    client_side_validations-simple_form (6.5.0)
+      client_side_validations (>= 9.3.2, < 12)
+      simple_form (~> 3.5)
     cloudinary (1.1.7)
       aws_cf_signer
       rest-client
@@ -127,6 +134,8 @@ GEM
       thor (>= 0.14, < 2.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
+    js_regex (2.1.0)
+      regexp_parser (>= 0.4.7, <= 0.5.0)
     jwt (1.5.6)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -209,6 +218,7 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     redis (4.0.1)
+    regexp_parser (0.4.7)
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
@@ -271,6 +281,8 @@ DEPENDENCIES
   autoprefixer-rails
   bootstrap-datepicker-rails
   bootstrap-sass
+  client_side_validations
+  client_side_validations-simple_form
   bootstrap-toggle-rails
   cloudinary (= 1.1.7)
   coffee-rails
