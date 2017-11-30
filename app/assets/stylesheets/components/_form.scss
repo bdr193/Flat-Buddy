@@ -72,12 +72,22 @@
 }
 
 
-.btn {
-  background-color: $pink;
+.btn-green {
+  background-color: $green;
   color: white;
   border-radius: 4px;
 }
 
 .btn:hover {
-  color: $yellow;
+  color: $gray;
+}
+
+.btn-pink {
+  color: $white;
+  background-color: $pink;
+  border-radius: 4px;
+}
+
+.btn-pink:hover {
+  color: $gray;
 }
