@@ -24,7 +24,7 @@ class RequestsController < ApplicationController
       # redirect_to request_path(@request)
       @flat = @request.viewing.room.flat
       @chat_room = ChatRoom.create!(request_id: @request.id, name: @flat.title)
-      redirect_to requests_path
+      redirect_to request_path
     else
       render :new
     end
