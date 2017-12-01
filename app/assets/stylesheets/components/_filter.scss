@@ -31,13 +31,15 @@
   }
 }
 
+
+.filter-style {
+  .form-control {
+    background-color: $light-gray;
+    border: none;
+  }
 .control-label {
   font-weight: lighter;
   font-size: 22px;
   text-shadow: 1px 1px 20px $pink;
 }
-
-.form-control {
-  background-color: $light-gray;
-  border: none;
 }
