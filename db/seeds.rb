@@ -15,12 +15,26 @@ Flat.destroy_all
 puts "Clearing users"
 User.destroy_all
 
+
+
+def create_request(viewing)
+  request = Request.create!(
+    slot: Time.strptime('28/12/2017 19:00', '%d/%m/%Y %H:%M'),
+    user_id: 1,
+    viewing_id: viewing.id,
+  )
+  request.accepted!
+  request.save!
+end
+
 def create_viewing(room)
-  viewing_one = Viewing.create!(
+  vi = viewing_one = Viewing.new(
     start_time: room.created_at + 1.day,
     duration: 45,
     room_id: room.id,
   )
+  vi.save
+  create_request(vi)
 end
 
 def create_room(flat, room)
@@ -75,15 +89,15 @@ create_users
 
 
 
-#
+
 # request_one = Request.create!(
 #   slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
 #   user_id: 1,
 #   viewing_id: 1,
-#   )
+# )
 # request_one.accepted!
 # request_one.save!
-#
+
 # puts "Request 1 created"
 #
 # request_two = Request.create!(
