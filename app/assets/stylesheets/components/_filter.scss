@@ -24,7 +24,7 @@
   justify-content: space-between;
 
   .toggle {
-    border: 1px solid $pink;
+    border: none;
   }
   .toggle-off.btn {
     color: black;
@@ -38,6 +38,6 @@
 }
 
 .form-control {
-  background-color: #F4E2E5;
-  border: 1px solid $pink;
+  background-color: $light-gray;
+  border: none;
 }
