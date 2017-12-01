@@ -16,7 +16,12 @@ puts "Clearing users"
 User.destroy_all
 
 def create_room(flat, room)
-  room[:flat_id] = flat.id
+  puts flat.id
+  begin
+    room[:flat_id] = flat.id
+  rescue Exception => e
+    puts e.message
+  end
   Room.create!(room)
 end
 
