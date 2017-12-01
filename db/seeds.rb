@@ -18,12 +18,19 @@ User.destroy_all
 
 
 def create_request(viewing)
-  request = Request.create!(
-    slot: Time.strptime('28/12/2017 19:00', '%d/%m/%Y %H:%M'),
+  request = Request.new(
+    slot: Time.strptime('28/12/2017 19:00', '%d/%m/%Y %H:%M') + rand(2..20).to_i.day,
     user_id: 1,
     viewing_id: viewing.id,
   )
-  request.accepted!
+
+  status = rand(0..1).to_i
+  case status
+  when 0
+    request.accepted!
+  when 1
+    request.pending!
+  end
   request.save!
 end
 
@@ -31,10 +38,10 @@ def create_viewing(room)
   vi = viewing_one = Viewing.new(
     start_time: room.created_at + 1.day,
     duration: 45,
-    room_id: room.id,
+    room_id: room.id
   )
   vi.save
-  create_request(vi)
+  create_request(vi) if rand(0..7).to_i == 1
 end
 
 def create_room(flat, room)
