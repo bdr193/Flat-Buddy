@@ -1,24 +1,21 @@
 <%= simple_form_for :room, url: rooms_path, method: 'GET', :html => { :class => 'form-group row filter-style' } do |f| %>
-<%= f.input :neighborhood, name: 'neighborhood', :prompt => "Neighborhood", value: '', label: 'Neighborhood', required: false, collection: @flats_neighbourhood, selected: @neighborhood %>
+<%= f.input :neighborhood, name: 'neighborhood', :prompt => "Neighborhood", value: '', label: 'Neighborhood', required: false, collection: @flats_neighbourhood, wrapper_html: { class: 'font-style' }, selected: @neighborhood %>
+<%= f.input :number_of_flatmates, name: 'number_of_flatmates', value: '', label: 'Maximum FlatBuddies', required: false, collection: [ "👤","👤👤","👤👤👤", "👤👤👤➕"], selected: @number_of_flatmates %>
+<%= f.input :furnished, name: 'furnished', value: '', label: 'Furnished', required: false, collection: [ 'furnished', 'semi-furnished', 'unfurnished'], selected: @furnished %>
 <%= f.input :monthly_price, name: 'monthly_price', value: '', :prompt => "min", label: 'Rent £', required: false, placeholder: 'max price per month', selected: @monthly_price %>
-<%= f.input :furnished, name: 'furnished', value: '', label: 'Furnished', required: false, collection: [ 'furnished', 'unfurnished'], selected: @furnished %>
-<%= f.input :number_of_flatmates, name: 'number_of_flatmates', :prompt => "Max FlatBuddies", value: '', label: 'Number of FlatBuddies', required: false, placeholder: 'max FlatBuddies', collection: [ 1,2,3,4,5,6,'7+'], selected: @number_of_flatmates %>
+<%= f.input :bills_included, name: 'bills_included', value: '', :prompt => "Bills included", label: 'Bills included', required: false, as: :boolean, selected: @bills_included, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
+<%= f.input :ensuite, name: 'ensuite', value: '', :prompt => "Ensuite", label: 'Ensuite', required: false, as: :boolean, selected: @ensuite, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
+<%= f.input :accessible, name: 'accessible', value: '', :prompt => "Accessible", label: 'Accessible', required: false, as: :boolean, selected: @accessible, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
+<%= f.input :allow_students, name: 'allow_students', value: '', :prompt => "Allow students", label: 'Allow students', required: false, as: :boolean, selected: @allow_students, wrapper_html: { class: 'toggle-alignment' },input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
+<%= f.input :allow_pets, name: 'allow_pets', value: '', :prompt => "Allow pets", label: 'Allow pets', required: false, as: :boolean, selected: @allow_pets, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
+<%= f.input :couples_allowed, name: 'couples_allowed', value: '', :prompt => "Allow couples", label: 'Allow couples', required: false, as: :boolean, selected: @couples_allowed, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
+<%= f.input :allow_smokers, name: 'allow_smokers', value: '', :prompt => "Allow smokers", label: 'Allow smokers', required: false, as: :boolean, selected: @allow_smokers, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
 
 
 
 
-<%= f.input :has_parking, name: 'has_parking', value: '', :prompt => "Parking", label: 'Parking', required: false, as: :boolean, selected: @has_parking, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
 
 
-<%= f.input :allow_students, name: 'allow_students', value: '', :prompt => "Allow students", label: 'Allow students', required: false, as: :boolean, selected: @allow_students, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
-<%= f.input :allow_pets, name: 'allow_pets', value: '', :prompt => "Allow pets", label: 'Allow pets', required: false, as: :boolean, selected: @allow_pets, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
-<%= f.input :bills_included, name: 'bills_included', value: '', :prompt => "Bills included", label: 'Bills included', required: false, as: :boolean, selected: @bills_included, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
-<%= f.input :allow_smokers, name: 'allow_smokers', value: '', :prompt => "Allow smokers", label: 'Allow smokers', required: false, as: :boolean, selected: @allow_smokers, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
-<%= f.input :couples_allowed, name: 'couples_allowed', value: '', :prompt => "Allow couples", label: 'Allow couples', required: false, as: :boolean, selected: @couples_allowed, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
-<%= f.input :ensuite, name: 'ensuite', value: '', :prompt => "Ensuite", label: 'Ensuite', required: false, as: :boolean, selected: @ensuite, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
-<%= f.input :accessible, name: 'accessible', value: '', :prompt => "Accessible", label: 'Accessible', required: false, as: :boolean, selected: @accessible, input_html: { data: { toggle: "toggle", on: "Yes", off: "No" }} %>
 
-
-<%= f.submit "Filter", class: "btn btn-pink"%>
+<%= f.submit "Filter", class: "btn btn-primary button-sticky"%>
 <% end %>
-
