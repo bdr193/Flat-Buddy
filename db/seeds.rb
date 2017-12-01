@@ -15,6 +15,14 @@ Flat.destroy_all
 puts "Clearing users"
 User.destroy_all
 
+def create_viewing(room)
+  viewing_one = Viewing.create!(
+    start_time: room.created_at + 1.day,
+    duration: 45,
+    room_id: room.id,
+  )
+end
+
 def create_room(flat, room)
   puts flat.id
   begin
@@ -22,7 +30,9 @@ def create_room(flat, room)
   rescue Exception => e
     puts e.message
   end
-  Room.create!(room)
+  ro = Room.new(room)
+  ro.save
+  create_viewing(ro)
 end
 
 def create_flats_and_rooms
@@ -62,22 +72,9 @@ user_one = User.create!(
 
 create_flats_and_rooms
 create_users
-#
-# viewing_one = Viewing.create!(
-#   start_time: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
-#   duration: 45,
-#   room_id: 1,
-#   )
-#
-# puts "Viewing 1 created"
-#
-# viewing_two = Viewing.create!(
-#   start_time: Time.strptime('29/11/2017 19:00', '%d/%m/%Y %H:%M'),
-#   duration: 45,
-#   room_id: 2,
-#   )
-#
-# puts "Viewing 2 created"
+
+
+
 #
 # request_one = Request.create!(
 #   slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
