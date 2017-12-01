@@ -28,58 +28,58 @@
     <br>
     <br>
     <ul id="description-list">
-    <% if @room.flat.deposit %>
+      <% if @room.flat.deposit %>
       <li><%= "Deposit: #{@room.flat.currency}#{@room.flat.deposit}" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.preffered_max_age %>
+      <% end %>
+      <% if @room.flat.preffered_max_age %>
       <li><%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.has_parking %>
+      <% end %>
+      <% if @room.flat.has_parking %>
       <li><%= "Includes parking" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.allow_students %>
+      <% end %>
+      <% if @room.flat.allow_students %>
       <li><%= "Allows students" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.allow_pets %>
+      <% end %>
+      <% if @room.flat.allow_pets %>
       <li><%= "Allows pets" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.allow_smokers %>
+      <% end %>
+      <% if @room.flat.allow_smokers %>
       <li><%= "Allows smokers" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.bills_included %>
+      <% end %>
+      <% if @room.flat.bills_included %>
       <li><%= "Bills included" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.couples_allowed %>
+      <% end %>
+      <% if @room.flat.couples_allowed %>
       <li><%= "Couples allowed" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.ensuite  %>
+      <% end %>
+      <% if @room.flat.ensuite  %>
       <li><%= "Ensuite included"%></li>
       <br>
-    <% end %>
-    <% if @room.flat.accessible %>
+      <% end %>
+      <% if @room.flat.accessible %>
       <li><%= "Wheelchair accessible" %></li>
       <br>
-    <% end %>
-    <% if @room.flat.accessible %>
+      <% end %>
+      <% if @room.flat.accessible %>
       <li><%= "Wheelchair accessible" %></li>
       <br>
-    <% end %>
+      <% end %>
     </ul>
   </div>
   <div class="room-amenities list-inline">
     <h4>Amenities</h4>
     <% @room_amenities.each do |amenitie| %>
-      <div class="col-xs-6">
-        <%= amenitie %>
-      </div>
+    <div class="col-xs-6">
+      <%= amenitie %>
+    </div>
     <% end  %>
   </div>
 </div>
