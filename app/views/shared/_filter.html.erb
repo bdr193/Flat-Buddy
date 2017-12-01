@@ -1,0 +1,7 @@
+<div class="room-filter">
+  <%= simple_form_for :room, url: rooms_path, method: 'GET' do |f| %>
+  <%= f.input :neighborhood, name: 'neighborhood', :prompt =>"Neighborhood", value: '', label: 'Neighborhood', collection: @flats_neighbourhood, selected: @neighborhood %>
+  <%= f.input :number_of_flatmates, name: 'number_of_flatmates', :prompt =>"Number of Flatmates", value: '', label: 'Number of Flatmates', collection: [1, 2, 3, 4, 5, 6, "7+"], selected: @number_of_flatmates %>
+  <%= f.submit "Filter", class: "btn" %>
+  <% end %>
+</div>

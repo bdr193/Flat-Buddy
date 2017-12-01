@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171128145941) do
+ActiveRecord::Schema.define(version: 20171130171958) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,14 @@ ActiveRecord::Schema.define(version: 20171128145941) do
     t.index ["attachinariable_type", "attachinariable_id", "scope"], name: "by_scoped_parent", using: :btree
   end
 
+  create_table "chat_rooms", force: :cascade do |t|
+    t.string   "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "request_id"
+    t.index ["request_id"], name: "index_chat_rooms_on_request_id", using: :btree
+  end
+
   create_table "flats", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
@@ -38,8 +46,6 @@ ActiveRecord::Schema.define(version: 20171128145941) do
     t.text     "amenities"
     t.string   "address"
     t.string   "currency"
-    t.string   "lat"
-    t.string   "lng"
     t.string   "neighborhood"
     t.text     "searching_for"
     t.integer  "monthly_price"
@@ -63,6 +69,16 @@ ActiveRecord::Schema.define(version: 20171128145941) do
     t.datetime "updated_at",          null: false
     t.float    "latitude"
     t.float    "longitude"
+  end
+
+  create_table "messages", force: :cascade do |t|
+    t.integer  "user_id"
+    t.string   "content"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.integer  "chat_room_id"
+    t.index ["chat_room_id"], name: "index_messages_on_chat_room_id", using: :btree
+    t.index ["user_id"], name: "index_messages_on_user_id", using: :btree
   end
 
   create_table "requests", force: :cascade do |t|
@@ -120,6 +136,9 @@ ActiveRecord::Schema.define(version: 20171128145941) do
     t.index ["room_id"], name: "index_viewings_on_room_id", using: :btree
   end
 
+  add_foreign_key "chat_rooms", "requests"
+  add_foreign_key "messages", "chat_rooms"
+  add_foreign_key "messages", "users"
   add_foreign_key "requests", "users"
   add_foreign_key "requests", "viewings"
   add_foreign_key "rooms", "flats"

@@ -21,6 +21,8 @@ class RequestsController < ApplicationController
     @request.user = current_user
     @request.viewing = @viewing
     if @request.save
+      @flat = @request.viewing.room.flat
+      @chat_room = ChatRoom.create!(request_id: @request.id, name: @flat.title)
       redirect_to requests_path
     else
       render :new
