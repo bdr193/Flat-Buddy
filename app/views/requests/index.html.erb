@@ -3,6 +3,7 @@
   <h1>My Requests</h1>
   <p class="btn btn-primary btn-hover btn-calendar" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
 
+
   <% @requests.each do |request| %>
 
   <div class="listing">
@@ -22,7 +23,9 @@
       </div>
 
       <div>
-        <p class="btn btn-primary btn-hover">Send Message</p>
+        <% if chat = request.chat_room && request.status == "accepted" %>
+          <%= link_to "Send Message", chat_room_path(chat), class: "btn btn-pink" %>
+        <%  end %>
       </div>
 
       <div>
