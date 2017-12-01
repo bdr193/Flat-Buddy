@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'chat_rooms/show'
 
   mount Attachinary::Engine => "/attachinary"
 
@@ -10,11 +9,10 @@ Rails.application.routes.draw do
   resources :viewings, only: [:index, :show, :new, :edit] do
   end
 
-  resources :requests, only: [:index, :show, :edit, :new, :create] do
+  resources :requests, only: [:index, :show, :edit, :new, :create]
     resources :chat_rooms, only: [:show] do
       resources :messages, only: [:create]
     end
-  end
 
   devise_for :users,
     controllers: { omniauth_callbacks: 'users/omniauth_callbacks' }
