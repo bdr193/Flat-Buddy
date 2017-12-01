@@ -10,10 +10,10 @@ Rails.application.routes.draw do
   resources :viewings, only: [:index, :show, :new, :edit] do
   end
 
-  resources :requests, only: [:index, :show, :edit, :new, :create]
-
-  resources :chat_rooms, only: [:show] do
-    resources :messages, only: [:create]
+  resources :requests, only: [:index, :show, :edit, :new, :create] do
+    resources :chat_rooms, only: [:show] do
+      resources :messages, only: [:create]
+    end
   end
 
   devise_for :users,
