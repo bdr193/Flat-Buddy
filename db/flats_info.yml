@@ -1,5 +1,5 @@
 ---
-- :title: The Genie Bottle
+- :title: "The Genie Bottle"
   :monthly_price: 607
   :description: "Marvelous Double bedroom just the round the corner from Waterloo
     and Lambeth North Stations.\n\nExtraordinary location within a lively neighborhood
@@ -9,17 +9,17 @@
     with easy access to gyms and a walking distance to our local park perfect for
     jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
     in for a nice weekend of drinks and socializing with friends."
-  :number_of_flatmates: 3
-  :flat_size: 104
-  :amenities: Kitchen,TV,Hot tub,Air conditioning,Gym,Doorman
+  :number_of_flatmates: 2
+  :flat_size: 107
+  :amenities: Heating,Wifi,Washer,Kitchen,Gym,Air conditioning
   :neighborhood: Waterloo
   :currency: "£"
-  :lat: 51.4951174
-  :lng: -0.11389329999997244
-  :room_size: 20
+  :latitude: 51.4951174
+  :longitude: -0.11389329999997244
+  :room_size: 17
   :has_parking: false
   :deposit: 610
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -39,7 +39,7 @@
     with easy access to gyms and a walking distance to our local park perfect for
     jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
     in for a nice weekend of drinks and socializing with friends."
-  :card_image: https://c1.staticflickr.com/1/141/380530258_7af5b3117b_o.jpg
+  :card_image: https://c1.staticflickr.com/1/219/512234394_ef0bee82c6_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/409ddf2c-9a44-40ce-abda-8f44036dd68e
 - :title: Master of My Domain
@@ -52,17 +52,17 @@
     with easy access to gyms and a walking distance to our local park perfect for
     jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
     in for a nice weekend of drinks and socializing with friends."
-  :number_of_flatmates: 1
-  :flat_size: 106
-  :amenities: Gym,Washer,Doorman,Hot tub,Dryer,Wifi
+  :number_of_flatmates: 3
+  :flat_size: 109
+  :amenities: Hot tub,Air conditioning,Elevator,TV,Heating,Dryer
   :neighborhood: Waterloo
   :currency: "£"
-  :lat: 51.4951174
-  :lng: -0.11389329999997244
-  :room_size: 29
+  :latitude: 51.4951174
+  :longitude: -0.11389329999997244
+  :room_size: 30
   :has_parking: false
   :deposit: 435
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -82,7 +82,7 @@
     with easy access to gyms and a walking distance to our local park perfect for
     jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
     in for a nice weekend of drinks and socializing with friends."
-  :card_image: https://c1.staticflickr.com/1/140/339497355_4307f3898a_z.jpg
+  :card_image: https://c1.staticflickr.com/5/4085/4988650945_d865e11563_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/5fe5d41c-201f-43b1-a5f1-0e8cef1ba447
 - :title: My Sweet Escape
@@ -93,16 +93,16 @@
     - Water
     - Broadband
   :number_of_flatmates: 2
-  :flat_size: 106
-  :amenities: Elevator,Hot tub,Wifi,Doorman,Heating,Washer
+  :flat_size: 122
+  :amenities: Air conditioning,Doorman,TV,Elevator,Wifi,Gym
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52270129999999
-  :lng: -0.14230459999998857
-  :room_size: 25
+  :latitude: 51.52270129999999
+  :longitude: -0.14230459999998857
+  :room_size: 29
   :has_parking: false
   :deposit: 1214
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 0
@@ -132,7 +132,7 @@
     machine \n-\tDishwasher\n\n \nPlease message if you are interested or any further
     questions and let me know a bit about yourself, age, profession or student and
     you’re flexibility for move-in date.\n\nThanks\n\nMui"
-  :card_image: https://c1.staticflickr.com/1/204/498983561_df368160af_b.jpg
+  :card_image: https://c1.staticflickr.com/5/4152/4979799756_789b79869f_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/21476c35-803e-4ee3-b0ce-0cf2ed99579e
   - https://kangaroom.azureedge.net/photos-medium/ebf05a6f-e6ab-4892-8a12-a4fc2a283876
@@ -148,16 +148,16 @@
     - Water
     - Broadband
   :number_of_flatmates: 2
-  :flat_size: 81
-  :amenities: Wifi,Heating,Iron,Gym,Hot tub,Air conditioning
+  :flat_size: 111
+  :amenities: Wifi,Dryer,Washer,Gym,Iron,Doorman
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52270129999999
-  :lng: -0.14230459999998857
-  :room_size: 19
+  :latitude: 51.52270129999999
+  :longitude: -0.14230459999998857
+  :room_size: 25
   :has_parking: false
   :deposit: 997
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 0
@@ -187,7 +187,7 @@
     machine \n-\tDishwasher\n\n \nPlease message if you are interested or any further
     questions and let me know a bit about yourself, age, profession or student and
     you’re flexibility for move-in date.\n\nThanks\n\nMui"
-  :card_image: https://c2.staticflickr.com/2/1098/1483575085_763ce843c9_b.jpg
+  :card_image: https://c2.staticflickr.com/4/3555/3471489212_71b95efe90_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/872d1d89-c8d2-4bce-9dc4-97b26f1835c1
   - https://kangaroom.azureedge.net/photos-medium/ebf05a6f-e6ab-4892-8a12-a4fc2a283876
@@ -213,30 +213,30 @@
     come to roughly £50 each per month, including Council Tax, electricity, gas, water,
     and Super Fibre. \n\nWe are Juan and Paolo and we're looking for someone to join
     us in what is currently our home."
-  :number_of_flatmates: 2
-  :flat_size: 71
-  :amenities: Wifi,Elevator,Doorman,Dryer,Kitchen,Washer
+  :number_of_flatmates: 3
+  :flat_size: 108
+  :amenities: Kitchen,Dryer,TV,Air conditioning,Elevator,Doorman
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49364139999999
-  :lng: -0.10378370000000814
-  :room_size: 27
+  :latitude: 51.49364139999999
+  :longitude: -0.10378370000000814
+  :room_size: 28
   :has_parking: false
   :deposit: 1600
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 0
   :furnished: 1
   :couples_allowed: false
-  :ensuite: true
-  :accessible: true
+  :ensuite: false
+  :accessible: false
   :minimum_stay: 12
   :preffered_min_age: 25
   :preffered_max_age: 40
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/1/171/398818798_c5cf0b9b2f_o.jpg
+  :card_image: https://c1.staticflickr.com/1/8/6883860_c6b5c370f4_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/d9072642-8ade-4b34-8444-936a59a8e014
   - https://kangaroom.azureedge.net/photos-medium/5e62abb0-01f7-40f8-b06f-a02ca078aaf1
@@ -249,22 +249,22 @@
     I am self-employed. I am looking for short, long term flatmates. Respectful, clean,
     easy going  - would be great. \n3 bedroom apartment no living room.\L \nPlease
     feel free to contact."
-  :number_of_flatmates: 2
-  :flat_size: 120
-  :amenities: Hot tub,Doorman,Wifi,Air conditioning,Dryer,TV
+  :number_of_flatmates: 3
+  :flat_size: 80
+  :amenities: Dryer,Gym,Air conditioning,Kitchen,Elevator,Washer
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49286310000001
-  :lng: -0.10014249999994718
-  :room_size: 29
+  :latitude: 51.49286310000001
+  :longitude: -0.10014249999994718
+  :room_size: 28
   :has_parking: false
   :deposit: 850
-  :allow_students: true
-  :allow_pets: true
+  :allow_students: false
+  :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -276,7 +276,7 @@
     clean, easy going  - would be great. \nI am staying in the lounge room.  \nI am
     an active person. Love dancing salsa. watersports, jogging. if you have any questions
     feel free to contact.\n\nBest, \nArune"
-  :card_image: https://c1.staticflickr.com/5/4090/4971869001_64343878f9_b.jpg
+  :card_image: https://c1.staticflickr.com/1/4/4601296_cd8b0dcd6c_z.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f1ff65df-5d12-4f58-980c-2d01675c056d
   - https://kangaroom.azureedge.net/photos-medium/0a9bd17d-3df4-4e17-b4dc-8c1462195eba
@@ -295,21 +295,21 @@
     clean, easy going  - would be great. \n3 bedroom apartment no living room\nPlease
     feel free to contact."
   :number_of_flatmates: 2
-  :flat_size: 125
-  :amenities: Washer,Elevator,Dryer,Kitchen,TV,Heating
+  :flat_size: 124
+  :amenities: Heating,Wifi,Washer,Doorman,Gym,Iron
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49286310000001
-  :lng: -0.10014249999994718
-  :room_size: 26
+  :latitude: 51.49286310000001
+  :longitude: -0.10014249999994718
+  :room_size: 27
   :has_parking: false
   :deposit: 850
-  :allow_students: true
-  :allow_pets: true
+  :allow_students: false
+  :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -321,7 +321,7 @@
     clean, easy going  - would be great. \nI am staying in the lounge room.  \nI am
     an active person. Love dancing salsa. watersports, jogging. if you have any questions
     feel free to contact.\n\nBest, \nArune"
-  :card_image: https://c1.staticflickr.com/3/2070/2219602019_ac2b8e5b69_b.jpg
+  :card_image: https://c1.staticflickr.com/1/51/178269213_b08d9617b0_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/808f151b-973e-4150-9759-6a8b3edce4e1
   - https://kangaroom.azureedge.net/photos-medium/4c30a3a1-9aab-4ae6-9891-e0c2ba1346b6
@@ -340,30 +340,30 @@
     the tube station. The apartment is on the 5th floor with elevator, has a huge
     terrace and has access to a shared rooftop garden. The other flatmates are two
     young professionals working in the City. The price is £1,000 per month
-  :number_of_flatmates: 1
+  :number_of_flatmates: 3
   :flat_size: 93
-  :amenities: Dryer,Heating,Washer,Doorman,Wifi,Elevator
+  :amenities: TV,Washer,Kitchen,Gym,Dryer,Doorman
   :neighborhood: King's Cross
   :currency: "£"
-  :lat: 51.5312657
-  :lng: -0.11882990000003701
-  :room_size: 19
+  :latitude: 51.5312657
+  :longitude: -0.11882990000003701
+  :room_size: 16
   :has_parking: false
   :deposit: 1000
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 0
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: true
+  :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/1/77/195649140_84ca8f1eed_o.jpg
+  :card_image: https://c2.staticflickr.com/8/7182/6805801950_117dc11224_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f0346bb7-cb5f-4dd9-9faa-70aa01058789
   - https://kangaroom.azureedge.net/photos-medium/40eae659-293a-4ae3-b701-d716015d2746
@@ -389,30 +389,30 @@
     \n3 minute walk from a gym. \n\nBus stop directly outside \n5 minute walk from
     Elephant and Castle Station \n5 minute walk from UAL: London College of Communication
     \n10 minute walk from Southbank University \n\nSE17 1RW"
-  :number_of_flatmates: 2
-  :flat_size: 112
-  :amenities: Gym,Washer,Hot tub,Dryer,Doorman,Air conditioning
+  :number_of_flatmates: 1
+  :flat_size: 93
+  :amenities: Heating,Kitchen,Doorman,Gym,Dryer,Elevator
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.4908911
-  :lng: -0.0977612000000363
-  :room_size: 16
-  :has_parking: true
+  :latitude: 51.4908911
+  :longitude: -0.0977612000000363
+  :room_size: 15
+  :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
-  :ensuite: true
-  :accessible: true
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/1/72/225504299_72882fcf83_b.jpg
+  :card_image: https://c2.staticflickr.com/4/3824/9338735256_c4c774b2ba_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/57974ae4-1031-45e5-b4ba-13f38ab9681f
   - https://kangaroom.azureedge.net/photos-medium/73f23777-411f-4c94-82f7-65d9dccab10e
@@ -425,17 +425,17 @@
 - :title: Glenugie
   :monthly_price: 800
   :description: Double room , double bed and furniture is provided.  Ask for viewings.
-  :number_of_flatmates: 3
-  :flat_size: 101
-  :amenities: Washer,Doorman,Hot tub,Kitchen,Dryer,Elevator
+  :number_of_flatmates: 1
+  :flat_size: 95
+  :amenities: Hot tub,Kitchen,Dryer,Gym,Elevator,Iron
   :neighborhood: Old Street
   :currency: "£"
-  :lat: 51.5274005
-  :lng: -0.09995939999998882
-  :room_size: 24
+  :latitude: 51.5274005
+  :longitude: -0.09995939999998882
+  :room_size: 23
   :has_parking: false
   :deposit: 400
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -450,7 +450,7 @@
   :searching_for: Young professional couple is living in the house. Flat is clean
     and tidy. Close to Angel station. Central location. Any questions please drop
     me a shout. 07449976150
-  :card_image: https://c2.staticflickr.com/2/1228/1397580612_7d05055913_b.jpg
+  :card_image: https://c1.staticflickr.com/3/2553/4038612045_4986377614_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/bfbe6c05-dd07-4dc2-89d1-e84816051a84
   - https://kangaroom.azureedge.net/photos-medium/3b78a90b-9d4d-4215-85d9-59a31e4cf502
@@ -485,17 +485,17 @@
     many places and all places will charge council tax of course)\n\n(This current
     tenancy is 8 months but there may a chance to renew for another year at the end
     of the contract with come of the other housemates)"
-  :number_of_flatmates: 2
+  :number_of_flatmates: 1
   :flat_size: 97
-  :amenities: Air conditioning,Wifi,Dryer,Washer,Iron,Gym
+  :amenities: Heating,Elevator,Doorman,Air conditioning,Wifi,TV
   :neighborhood: Southwark
   :currency: "£"
-  :lat: 51.4928392
-  :lng: -0.08981459999995423
-  :room_size: 16
+  :latitude: 51.4928392
+  :longitude: -0.08981459999995423
+  :room_size: 25
   :has_parking: false
   :deposit: 1000
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 0
@@ -511,7 +511,7 @@
     clean and really look after the shared areas. We like doing a roast dinner together
     once a month and we all love food. We also enjoy going to the gym, playing netball,
     theatre and travelling.
-  :card_image: https://c1.staticflickr.com/1/203/465287067_79ec4e365f_o.jpg
+  :card_image: https://c1.staticflickr.com/1/141/380530258_7af5b3117b_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4e70aaab-6890-481d-965e-b88da5289515
   - https://kangaroom.azureedge.net/photos-medium/e0694ad8-3737-477c-a452-7f0b21918701
@@ -526,19 +526,19 @@
   :description: Large Double Room in a quiet and clean flat. Fast WIFI, own Tv (com-bi),
     A Desk. Near Vauxhall and Oval stations 5-8 minutes walk. Also many Buses to the
     city.  Easy commute to anywhere in London. Quiet neighborhood, near Vauxhall park.
-    Have  washing machine and  dryer. Gas and electric is not included in the Rent,
-    cost Estimate £30-35 per month.
-  :number_of_flatmates: 2
-  :flat_size: 99
-  :amenities: TV,Heating,Wifi,Washer,Kitchen,Gym
+    Have  washing machine and  dryer. Gas and electric is not included in the Rent,  Estimate
+    £30-35 per month.
+  :number_of_flatmates: 1
+  :flat_size: 109
+  :amenities: Heating,Kitchen,Wifi,Elevator,Air conditioning,Doorman
   :neighborhood: Vauxhall
   :currency: "£"
-  :lat: 51.4811323
-  :lng: -0.11919499999999061
-  :room_size: 25
+  :latitude: 51.4811323
+  :longitude: -0.11919499999999061
+  :room_size: 24
   :has_parking: false
   :deposit: 730
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -553,7 +553,7 @@
   :searching_for: Ideally looking for a clean, honest and considerate person., to
     live with a mature lady. I am respectful and quiet, i work long hours,  very busy
     during the week.
-  :card_image: https://images.pexels.com/photos/546162/pexels-photo-546162.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://c1.staticflickr.com/1/140/339497355_4307f3898a_z.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/9f7e8b0e-b3a7-403f-adb7-0f581b4e5c2b
   - https://kangaroom.azureedge.net/photos-medium/f6477b71-ae10-40c4-979f-46910141361b
@@ -573,14 +573,14 @@
     interests (music or exercise a plus), where you’re from and what you’re looking
     for from a shared tenancy. \n\nWe are looking for someone friendly, interesting,
     clean/tidy and responsible to join this tenancy."
-  :number_of_flatmates: 3
-  :flat_size: 76
-  :amenities: Kitchen,Dryer,Washer,Wifi,Doorman,TV
+  :number_of_flatmates: 2
+  :flat_size: 87
+  :amenities: Doorman,Iron,Gym,Washer,Air conditioning,Hot tub
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.5215233
-  :lng: -0.1657331000000113
-  :room_size: 16
+  :latitude: 51.5215233
+  :longitude: -0.1657331000000113
+  :room_size: 15
   :has_parking: false
   :deposit: 830
   :allow_students: false
@@ -608,7 +608,7 @@
     interests (music or exercise a plus), where you’re from and what you’re looking
     for from a shared tenancy. \n\nWe are looking for someone friendly, interesting,
     clean/tidy and responsible to join this tenancy."
-  :card_image: https://images.pexels.com/photos/573306/pexels-photo-573306.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://c1.staticflickr.com/1/204/498983561_df368160af_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/6c661fa5-35b9-4b2b-8a8e-a91ec478aa04
   - https://kangaroom.azureedge.net/photos-medium/464c4f81-bb9c-4b9f-b2e1-64269cc09de9
@@ -634,29 +634,29 @@
     and hot water is included in the rent. \n\nAvailable 8 September or earlier if
     needed."
   :number_of_flatmates: 2
-  :flat_size: 118
-  :amenities: TV,Gym,Hot tub,Iron,Air conditioning,Kitchen
+  :flat_size: 74
+  :amenities: Dryer,Heating,Air conditioning,Hot tub,Washer,Wifi
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5126353
-  :lng: -0.17473719999998139
-  :room_size: 13
+  :latitude: 51.5126353
+  :longitude: -0.17473719999998139
+  :room_size: 14
   :has_parking: false
   :deposit: 1600
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 2
   :furnished: 1
-  :couples_allowed: true
-  :ensuite: true
+  :couples_allowed: false
+  :ensuite: false
   :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/246367/pexels-photo-246367.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://c2.staticflickr.com/2/1098/1483575085_763ce843c9_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2ab1e2a7-4c60-4938-8524-efd6de380758
   - https://kangaroom.azureedge.net/photos-medium/160a701c-6407-456f-b0f1-7294e686191b
@@ -681,22 +681,22 @@
     CLEANING SERVICE\nTHERE ARE OTHER ROOMS AVAILABLE IN OTHER LOCATIONS\n\nTO BOOK
     APPOINTMENT: CALL, TEXT, EMAIL\nGood luck on finding your home.\t\n\nThanks.\n\nCHANEL
     X"
-  :number_of_flatmates: 2
-  :flat_size: 110
-  :amenities: Dryer,Doorman,TV,Gym,Wifi,Hot tub
+  :number_of_flatmates: 3
+  :flat_size: 80
+  :amenities: Hot tub,Air conditioning,TV,Elevator,Washer,Kitchen
   :neighborhood: Spitalfields
   :currency: "£"
-  :lat: 51.5162238
-  :lng: -0.07410630000003948
-  :room_size: 24
+  :latitude: 51.5162238
+  :longitude: -0.07410630000003948
+  :room_size: 22
   :has_parking: false
   :deposit: 760
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -704,7 +704,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: All welcome to inquire from all walks of life.
-  :card_image: https://images.pexels.com/photos/351330/pexels-photo-351330.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://c1.staticflickr.com/1/171/398818798_c5cf0b9b2f_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/79b7ac0e-d5b4-4dc8-a8dd-1baae0736497
   - https://kangaroom.azureedge.net/photos-medium/b2c33208-145f-4942-88e5-99cf303ca3bb
@@ -724,24 +724,24 @@
     2 large double bedrooms
     Spacious living room
     Water views.
-  :number_of_flatmates: 1
-  :flat_size: 105
-  :amenities: Wifi,Gym,Air conditioning,Hot tub,Doorman,Washer
+  :number_of_flatmates: 2
+  :flat_size: 83
+  :amenities: Air conditioning,Wifi,Kitchen,Hot tub,Dryer,Elevator
   :neighborhood: Bermondsey
   :currency: "£"
-  :lat: 51.50107320000001
-  :lng: -0.07313130000000001
-  :room_size: 14
-  :has_parking: true
+  :latitude: 51.50107320000001
+  :longitude: -0.07313130000000001
+  :room_size: 20
+  :has_parking: false
   :deposit: 600
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
-  :ensuite: true
-  :accessible: true
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -752,7 +752,7 @@
     I spend most of my time reading. My other interests are games, board games,poker,
     crosswords, theater, painting, housekeeping, gift wrapping, film making, stationery,
     different cultures..
-  :card_image: https://images.pexels.com/photos/55811/pretty-girls-happy-young-55811.jpeg?h=350&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/546162/pexels-photo-546162.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/36f8e1cf-7e4d-471b-b977-0aeac39aba59
   - https://kangaroom.azureedge.net/photos-medium/fa830951-d6b2-40d1-af36-bfec63735f80
@@ -776,17 +776,17 @@
     *** £870 Deposit ***
     *** Bills are approx £100-130 PCM (which includes a fortnightly cleaner) ***
     *** There will also be a lease admin fee of £120 ***
-  :number_of_flatmates: 2
-  :flat_size: 75
-  :amenities: Air conditioning,Elevator,Iron,Washer,Wifi,Heating
+  :number_of_flatmates: 3
+  :flat_size: 112
+  :amenities: Air conditioning,Heating,Wifi,Elevator,Dryer,Iron
   :neighborhood: Islington
   :currency: "£"
-  :lat: 51.54101800000001
-  :lng: -0.11071259999994254
-  :room_size: 27
+  :latitude: 51.54101800000001
+  :longitude: -0.11071259999994254
+  :room_size: 19
   :has_parking: false
   :deposit: 870
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 1
@@ -805,7 +805,7 @@
     are pretty quiet during the week due to working long hours, however we are chilled
     out and sociable and come the weekend, we do enjoy getting out for a good time.
     We’re both avid music fans having both played in bands many years ago.
-  :card_image: https://images.pexels.com/photos/386134/pexels-photo-386134.jpeg?h=350&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/573306/pexels-photo-573306.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/519aa5fd-a0ac-4365-9f6a-191ae8e9e3bb
   - https://kangaroom.azureedge.net/photos-medium/bebcfa54-1a9f-4792-94cb-361ca3387df0
@@ -823,22 +823,22 @@
     Further benefits include charming high ceilings, an enviable location and an abundance of natural light due to the large windows.
 
     Perfectly located in an attractive residential location with the wide range of shops, bars and restaurants of Primrose Hill and vibrant Camden close by. The nearest underground stations are Camden Town and Chalk Farm (Northern Line) providing direct links to the City and the West End.
-  :number_of_flatmates: 1
-  :flat_size: 104
-  :amenities: Doorman,Gym,Elevator,Dryer,Washer,Hot tub
+  :number_of_flatmates: 3
+  :flat_size: 91
+  :amenities: Kitchen,Doorman,Air conditioning,Iron,Wifi,Gym
   :neighborhood: Chalk Farm
   :currency: "£"
-  :lat: 51.5397994
-  :lng: -0.15163059999997586
-  :room_size: 26
+  :latitude: 51.5397994
+  :longitude: -0.15163059999997586
+  :room_size: 21
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -846,7 +846,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/272864/pexels-photo-272864.jpeg?h=350&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/246367/pexels-photo-246367.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/40a7965e-40a8-4590-b828-f39aa28b5d0e
   - https://kangaroom.azureedge.net/photos-medium/afd98663-75ae-4a42-8ffd-0a7b4e672e6d
@@ -862,22 +862,22 @@
     Warwick Avenue.\n\nPostcode: W2 1TH\n\nSupermarket: Tesco, Waitrose, Saisburys
     and many off licence.\n\nPerson clean and tidy\nNo Time waster\n\nFor more info
     call me after 5pm or txt\nor email (no time preference)\n\nThanks,\nAntonio"
-  :number_of_flatmates: 2
-  :flat_size: 120
-  :amenities: Wifi,Kitchen,Gym,Hot tub,Elevator,Doorman
+  :number_of_flatmates: 1
+  :flat_size: 124
+  :amenities: Iron,Wifi,Washer,TV,Hot tub,Gym
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.5242026
-  :lng: -0.1766675999999734
-  :room_size: 23
+  :latitude: 51.5242026
+  :longitude: -0.1766675999999734
+  :room_size: 22
   :has_parking: false
   :deposit: 425
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -885,16 +885,14 @@
   :preffered_max_age: 41
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/573300/pexels-photo-573300.jpeg?h=350&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/351330/pexels-photo-351330.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/260c65bb-71d9-4577-a32d-bb953b7b8de9
   - https://kangaroom.azureedge.net/photos-medium/e96c99af-c58c-4a3f-9ad9-bd77e7638226
   - https://kangaroom.azureedge.net/photos-medium/3e764748-362f-4fb0-b5af-a31f1e63255d
   - https://kangaroom.azureedge.net/photos-medium/98c4dd46-8e68-41a7-89ab-e3eb9eddc67e
   - https://kangaroom.azureedge.net/photos-medium/624fdb54-c928-4c14-b4d0-a0b2e1e03eeb
-- :title: |-
-    My House,
-          My Rules!
+- :title: My House, My Rules!
   :monthly_price: 843
   :description: "One beautiful & bright master bedroom available in a three bedroom
     apartment in Paddington / Little Venice. \nThe flat is very spacious, with one
@@ -907,17 +905,17 @@
     clean. \nNo couples unfortunately.\n\nThe rent is £843 + utilities (around £50)\n\nAvailable
     December 1st - Immediately \n\nIf you are interested please send us a short description
     of yourself with your interest, what you've been doing before etc."
-  :number_of_flatmates: 1
-  :flat_size: 95
-  :amenities: Kitchen,Wifi,Heating,Iron,Doorman,Hot tub
+  :number_of_flatmates: 3
+  :flat_size: 113
+  :amenities: Iron,Dryer,Doorman,Kitchen,Gym,Air conditioning
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.52171519999999
-  :lng: -0.17862650000006397
-  :room_size: 20
+  :latitude: 51.52171519999999
+  :longitude: -0.17862650000006397
+  :room_size: 24
   :has_parking: false
   :deposit: 90
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 0
@@ -933,7 +931,7 @@
     are serious and focused on work. This is not a party flat but are looking for
     someone social, that would enjoy gathering on the weekends. We are looking for
     someone friendly and very clean. \nNo couples unfortunately."
-  :card_image: https://images.pexels.com/photos/616427/pexels-photo-616427.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/55811/pretty-girls-happy-young-55811.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/988d4703-2779-4f74-baa5-19590b039d71
   - https://kangaroom.azureedge.net/photos-medium/253e82b3-dcae-49ca-bd49-ba193d7851be
@@ -950,16 +948,16 @@
     room in your budget. \n\nDue to the high demand please write us to arrange an
     appointment ASAP\n\nThanks"
   :number_of_flatmates: 1
-  :flat_size: 73
-  :amenities: TV,Elevator,Iron,Wifi,Air conditioning,Washer
+  :flat_size: 114
+  :amenities: Iron,Washer,Heating,Wifi,Air conditioning,Dryer
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.5217064
-  :lng: -0.0722892999999658
-  :room_size: 23
+  :latitude: 51.5217064
+  :longitude: -0.0722892999999658
+  :room_size: 22
   :has_parking: false
   :deposit: 606
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -972,7 +970,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/220474/pexels-photo-220474.jpeg?h=350&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/386134/pexels-photo-386134.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/60550fd9-cd12-4e8e-9dfa-a3b3e3d75ba9
   - https://kangaroom.azureedge.net/photos-medium/5c0e6aab-07ac-472c-9b82-6f27ee06be78
@@ -986,17 +984,17 @@
     room do not worry, keep my number and call me i will help to get your expected
     room in your budget. \n\nDue to the high demand please write us to arrange an
     appointment ASAP\n\nThanks"
-  :number_of_flatmates: 3
-  :flat_size: 118
-  :amenities: Air conditioning,Wifi,Heating,Kitchen,Iron,Hot tub
+  :number_of_flatmates: 2
+  :flat_size: 108
+  :amenities: Heating,Air conditioning,Elevator,Iron,Kitchen,Gym
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.5217064
-  :lng: -0.0722892999999658
-  :room_size: 26
+  :latitude: 51.5217064
+  :longitude: -0.0722892999999658
+  :room_size: 19
   :has_parking: false
   :deposit: 541
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -1009,7 +1007,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/35205/portrait-photography-girls-women.jpg?h=350&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/272864/pexels-photo-272864.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/d5fe1128-0e87-430c-8deb-e428c938aff5
   - https://kangaroom.azureedge.net/photos-medium/5c0e6aab-07ac-472c-9b82-6f27ee06be78
@@ -1028,16 +1026,16 @@
     pubs and supermarket nearby \n*Nice and friendly roommates \n\n\nINTERESTED?\n**CONTACT
     ASAP**"
   :number_of_flatmates: 3
-  :flat_size: 98
-  :amenities: Kitchen,Elevator,Iron,Doorman,Washer,Heating
+  :flat_size: 85
+  :amenities: Washer,Doorman,Air conditioning,Dryer,Elevator,Hot tub
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53229140000001
-  :lng: -0.08096839999996064
-  :room_size: 27
+  :latitude: 51.53229140000001
+  :longitude: -0.08096839999996064
+  :room_size: 13
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 1
@@ -1050,7 +1048,7 @@
   :preffered_max_age: 40
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/88650/pexels-photo-88650.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/573300/pexels-photo-573300.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4efde143-9770-4620-ac0b-bdf7751a3fe7
   - https://kangaroom.azureedge.net/photos-medium/50535596-8194-4c15-b2af-af476c2e118b
@@ -1063,22 +1061,22 @@
     a wooden floor, two wardrobes and super fast internet.\n\nAll bills included!!
     \n\nCouples are welcome.\n\nAvailable from 27th June.\n\n5 minutes from Hoxton
     overground, 10 min from Old Street Station and many buses available."
-  :number_of_flatmates: 3
-  :flat_size: 114
-  :amenities: Washer,Iron,Heating,Dryer,Gym,Kitchen
+  :number_of_flatmates: 1
+  :flat_size: 120
+  :amenities: Dryer,Air conditioning,Elevator,TV,Gym,Heating
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.5323518
-  :lng: -0.0804040000000441
-  :room_size: 25
+  :latitude: 51.5323518
+  :longitude: -0.0804040000000441
+  :room_size: 14
   :has_parking: false
   :deposit: 1250
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 3
@@ -1086,7 +1084,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/275717/pexels-photo-275717.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/616427/pexels-photo-616427.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/a63902aa-4f48-4162-a328-dcd12ee58f0e
   - https://kangaroom.azureedge.net/photos-medium/77440137-f85b-427e-a67f-38b4688e4bb3
@@ -1104,30 +1102,30 @@
     works long hours. There is an enormous living room, and a new modern kitchen with
     all appliances. The bedroom is spacious and includes all furniture, desk, cupboards
     etc. \n\nThe flat is available now and you can move in immediately."
-  :number_of_flatmates: 1
-  :flat_size: 92
-  :amenities: Hot tub,TV,Heating,Iron,Gym,Dryer
+  :number_of_flatmates: 3
+  :flat_size: 125
+  :amenities: Doorman,Elevator,TV,Heating,Gym,Wifi
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5119103
-  :lng: -0.06663560000004054
-  :room_size: 14
+  :latitude: 51.5119103
+  :longitude: -0.06663560000004054
+  :room_size: 28
   :has_parking: false
   :deposit: 1000
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 0
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: true
+  :accessible: false
   :minimum_stay: 3
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/604894/pexels-photo-604894.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/220474/pexels-photo-220474.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4c8ffc68-52f7-4acb-87f8-e25bcfe1c23b
   - https://kangaroom.azureedge.net/photos-medium/848a57ad-1e6b-4212-8b44-132b5c4f2f5c
@@ -1148,16 +1146,16 @@
 
     Price - £530 PER MONTH
   :number_of_flatmates: 2
-  :flat_size: 76
-  :amenities: TV,Doorman,Hot tub,Kitchen,Elevator,Gym
+  :flat_size: 87
+  :amenities: Heating,Gym,Doorman,Dryer,Washer,Elevator
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5262357
-  :lng: -0.0726603000000523
-  :room_size: 17
+  :latitude: 51.5262357
+  :longitude: -0.0726603000000523
+  :room_size: 28
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -1170,7 +1168,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.pexels.com/photos/8268/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb
+  :card_image: https://images.pexels.com/photos/35205/portrait-photography-girls-women.jpg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/a494e1d1-b8cf-4463-a7b3-e99e59e7b6b1
   - https://kangaroom.azureedge.net/photos-medium/7ff71567-27eb-4cf4-8eba-136ab0fe40f7
@@ -1194,17 +1192,17 @@
     EAST END - BETHNAL GREEN, MILE END!\n\nTO BOOK APPOINTMENT feel free to: \nCall,
     Email, Text! \n\nFinally I wish you all the best and good luck in your room search.\n\nThanks\n\nAnesa\n\nI
     speak Slovenian and Croatian too ;)"
-  :number_of_flatmates: 3
-  :flat_size: 121
-  :amenities: Doorman,Wifi,Washer,Heating,TV,Air conditioning
+  :number_of_flatmates: 1
+  :flat_size: 125
+  :amenities: Air conditioning,Dryer,Washer,Elevator,TV,Hot tub
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5110683
-  :lng: -0.0651073000000224
-  :room_size: 27
+  :latitude: 51.5110683
+  :longitude: -0.0651073000000224
+  :room_size: 26
   :has_parking: false
   :deposit: 880
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -1219,7 +1217,7 @@
   :searching_for: Great and social flat with all the entertainment just across the
     road.  Great location where everyone wants to be in with super travel distance
     to any part or London.
-  :card_image: https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.pexels.com/photos/88650/pexels-photo-88650.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/50aa7a3d-2abc-45d7-91f1-c3e07bd023b7
   - https://kangaroom.azureedge.net/photos-medium/d647c3ab-f855-48bd-8240-9f3e1a151777
@@ -1243,30 +1241,30 @@
     without compromising on the living space. Of course, the studio also come with
     luxurious en-suite facilities. For work or play, the rooms are fully equipped
     to suit your needs, and with \n\nYou can guarantee an unbeatable level of satisfaction."
-  :number_of_flatmates: 1
-  :flat_size: 70
-  :amenities: Iron,Kitchen,Doorman,Hot tub,Washer,Wifi
+  :number_of_flatmates: 2
+  :flat_size: 104
+  :amenities: Gym,Doorman,Elevator,Wifi,Air conditioning,Dryer
   :neighborhood: Kensington
   :currency: "£"
-  :lat: 51.5114262
-  :lng: -0.18664609999996173
-  :room_size: 13
+  :latitude: 51.5114262
+  :longitude: -0.18664609999996173
+  :room_size: 27
   :has_parking: false
   :deposit: 2015
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
-  :ensuite: true
+  :couples_allowed: false
+  :ensuite: false
   :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1504022462188-88f023db97bf?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.pexels.com/photos/275717/pexels-photo-275717.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/ee364b2f-e617-4145-a194-d847081deb2c
   - https://kangaroom.azureedge.net/photos-medium/36a5a3a6-051b-4f63-bbcd-7da4f6d42f44
@@ -1291,30 +1289,30 @@
     without compromising on the living space. Of course, the studio also come with
     luxurious en-suite facilities. For work or play, the rooms are fully equipped
     to suit your needs, and with \n\nYou can guarantee an unbeatable level of satisfaction."
-  :number_of_flatmates: 2
-  :flat_size: 125
-  :amenities: Kitchen,Elevator,Hot tub,Washer,Gym,TV
+  :number_of_flatmates: 3
+  :flat_size: 80
+  :amenities: Heating,Kitchen,Air conditioning,TV,Washer,Doorman
   :neighborhood: Bayswater
   :currency: "£"
-  :lat: 51.5114262
-  :lng: -0.18664609999996173
-  :room_size: 19
+  :latitude: 51.5114262
+  :longitude: -0.18664609999996173
+  :room_size: 17
   :has_parking: false
   :deposit: 1560
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
-  :ensuite: true
+  :couples_allowed: false
+  :ensuite: false
   :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1461280360983-bd93eaa5051b?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.pexels.com/photos/604894/pexels-photo-604894.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/33bfbf6d-2196-4fc3-b600-a1c4193e9c07
   - https://kangaroom.azureedge.net/photos-medium/6b807817-8095-4d87-8f5e-6e089ac0c328
@@ -1342,15 +1340,15 @@
     and Clapham's vibrant nightlife!\n-Array of excellent pubs and restaurants within
     10 mins walk.\n\nLOCAL AMENITIES\n\n-Multiple supermarkets within 5-10 minutes
     walk"
-  :number_of_flatmates: 1
-  :flat_size: 121
-  :amenities: Kitchen,TV,Washer,Wifi,Heating,Doorman
+  :number_of_flatmates: 3
+  :flat_size: 95
+  :amenities: TV,Hot tub,Elevator,Doorman,Air conditioning,Dryer
   :neighborhood: Stockwell
   :currency: "£"
-  :lat: 51.4702281
-  :lng: -0.12243599999999333
-  :room_size: 14
-  :has_parking: true
+  :latitude: 51.4702281
+  :longitude: -0.12243599999999333
+  :room_size: 29
+  :has_parking: false
   :deposit: 1073
   :allow_students: false
   :allow_pets: false
@@ -1365,7 +1363,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1445052693476-5134dfe40f70?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.pexels.com/photos/8268/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2d269d82-e4d2-474d-9174-d8fcb0b37a88
   - https://kangaroom.azureedge.net/photos-medium/9add14ed-7133-404b-826b-e365402c504a
@@ -1397,17 +1395,17 @@
     Council Tax, Electricity Gas, Fibre Optic Superfast Broadband. \n\nIf interested
     in arranging a tour of the house please send me a message writing a little bit
     about yourself. \n\nThank you"
-  :number_of_flatmates: 1
-  :flat_size: 101
-  :amenities: Hot tub,TV,Dryer,Washer,Air conditioning,Wifi
+  :number_of_flatmates: 3
+  :flat_size: 105
+  :amenities: Air conditioning,Gym,Elevator,Hot tub,Dryer,Iron
   :neighborhood: Battersea
   :currency: "£"
-  :lat: 51.47333759999999
-  :lng: -0.15403029999993123
-  :room_size: 24
-  :has_parking: true
+  :latitude: 51.47333759999999
+  :longitude: -0.15403029999993123
+  :room_size: 25
+  :has_parking: false
   :deposit: 850
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -1434,7 +1432,7 @@
     Streaming TV, NowTV, Netflix, Water, Council Tax, Electricity Gas, Fibre Optic
     Superfast Broadband. \n\nIf interested in arranging a tour of the house please
     send me a message writing a little bit about yourself. \n\nThank you"
-  :card_image: https://images.unsplash.com/photo-1500771309643-de18b0aea901?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4f9629d2-0bd6-4926-84bf-772ce21e6dfd
   - https://kangaroom.azureedge.net/photos-medium/75266127-72bc-4c11-8c6a-6a9154ffe856
@@ -1454,17 +1452,17 @@
     Council Tax, Wifi, Gas, Water, Electricity
     Closest Station:
     3 minutes  walkable distance from Wandsworth Road Station.
-  :number_of_flatmates: 1
-  :flat_size: 79
-  :amenities: Elevator,Heating,Iron,Doorman,Wifi,Gym
+  :number_of_flatmates: 2
+  :flat_size: 94
+  :amenities: Wifi,Iron,Heating,Kitchen,Gym,Hot tub
   :neighborhood: Clapham North
   :currency: "£"
-  :lat: 51.4697294
-  :lng: -0.1374018999999862
-  :room_size: 25
+  :latitude: 51.4697294
+  :longitude: -0.1374018999999862
+  :room_size: 24
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -1477,7 +1475,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: NON SMOKERS PLEASE - NO PETS
-  :card_image: https://images.unsplash.com/photo-1491846094985-ea8f99c3cb36?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1504022462188-88f023db97bf?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/87bcf1d2-eab8-4144-bec9-78fa19c56614
   - https://kangaroom.azureedge.net/photos-medium/78513305-2a5c-481a-aa2f-f31021d2c896
@@ -1503,17 +1501,17 @@
 
     INTERESTED?
     ***CONTACT ME ASAP**
-  :number_of_flatmates: 3
-  :flat_size: 110
-  :amenities: TV,Dryer,Doorman,Washer,Heating,Elevator
+  :number_of_flatmates: 1
+  :flat_size: 96
+  :amenities: Hot tub,TV,Elevator,Gym,Air conditioning,Wifi
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5330124
-  :lng: -0.07370800000001054
-  :room_size: 29
+  :latitude: 51.5330124
+  :longitude: -0.07370800000001054
+  :room_size: 28
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -1526,7 +1524,7 @@
   :preffered_max_age: 40
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1502828250233-d933701408a1?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1461280360983-bd93eaa5051b?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/3ba421e5-337c-4343-b56c-004a80ca9b42
   - https://kangaroom.azureedge.net/photos-medium/78709fe0-8746-48ec-bb57-53bd69e82ce6
@@ -1558,17 +1556,17 @@
     £25ish gas and electricity
 
     total £640 ish x month.
-  :number_of_flatmates: 3
-  :flat_size: 109
-  :amenities: Washer,Dryer,Doorman,Hot tub,Elevator,Gym
+  :number_of_flatmates: 2
+  :flat_size: 73
+  :amenities: Hot tub,Gym,Dryer,Kitchen,TV,Iron
   :neighborhood: Bermondsey
   :currency: "£"
-  :lat: 51.4982157
-  :lng: -0.06234540000002653
-  :room_size: 23
+  :latitude: 51.4982157
+  :longitude: -0.06234540000002653
+  :room_size: 28
   :has_parking: false
   :deposit: 825
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 0
@@ -1581,7 +1579,7 @@
   :preffered_max_age: 50
   :preffered_gender: 2
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1506094640885-1eec4b1c9f94?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1445052693476-5134dfe40f70?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f575a975-c91f-479c-a0a6-3f60efbd8a5d
   - https://kangaroom.azureedge.net/photos-medium/100f6f87-8e4e-4c02-be16-df43e24889f9
@@ -1610,16 +1608,16 @@
     INTERESTED?
     ***CONTACT ME ASAP**
   :number_of_flatmates: 1
-  :flat_size: 107
-  :amenities: Washer,Kitchen,Iron,Hot tub,TV,Doorman
+  :flat_size: 118
+  :amenities: Iron,Doorman,Kitchen,Hot tub,Washer,Air conditioning
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.52624299999999
-  :lng: -0.06658229999993637
-  :room_size: 21
+  :latitude: 51.52624299999999
+  :longitude: -0.06658229999993637
+  :room_size: 25
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -1632,7 +1630,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1502790400347-5c4330620ae3?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1500771309643-de18b0aea901?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/208ce8f2-1d46-4d7d-9d6a-2724817c0917
   - https://kangaroom.azureedge.net/photos-medium/29a8c355-a984-4536-bde9-0f7ef99eb7db
@@ -1647,16 +1645,16 @@
     most of the day. Fully furnished with WiFi and bills included. Contact me to any
     further information or to arrange a viewing
   :number_of_flatmates: 1
-  :flat_size: 97
-  :amenities: Heating,Air conditioning,Hot tub,TV,Gym,Iron
+  :flat_size: 76
+  :amenities: Washer,Heating,Gym,Doorman,Hot tub,Elevator
   :neighborhood: Chalk Farm
   :currency: "£"
-  :lat: 51.5464127
-  :lng: -0.15416060000006837
-  :room_size: 29
+  :latitude: 51.5464127
+  :longitude: -0.15416060000006837
+  :room_size: 24
   :has_parking: false
   :deposit: 495
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -1669,7 +1667,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1498661367879-c2085689eed4?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1491846094985-ea8f99c3cb36?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/6feb0705-339b-41fb-863a-b92054262a8a
   - https://kangaroom.azureedge.net/photos-medium/7d6d564e-ba72-4b6b-bc69-32419a5f27c6
@@ -1705,17 +1703,17 @@
 
     Regards,
     Alex Letting Agent
-  :number_of_flatmates: 2
-  :flat_size: 105
-  :amenities: Wifi,Iron,Hot tub,Dryer,Gym,Doorman
+  :number_of_flatmates: 3
+  :flat_size: 103
+  :amenities: Kitchen,Doorman,Iron,Elevator,Wifi,Air conditioning
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5260343
-  :lng: -0.06424970000000485
-  :room_size: 25
+  :latitude: 51.5260343
+  :longitude: -0.06424970000000485
+  :room_size: 14
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -1728,7 +1726,7 @@
   :preffered_max_age: 35
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1503683954291-ca08d5c21f3e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1502828250233-d933701408a1?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0db2ae6a-d9d2-463b-a22b-26149e820fdb
   - https://kangaroom.azureedge.net/photos-medium/d8d55120-a368-46d4-b964-e332daa4e4db
@@ -1744,17 +1742,17 @@
 
     £640 BILLS INCLUDED
     It's a short term let, from the 4th of July to the 4th of September (possibility to extend it to the end of the month)
-  :number_of_flatmates: 3
-  :flat_size: 102
-  :amenities: Air conditioning,Heating,Wifi,Doorman,Elevator,Hot tub
+  :number_of_flatmates: 1
+  :flat_size: 97
+  :amenities: Heating,Wifi,Gym,Doorman,Dryer,Air conditioning
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5151008
-  :lng: -0.05835720000004585
-  :room_size: 12
+  :latitude: 51.5151008
+  :longitude: -0.05835720000004585
+  :room_size: 17
   :has_parking: false
   :deposit: 640
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -1767,7 +1765,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1511854027438-1549025c5eff?auto=format&fit=crop&w=1226&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1506094640885-1eec4b1c9f94?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0cc4462b-591c-4e44-a221-88067b3986e2
   - https://kangaroom.azureedge.net/photos-medium/14a46e34-6968-4387-9980-c924453a6662
@@ -1799,30 +1797,30 @@
     Contract change - 300 (one time)
     Happy to answer any questions you might have, just call/message me.
     -Michal
-  :number_of_flatmates: 2
-  :flat_size: 86
-  :amenities: Kitchen,Gym,TV,Hot tub,Washer,Doorman
+  :number_of_flatmates: 1
+  :flat_size: 108
+  :amenities: Elevator,Washer,Doorman,Hot tub,Heating,Dryer
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.51958769999999
-  :lng: -0.0594204000000218
-  :room_size: 15
+  :latitude: 51.51958769999999
+  :longitude: -0.0594204000000218
+  :room_size: 19
   :has_parking: false
   :deposit: 1260
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 0
   :furnished: 1
   :couples_allowed: false
-  :ensuite: true
+  :ensuite: false
   :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: Please be normal, that is usually more than enough in London.
-  :card_image: https://images.unsplash.com/photo-1508956225111-e10f3ac4a5a8?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1502790400347-5c4330620ae3?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0420d98e-1622-45d6-8c76-09f1678c90a3
   - https://kangaroom.azureedge.net/photos-medium/2fee76fe-525f-4587-bd0f-7e2fd855306a
@@ -1845,22 +1843,22 @@
     a good size.\n\nThe other flatmates are super cool and get along great. Its mostly
     a mix of people doing their own stuff but with a good healthy flat vibe.\n\nAttic
     room is free from July 1 . \n\nFeel free to drop me a line..\n\nMarcos"
-  :number_of_flatmates: 1
-  :flat_size: 114
-  :amenities: Hot tub,Air conditioning,Elevator,Heating,TV,Doorman
+  :number_of_flatmates: 3
+  :flat_size: 124
+  :amenities: Doorman,Iron,Wifi,Gym,Elevator,Washer
   :neighborhood: Camberwell
   :currency: "£"
-  :lat: 51.4696718
-  :lng: -0.09574989999998706
-  :room_size: 21
+  :latitude: 51.4696718
+  :longitude: -0.09574989999998706
+  :room_size: 19
   :has_parking: false
   :deposit: 600
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 6
@@ -1873,7 +1871,7 @@
     The other flatmates are into football, one is creating his own start up, one works in advertising and the other is a basketball coach.
 
     They are open minded and very relaxed. I guess the only non spoken rule is that we was our dishes after use. I think that helps keep the peace lol.
-  :card_image: https://images.unsplash.com/photo-1510752767627-d099a7f3e38e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1498661367879-c2085689eed4?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f4e9329e-fcf1-47ed-a1d1-3c430ed332f9
   - https://kangaroom.azureedge.net/photos-medium/07cf0259-d1f5-4490-8224-bfdebafec01d
@@ -1894,22 +1892,22 @@
     of August. \n\nMonthly costs such as gas, electricity, internet, etc. are divided
     between all five townhouse-inhabitants, and does usually exceed 30 pounds per
     person. \n\nIf this sounds interesting, please get in touch!\n\nPer & Oscar"
-  :number_of_flatmates: 1
-  :flat_size: 111
-  :amenities: Air conditioning,Wifi,Kitchen,Doorman,TV,Elevator
+  :number_of_flatmates: 2
+  :flat_size: 98
+  :amenities: Iron,TV,Elevator,Hot tub,Dryer,Washer
   :neighborhood: Kentish Town
   :currency: "£"
-  :lat: 51.54848699999999
-  :lng: -0.1522592999999688
-  :room_size: 24
+  :latitude: 51.54848699999999
+  :longitude: -0.1522592999999688
+  :room_size: 17
   :has_parking: false
   :deposit: 1600
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 6
@@ -1924,7 +1922,7 @@
     never had any problem when living with people. So if you are also laid back and
     just want to enjoy life while fulfilling the minimum of your moral and practical
     responsibilities, get in touch !"
-  :card_image: https://images.unsplash.com/photo-1506086484483-b7092b7a774e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1503683954291-ca08d5c21f3e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/35887916-45f3-4396-9616-8db51aa63b5b
   - https://kangaroom.azureedge.net/photos-medium/434b5ce6-3179-49d4-9890-ec434fec62f8
@@ -1956,17 +1954,17 @@
     food shop and cool coffee shop. Not to mention the off licences that can save
     lives at late nights :P\n\nHolding viewings from now! It is also available for
     now! So give us a shout."
-  :number_of_flatmates: 3
-  :flat_size: 105
-  :amenities: Air conditioning,Gym,Wifi,TV,Hot tub,Heating
+  :number_of_flatmates: 2
+  :flat_size: 112
+  :amenities: Dryer,Elevator,Wifi,Iron,Heating,Hot tub
   :neighborhood: Clapham North
   :currency: "£"
-  :lat: 51.465
-  :lng: -0.12784780000004048
-  :room_size: 12
+  :latitude: 51.465
+  :longitude: -0.12784780000004048
+  :room_size: 14
   :has_parking: false
   :deposit: 900
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -1987,7 +1985,7 @@
     have pre-drinks together and going out afterwards. We often cook some stuff together,
     and we laugh a looot together! \nWe can't wait for summer to properly enjoy our
     garden and our barbecue grill. \nCome visit and chat with us. You'll be very welcome!"
-  :card_image: https://images.unsplash.com/photo-1506534067239-9e2fabb3a863?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1511854027438-1549025c5eff?auto=format&fit=crop&w=1226&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/c21926ac-9a3d-4fea-8879-f63b21fa3474
   - https://kangaroom.azureedge.net/photos-medium/3bcae351-f88b-458f-9ef8-f1c6a5a19484
@@ -2026,30 +2024,30 @@
     please send us a message and tell us a little bit about yourself. We would like
     to live with someone that we click with and that will make the house a warm and
     pleasant place to live."
-  :number_of_flatmates: 3
-  :flat_size: 117
-  :amenities: Kitchen,Heating,Iron,Hot tub,Air conditioning,Washer
+  :number_of_flatmates: 1
+  :flat_size: 93
+  :amenities: Hot tub,Kitchen,Air conditioning,Iron,Wifi,Washer
   :neighborhood: Lower Holloway
   :currency: "£"
-  :lat: 51.5515021
-  :lng: -0.11287459999994098
-  :room_size: 23
+  :latitude: 51.5515021
+  :longitude: -0.11287459999994098
+  :room_size: 20
   :has_parking: false
   :deposit: 1800
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
-  :accessible: true
+  :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 25
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: see room details
-  :card_image: https://images.unsplash.com/photo-1510947565940-a38e2443c426?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1508956225111-e10f3ac4a5a8?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/11392ef8-2770-4f4b-8ec4-2fd8a81e075e
   - https://kangaroom.azureedge.net/photos-medium/871ad1eb-6fe4-41ad-a37a-e525a402ddf8
@@ -2071,17 +2069,17 @@
     rooms\n2 bathrooms\n1 extra toilet\nliving room\ndining area\nequipped kitchen\nbackyard
     terrace garden\n\nwe are looking for someone to feel at home with and sharing
     is not a problem. \ncheers."
-  :number_of_flatmates: 2
-  :flat_size: 107
-  :amenities: Gym,Iron,Washer,Heating,Kitchen,Air conditioning
+  :number_of_flatmates: 3
+  :flat_size: 93
+  :amenities: Dryer,Wifi,Hot tub,Kitchen,Elevator,TV
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5171681
-  :lng: -0.05612169999994876
-  :room_size: 12
+  :latitude: 51.5171681
+  :longitude: -0.05612169999994876
+  :room_size: 19
   :has_parking: false
   :deposit: 696
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
@@ -2098,7 +2096,7 @@
     own studying and have nice conversation with housemates.i other people in the  are
     aged between 24 and 28 years old there are girls from switzerland spain one couple
     from netherland one english guy and one french.
-  :card_image: https://images.unsplash.com/photo-1510965428528-6650eba9eabd?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1510752767627-d099a7f3e38e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/b600e4e2-4f2f-4314-8174-0043fc465571
 - :title: Restless Legs Hideaway
@@ -2115,13 +2113,13 @@
     jobs and are looking for a good match to fill the empty room.\n\nMove in date:
     29 July\nDeposit: £1268\n\nWe will be arranging viewings over the next few weeks
     - Thanks\n\nEva, Rosie + Dom xx"
-  :number_of_flatmates: 1
-  :flat_size: 110
-  :amenities: Air conditioning,Hot tub,TV,Heating,Elevator,Washer
+  :number_of_flatmates: 3
+  :flat_size: 90
+  :amenities: Wifi,Iron,Washer,Heating,Hot tub,Gym
   :neighborhood: Kentish Town
   :currency: "£"
-  :lat: 51.5522249
-  :lng: -0.1401212000000669
+  :latitude: 51.5522249
+  :longitude: -0.1401212000000669
   :room_size: 30
   :has_parking: false
   :deposit: 1268
@@ -2138,7 +2136,7 @@
   :preffered_max_age: 35
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1510672797419-6b85e54d08aa?auto=format&fit=crop&w=1774&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://c2.staticflickr.com/4/3812/11142775244_a59ec23c29_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2b298a86-c239-4a5a-9c53-7837cf27711a
   - https://kangaroom.azureedge.net/photos-medium/0840eb78-b929-4ef6-9284-caf7466baa15
@@ -2174,17 +2172,17 @@
 
     INTERESTED?
     **CONTACT ASAP**
-  :number_of_flatmates: 3
-  :flat_size: 96
-  :amenities: Heating,Kitchen,Hot tub,Dryer,Iron,Doorman
+  :number_of_flatmates: 1
+  :flat_size: 89
+  :amenities: TV,Washer,Air conditioning,Elevator,Kitchen,Doorman
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5172341
-  :lng: -0.055156099999976504
-  :room_size: 21
+  :latitude: 51.5172341
+  :longitude: -0.055156099999976504
+  :room_size: 26
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 1
@@ -2197,7 +2195,7 @@
   :preffered_max_age: 40
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://images.unsplash.com/photo-1511145822182-677fa5800671?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://c1.staticflickr.com/3/2240/2074238986_b69574e757_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/7b00798d-592f-483b-a475-fab7394ac70d
   - https://kangaroom.azureedge.net/photos-medium/1332cffe-8008-46d4-8fa3-f138a91db88a
@@ -2216,16 +2214,16 @@
 
     I have been living here for 1 year and a half and really enjoyed the place. It's definitely worth it!
   :number_of_flatmates: 2
-  :flat_size: 90
-  :amenities: TV,Elevator,Kitchen,Wifi,Iron,Dryer
+  :flat_size: 88
+  :amenities: Air conditioning,Wifi,TV,Washer,Elevator,Gym
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.5075164
-  :lng: -0.053789400000027854
-  :room_size: 30
+  :latitude: 51.5075164
+  :longitude: -0.053789400000027854
+  :room_size: 26
   :has_parking: false
   :deposit: 100
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -2240,7 +2238,7 @@
   :searching_for: The second flamate is a young professional from New-Zealand, funny
     and easy to live with. For her, we would like to find another young professional
     quiet and friendly.
-  :card_image: https://images.unsplash.com/photo-1510675810183-cdb4894ce9c9?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://c1.staticflickr.com/3/2493/3786467912_b7b2f5f0e6_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/746d98e8-c0ca-4058-b2c6-0aa49c32a8ed
   - https://kangaroom.azureedge.net/photos-medium/cc9c65c2-83d1-48a9-af63-9c6865989f34
@@ -2283,17 +2281,17 @@
     Call/text or Message for any further information.
     Cheers
     (:
-  :number_of_flatmates: 2
-  :flat_size: 98
-  :amenities: Elevator,Wifi,Hot tub,Dryer,Iron,Doorman
+  :number_of_flatmates: 1
+  :flat_size: 96
+  :amenities: Wifi,Gym,Washer,Kitchen,Hot tub,Heating
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5250449
-  :lng: -0.058251400000017384
-  :room_size: 20
+  :latitude: 51.5250449
+  :longitude: -0.058251400000017384
+  :room_size: 24
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 1
@@ -2306,7 +2304,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/7/6154/6257720177_e493c8e1aa_b.jpg
+  :card_image: https://c1.staticflickr.com/9/8334/8127325309_e1e8a9bee0_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2ac3f2ed-56aa-4f87-812e-24026820900a
   - https://kangaroom.azureedge.net/photos-medium/8aef3c28-2a53-4ca9-b3fc-75800fca02e4
@@ -2329,13 +2327,13 @@
     in their 30s. This stunning house is offered furnished and is available middle/end
     of July.
   :number_of_flatmates: 3
-  :flat_size: 86
-  :amenities: TV,Elevator,Hot tub,Kitchen,Iron,Heating
+  :flat_size: 125
+  :amenities: Air conditioning,Elevator,Wifi,Iron,Dryer,Hot tub
   :neighborhood: West Brompton
   :currency: "£"
-  :lat: 51.48495769999999
-  :lng: -0.18815719999997782
-  :room_size: 24
+  :latitude: 51.48495769999999
+  :longitude: -0.18815719999997782
+  :room_size: 21
   :has_parking: false
   :deposit: 815
   :allow_students: false
@@ -2351,7 +2349,7 @@
   :preffered_max_age: 36
   :preffered_gender: 2
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/1/28/37039363_d0f4f44954_o.jpg
+  :card_image: https://c1.staticflickr.com/1/61/191056818_7f4ab27465_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/fe9e1beb-31d4-4817-8b54-4b095b0a3ad2
   - https://kangaroom.azureedge.net/photos-medium/2ca6fb9a-d537-4543-8ffc-3fb1499e9465
@@ -2366,14 +2364,14 @@
     Lovely and cosy room available located in the borough of Kensington and Chelsea.
     Nice and quiet area, 5 min from West Brompton station and 10 from Earl’s Court station. The room comes with a double bed, a desk and wardrobe. The flat comprises a pretty big kitchen with all appliances and dining table, a spacious bathroom with power shower. Further benefits include high ceilings, windows that allow plenty of natural light into the property. £730 pcm. The bills and Council tax and Internet access will be around £100. We are looking for someone that has a job contract, clean and tidy. You will be sharing the flat with two professional ladies in their 30s ;)
     This stunning house is offered furnished and is available middle/end of July.
-  :number_of_flatmates: 1
-  :flat_size: 118
-  :amenities: Gym,Elevator,Iron,TV,Dryer,Kitchen
+  :number_of_flatmates: 2
+  :flat_size: 109
+  :amenities: Heating,Hot tub,Dryer,Gym,Wifi,Iron
   :neighborhood: Chelsea
   :currency: "£"
-  :lat: 51.4848783
-  :lng: -0.18835139999998773
-  :room_size: 17
+  :latitude: 51.4848783
+  :longitude: -0.18835139999998773
+  :room_size: 25
   :has_parking: false
   :deposit: 815
   :allow_students: false
@@ -2391,7 +2389,7 @@
   :searching_for: |-
     We are looking for someone that has a job contract, clean and tidy. You will be sharing the flat with two professional ladies in their 30s ;)
     This stunning house is offered furnished and is available middle/end of Jul
-  :card_image: https://c2.staticflickr.com/4/3328/4564649615_817d292ce0_b.jpg
+  :card_image: https://c1.staticflickr.com/5/4096/4905659252_93e3231d0b_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/ea3ff984-144f-4b78-85f4-38aec6a3b09b
   - https://kangaroom.azureedge.net/photos-medium/cb91da6f-9dbf-407a-adb0-1e94ba2b625a
@@ -2407,17 +2405,17 @@
     fridge. Lots of storage. Shared bathrooms and kitchen with all amenities. Fold
     out dining table and comfy chair included. \n\nVery quiet and safe area with great
     connectivity. 8 minute walk to Earls Court Station and West Brompton Station"
-  :number_of_flatmates: 2
-  :flat_size: 70
-  :amenities: Dryer,Doorman,Washer,Elevator,Heating,Kitchen
+  :number_of_flatmates: 3
+  :flat_size: 82
+  :amenities: Doorman,Wifi,Heating,TV,Gym,Elevator
   :neighborhood: Earls Court
   :currency: "£"
-  :lat: 51.4845634
-  :lng: -0.18824480000000676
-  :room_size: 14
+  :latitude: 51.4845634
+  :longitude: -0.18824480000000676
+  :room_size: 22
   :has_parking: false
   :deposit: 600
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -2430,7 +2428,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c2.staticflickr.com/4/3156/2395509131_9dbb313a88_o.jpg
+  :card_image: https://c1.staticflickr.com/5/4090/4971869001_64343878f9_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/c067a440-7cd6-43b8-89b8-8480448031bb
   - https://kangaroom.azureedge.net/photos-medium/4cbbfe87-656f-40cb-b16c-06119a58cab5
@@ -2444,14 +2442,14 @@
     Transport: 5 minutes from Bethnal Green tube station and park.
 
     Bills not included: Electricity and water
-  :number_of_flatmates: 1
-  :flat_size: 122
-  :amenities: Gym,Heating,Washer,Elevator,Hot tub,Doorman
+  :number_of_flatmates: 2
+  :flat_size: 96
+  :amenities: Washer,Elevator,Wifi,Air conditioning,Dryer,TV
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5250953
-  :lng: -0.0569517999999789
-  :room_size: 29
+  :latitude: 51.5250953
+  :longitude: -0.0569517999999789
+  :room_size: 19
   :has_parking: false
   :deposit: 800
   :allow_students: false
@@ -2472,7 +2470,7 @@
     Someone that likes to go out but doesn't bring the party home with them. Not a couch potato.
 
     Will be sharing  with a couple - Australia guy from Sydney and English girl both working full time in the creative industry.
-  :card_image: https://c1.staticflickr.com/3/2644/3945363295_de6dbb522f_o.jpg
+  :card_image: https://c1.staticflickr.com/3/2070/2219602019_ac2b8e5b69_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/04cbf5cf-4b96-4ee3-bf98-36d40fae18dc
   - https://kangaroom.azureedge.net/photos-medium/b4974438-49e4-4a7b-ba76-fa7e4808d30e
@@ -2500,22 +2498,22 @@
     are welcome. \n\nInterviews will start next week. If you're interested in viewing
     the room, please email  or text me something about yourself and I'll be in touch
     ASAP.\n\nCheers,\n\nDaniela"
-  :number_of_flatmates: 3
-  :flat_size: 102
-  :amenities: Washer,Heating,Air conditioning,Kitchen,Elevator,Wifi
+  :number_of_flatmates: 2
+  :flat_size: 122
+  :amenities: Elevator,Wifi,Air conditioning,Dryer,Kitchen,Heating
   :neighborhood: Surrey Quays
   :currency: "£"
-  :lat: 51.49615169999999
-  :lng: -0.05391850000000886
-  :room_size: 28
-  :has_parking: true
+  :latitude: 51.49615169999999
+  :longitude: -0.05391850000000886
+  :room_size: 27
+  :has_parking: false
   :deposit: 800
   :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 3
@@ -2523,7 +2521,7 @@
   :preffered_max_age: 48
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/3/2857/10428495293_6138ae08f7_b.jpg
+  :card_image: https://c1.staticflickr.com/1/77/195649140_84ca8f1eed_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/8e18dc14-6e74-4268-b262-290563daee10
   - https://kangaroom.azureedge.net/photos-medium/e7ffcda0-4e44-4000-8314-e4b193fb386b
@@ -2554,17 +2552,17 @@
     term leases considered. Deposit £150. \n\nPlease get in touch! We will be having
     viewings this week, and really want to make a decision by this Thursday! The room
     is available from the 4th October."
-  :number_of_flatmates: 2
-  :flat_size: 94
-  :amenities: Wifi,Air conditioning,Elevator,Iron,Kitchen,Hot tub
+  :number_of_flatmates: 3
+  :flat_size: 73
+  :amenities: TV,Washer,Doorman,Kitchen,Elevator,Dryer
   :neighborhood: Swiss Cottage
   :currency: "£"
-  :lat: 51.5446617
-  :lng: -0.17328280000003815
-  :room_size: 29
+  :latitude: 51.5446617
+  :longitude: -0.17328280000003815
+  :room_size: 27
   :has_parking: false
   :deposit: 150
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 2
   :bills_included: 1
@@ -2583,7 +2581,7 @@
     we are happy to share meals, and don't worry too much about labelling who's food
     belongs to whom.  We take care of the flat, treating it like a home, keeping it
     tidy and clean.
-  :card_image: https://c1.staticflickr.com/1/35/95843649_2ad0886e1f_o.jpg
+  :card_image: https://c1.staticflickr.com/1/72/225504299_72882fcf83_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0c22e2ea-9d1c-40e4-a10f-b5498c84e3fe
   - https://kangaroom.azureedge.net/photos-medium/b5321a70-4cb9-4224-a44a-1ee96b1945cd
@@ -2608,21 +2606,21 @@
     dinner. \n\nIf you think you´ll fit, please get in touch to come to see the flat
     and meet us!"
   :number_of_flatmates: 3
-  :flat_size: 79
-  :amenities: Dryer,Hot tub,Doorman,Elevator,Gym,Kitchen
+  :flat_size: 99
+  :amenities: Hot tub,Dryer,TV,Elevator,Kitchen,Gym
   :neighborhood: Fulham
   :currency: "£"
-  :lat: 51.4803519
-  :lng: -0.18805169999995996
-  :room_size: 27
+  :latitude: 51.4803519
+  :longitude: -0.18805169999995996
+  :room_size: 21
   :has_parking: false
   :deposit: 840
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 0
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -2632,7 +2630,7 @@
   :searching_for: |-
     Gianluca and I are a Italian-Spanish professional couple.  We've been living in this flat for over a year with another couple, but now they have left to a place on their own.
     We are looking for a couple or sibgle person to take over that room. We would like someone who we can share the flat with and have a nice talk.
-  :card_image: https://c1.staticflickr.com/3/2351/2155526911_f4220894c2_b.jpg
+  :card_image: https://images.unsplash.com/photo-1506086484483-b7092b7a774e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/b15000a8-659d-4789-8619-d804a8920112
   - https://kangaroom.azureedge.net/photos-medium/a0fa41ff-b88b-41bb-af2c-a05fb8ff74c4
@@ -2653,24 +2651,24 @@
     included?Yes\nFees apply? No\n\nAmenities\nFurnishings\nFurnished\nParking No\nGarage
     No\nGarden/terrace No\nbalcony/Patio No\nDisabled accessNo\nLiving room No\nBroadband
     included Yes"
-  :number_of_flatmates: 2
-  :flat_size: 116
-  :amenities: Doorman,TV,Hot tub,Washer,Kitchen,Iron
+  :number_of_flatmates: 3
+  :flat_size: 95
+  :amenities: Air conditioning,Kitchen,Elevator,Heating,Washer,Doorman
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54561140000001
-  :lng: -0.07684619999997722
-  :room_size: 19
+  :latitude: 51.54561140000001
+  :longitude: -0.07684619999997722
+  :room_size: 23
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 1
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
-  :accessible: true
+  :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -2679,7 +2677,7 @@
     In terms of the flat, you will be sharing kitchen & toilet/bath with two students (two young danish guys).
 
     The room itself is really big and bright, the windows are really soundproof, which is quite nice at night if you wanna call it an early night.
-  :card_image: https://c1.staticflickr.com/3/2062/1733136386_cc7de6af85_b.jpg
+  :card_image: https://images.unsplash.com/photo-1506534067239-9e2fabb3a863?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/7db988bd-14c5-433c-931e-faaff4951946
   - https://kangaroom.azureedge.net/photos-medium/5ab245fb-6ae5-41a1-bb7c-f4fb7ce7dc65
@@ -2698,17 +2696,17 @@
     Council Tax, Wifi, Gas, Water, Electricity
     Closest Station:
     6 minutes walkable distance from Brixton Station.
-  :number_of_flatmates: 2
-  :flat_size: 86
-  :amenities: Iron,Hot tub,Heating,Elevator,Washer,Gym
+  :number_of_flatmates: 1
+  :flat_size: 107
+  :amenities: TV,Hot tub,Doorman,Heating,Wifi,Air conditioning
   :neighborhood: Brixton Hill
   :currency: "£"
-  :lat: 51.4603133
-  :lng: -0.12043889999995372
-  :room_size: 12
+  :latitude: 51.4603133
+  :longitude: -0.12043889999995372
+  :room_size: 22
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -2721,7 +2719,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c2.staticflickr.com/4/3300/3568708530_7012f6209a_b.jpg
+  :card_image: https://images.unsplash.com/photo-1510947565940-a38e2443c426?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/62ae11cc-bf2f-4d43-9858-41d322d475e1
   - https://kangaroom.azureedge.net/photos-medium/720631c9-c2ce-4f0a-bd87-611a5a519236
@@ -2737,17 +2735,17 @@
     to everything you need and plenty of space selections.\n\nFurnished and Bills
     Included:\nCouncil Tax, Wifi, Gas, Water, Electricity\nClosest Station:\n6 minutes
     \ walkable distance from Brixton Station.\n\nPrice - £573 per month"
-  :number_of_flatmates: 3
-  :flat_size: 124
-  :amenities: TV,Wifi,Hot tub,Air conditioning,Gym,Dryer
+  :number_of_flatmates: 1
+  :flat_size: 103
+  :amenities: Dryer,Kitchen,Elevator,Gym,Iron,Air conditioning
   :neighborhood: Brixton Hill
   :currency: "£"
-  :lat: 51.4603133
-  :lng: -0.12043889999995372
-  :room_size: 19
+  :latitude: 51.4603133
+  :longitude: -0.12043889999995372
+  :room_size: 29
   :has_parking: false
   :deposit: 0
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
@@ -2760,7 +2758,7 @@
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/3/2340/2194730783_94c339001d_b.jpg
+  :card_image: https://images.unsplash.com/photo-1510965428528-6650eba9eabd?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/3f2178b9-9678-45b8-958d-3deb108684bd
   - https://kangaroom.azureedge.net/photos-medium/8cc1d4ad-e292-455c-946b-591415148b56
@@ -2770,30 +2768,30 @@
   :description: Double bedroom in very good conditions, it comes with a good size
     wardrobe, a double bed as well as a side table and chair, and 2 very conserved
     chest of drawers.
-  :number_of_flatmates: 1
-  :flat_size: 83
-  :amenities: Iron,Air conditioning,Gym,Wifi,Washer,Elevator
+  :number_of_flatmates: 3
+  :flat_size: 107
+  :amenities: Elevator,Air conditioning,Doorman,Gym,Heating,Hot tub
   :neighborhood: Notting Hill
   :currency: "£"
-  :lat: 51.51591079999999
-  :lng: -0.2022500000000491
-  :room_size: 25
-  :has_parking: true
+  :latitude: 51.51591079999999
+  :longitude: -0.2022500000000491
+  :room_size: 12
+  :has_parking: false
   :deposit: 12046
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
-  :couples_allowed: true
+  :couples_allowed: false
   :ensuite: false
-  :accessible: true
+  :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c2.staticflickr.com/4/3812/11142775244_a59ec23c29_b.jpg
+  :card_image: https://images.unsplash.com/photo-1510672797419-6b85e54d08aa?auto=format&fit=crop&w=1774&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/e5180dc2-820e-43e6-923b-d6dc741e63fd
 - :title: Stewie’s Beach Pad
@@ -2801,29 +2799,29 @@
   :description: single bed, it comes with a good size wardrobe and a study table with
     a chair.
   :number_of_flatmates: 3
-  :flat_size: 105
-  :amenities: Wifi,Air conditioning,Hot tub,Iron,Gym,Dryer
+  :flat_size: 86
+  :amenities: Elevator,Iron,Heating,Kitchen,TV,Wifi
   :neighborhood: Notting Hill
   :currency: "£"
-  :lat: 51.51591079999999
-  :lng: -0.2022500000000491
-  :room_size: 16
-  :has_parking: true
+  :latitude: 51.51591079999999
+  :longitude: -0.2022500000000491
+  :room_size: 29
+  :has_parking: false
   :deposit: 1203
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 0
   :bills_included: 1
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: true
+  :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
   :preffered_gender: 0
   :searching_for: ''
-  :card_image: https://c1.staticflickr.com/3/2240/2074238986_b69574
+  :card_image: https://images.unsplash.com/photo-1511145822182-677fa5800671?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/078fafa0-0904-4489-afdc-5f2791fdf82c
   - https://kangaroom.azureedge.net/photos-medium/27f0c3b7-1c92-4c3f-a9e6-8f984aed83f3
@@ -2844,24 +2842,24 @@
     £581.00\nBills included? No\n\nAmenities\nFurnishings Furnished\nParking Yes\nGarage
     No\nGarden/terrace Yes\nBalcony/Patio Yes\nDisabled access No\nLiving room shared\nBroadband
     included No"
-  :number_of_flatmates: 2
-  :flat_size: 115
-  :amenities: Kitchen,Gym,Iron,Heating,TV,Air conditioning
+  :number_of_flatmates: 1
+  :flat_size: 116
+  :amenities: Doorman,Air conditioning,TV,Dryer,Wifi,Elevator
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5396702
-  :lng: -0.06553140000005442
-  :room_size: 22
-  :has_parking: true
+  :latitude: 51.5396702
+  :longitude: -0.06553140000005442
+  :room_size: 17
+  :has_parking: false
   :deposit: 581
-  :allow_students: true
+  :allow_students: false
   :allow_pets: false
   :allow_smokers: 1
   :bills_included: 0
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: true
+  :accessible: false
   :minimum_stay: 12
   :preffered_min_age: 24
   :preffered_max_age: 40
@@ -2870,7 +2868,7 @@
     I'm moving in with my boyfriend. You'd be sharing with 2 guys, who are pretty relaxed, in their early 30s, working in IT sales and vfx/advertising.
 
     The guys work hard during the week so are pretty chilled and relaxed, but wouldn’t mind the occasional cheeky drink/dinner now and again. They have their own lives but we all hang out often, so would suit someone like minded, but also has their own thing going on. Into all the normal usual stuff gigs/music, films, seeing things etc
-  :card_image: https://images.unsplash.com/photo-1509763988163-d54b5f5d5b67?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1510675810183-cdb4894ce9c9?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/af394e93-9d90-42e2-a6e1-ad13063f367e
   - https://kangaroom.azureedge.net/photos-medium/15b39e5f-62cc-4fb7-8d79-934b47ff5ade
@@ -2901,14 +2899,51 @@
     the end of the rental period to compensate for this (details can be discussed
     on visiting).\r\n\n\r\n\nReferences must be provided - and it would be great if
     you could start to request them before you visit. No couples please."
-  :number_of_flatmates: 2
-  :flat_size: 86
-  :amenities: Washer,Hot tub,Iron,Wifi,Heating,Air conditioning
+  :number_of_flatmates: 1
+  :flat_size: 100
+  :amenities: Hot tub,Doorman,Dryer,TV,Elevator,Washer
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52129
-  :lng: -0.1412089
-  :room_size: 24
+  :latitude: 51.52129
+  :longitude: -0.1412089
+  :room_size: 18
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://images.unsplash.com/photo-1509763988163-d54b5f5d5b67?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :photo_urls: []
+- :title: Chez Lay
+  :monthly_price: 1200
+  :description: "Lovely Double room in the Heart of Marylebone\r\n\n\r\n\nHi There
+    ,\r\n\n\r\n\nI have a lovely double room available from End of November just stone
+    away from Madame Tussauds in the Heart of Marylebone .\r\n\n\r\n\n\r\n\nThe room
+    is furnished and  include a King size bed / Massive wall wardrobe / Table and
+    chairs . The flat contained a lounge corridor with table and large sofa , kitchen
+    and 1 bathroom to be shared with 1 person ( Professional guy 37 years old) .\r\n\n\r\n\n\r\n\n\"Couple
+    welcome at 1300 a month with all the Bills included \",\r\n\n\r\n\n\" Single person
+    also considered at 1200 a month with all the bills included\".\r\n\n\r\n\n\r\n\nP.
+    s. On both scenario 1 month deposit and 1 month current month in advance is required
+    .\r\n\n\r\n\nPlease email me or text me for any question or enquire and view.\r\n\n\r\n\nBest\r\n\n\r\n\nFrancesco"
+  :number_of_flatmates: 3
+  :flat_size: 103
+  :amenities: TV,Kitchen,Hot tub,Gym,Elevator,Doorman
+  :neighborhood: Baker Street
+  :currency: "£"
+  :latitude: 51.52207
+  :longitude: -0.1529541
+  :room_size: 28
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -2925,43 +2960,6 @@
   :preffered_gender: 0
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1455638083472-fc88b499dc78?auto=format&fit=crop&w=1300&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
-  :photo_urls: []
-- :title: Chez Lay
-  :monthly_price: 1200
-  :description: "Lovely Double room in the Heart of Marylebone\r\n\n\r\n\nHi There
-    ,\r\n\n\r\n\nI have a lovely double room available from End of November just stone
-    away from Madame Tussauds in the Heart of Marylebone .\r\n\n\r\n\n\r\n\nThe room
-    is furnished and  include a King size bed / Massive wall wardrobe / Table and
-    chairs . The flat contained a lounge corridor with table and large sofa , kitchen
-    and 1 bathroom to be shared with 1 person ( Professional guy 37 years old) .\r\n\n\r\n\n\r\n\n\"Couple
-    welcome at 1300 a month with all the Bills included \",\r\n\n\r\n\n\" Single person
-    also considered at 1200 a month with all the bills included\".\r\n\n\r\n\n\r\n\nP.
-    s. On both scenario 1 month deposit and 1 month current month in advance is required
-    .\r\n\n\r\n\nPlease email me or text me for any question or enquire and view.\r\n\n\r\n\nBest\r\n\n\r\n\nFrancesco"
-  :number_of_flatmates: 1
-  :flat_size: 79
-  :amenities: Iron,Hot tub,Heating,Kitchen,Elevator,Doorman
-  :neighborhood: Baker Street
-  :currency: "£"
-  :lat: 51.52207
-  :lng: -0.1529541
-  :room_size: 30
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://images.unsplash.com/photo-1480465481484-e51784253c77?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Mothership Compound
   :monthly_price: 725
@@ -2986,13 +2984,13 @@
     about 40 a month, council tax about another 25 (though postgraduate students also
     welcome, so we can claim a council tax exemption)."
   :number_of_flatmates: 2
-  :flat_size: 122
-  :amenities: Gym,Iron,Heating,Air conditioning,Dryer,Elevator
+  :flat_size: 91
+  :amenities: Air conditioning,Gym,TV,Kitchen,Washer,Dryer
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49096
-  :lng: -0.100207
-  :room_size: 25
+  :latitude: 51.49096
+  :longitude: -0.100207
+  :room_size: 18
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3008,7 +3006,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1507073995962-8389eb705c2a?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1480465481484-e51784253c77?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Party Time
   :monthly_price: 1100
@@ -3030,13 +3028,13 @@
     reference checks (proof of employment, credit check, previous landlord references).
     Minimum 6 months.\r\n\n\r\n\nLook forward to hearing from you"
   :number_of_flatmates: 3
-  :flat_size: 72
-  :amenities: Washer,Wifi,TV,Hot tub,Elevator,Kitchen
+  :flat_size: 101
+  :amenities: Air conditioning,Wifi,Washer,Kitchen,Doorman,TV
   :neighborhood: Vauxhall
   :currency: "£"
-  :lat: 51.48443
-  :lng: -0.12056
-  :room_size: 19
+  :latitude: 51.48443
+  :longitude: -0.12056
+  :room_size: 30
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3052,7 +3050,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1457656108902-37c1cf080364?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1507073995962-8389eb705c2a?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Bubble Butts
   :monthly_price: 995
@@ -3075,14 +3073,14 @@
     will not suit the following people: \r\n\n- Smokers \r\n\n- People with pets \r\n\n-
     Couples \r\n\n\r\n\nNB: The apartment does not have a separate living room \r\n\n\r\n\nIf
     interested, please call or email me for further information, or book a viewing."
-  :number_of_flatmates: 1
-  :flat_size: 98
-  :amenities: Gym,Elevator,Heating,Doorman,Kitchen,Hot tub
+  :number_of_flatmates: 3
+  :flat_size: 85
+  :amenities: Kitchen,Air conditioning,Dryer,Wifi,Gym,Elevator
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52316
-  :lng: -0.158907
-  :room_size: 27
+  :latitude: 51.52316
+  :longitude: -0.158907
+  :room_size: 29
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3098,7 +3096,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1504455583697-3a9b04be6397?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1457656108902-37c1cf080364?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Monster Face Daycare
   :monthly_price: 975
@@ -3121,14 +3119,14 @@
     will not suit the following people: \r\n\n- Smokers \r\n\n- People with pets \r\n\n-
     Couples \r\n\n\r\n\nNB: The apartment does not have a separate living room \r\n\n\r\n\nIf
     interested, please call or email me for further information, or book a viewing."
-  :number_of_flatmates: 2
-  :flat_size: 84
-  :amenities: Heating,Iron,Wifi,Elevator,Gym,Kitchen
+  :number_of_flatmates: 1
+  :flat_size: 71
+  :amenities: Hot tub,TV,Gym,Air conditioning,Dryer,Kitchen
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52316
-  :lng: -0.158907
-  :room_size: 15
+  :latitude: 51.52316
+  :longitude: -0.158907
+  :room_size: 23
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3144,7 +3142,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1453838956707-38a7aa3cd62d?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1504455583697-3a9b04be6397?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Time To Get A Little Wet
   :monthly_price: 850
@@ -3164,14 +3162,48 @@
     to Angel Central Shopping mall, restaurants and shops\r\n\n5 mins to Chapel Market\r\n\n\r\n\nIf
     this sounds good and you would like to come see the place/find out more/meet the
     housemates please get in touch!"
-  :number_of_flatmates: 3
-  :flat_size: 124
-  :amenities: Gym,TV,Iron,Doorman,Air conditioning,Kitchen
+  :number_of_flatmates: 1
+  :flat_size: 109
+  :amenities: Hot tub,Wifi,Air conditioning,Kitchen,TV,Washer
   :neighborhood: Finsbury
   :currency: "£"
-  :lat: 51.53089
-  :lng: -0.1009677
-  :room_size: 23
+  :latitude: 51.53089
+  :longitude: -0.1009677
+  :room_size: 14
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://images.unsplash.com/photo-1453838956707-38a7aa3cd62d?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :photo_urls: []
+- :title: The Crib
+  :monthly_price: 750
+  :description: "Hi all,\r\n\n\r\n\nI am moving out of my room in January 2018 and
+    I am looking for someone to rent it out. \r\n\n\r\n\nThe room has a single bed
+    and it is in a 3 bedroom flat to be shared with two PhDs. The flat is 4 mins away
+    from Baker Street Station. \r\n\n\r\n\nMoney wise, the bills come to approximately
+    15 per month and include internet. The rent is 750 per month and a 750 deposit
+    is required. The landlady is great and we have never had any issues getting things
+    sorted quickly."
+  :number_of_flatmates: 2
+  :flat_size: 115
+  :amenities: Dryer,Doorman,TV,Wifi,Washer,Gym
+  :neighborhood: Marylebone
+  :currency: "£"
+  :latitude: 51.52599
+  :longitude: -0.1626128
+  :room_size: 19
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3189,23 +3221,28 @@
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1509836594056-5313a3270079?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: The Crib
-  :monthly_price: 750
-  :description: "Hi all,\r\n\n\r\n\nI am moving out of my room in January 2018 and
-    I am looking for someone to rent it out. \r\n\n\r\n\nThe room has a single bed
-    and it is in a 3 bedroom flat to be shared with two PhDs. The flat is 4 mins away
-    from Baker Street Station. \r\n\n\r\n\nMoney wise, the bills come to approximately
-    15 per month and include internet. The rent is 750 per month and a 750 deposit
-    is required. The landlady is great and we have never had any issues getting things
-    sorted quickly."
-  :number_of_flatmates: 3
-  :flat_size: 83
-  :amenities: Doorman,Dryer,Kitchen,Washer,Gym,Elevator
-  :neighborhood: Marylebone
+- :title: Ash and T’s Spot
+  :monthly_price: 1038
+  :description: "Double room to rent in the popular Paddington, located in central
+    London. Few minutes walk and you can reach Paddington stations. Also, one can
+    easily access a range of shops, restaurants and Little Venice. \r\n\n\r\n\nYour
+    new flatmates are two female working professionals aged between 24-27. \r\n\n\r\n\n*Bills
+    not included usually between 60-100 a month \r\n\n*Fully furnished \r\n\n*Really
+    nice landlords\r\n\n*Paddington Station is very close by \r\n\n*24/7 concierge
+    \r\n\n*Communal terrace\r\n\n*Balcony\r\n\n\r\n\nThis double room is offered fully
+    furnished with a comfortable double bed and wardrobe for your personal belongings.
+    Also, the wide window assures a plenty of natural daylight. \r\n\n\r\n\nA professional
+    cleaning services can be provided for a charge of 10. \r\n\n\r\n\nThere is an
+    agency fee of 200. \r\n\n\r\n\nPlease contact me for more details or to arrange
+    a viewing."
+  :number_of_flatmates: 1
+  :flat_size: 77
+  :amenities: Elevator,Doorman,Wifi,Washer,Dryer,Kitchen
+  :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.52599
-  :lng: -0.1626128
-  :room_size: 14
+  :latitude: 51.5194
+  :longitude: -0.1764701
+  :room_size: 15
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3223,28 +3260,28 @@
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1510702983486-e1b4c48e8c37?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: Ash and T’s Spot
-  :monthly_price: 1038
-  :description: "Double room to rent in the popular Paddington, located in central
-    London. Few minutes walk and you can reach Paddington stations. Also, one can
-    easily access a range of shops, restaurants and Little Venice. \r\n\n\r\n\nYour
-    new flatmates are two female working professionals aged between 24-27. \r\n\n\r\n\n*Bills
-    not included usually between 60-100 a month \r\n\n*Fully furnished \r\n\n*Really
-    nice landlords\r\n\n*Paddington Station is very close by \r\n\n*24/7 concierge
-    \r\n\n*Communal terrace\r\n\n*Balcony\r\n\n\r\n\nThis double room is offered fully
-    furnished with a comfortable double bed and wardrobe for your personal belongings.
-    Also, the wide window assures a plenty of natural daylight. \r\n\n\r\n\nA professional
-    cleaning services can be provided for a charge of 10. \r\n\n\r\n\nThere is an
-    agency fee of 200. \r\n\n\r\n\nPlease contact me for more details or to arrange
-    a viewing."
-  :number_of_flatmates: 2
-  :flat_size: 116
-  :amenities: Wifi,Gym,Elevator,Dryer,Doorman,Washer
-  :neighborhood: Paddington
+- :title: Land of Nod
+  :monthly_price: 428
+  :description: "Small, cosy room in amazing central location. Available as of now.\r\n\n\r\n\n428
+    per month + bills (roughly 60 pounds)\r\n\n\r\n\nThe room is furnished with a
+    double bed, cupboard, small table and folding IKEA chair.\r\n\n\r\n\nThe flat
+    has a cosy kitchen, where we like to chat, drink wine/eat hummus/or watch The
+    Office together. A bathroom, an additional toilet and surprisingly spacious storage
+    cupboard are there for your convenience.\r\n\n\r\n\nIn our twenties and thirties,
+    we are three flatmates, working across design, architecture and technology, looking
+    for an easy-going, relaxed fourth member who maybe shares some of our interests:)\r\n\n\r\n\nThe
+    flat feels very central, with most things you would want to see/do in walking
+    distance  (5-10 min from Angel, Highbury and Islington to the North and Regents
+    canal to the South ...)\r\n\n\r\n\nWrite us an email if you want to come take
+    a look!"
+  :number_of_flatmates: 3
+  :flat_size: 89
+  :amenities: Heating,Kitchen,Iron,TV,Air conditioning,Hot tub
+  :neighborhood: Islington
   :currency: "£"
-  :lat: 51.5194
-  :lng: -0.1764701
-  :room_size: 25
+  :latitude: 51.53986
+  :longitude: -0.09743613
+  :room_size: 12
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3261,45 +3298,6 @@
   :preffered_gender: 0
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1511814267646-cbd188d60c35?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
-  :photo_urls: []
-- :title: Land of Nod
-  :monthly_price: 428
-  :description: "Small, cosy room in amazing central location. Available as of now.\r\n\n\r\n\n428
-    per month + bills (roughly 60 pounds)\r\n\n\r\n\nThe room is furnished with a
-    double bed, cupboard, small table and folding IKEA chair.\r\n\n\r\n\nThe flat
-    has a cosy kitchen, where we like to chat, drink wine/eat hummus/or watch The
-    Office together. A bathroom, an additional toilet and surprisingly spacious storage
-    cupboard are there for your convenience.\r\n\n\r\n\nIn our twenties and thirties,
-    we are three flatmates, working across design, architecture and technology, looking
-    for an easy-going, relaxed fourth member who maybe shares some of our interests:)\r\n\n\r\n\nThe
-    flat feels very central, with most things you would want to see/do in walking
-    distance  (5-10 min from Angel, Highbury and Islington to the North and Regents
-    canal to the South ...)\r\n\n\r\n\nWrite us an email if you want to come take
-    a look!"
-  :number_of_flatmates: 2
-  :flat_size: 74
-  :amenities: Kitchen,Dryer,Air conditioning,Hot tub,Elevator,TV
-  :neighborhood: Islington
-  :currency: "£"
-  :lat: 51.53986
-  :lng: -0.09743613
-  :room_size: 20
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://images.unsplash.com/photo-1502781252888-9143ba7f074e?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: The Pad
   :monthly_price: 720
@@ -3329,14 +3327,14 @@
     December.\r\n\nLong term\r\n\n\r\n\nIf you feel interested drop me a message with
     a bit about you and i will text you back as soon as i can for a viewing.\r\n\n\r\n\nThanks
     a lot for reading,\r\n\nLina."
-  :number_of_flatmates: 1
-  :flat_size: 108
-  :amenities: Kitchen,Elevator,Doorman,Heating,Gym,Wifi
+  :number_of_flatmates: 2
+  :flat_size: 90
+  :amenities: Iron,Wifi,Doorman,TV,Kitchen,Dryer
   :neighborhood: Old Street
   :currency: "£"
-  :lat: 51.53102
-  :lng: -0.08001342
-  :room_size: 27
+  :latitude: 51.53102
+  :longitude: -0.08001342
+  :room_size: 28
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3352,7 +3350,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1468357161629-c3c530741678?auto=format&fit=crop&w=1320&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1502781252888-9143ba7f074e?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Felice in Amore
   :monthly_price: 800
@@ -3387,14 +3385,14 @@
     be a suitable flat-share for you please get in touch so we can arrange a viewing
     and answer any further questions about the flat-share you might have.\r\n\nWe
     look forward to meeting you soon.\r\n\nKind regards\r\n\nDeki"
-  :number_of_flatmates: 3
-  :flat_size: 93
-  :amenities: Doorman,Hot tub,Elevator,Iron,Dryer,TV
+  :number_of_flatmates: 2
+  :flat_size: 82
+  :amenities: Kitchen,Wifi,Washer,Elevator,Hot tub,Gym
   :neighborhood: Battersea
   :currency: "£"
-  :lat: 51.4751
-  :lng: -0.1493221
-  :room_size: 12
+  :latitude: 51.4751
+  :longitude: -0.1493221
+  :room_size: 22
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3410,7 +3408,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1503532036150-0266dd2f0969?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1468357161629-c3c530741678?auto=format&fit=crop&w=1320&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Cleaning House
   :monthly_price: 720
@@ -3432,13 +3430,48 @@
     week and are possibly interested then please drop me an email to arrange viewings.
     \r\n\n\r\n\nThanks, \r\n\nAisling"
   :number_of_flatmates: 1
-  :flat_size: 125
-  :amenities: Air conditioning,Gym,Wifi,Elevator,Hot tub,Doorman
+  :flat_size: 98
+  :amenities: Elevator,Iron,Dryer,Gym,Heating,Hot tub
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.52363
-  :lng: -0.07220819
-  :room_size: 24
+  :latitude: 51.52363
+  :longitude: -0.07220819
+  :room_size: 21
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://images.unsplash.com/photo-1503532036150-0266dd2f0969?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :photo_urls: []
+- :title: House of Pimpin’
+  :monthly_price: 809
+  :description: "Luminous double room available in a 4 bedrooms flat in the heart
+    of Shoreditch, 2 minutes away from brick lane and from fashionable Red Church
+    Street. You will be living with young professionals on their 30s (1 Spanish, 1
+    Swedish, and 1 Dutch) who enjoy cooking and spending evenings in the house, but
+    also hanging out together in the local pubs. The flat is 2 mins away from Shoreditch
+    High Street overground, 10 mins from Liverpool Street underground or Old Street
+    tube station. London's hippest bars, vintage clothes shops and cool caf all at
+    your doorstep! \r\n\nIf interested please get in touch! Matteo"
+  :number_of_flatmates: 3
+  :flat_size: 90
+  :amenities: Washer,Hot tub,Wifi,Kitchen,Heating,TV
+  :neighborhood: Shoreditch
+  :currency: "£"
+  :latitude: 51.5261
+  :longitude: -0.07299737
+  :room_size: 30
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3455,41 +3488,6 @@
   :preffered_gender: 0
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1468277799724-b8ecdfa2cd7a?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
-  :photo_urls: []
-- :title: House of Pimpin’
-  :monthly_price: 809
-  :description: "Luminous double room available in a 4 bedrooms flat in the heart
-    of Shoreditch, 2 minutes away from brick lane and from fashionable Red Church
-    Street. You will be living with young professionals on their 30s (1 Spanish, 1
-    Swedish, and 1 Dutch) who enjoy cooking and spending evenings in the house, but
-    also hanging out together in the local pubs. The flat is 2 mins away from Shoreditch
-    High Street overground, 10 mins from Liverpool Street underground or Old Street
-    tube station. London's hippest bars, vintage clothes shops and cool caf all at
-    your doorstep! \r\n\nIf interested please get in touch! Matteo"
-  :number_of_flatmates: 1
-  :flat_size: 92
-  :amenities: Iron,Elevator,Hot tub,Kitchen,Heating,Gym
-  :neighborhood: Shoreditch
-  :currency: "£"
-  :lat: 51.5261
-  :lng: -0.07299737
-  :room_size: 22
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://images.unsplash.com/photo-1472282247117-0f0d016ec570?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Just One Little Flat
   :monthly_price: 600
@@ -3515,13 +3513,13 @@
     month \r\n\nBills = 80-100 \r\n\n\r\n\nDeposit = 755\r\n\n\r\n\nIf you have any
     other questions drop us an email. We look forward to hearing from you!"
   :number_of_flatmates: 1
-  :flat_size: 80
-  :amenities: Wifi,Iron,Air conditioning,Hot tub,TV,Doorman
+  :flat_size: 82
+  :amenities: TV,Iron,Doorman,Gym,Heating,Washer
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5207
-  :lng: -0.1827463
-  :room_size: 23
+  :latitude: 51.5207
+  :longitude: -0.1827463
+  :room_size: 28
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3537,7 +3535,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1511892549826-a48122d9b258?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1472282247117-0f0d016ec570?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Alone
   :monthly_price: 818
@@ -3563,13 +3561,46 @@
     month \r\n\nBills = 80-100 \r\n\n\r\n\nDeposit = 755\r\n\n\r\n\nIf you have any
     other questions drop us an email. We look forward to hearing from you!"
   :number_of_flatmates: 3
-  :flat_size: 80
-  :amenities: Kitchen,Heating,Gym,TV,Iron,Wifi
+  :flat_size: 82
+  :amenities: Iron,Air conditioning,Heating,Kitchen,Gym,Elevator
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5207
-  :lng: -0.1827463
-  :room_size: 14
+  :latitude: 51.5207
+  :longitude: -0.1827463
+  :room_size: 18
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://images.unsplash.com/photo-1511892549826-a48122d9b258?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :photo_urls: []
+- :title: IWantHerShoes
+  :monthly_price: 900
+  :description: "Hi. I'm a French digital designer working in Shoredtich. My lovely
+    flatmate is moving out and I'd like to replace him by a friendly person with who
+    I can share diners and good laugh sometimes. I appreciate going out and chilling,
+    listening to music, cooking when I am inspired... The usual stuff. I feel at home
+    in the flat because it is a beautiful space and a warmly atmosphere. \r\n\nIf
+    you'd like to visit, please drop me a line."
+  :number_of_flatmates: 3
+  :flat_size: 70
+  :amenities: Iron,Hot tub,Dryer,Wifi,Air conditioning,Gym
+  :neighborhood: Hoxton
+  :currency: "£"
+  :latitude: 51.53407
+  :longitude: -0.08067809
+  :room_size: 12
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3586,39 +3617,6 @@
   :preffered_gender: 0
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1483965907773-04d18dd757c9?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
-  :photo_urls: []
-- :title: IWantHerShoes
-  :monthly_price: 900
-  :description: "Hi. I'm a French digital designer working in Shoredtich. My lovely
-    flatmate is moving out and I'd like to replace him by a friendly person with who
-    I can share diners and good laugh sometimes. I appreciate going out and chilling,
-    listening to music, cooking when I am inspired... The usual stuff. I feel at home
-    in the flat because it is a beautiful space and a warmly atmosphere. \r\n\nIf
-    you'd like to visit, please drop me a line."
-  :number_of_flatmates: 2
-  :flat_size: 92
-  :amenities: Heating,Air conditioning,Dryer,Washer,TV,Hot tub
-  :neighborhood: Hoxton
-  :currency: "£"
-  :lat: 51.53407
-  :lng: -0.08067809
-  :room_size: 16
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://images.unsplash.com/photo-1500817181271-52e5b31651f2?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Count My Blessings
   :monthly_price: 1015
@@ -3644,14 +3642,53 @@
     agency.\r\n\n\r\n\nLooking to have house viewings later this week so please send
     us an email with a brief description of yourself and we can arrange a time to
     visit and meet everyone.  \r\n\n\r\n\nThanks!"
-  :number_of_flatmates: 1
-  :flat_size: 77
-  :amenities: Elevator,Kitchen,Washer,Doorman,Dryer,Wifi
+  :number_of_flatmates: 3
+  :flat_size: 88
+  :amenities: Kitchen,TV,Dryer,Wifi,Gym,Hot tub
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.52794
-  :lng: -0.07316488
-  :room_size: 18
+  :latitude: 51.52794
+  :longitude: -0.07316488
+  :room_size: 19
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://images.unsplash.com/photo-1500817181271-52e5b31651f2?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :photo_urls: []
+- :title: My Tomb
+  :monthly_price: 750
+  :description: "Hi Everyone!\r\n\n\r\n\nA nice double bedroom is going to be available
+    in our lovely house on the 1st of January, to share with David, Sandeep and Giacommo.
+    The House is a quiet location although being in Wapping it is a very centrally
+    located about 10 min walk to Tower Hill, 5mins walk to Wapping station, 2mins
+    walk to Waitrose, 2mins walk to Fitness First. \r\n\n\r\n\nAs we lead fairly separate
+    lives and see the house as somewhere to relax after a hard days work ideally we
+    are looking for a person who is reasonably sociable and respects peoples privacy.
+    This is not a party house ;)\r\n\n\r\n\nRent is 2 months deposit and the cost
+    of 750pcm is excluding council tax (32pcm), utility bills and the cost of a cleaner
+    who comes weekly to clean the communal areas which comes to between 75 to 90pcm
+    depending upon the time of year.\r\n\n\r\n\nIf you are interested, please feel
+    free to drop me a message!\r\n\n\r\n\nCheers,\r\n\nEm"
+  :number_of_flatmates: 1
+  :flat_size: 106
+  :amenities: Elevator,Heating,Iron,Kitchen,Hot tub,Washer
+  :neighborhood: Wapping
+  :currency: "£"
+  :latitude: 51.50667
+  :longitude: -0.06378792
+  :room_size: 21
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3669,28 +3706,28 @@
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1511107426995-9f2a136ea788?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: My Tomb
+- :title: The White House
   :monthly_price: 750
-  :description: "Hi Everyone!\r\n\n\r\n\nA nice double bedroom is going to be available
-    in our lovely house on the 1st of January, to share with David, Sandeep and Giacommo.
-    The House is a quiet location although being in Wapping it is a very centrally
-    located about 10 min walk to Tower Hill, 5mins walk to Wapping station, 2mins
-    walk to Waitrose, 2mins walk to Fitness First. \r\n\n\r\n\nAs we lead fairly separate
-    lives and see the house as somewhere to relax after a hard days work ideally we
-    are looking for a person who is reasonably sociable and respects peoples privacy.
-    This is not a party house ;)\r\n\n\r\n\nRent is 2 months deposit and the cost
-    of 750pcm is excluding council tax (32pcm), utility bills and the cost of a cleaner
-    who comes weekly to clean the communal areas which comes to between 75 to 90pcm
-    depending upon the time of year.\r\n\n\r\n\nIf you are interested, please feel
-    free to drop me a message!\r\n\n\r\n\nCheers,\r\n\nEm"
-  :number_of_flatmates: 3
-  :flat_size: 108
-  :amenities: Kitchen,Wifi,Dryer,Hot tub,Gym,Washer
-  :neighborhood: Wapping
+  :description: "The home:\r\n\nWe have a double room available in a flat inside of
+    a converted church in Hoxton. Fully furnished, has a kitchen and a living room
+    and a terrace that's great to grabbing some sun or BBQing during the Summer. We
+    have a cleaner who comes biweekly. We've had parties at the flat and as long as
+    we warn the neighbours and it's not a weekday it's ok. \r\n\n\r\n\nThe housemates:
+    \r\n\nTwo guys, One Portuguese and one Australian working in Media. \r\n\nOne
+    female French-German flatmate working in Marketing. \r\n\nWe are all in our late
+    20s and early 30s. \r\n\nEveryone's friendly but we all have our own lives and
+    schedules! \r\n\n\r\n\nLocation: \r\n\n\r\n\nThis is right next to Hoxton overground
+    station. 5 mins to Dalston Junction though the Overground, 20 mins walk and 15
+    minutes to Old Street. Victory park is not too far, 20 mins walk, and Columbia
+    Flower Market is right next! Broadway Market is a 10 minutes walk."
+  :number_of_flatmates: 2
+  :flat_size: 90
+  :amenities: Elevator,Dryer,Iron,Gym,Washer,Heating
+  :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.50667
-  :lng: -0.06378792
-  :room_size: 25
+  :latitude: 51.5305
+  :longitude: -0.07276858
+  :room_size: 12
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3707,45 +3744,6 @@
   :preffered_gender: 0
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1511469322974-9730c82eb261?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
-  :photo_urls: []
-- :title: The White House
-  :monthly_price: 750
-  :description: "The home:\r\n\nWe have a double room available in a flat inside of
-    a converted church in Hoxton. Fully furnished, has a kitchen and a living room
-    and a terrace that's great to grabbing some sun or BBQing during the Summer. We
-    have a cleaner who comes biweekly. We've had parties at the flat and as long as
-    we warn the neighbours and it's not a weekday it's ok. \r\n\n\r\n\nThe housemates:
-    \r\n\nTwo guys, One Portuguese and one Australian working in Media. \r\n\nOne
-    female French-German flatmate working in Marketing. \r\n\nWe are all in our late
-    20s and early 30s. \r\n\nEveryone's friendly but we all have our own lives and
-    schedules! \r\n\n\r\n\nLocation: \r\n\n\r\n\nThis is right next to Hoxton overground
-    station. 5 mins to Dalston Junction though the Overground, 20 mins walk and 15
-    minutes to Old Street. Victory park is not too far, 20 mins walk, and Columbia
-    Flower Market is right next! Broadway Market is a 10 minutes walk."
-  :number_of_flatmates: 2
-  :flat_size: 100
-  :amenities: Hot tub,Air conditioning,Gym,Iron,Heating,Washer
-  :neighborhood: Shoreditch
-  :currency: "£"
-  :lat: 51.5305
-  :lng: -0.07276858
-  :room_size: 15
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://images.unsplash.com/photo-1489525655354-27d7ef86c6f0?auto=format&fit=crop&w=1352&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Deaths Crypt
   :monthly_price: 730
@@ -3764,13 +3762,13 @@
     is available from the end of November. If you think this sounds like a home for
     you, then drop us a line and well schedule a visit. Viewings will start asap.\r\n\nLots
     of love,\r\n\nAdrian, Valeria, Jess and Liam x"
-  :number_of_flatmates: 3
-  :flat_size: 89
-  :amenities: Gym,Hot tub,TV,Elevator,Kitchen,Wifi
+  :number_of_flatmates: 2
+  :flat_size: 113
+  :amenities: Iron,Elevator,Washer,Dryer,Wifi,Heating
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5276
-  :lng: -0.06839285
+  :latitude: 51.5276
+  :longitude: -0.06839285
   :room_size: 23
   :has_parking: false
   :deposit: 0
@@ -3787,7 +3785,7 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://images.unsplash.com/photo-1511148672734-98014884c11e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :card_image: https://images.unsplash.com/photo-1489525655354-27d7ef86c6f0?auto=format&fit=crop&w=1352&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
 - :title: Man Cave
   :monthly_price: 1050
@@ -3812,13 +3810,54 @@
     calm, homely atmosphere; someone similar, looking for a nice, grown-up home, would
     be ideal. Please get in touch if you would like to view the room and house."
   :number_of_flatmates: 2
-  :flat_size: 70
-  :amenities: Doorman,Iron,Hot tub,TV,Washer,Kitchen
+  :flat_size: 114
+  :amenities: Wifi,Air conditioning,Washer,Kitchen,Doorman,Elevator
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.50728
-  :lng: -0.05965528
-  :room_size: 28
+  :latitude: 51.50728
+  :longitude: -0.05965528
+  :room_size: 24
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://images.unsplash.com/photo-1511148672734-98014884c11e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
+  :photo_urls: []
+- :title: Mi Casa, Mi Cama
+  :monthly_price: 1050
+  :description: "Room to rent in my lovely two floor maisonette in Haggerston. The
+    double room overlooks Regent's Canal and has it's own private entrance! The room
+    is very comfortable, has just been painted, and has a desk and built in wardrobe.
+    A large bathroom is right next to it - this is virtually private - sometimes I
+    have air bnb guests and in these instances only, I would use the shower. There
+    is a spacious comfortable kitchen with everything you need. The maisonette is
+    in a secure, gated development on Kingsland Road and is really quiet, yet situated
+    close to vibrant Shoreditch, Dalston, Broadway Market and Angel. Buses 242, 243,
+    149, 67 all stop outside and it is a five minute walk from Haggerston Overground.
+    \r\n\nI work in visual effects. I'm also a filmmaker. \r\n\nI am friendly and
+    outgoing. \r\n\nI am looking for someone who works full time during the day or
+    is a full time student. This flat is ideal for anyone commuting to centre of London,
+    the City or Canary Wharf. \r\n\nIncluded in rent:\r\n\nHyperoptic Broadband (great
+    downloading / streaming speeds)\r\n\nAll bills including Council tax"
+  :number_of_flatmates: 3
+  :flat_size: 88
+  :amenities: Wifi,Kitchen,Gym,TV,Air conditioning,Hot tub
+  :neighborhood: Hoxton
+  :currency: "£"
+  :latitude: 51.53618
+  :longitude: -0.07642189
+  :room_size: 26
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3836,30 +3875,22 @@
   :searching_for:
   :card_image: https://images.unsplash.com/photo-1511546395756-590dffdcdbd1?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: Mi Casa
-  :monthly_price: 1050
-  :description: "Room to rent in my lovely two floor maisonette in Haggerston. The
-    double room overlooks Regent's Canal and has it's own private entrance! The room
-    is very comfortable, has just been painted, and has a desk and built in wardrobe.
-    A large bathroom is right next to it - this is virtually private - sometimes I
-    have air bnb guests and in these instances only, I would use the shower. There
-    is a spacious comfortable kitchen with everything you need. The maisonette is
-    in a secure, gated development on Kingsland Road and is really quiet, yet situated
-    close to vibrant Shoreditch, Dalston, Broadway Market and Angel. Buses 242, 243,
-    149, 67 all stop outside and it is a five minute walk from Haggerston Overground.
-    \r\n\nI work in visual effects. I'm also a filmmaker. \r\n\nI am friendly and
-    outgoing. \r\n\nI am looking for someone who works full time during the day or
-    is a full time student. This flat is ideal for anyone commuting to centre of London,
-    the City or Canary Wharf. \r\n\nIncluded in rent:\r\n\nHyperoptic Broadband (great
-    downloading / streaming speeds)\r\n\nAll bills including Council tax"
-  :number_of_flatmates: 1
-  :flat_size: 111
-  :amenities: Gym,TV,Heating,Wifi,Washer,Elevator
+- :title: The Nudist Colony
+  :monthly_price: 1018
+  :description: "Based in the newly built Soda Studios next to Haggerston Station
+    \r\n\nSplit level property with own bathroom \r\n\nWould suit someone who is into
+    the arts as sharing with a creative and welcoming couple. \r\n\nBig open kitchen
+    with balcony, all new appliances. Bedroom comes with bed. \r\n\nSeparate bathroom
+    with bath \r\n\n1018.34 per month \r\n\nAvailable Now\r\n\nWalking distance to
+    Dalston, London Fields, Shoreditch, Old Street"
+  :number_of_flatmates: 3
+  :flat_size: 80
+  :amenities: Air conditioning,Hot tub,Elevator,Gym,Washer,Heating
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53618
-  :lng: -0.07642189
-  :room_size: 28
+  :latitude: 51.53746
+  :longitude: -0.0760507
+  :room_size: 18
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3877,40 +3908,7 @@
   :searching_for:
   :card_image: https://c2.staticflickr.com/4/3693/11470002884_00fd384d85_b.jpg
   :photo_urls: []
-- :title: Mi Cama
-  :monthly_price: 1018
-  :description: "Based in the newly built Soda Studios next to Haggerston Station
-    \r\n\nSplit level property with own bathroom \r\n\nWould suit someone who is into
-    the arts as sharing with a creative and welcoming couple. \r\n\nBig open kitchen
-    with balcony, all new appliances. Bedroom comes with bed. \r\n\nSeparate bathroom
-    with bath \r\n\n1018.34 per month \r\n\nAvailable Now\r\n\nWalking distance to
-    Dalston, London Fields, Shoreditch, Old Street"
-  :number_of_flatmates: 1
-  :flat_size: 88
-  :amenities: Gym,Dryer,Elevator,Iron,Heating,Washer
-  :neighborhood: Hoxton
-  :currency: "£"
-  :lat: 51.53746
-  :lng: -0.0760507
-  :room_size: 17
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c2.staticflickr.com/4/3175/2876987952_7f0751d5b7_b.jpg
-  :photo_urls: []
-- :title: The Nudist Colony
+- :title: Haus of Meleocoton Nord
   :monthly_price: 730
   :description: "Hello!\r\n\n\r\n\nWe have a good sized double bedroom in our recently
     refurbished flat for rent. The room comes with solid, white stained pine wood
@@ -3936,13 +3934,13 @@
     of storage, so room would suit someone who doesn't have an entire household to
     fit.\r\n\n\r\n\nMany thanks!"
   :number_of_flatmates: 1
-  :flat_size: 114
-  :amenities: Gym,TV,Doorman,Air conditioning,Kitchen,Wifi
+  :flat_size: 82
+  :amenities: Wifi,Heating,Hot tub,Doorman,Air conditioning,Elevator
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53329
-  :lng: -0.0703869
-  :room_size: 19
+  :latitude: 51.53329
+  :longitude: -0.0703869
+  :room_size: 29
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -3958,9 +3956,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/1/72/163242793_aa74b690df_o.jpg
+  :card_image: https://c2.staticflickr.com/4/3175/2876987952_7f0751d5b7_b.jpg
   :photo_urls: []
-- :title: Haus of Meleocoton Nord
+- :title: Batgirl’s Batcave
   :monthly_price: 740
   :description: "Hello!\r\n\n\r\n\nWe have a good sized double bedroom in our recently
     refurbished flat for rent. The room comes with solid, white stained pine wood
@@ -3985,13 +3983,13 @@
     too. There is not a lot of storage, so room would suit someone who doesn't have
     an entire household to fit.\r\n\n\r\n\nMany thanks!"
   :number_of_flatmates: 3
-  :flat_size: 79
-  :amenities: Hot tub,Heating,Gym,Elevator,TV,Wifi
+  :flat_size: 120
+  :amenities: Air conditioning,Wifi,Doorman,Gym,Washer,Kitchen
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53329
-  :lng: -0.0703869
-  :room_size: 29
+  :latitude: 51.53329
+  :longitude: -0.0703869
+  :room_size: 26
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4007,9 +4005,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/1/127/354751360_e089c99cc8_o.jpg
+  :card_image: https://c1.staticflickr.com/1/72/163242793_aa74b690df_o.jpg
   :photo_urls: []
-- :title: Batgirl’s Batcave
+- :title: Home Sweet Home
   :monthly_price: 890
   :description: "Spacious bedroom in a modern 2 bedroom apartment to let for one person.
     The second floor apartment overlooking the well-known Whitechapel market consists
@@ -4030,14 +4028,14 @@
     - 210pw\r\n\nInternet - 10pm\r\n\nElectricity - ca45pm\r\n\nCouncil - 58pm\r\n\nContract
     change - 300 (one time)\r\n\n\r\n\nHappy to answer any questions you might have,
     just message me.\r\n\n-Michal"
-  :number_of_flatmates: 3
-  :flat_size: 124
-  :amenities: Air conditioning,Doorman,TV,Elevator,Dryer,Kitchen
+  :number_of_flatmates: 2
+  :flat_size: 123
+  :amenities: Heating,Kitchen,Doorman,Dryer,TV,Iron
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.51958
-  :lng: -0.05942089
-  :room_size: 24
+  :latitude: 51.51958
+  :longitude: -0.05942089
+  :room_size: 17
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4053,9 +4051,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/1/180/443813950_5efe82a95b_b.jpg
+  :card_image: https://c1.staticflickr.com/1/127/354751360_e089c99cc8_o.jpg
   :photo_urls: []
-- :title: Home Sweet Home
+- :title: A Roland for an Oliver
   :monthly_price: 475
   :description: "Hello lovely females, \r\n\n\r\n\nI will be moving out out of the
     lovely Battersea flatshare and my 3 flatmates would like somebody easy going and
@@ -4076,14 +4074,14 @@
     can continue following it all the way to Embankment and beyond, but i just did.
     \r\n\nBills come up to around 60 each.\r\n\nPlease get in touch and tell us something
     about yourself. :)"
-  :number_of_flatmates: 1
-  :flat_size: 82
-  :amenities: Doorman,Wifi,Hot tub,Kitchen,Washer,Heating
+  :number_of_flatmates: 3
+  :flat_size: 96
+  :amenities: Kitchen,Gym,TV,Iron,Air conditioning,Wifi
   :neighborhood: Chelsea
   :currency: "£"
-  :lat: 51.47679
-  :lng: -0.172986
-  :room_size: 18
+  :latitude: 51.47679
+  :longitude: -0.172986
+  :room_size: 24
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4099,9 +4097,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/5/4070/5078719738_dd9caaa061_b.jpg
+  :card_image: https://c1.staticflickr.com/1/180/443813950_5efe82a95b_b.jpg
   :photo_urls: []
-- :title: A Roland for an Oliver
+- :title: Outgoing and Sexy
   :monthly_price: 960
   :description: "Hiiii..!!!\r\n\n\r\n\nWe are looking for a flexible term (long or
     short) flatmate to take a spare double room in our flat in Shadwell. We are a
@@ -4127,13 +4125,13 @@
     / Westminster 22 min / Candem Road 26 min.\r\n\n\r\n\nDo not hesitate in giving
     us a hit if whats above interest you.\r\n\n\r\n\n^_^ See you!"
   :number_of_flatmates: 3
-  :flat_size: 103
-  :amenities: Air conditioning,Kitchen,Doorman,Hot tub,Wifi,Elevator
+  :flat_size: 94
+  :amenities: Iron,Dryer,Gym,Kitchen,Doorman,Air conditioning
   :neighborhood: Shadwell
   :currency: "£"
-  :lat: 51.51214
-  :lng: -0.05643684
-  :room_size: 21
+  :latitude: 51.51214
+  :longitude: -0.05643684
+  :room_size: 25
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4149,9 +4147,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/1/79/216332641_57f6e79e5f_o.jpg
+  :card_image: https://c1.staticflickr.com/5/4070/5078719738_dd9caaa061_b.jpg
   :photo_urls: []
-- :title: Outgoing and Sexy
+- :title: Trash talk buddies
   :monthly_price: 869
   :description: "We are looking for a flat mate for a big Double room in an elegant
     modern flat. \r\n\n\r\n\n2 minutes walk to Haggerston Station, 4 min to Dalston
@@ -4180,14 +4178,54 @@
     are looking for someone who can move in the 25th of this month, November.\r\n\n\r\n\nPlease
     contact me if you would like to come around to meet us and have a look at our
     delightful flat :)"
-  :number_of_flatmates: 1
+  :number_of_flatmates: 2
   :flat_size: 112
-  :amenities: Hot tub,Iron,Washer,Doorman,Wifi,Elevator
+  :amenities: TV,Wifi,Doorman,Hot tub,Dryer,Kitchen
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54115
-  :lng: -0.07788516
-  :room_size: 16
+  :latitude: 51.54115
+  :longitude: -0.07788516
+  :room_size: 22
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://c1.staticflickr.com/1/79/216332641_57f6e79e5f_o.jpg
+  :photo_urls: []
+- :title: Princess-for-life Flat
+  :monthly_price: 780
+  :description: "As I am moving in with a friend elsewhere, I am leaving my double
+    room in a flatshare with 3 other people beginning of December and am looking for
+    someone to replace me. My contract is running until the end of January (less than
+    2 months). Therefore, this is the perfect place if you arrive in London in December
+    and look for a place to stay a few weeks. If you like it, you can also extend
+    the contract further.\r\n\n\r\n\nThe flat is located in Bethnal Green/Shoreditch
+    area, less than 10min walk away from Bethnal Green station with a lot of bus lines
+    running 30sec away from the flat (lines 26, 48 & 55). It is closed to groceries
+    as well with a big tesco 5min walk away. Flower Market is 2 minutes away by walk
+    and a really nice place to go out on Sundays.\r\n\n\r\n\nAvailability: 05/12/2017
+    (flexible)\r\n\n\r\n\nBills are 780 per month including everything (electricity,
+    water, internet, weekly cleaning, ...).\r\n\n\r\n\nContact me if you want further
+    information."
+  :number_of_flatmates: 1
+  :flat_size: 70
+  :amenities: Heating,Dryer,Air conditioning,Wifi,Doorman,Gym
+  :neighborhood: Bethnal Green
+  :currency: "£"
+  :latitude: 51.53094
+  :longitude: -0.06362344
+  :room_size: 25
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4205,47 +4243,7 @@
   :searching_for:
   :card_image: https://c2.staticflickr.com/4/3403/3268488325_d8634b7765_o.jpg
   :photo_urls: []
-- :title: Trash talk buddies
-  :monthly_price: 780
-  :description: "As I am moving in with a friend elsewhere, I am leaving my double
-    room in a flatshare with 3 other people beginning of December and am looking for
-    someone to replace me. My contract is running until the end of January (less than
-    2 months). Therefore, this is the perfect place if you arrive in London in December
-    and look for a place to stay a few weeks. If you like it, you can also extend
-    the contract further.\r\n\n\r\n\nThe flat is located in Bethnal Green/Shoreditch
-    area, less than 10min walk away from Bethnal Green station with a lot of bus lines
-    running 30sec away from the flat (lines 26, 48 & 55). It is closed to groceries
-    as well with a big tesco 5min walk away. Flower Market is 2 minutes away by walk
-    and a really nice place to go out on Sundays.\r\n\n\r\n\nAvailability: 05/12/2017
-    (flexible)\r\n\n\r\n\nBills are 780 per month including everything (electricity,
-    water, internet, weekly cleaning, ...).\r\n\n\r\n\nContact me if you want further
-    information."
-  :number_of_flatmates: 1
-  :flat_size: 123
-  :amenities: Iron,Wifi,Doorman,Air conditioning,Heating,Kitchen
-  :neighborhood: Bethnal Green
-  :currency: "£"
-  :lat: 51.53094
-  :lng: -0.06362344
-  :room_size: 13
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c1.staticflickr.com/3/2844/13207853024_3a21830712_b.jpg
-  :photo_urls: []
-- :title: Princess-for-life Flat
+- :title: We. Love. The. Party
   :monthly_price: 750
   :description: "Amazing room in a modern three bedroom penthouse flat in Maida Vale
     with great amenities including free gym & club membership.  The flat is in the
@@ -4276,14 +4274,14 @@
     tax) come to roughly 70-80 a month depending on winter/summer.  We have a cleaner
     come twice a month for 10 a visit.  \r\n\n\r\n\nThere are one off agency and reference
     fees to set up the lease."
-  :number_of_flatmates: 1
-  :flat_size: 82
-  :amenities: Heating,Dryer,Gym,Air conditioning,Washer,Kitchen
+  :number_of_flatmates: 2
+  :flat_size: 92
+  :amenities: Elevator,Heating,Iron,Hot tub,Washer,Wifi
   :neighborhood: Maida Hill
   :currency: "£"
-  :lat: 51.52205
-  :lng: -0.1947147
-  :room_size: 19
+  :latitude: 51.52205
+  :longitude: -0.1947147
+  :room_size: 23
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4299,9 +4297,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/5/4091/5205006495_c52dc467da_b.jpg
+  :card_image: https://c1.staticflickr.com/3/2844/13207853024_3a21830712_b.jpg
   :photo_urls: []
-- :title: We. Love. The. Party
+- :title: Friends for life
   :monthly_price: 736
   :description: "Looking for two single person to take two double room in De Beauvoir,
     Hackney, from December as Im moving abroad. Its a really nice and peaceful house,
@@ -4333,13 +4331,13 @@
     to pay 20 each week for the cleaner.\r\n\nIf this sounds interesting, get in touch
     with a bit about yourself. Cheers!"
   :number_of_flatmates: 2
-  :flat_size: 78
-  :amenities: Washer,Kitchen,Gym,Elevator,Air conditioning,Doorman
+  :flat_size: 97
+  :amenities: Dryer,Iron,TV,Air conditioning,Hot tub,Washer
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5455
-  :lng: -0.0821151
-  :room_size: 23
+  :latitude: 51.5455
+  :longitude: -0.0821151
+  :room_size: 14
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4355,9 +4353,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/1/81/276258145_ca189d9d0c_o.jpg
+  :card_image: https://c1.staticflickr.com/5/4091/5205006495_c52dc467da_b.jpg
   :photo_urls: []
-- :title: Friends for life
+- :title: Get in and find out
   :monthly_price: 750
   :description: "Hi there\r\n\n\r\n\nWe are a small family looking for a long-term
     lodger, who is employed full-time, is well-mannered, considerate, quiet, tidy
@@ -4386,14 +4384,14 @@
     any potential housemates, deposit of 6 weeks is required and 2 references please.\r\n\n\r\n\nRoom
     could be available earlier, depending on your needs and mutual convenience.\r\n\n\r\n\nThanks!
     \ Sarah and Johnny"
-  :number_of_flatmates: 2
-  :flat_size: 88
-  :amenities: TV,Iron,Hot tub,Dryer,Washer,Doorman
+  :number_of_flatmates: 1
+  :flat_size: 98
+  :amenities: Hot tub,Gym,Wifi,Air conditioning,Washer,Iron
   :neighborhood: Clapham
   :currency: "£"
-  :lat: 51.46433
-  :lng: -0.1515867
-  :room_size: 29
+  :latitude: 51.46433
+  :longitude: -0.1515867
+  :room_size: 18
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4409,9 +4407,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/9/8251/8462434122_285ef5a8eb_b.jpg
+  :card_image: https://c1.staticflickr.com/1/81/276258145_ca189d9d0c_o.jpg
   :photo_urls: []
-- :title: Get in and find out
+- :title: Revolution Baby
   :monthly_price: 800
   :description: "Hello hello,\r\n\n\r\n\nWhat I've got here is a square, white room
     with \r\n\n- a big bed \r\n\n- a big window\r\n\n- a big emphasis on exposed brick\r\n\n-
@@ -4448,13 +4446,13 @@
     functional\r\n\n\r\n\nI think that's the important stuff. Any other questions,
     just ask."
   :number_of_flatmates: 2
-  :flat_size: 118
-  :amenities: Hot tub,Elevator,Doorman,Dryer,Washer,Air conditioning
+  :flat_size: 97
+  :amenities: Gym,Wifi,Elevator,Dryer,Air conditioning,Iron
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54535
-  :lng: -0.07734763
-  :room_size: 20
+  :latitude: 51.54535
+  :longitude: -0.07734763
+  :room_size: 18
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4470,9 +4468,9 @@
   :preffered_max_age: 0
   :preffered_gender: 0
   :searching_for:
-  :card_image: https://c1.staticflickr.com/9/8207/8177664418_b762f10c6b_b.jpg
+  :card_image: https://c1.staticflickr.com/9/8251/8462434122_285ef5a8eb_b.jpg
   :photo_urls: []
-- :title: Revolution Baby
+- :title: A friend in need is a friend indeed
   :monthly_price: 710
   :description: "Hello hello,\r\n\n\r\n\nWhat I've got here is a square, white room
     with \r\n\n- a big bed \r\n\n- a big window\r\n\n- a big emphasis on exposed brick\r\n\n-
@@ -4509,13 +4507,46 @@
     hifi system is a bit shit but it's functional\r\n\n\r\n\nI think that's the important
     stuff. Any other questions, just ask."
   :number_of_flatmates: 1
-  :flat_size: 73
-  :amenities: TV,Dryer,Wifi,Kitchen,Heating,Iron
+  :flat_size: 106
+  :amenities: Iron,Gym,Dryer,Heating,TV,Wifi
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54535
-  :lng: -0.07734763
-  :room_size: 25
+  :latitude: 51.54535
+  :longitude: -0.07734763
+  :room_size: 28
+  :has_parking: false
+  :deposit: 0
+  :allow_students: false
+  :allow_pets: false
+  :allow_smokers: 0
+  :bills_included: 0
+  :furnished: 0
+  :couples_allowed: false
+  :ensuite: false
+  :accessible: false
+  :minimum_stay: 0
+  :preffered_min_age: 0
+  :preffered_max_age: 0
+  :preffered_gender: 0
+  :searching_for:
+  :card_image: https://c1.staticflickr.com/9/8207/8177664418_b762f10c6b_b.jpg
+  :photo_urls: []
+- :title: Flatsharing Party People
+  :monthly_price: 850
+  :description: "This is a beautiful flat in the heart of Newington Green. Set over
+    3 floors - a maisonette with a terrace - its very spacious, full of period features
+    and charm and quiet and peaceful. To share with a professional (who is a script
+    writer and novelist) who is sociable, clean and tidy. There is a kitchen, living
+    room, bathroom, terrace and two bedrooms.\r\n\n\r\n\nThe bedroom is very spacious,
+    south facing with a lot of light."
+  :number_of_flatmates: 2
+  :flat_size: 77
+  :amenities: Dryer,Elevator,Air conditioning,Washer,Heating,Hot tub
+  :neighborhood: Dalston
+  :currency: "£"
+  :latitude: 51.5492
+  :longitude: -0.08585372
+  :room_size: 26
   :has_parking: false
   :deposit: 0
   :allow_students: false
@@ -4532,287 +4563,4 @@
   :preffered_gender: 0
   :searching_for:
   :card_image: https://c1.staticflickr.com/5/4123/4776280677_801be073d8_b.jpg
-  :photo_urls: []
-- :title: A friend in need is a friend indeed
-  :monthly_price: 850
-  :description: "This is a beautiful flat in the heart of Newington Green. Set over
-    3 floors - a maisonette with a terrace - its very spacious, full of period features
-    and charm and quiet and peaceful. To share with a professional (who is a script
-    writer and novelist) who is sociable, clean and tidy. There is a kitchen, living
-    room, bathroom, terrace and two bedrooms.\r\n\n\r\n\nThe bedroom is very spacious,
-    south facing with a lot of light."
-  :number_of_flatmates: 3
-  :flat_size: 116
-  :amenities: Kitchen,TV,Washer,Air conditioning,Wifi,Dryer
-  :neighborhood: Dalston
-  :currency: "£"
-  :lat: 51.5492
-  :lng: -0.08585372
-  :room_size: 20
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c1.staticflickr.com/9/8486/8177803239_00d514cab3_b.jpge757_b.jpg
-  :photo_urls: []
-- :title: Flatsharing Party People
-  :monthly_price: 640
-  :description: "We have a lovely single room in a quiet, relaxed household available
-    for rent in Brixton / London from the 2ND OF DECEMBER\r\n\n\r\n\nThe 3 bedroom
-    flat is spacious, situated in a newly refurbished Victorian house, equipped with
-    all amenities you need, we have a new washing machine, shower, lovely bathtub
-    and new boiler installed. Flat is within short walking distance (5min) to Brixton
-    Underground Station / Victoria line - overnight tube and numerous buses provide
-    fantastic connection options to different parts of the city!\r\n\n\r\n\nAlthough
-    very close to Brixton Village, Market Row, Ritzy Cinema and Pop Up Village (wide
-    selection of eating out places , local shops and supermarkets) the flat is hidden
-    away from the local buzz on a residential street. \r\n\n\r\n\nM&S / Sainsbury's
-    /Tesco are a few blocks away. The room faces the residential sunny street. There's
-    a courtyard, where you can also store your bike.\r\n\nThe room is 640 plus bills
-    (council tax / water / internet / electricity which comes up to around 70 month
-    extra). \r\n\nThere's an entry code panel in front of the main door for enhanced
-    security.\r\n\n\r\n\nDEPOSIT> will have to be paid once you decide to move in
-    + \r\n\none month's rent - this will need to paid on the 1st of December and 1st
-    of every month onwards.\r\n\n\r\n\nThe room contains a double bed, desk (but landlord
-    has lots of spare furniture available). Feel free to bring any of your own furniture
-    or ask the landlord for any extras.\r\n\n\r\n\nPreferably no students (sorry!)
-    unless you can provide a proof of stable income / no crazy party people. This
-    is a no smoking home.\r\n\n\r\n\nIf you have any other questions please feel free
-    to get in touch : )\r\n\nRaman."
-  :number_of_flatmates: 3
-  :flat_size: 86
-  :amenities: Gym,Elevator,Kitchen,Iron,Doorman,Air conditioning
-  :neighborhood: Brixton
-  :currency: "£"
-  :lat: 51.46127
-  :lng: -0.11313
-  :room_size: 19
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c1.staticflickr.com/3/2493/3786467912_b7b2f5f0e6_b.jpg
-  :photo_urls: []
-- :title: It’s sink or swim
-  :monthly_price: 1150
-  :description: "Ideally, looking for someone who has a permanent job, or a post graduate
-    student to stay at least six months. Tidy, non smoker and most importantly clean
-    (emphasis on last point). Cleaner once every 2 weeks. Kitchen has washing machine,
-    dishwasher. Room has its own bathroom (not en suite). Large living room. Fibre
-    internet. House comes with access to a private park. Flat is on last floor and
-    has a private rooftop. House recently renovated: fitted with wooden floor and
-    walls repainted. 2 min walk from Earl's Court underground station. 4 min walk
-    from 24h Tesco.\r\n\nI am 24. Work long hours. Not at home a lot. If this sounds
-    like it might suit you, contact me by mail. Thanks."
-  :number_of_flatmates: 2
-  :flat_size: 78
-  :amenities: Air conditioning,Gym,Heating,Washer,Wifi,Hot tub
-  :neighborhood: Earls Court
-  :currency: "£"
-  :lat: 51.49059
-  :lng: -0.1982334
-  :room_size: 28
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c1.staticflickr.com/9/8334/8127325309_e1e8a9bee0_b.jpg
-  :photo_urls: []
-- :title: Home Sweet Home
-  :monthly_price: 475
-  :description: "Clean and tidy. There is a kitchen, living
-    room, bathroom, terrace and two bedrooms.\r\n\n\r\n\nThe bedroom is very spacious,
-    south facing with a lot of light."
-  :number_of_flatmates: 1
-  :flat_size: 79
-  :amenities: Heating,Doorman,TV,Kitchen,Dryer,Hot tub
-  :neighborhood: Dalston
-  :currency: "£"
-  :lat: 51.5492
-  :lng: -0.08585372
-  :room_size: 23
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c2.staticflickr.com/2/1228/1397580612_7d05055913_b.jpg
-  :photo_urls: []
-- :title: "£640 per month double room to rent in a Brixton flatshare available from
-    2 December 2017 "
-  :monthly_price: 640
-  :description: "We have a lovely single room in a quiet, relaxed household available
-    for rent in Brixton / London from the 2ND OF DECEMBER\r\n\n\r\n\nThe 3 bedroom
-    flat is spacious, situated in a newly refurbished Victorian house, equipped with
-    all amenities you need, we have a new washing machine, shower, lovely bathtub
-    and new boiler installed. Flat is within short walking distance (5min) to Brixton
-    Underground Station / Victoria line - overnight tube and numerous buses provide
-    fantastic connection options to different parts of the city!\r\n\n\r\n\nAlthough
-    very close to Brixton Village, Market Row, Ritzy Cinema and Pop Up Village (wide
-    selection of eating out places , local shops and supermarkets) the flat is hidden
-    away from the local buzz on a residential street. \r\n\n\r\n\nM&S / Sainsbury's
-    /Tesco are a few blocks away. The room faces the residential sunny street. There's
-    a courtyard, where you can also store your bike.\r\n\nThe room is 640 plus bills
-    (council tax / water / internet / electricity which comes up to around 70 month
-    extra). \r\n\nThere's an entry code panel in front of the main door for enhanced
-    security.\r\n\n\r\n\nDEPOSIT> will have to be paid once you decide to move in
-    + \r\n\none month's rent - this will need to paid on the 1st of December and 1st
-    of every month onwards.\r\n\n\r\n\nThe room contains a double bed, desk (but landlord
-    has lots of spare furniture available). Feel free to bring any of your own furniture
-    or ask the landlord for any extras.\r\n\n\r\n\nPreferably no students (sorry!)
-    unless you can provide a proof of stable income / no crazy party people. This
-    is a no smoking home.\r\n\n\r\n\nIf you have any other questions please feel free
-    to get in touch : )\r\n\nRaman."
-  :number_of_flatmates: 1
-  :flat_size: 109
-  :amenities: Gym,Doorman,Dryer,Heating,Hot tub,Wifi
-  :neighborhood: Brixton
-  :currency: "£"
-  :lat: 51.46127
-  :lng: -0.11313
-  :room_size: 28
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c2.staticflickr.com/2/1228/1397580612_7d05055913_b.jpg
-  :photo_urls: []
-- :title: "£1,150 per month double room to rent in a Earls Court flatshare available
-    from 3 January 2018 "
-  :monthly_price: 1150
-  :description: "Ideally, looking for someone who has a permanent job, or a post graduate
-    student to stay at least six months. Tidy, non smoker and most importantly clean
-    (emphasis on last point). Cleaner once every 2 weeks. Kitchen has washing machine,
-    dishwasher. Room has its own bathroom (not en suite). Large living room. Fibre
-    internet. House comes with access to a private park. Flat is on last floor and
-    has a private rooftop. House recently renovated: fitted with wooden floor and
-    walls repainted. 2 min walk from Earl's Court underground station. 4 min walk
-    from 24h Tesco.\r\n\nI am 24. Work long hours. Not at home a lot. If this sounds
-    like it might suit you, contact me by mail. Thanks."
-  :number_of_flatmates: 3
-  :flat_size: 89
-  :amenities: Elevator,Iron,Gym,Wifi,Hot tub,Kitchen
-  :neighborhood: Earls Court
-  :currency: "£"
-  :lat: 51.49059
-  :lng: -0.1982334
-  :room_size: 20
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://c2.staticflickr.com/2/1228/1397580612_7d05055913_b.jpg
-  :photo_urls: []
-te: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124749.jpg
-  :photo_urls: []
-- :title: "£1,150 per month double room to rent in a Earls Court flatshare available
-    from 3 January 2018 "
-  :monthly_price: 1150
-  :description: "Ideally, looking for someone who has a permanent job, or a post graduate
-    student to stay at least six months. Tidy, non smoker and most importantly clean
-    (emphasis on last point). Cleaner once every 2 weeks. Kitchen has washing machine,
-    dishwasher. Room has its own bathroom (not en suite). Large living room. Fibre
-    internet. House comes with access to a private park. Flat is on last floor and
-    has a private rooftop. House recently renovated: fitted with wooden floor and
-    walls repainted. 2 min walk from Earl's Court underground station. 4 min walk
-    from 24h Tesco.\r\n\nI am 24. Work long hours. Not at home a lot. If this sounds
-    like it might suit you, contact me by mail. Thanks."
-  :number_of_flatmates: 1
-  :flat_size: 91
-  :amenities: Iron,TV,Kitchen,Air conditioning,Dryer,Doorman
-  :neighborhood: Earls Court
-  :currency: "£"
-  :lat: 51.49059
-  :lng: -0.1982334
-  :room_size: 30
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124119.jpg
-  :photo_urls: []
-net/photos-external-thumbnail/6124119.jpg
   :photo_urls: []

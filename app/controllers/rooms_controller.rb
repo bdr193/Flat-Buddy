@@ -9,40 +9,40 @@ class RoomsController < ApplicationController
 
   def index
     @neighborhoods = ["Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
+    #
+    # @lat = params[:room][:lat] || session[:lat]
+    # @lng = params[:room][:lng] || session[:lng]
 
-    @lat = params[:room][:lat] || session[:lat]
-    @lng = params[:room][:lng] || session[:lng]
+    # @move_in_date = params[:room][:move_in_date] || session[:move_in_date]
+    # @move_out_date = params[:room][:move_out_date] || session[:move_out_date]
 
-    @move_in_date = params[:room][:move_in_date] || session[:move_in_date]
-    @move_out_date = params[:room][:move_out_date] || session[:move_out_date]
-
-    @flats_ids = Flat.near([@lat, @lng], 30).map(&:id)
+    @flats_ids = Flat.near([51.5074, 0.1278], 30).map(&:id)
     @rooms = Room.where(flat_id: @flats_ids)
 
-    @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
-    @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
+    # @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
+    # @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
 
-    if params[:room][:neighborhood].present?
-      @neighborhood = params[:room][:neighborhood]
-      @rooms = @rooms.select("*").joins(:flat).where(flats: { neighborhood: @neighborhood } )
-    end
+    # if params[:room][:neighborhood].present?
+    #   @neighborhood = params[:room][:neighborhood]
+    #   @rooms = @rooms.select("*").joins(:flat).where(flats: { neighborhood: @neighborhood } )
+    # end
+    #
+    # if params[:room][:number_of_flatmates].present?
+    #   @number_of_flatmates = params[:room][:number_of_flatmates]
+    #   @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= ?", @number_of_flatmates )
+    # end
+    #
+    # if params[:room][:monthly_price].present?
+    #   @monthly_price = params[:room][:monthly_price]
+    #   @rooms = @rooms.select("*").joins(:flat).where("flats.monthly_price <= ?", @monthly_price )
+    # end
+    #
+    # if params[:room][:allow_students].present?
+    #   @allow_students = params[:room][:allow_students]
+    #   @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students )
+    # end
 
-    if params[:room][:number_of_flatmates].present?
-      @number_of_flatmates = params[:room][:number_of_flatmates]
-      @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= ?", @number_of_flatmates )
-    end
-
-    if params[:room][:monthly_price].present?
-      @monthly_price = params[:room][:monthly_price]
-      @rooms = @rooms.select("*").joins(:flat).where("flats.monthly_price <= ?", @monthly_price )
-    end
-
-    if params[:room][:allow_students].present?
-      @allow_students = params[:room][:allow_students]
-      @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students )
-    end
-
-    info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
+    # info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
 
     # allow_students
     # allow_pets

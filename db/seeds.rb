@@ -7,9 +7,7 @@ require "yaml"
 # Profiles and interests
 
 AMENITIES = ["Wifi", "TV", "Elevator", "Doorman", "Washer", "Dryer", "Gym", "Iron", "Kitchen", "Hot tub", "Air conditioning", "Heating"]
-
 puts "Clearing database"
-
 puts "Clearing rooms"
 Room.destroy_all
 puts "Clearing flats"
@@ -39,8 +37,13 @@ def create_users
   users = YAML::load_file(File.join(__dir__, 'users_info.yml'))
   users.each_with_index do |user, index|
     puts "Creating user #{index}"
-    user[:flat_id] = ((index/3) + 1)
-    User.create!(user)
+    begin
+      User.create!(user)
+    rescue Exception => e
+      puts e.message
+      puts "The error is in#{user[:email]}"
+    end
+
   end
 end
 
@@ -54,47 +57,44 @@ user_one = User.create!(
 
 create_flats_and_rooms
 create_users
-
-puts neighborhoods
-
-
-viewing_one = Viewing.create!(
-  start_time: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
-  duration: 45,
-  room_id: 1,
-  )
-
-puts "Viewing 1 created"
-
-viewing_two = Viewing.create!(
-  start_time: Time.strptime('29/11/2017 19:00', '%d/%m/%Y %H:%M'),
-  duration: 45,
-  room_id: 2,
-  )
-
-puts "Viewing 2 created"
-
-request_one = Request.create!(
-  slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
-  user_id: 1,
-  viewing_id: 1,
-  )
-request_one.accepted!
-request_one.save!
-
-puts "Request 1 created"
-
-request_two = Request.create!(
-  slot: Time.strptime('29/11/2017 19:00', '%d/%m/%Y %H:%M'),
-  user_id: 1,
-  viewing_id: 2,
-  )
-request_two.pending!
-request_two.save!
-
-puts "Request 2 created"
-
 #
+# viewing_one = Viewing.create!(
+#   start_time: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
+#   duration: 45,
+#   room_id: 1,
+#   )
+#
+# puts "Viewing 1 created"
+#
+# viewing_two = Viewing.create!(
+#   start_time: Time.strptime('29/11/2017 19:00', '%d/%m/%Y %H:%M'),
+#   duration: 45,
+#   room_id: 2,
+#   )
+#
+# puts "Viewing 2 created"
+#
+# request_one = Request.create!(
+#   slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
+#   user_id: 1,
+#   viewing_id: 1,
+#   )
+# request_one.accepted!
+# request_one.save!
+#
+# puts "Request 1 created"
+#
+# request_two = Request.create!(
+#   slot: Time.strptime('29/11/2017 19:00', '%d/%m/%Y %H:%M'),
+#   user_id: 1,
+#   viewing_id: 2,
+#   )
+# request_two.pending!
+# request_two.save!
+#
+# puts "Request 2 created"
+#
+# #
 # flat_attr = {
 #   title: title,
 #   monthly_price: room["price"].to_i,
