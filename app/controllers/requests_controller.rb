@@ -1,7 +1,8 @@
 class RequestsController < ApplicationController
 
   def index
-    @requests = Request.all.where(user_id: current_user.id)
+    @requests = Request.all.where(user_id: current_user.id).order("created_at DESC")
+    @requests = @requests.sort_by {|r| [r.status] }
   end
 
   def show
@@ -20,6 +21,7 @@ class RequestsController < ApplicationController
     @request.user = current_user
     @request.viewing = @viewing
     if @request.save
+      redirect_to request_path(@request)
       @flat = @request.viewing.room.flat
       @chat_room = ChatRoom.create!(request_id: @request.id, name: @flat.title)
       redirect_to requests_path

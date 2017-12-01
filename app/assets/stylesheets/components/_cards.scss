@@ -39,3 +39,29 @@
 .card-address {
   font-size: 14px;
 }
+
+.line-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flat-price {
+  position: absolute;
+  display: flex;
+  background-color: $pink;
+  color: $white;
+  right: -13px;
+  top: -13px;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 3px;
+  p {
+    margin: 0;
+  }
+  font-weight: medium;
+  font-size: 22px;
+}
+
+
+
+

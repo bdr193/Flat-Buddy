@@ -1,16 +1,20 @@
 <div class="container text-center col-xs-12 col-sm-12">
 
-  <h1>My Requests</h1>
   <p class="btn btn-primary btn-hover btn-calendar" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
-
 
   <% @requests.each do |request| %>
 
   <div class="listing">
-
-    <div class="request-status request request-border-right">
+    <% if request.status == "pending" %>
+      <div class="pending request-status request request-border-right">
       <%= request.status %>
-    </div>
+      </div>
+    <% else %>
+      <div class="request-status request request-border-right">
+      <%= request.status %>
+      </div>
+    <% end %>
+
     <div class="request request-border">
       <div class="request-price"> <%= request.viewing.room.flat.monthly_price %>€ </div>
       <div class="request-title">
@@ -24,7 +28,9 @@
 
       <div>
         <% if chat = request.chat_room && request.status == "accepted" %>
-          <%= link_to "Send Message", chat_room_path(chat), class: "btn btn-pink" %>
+          <%= link_to "Send Message", chat_room_path(request.chat_room), class: "btn btn-pink" %>
+        <% else %>
+          <div class="btn btn-pale">Send Message</div>
         <%  end %>
       </div>
 
