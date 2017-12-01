@@ -11,8 +11,10 @@
           <div class="card-header", style="background-image: url('<%= cl_image_path room.flat.card_image, crop: :fit %>')">
           </div>
           <div class="card-footer">
-            <h6><%= room.flat.title %></h6>
-            <!-- <div class="flat-price"><%= room.flat.monthly_price %>£</div> -->
+            <div class="line-one">
+              <h6><%= room.flat.title %></h6>
+              <div class="flat-price">£<%= room.flat.monthly_price %></div>
+            </div>
             <p>
               <% room.flat.users.each do |user| %>
               <%= user.first_name %> |
