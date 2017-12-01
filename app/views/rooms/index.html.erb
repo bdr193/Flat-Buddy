@@ -15,10 +15,11 @@
             <!-- <div class="flat-price"><%= room.flat.monthly_price %>£</div> -->
             <p>
               <% room.flat.users.each do |user| %>
-              <%= user.first_name %>
+              <%= user.first_name %> |
               <% end %>
             </p>
-            <p><%= room.flat.address %></p>
+            <strong> <%= room.flat.neighborhood %></strong>
+            <p class="card-address"><%= room.flat.address[0..-21]%></p>
           </div>
         </div>
       </div>
