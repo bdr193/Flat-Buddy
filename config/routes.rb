@@ -8,10 +8,9 @@ Rails.application.routes.draw do
   end
   resources :rooms, only: [:show, :index]
   resources :viewings, only: [:index, :show, :new, :edit] do
-    resources :requests, only: [:new, :create]
   end
 
-  resources :requests, only: [:index, :show, :edit]
+  resources :requests, only: [:index, :show, :edit, :new, :create]
 
   resources :chat_rooms, only: [:show] do
     resources :messages, only: [:create]
