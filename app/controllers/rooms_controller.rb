@@ -2,7 +2,12 @@ class RoomsController < ApplicationController
   before_action :find_room_id, only: [:show, :edit]
 
   def index
-    @rooms = Room.all
+    @search = Search.new(search_params)
+    if @search.valid?
+      @rooms = Room.all
+    else
+      render "pages/home"
+    end
   end
 
   def show
@@ -28,5 +33,9 @@ class RoomsController < ApplicationController
 
   def find_room_id
     @room = Room.find(params[:id])
+  end
+
+  def search_params
+    params.require(:search).permit(:city, :move_in_date, :move_out_date, :lat, :lng)
   end
 end

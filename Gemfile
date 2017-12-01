@@ -12,6 +12,8 @@ gem 'omniauth-facebook'
 gem "geocoder"
 gem "coffee-rails"
 gem "gmaps4rails"
+gem 'bootstrap-toggle-rails'
+
 
 source 'https://rails-assets.org' do
   gem "rails-assets-underscore"
@@ -28,7 +30,11 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'jquery-rails'
 gem 'sass-rails'
+
 gem 'simple_form'
+gem 'client_side_validations'
+gem 'client_side_validations-simple_form'
+
 gem 'uglifier'
 gem 'nokogiri'
 
