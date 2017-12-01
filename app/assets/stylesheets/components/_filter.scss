@@ -24,20 +24,22 @@
   justify-content: space-between;
 
   .toggle {
-    border: 1px solid $pink;
+    border: none;
   }
   .toggle-off.btn {
     color: black;
   }
 }
 
+
+.filter-style {
+  .form-control {
+    background-color: $light-gray;
+    border: none;
+  }
 .control-label {
   font-weight: lighter;
   font-size: 22px;
   text-shadow: 1px 1px 20px $pink;
 }
-
-.form-control {
-  background-color: #F4E2E5;
-  border: 1px solid $pink;
 }
