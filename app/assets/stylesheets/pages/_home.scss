@@ -1,1 +1,7 @@
 // Specific CSS for your home-page
+.search-form .has-error .control-label,
+.search-form .has-error .help-block,
+.search-form .has-error .form-control-feedback {
+    color: white;
+    font-weight: bold;
+}
