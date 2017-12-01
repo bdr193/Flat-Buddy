@@ -7,9 +7,16 @@
 
   <div class="listing">
 
-    <div class="request-status request request-border-right">
+    <% if request.status == "pending" %>
+      <div class="pending request-status request request-border-right">
       <%= request.status %>
-    </div>
+      </div>
+    <% else %>
+      <div class="request-status request request-border-right">
+      <%= request.status %>
+      </div>
+    <% end %>
+
     <div class="request request-border">
       <div class="request-price"> <%= request.viewing.room.flat.monthly_price %>€ </div>
       <div class="request-title">
