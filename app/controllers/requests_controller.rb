@@ -1,7 +1,7 @@
 class RequestsController < ApplicationController
 
   def index
-    @requests = Request.all.where(user_id: current_user.id)
+    @requests = Request.all.where(user_id: current_user.id).order("created_at DESC")
   end
 
   def show
