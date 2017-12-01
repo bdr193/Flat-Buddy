@@ -281,9 +281,9 @@ DEPENDENCIES
   autoprefixer-rails
   bootstrap-datepicker-rails
   bootstrap-sass
+  bootstrap-toggle-rails
   client_side_validations
   client_side_validations-simple_form
-  bootstrap-toggle-rails
   cloudinary (= 1.1.7)
   coffee-rails
   devise

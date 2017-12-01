@@ -8,7 +8,6 @@ class RoomsController < ApplicationController
   end
 
   def index
-<<<<<<< HEAD
     @neighborhoods = ["Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
 
     @lat = params[:room][:lat] || session[:lat]
@@ -53,14 +52,12 @@ class RoomsController < ApplicationController
     # couples_allowed
     # ensuite
     # accessible
-=======
     @search = Search.new(search_params)
     if @search.valid?
       @rooms = Room.all
     else
       render "pages/home"
     end
->>>>>>> master
   end
 
   def show

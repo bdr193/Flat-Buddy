@@ -39,7 +39,7 @@ def create_users
   users = YAML::load_file(File.join(__dir__, 'users_info.yml'))
   users.each_with_index do |user, index|
     puts "Creating user #{index}"
-    user[:flat_id] = index + 1
+    user[:flat_id] = ((index/3) + 1)
     User.create!(user)
   end
 end
