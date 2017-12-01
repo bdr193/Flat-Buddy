@@ -23,7 +23,9 @@
 
       <div>
         <% if chat = request.chat_room && request.status == "accepted" %>
-          <%= link_to "Send Message", chat_room_path(chat), class: "btn btn-pink" %>
+          <%= link_to "Send Message", chat_room_path(request.chat_room), class: "btn btn-pink" %>
+        <% else %>
+          <div class="btn btn-pale">Send Message</div>
         <%  end %>
       </div>
 
