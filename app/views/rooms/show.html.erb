@@ -1,6 +1,6 @@
 <div class="container">
   <div class="room-banner", style="background-image:
-  url('<%= cl_image_path @room_photo, crop: :fill %>')">
+  url('<%= cl_image_path @room_photo, crop: :fill, gravity: :face %>')">
   <div class="room-price">
     <p>£<%= @room.flat.monthly_price%>/m</p>
   </div>
