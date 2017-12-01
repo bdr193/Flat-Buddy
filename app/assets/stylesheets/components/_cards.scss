@@ -11,6 +11,7 @@
 
 .card-header {
   height: 70%;
+  background-size: cover;
 }
 
 .card-link {
@@ -33,4 +34,8 @@
   padding: 10px;
   box-shadow: 1px 0 12px #888888;
   height: 170px;
+}
+
+.card-address {
+  font-size: 14px;
 }

@@ -1,6 +1,5 @@
 ---
-- :title: "£607 per month double room to rent in a Waterloo flatshare available from
-    4 August 2017 "
+- :title: "The Genie Bottle"
   :monthly_price: 607
   :description: "Marvelous Double bedroom just the round the corner from Waterloo
     and Lambeth North Stations.\n\nExtraordinary location within a lively neighborhood
@@ -10,15 +9,13 @@
     with easy access to gyms and a walking distance to our local park perfect for
     jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
     in for a nice weekend of drinks and socializing with friends."
-  :number_of_flatmates: 3
-  :flat_size: 81
-  :amenities: Kitchen,Hot tub,Doorman,Heating,Wifi,Dryer
+  :number_of_flatmates: 1
+  :amenities: Hot tub,Elevator,Air conditioning,Washer,Dryer,Gym
   :neighborhood: Waterloo
   :currency: "£"
-  :lat: 51.4951174
-  :lng: -0.11389329999997244
-  :room_size: 16
-  :has_parking: false
+  :address: Caughley House, Lambeth Walk, Lambeth, London SE11 6NA, UK
+  :latitude: 51.4951174
+  :longitude: -0.11389329999997244
   :deposit: 610
   :allow_students: false
   :allow_pets: false
@@ -31,20 +28,10 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: "Marvelous Single bedroom just the round the corner from Brixton
-    and Stockwell Stations.\n\nExtraordinary location within a lively neighborhood
-    with lots of cafés, night clubs, pubs, theaters, cinemas, museums and local swimming
-    pools.\n\nExcellent transport links to all central London stations by 10 to 15
-    mins and to the city of London. \n\nThe room is obviously in a perfect location
-    with easy access to gyms and a walking distance to our local park perfect for
-    jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
-    in for a nice weekend of drinks and socializing with friends."
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/409ddf2c-9a44-40ce-abda-8f44036dd68e
+  :card_image: https://c1.staticflickr.com/1/219/512234394_ef0bee82c6_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/409ddf2c-9a44-40ce-abda-8f44036dd68e
-- :title: "£433 per month single room to rent in a Waterloo flatshare available from
-    4 August 2017 "
+- :title: Master of My Domain
   :monthly_price: 433
   :description: "Marvelous Single bedroom just the round the corner from Waterloo
     and Lambeth North Tube Stations.\n\nExtraordinary location within a lively neighborhood
@@ -54,15 +41,13 @@
     with easy access to gyms and a walking distance to our local park perfect for
     jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
     in for a nice weekend of drinks and socializing with friends."
-  :number_of_flatmates: 2
-  :flat_size: 80
-  :amenities: Hot tub,Doorman,Kitchen,Wifi,Elevator,Gym
+  :number_of_flatmates: 3
+  :amenities: Kitchen,Elevator,TV,Dryer,Heating,Air conditioning
   :neighborhood: Waterloo
   :currency: "£"
-  :lat: 51.4951174
-  :lng: -0.11389329999997244
-  :room_size: 28
-  :has_parking: false
+  :address: 25 Mildmay Grove N, Mildmay Ward, London N1 4RH, UK
+  :latitude: 51.4951174
+  :longitude: -0.11389329999997244
   :deposit: 435
   :allow_students: false
   :allow_pets: false
@@ -75,20 +60,10 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: "Marvelous Single bedroom just the round the corner from Brixton
-    and Stockwell Stations.\n\nExtraordinary location within a lively neighborhood
-    with lots of cafés, night clubs, pubs, theaters, cinemas, museums and local swimming
-    pools.\n\nExcellent transport links to all central London stations by 10 to 15
-    mins and to the city of London. \n\nThe room is obviously in a perfect location
-    with easy access to gyms and a walking distance to our local park perfect for
-    jogging. \n\nWe do have a barbecue in the ground floor where all our tenants joining
-    in for a nice weekend of drinks and socializing with friends."
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/5fe5d41c-201f-43b1-a5f1-0e8cef1ba447
+  :card_image: https://c1.staticflickr.com/5/4085/4988650945_d865e11563_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/5fe5d41c-201f-43b1-a5f1-0e8cef1ba447
-- :title: "£1,214 per month double room to rent in a Fitzrovia flatshare available
-    from 22 October 2017 "
+- :title: My Sweet Escape
   :monthly_price: 1214
   :description: |-
     Some bills are included in the price and it includes:
@@ -96,14 +71,12 @@
     - Water
     - Broadband
   :number_of_flatmates: 1
-  :flat_size: 90
-  :amenities: Washer,TV,Elevator,Dryer,Doorman,Gym
+  :amenities: Kitchen,TV,Gym,Iron,Hot tub,Elevator
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52270129999999
-  :lng: -0.14230459999998857
-  :room_size: 21
-  :has_parking: false
+  :address: Fitzrovia Court, 24 Carburton St, Fitzrovia, London W1W 5AS, UK
+  :latitude: 51.52270129999999
+  :longitude: -0.14230459999998857
   :deposit: 1214
   :allow_students: false
   :allow_pets: false
@@ -116,26 +89,7 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 2
-  :searching_for: "One large double room and one cosy single room are available on
-    the ground floor of a beautiful secure block of flats. The flat benefits from
-    a fabulous, large decked garden to the rear and the front patio garden. \n\nLocated
-    in the heart of Fitzrovia walking distance to Oxford Street, Great Portland Street
-    station (2 minutes away), Warren Street station (5 minutes away), Goodge Street
-    station (8 minutes away), and very close to UCL and Regent’s Park. \n\nThere are
-    a Tesco and Sainsbury’s next door and variety of restaurants at your doorstep.
-    \n\nPerfect for working professionals or students. \n\nThis is a centrally located
-    flat, which allows you to walk to UCL, LSE and LCF within minutes and spend that
-    extra time in bed. \n\nThere is no communal lounge area; there is a large kitchen
-    table for meals to be eaten at. The shared kitchen is fully equipped with washing
-    machine/clothes dryer, microwave oven, cooker and oven, fridge and freezer. One
-    bathroom and second toilet. The kitchen which you will share with one or two flatmates.
-    \n\nThe flat benefits from:\n-\tQuiet rooms.\n-\tCentral heating \n-\tEasy access
-    to the underground\n-\tExcellent location\n-\tPatio garden.\n-\tFurnished room\n-\tWashing
-    machine \n-\tDishwasher\n\n \nPlease message if you are interested or any further
-    questions and let me know a bit about yourself, age, profession or student and
-    you’re flexibility for move-in date.\n\nThanks\n\nMui"
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/21476c35-803e-4ee3-b0ce-0cf2ed99579e
+  :card_image: https://c2.staticflickr.com/4/3555/3471489212_71b95efe90_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/21476c35-803e-4ee3-b0ce-0cf2ed99579e
   - https://kangaroom.azureedge.net/photos-medium/ebf05a6f-e6ab-4892-8a12-a4fc2a283876
@@ -143,8 +97,7 @@
   - https://kangaroom.azureedge.net/photos-medium/f03773c9-a517-4992-b306-8b7339076439
   - https://kangaroom.azureedge.net/photos-medium/ca704db5-5ee6-4c3e-95d3-b60cc16ae82b
   - https://kangaroom.azureedge.net/photos-medium/3de516b4-183f-479c-88b0-32f3a308a3eb
-- :title: "£997 per month single room to rent in a Fitzrovia flatshare available from
-    22 October 2017 "
+- :title: Queen’s Castle
   :monthly_price: 997
   :description: |-
     Some bills are included in the price and it includes:
@@ -152,14 +105,12 @@
     - Water
     - Broadband
   :number_of_flatmates: 2
-  :flat_size: 105
-  :amenities: Gym,Hot tub,Air conditioning,Doorman,Elevator,Dryer
+  :amenities: Gym,Dryer,Doorman,TV,Hot tub,Heating
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52270129999999
-  :lng: -0.14230459999998857
-  :room_size: 27
-  :has_parking: false
+  :address: Fitzrovia Court, 24 Carburton St, Fitzrovia, London W1W 5AS, UK
+  :latitude: 51.52270129999999
+  :longitude: -0.14230459999998857
   :deposit: 997
   :allow_students: false
   :allow_pets: false
@@ -172,26 +123,7 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 2
-  :searching_for: "One large double room and one cosy single room are available on
-    the ground floor of a beautiful secure block of flats. The flat benefits from
-    a fabulous, large decked garden to the rear and the front patio garden. \n\nLocated
-    in the heart of Fitzrovia walking distance to Oxford Street, Great Portland Street
-    station (2 minutes away), Warren Street station (5 minutes away), Goodge Street
-    station (8 minutes away), and very close to UCL and Regent’s Park. \n\nThere are
-    a Tesco and Sainsbury’s next door and variety of restaurants at your doorstep.
-    \n\nPerfect for working professionals or students. \n\nThis is a centrally located
-    flat, which allows you to walk to UCL, LSE and LCF within minutes and spend that
-    extra time in bed. \n\nThere is no communal lounge area; there is a large kitchen
-    table for meals to be eaten at. The shared kitchen is fully equipped with washing
-    machine/clothes dryer, microwave oven, cooker and oven, fridge and freezer. One
-    bathroom and second toilet. The kitchen which you will share with one or two flatmates.
-    \n\nThe flat benefits from:\n-\tQuiet rooms.\n-\tCentral heating \n-\tEasy access
-    to the underground\n-\tExcellent location\n-\tPatio garden.\n-\tFurnished room\n-\tWashing
-    machine \n-\tDishwasher\n\n \nPlease message if you are interested or any further
-    questions and let me know a bit about yourself, age, profession or student and
-    you’re flexibility for move-in date.\n\nThanks\n\nMui"
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/872d1d89-c8d2-4bce-9dc4-97b26f1835c1
+  :card_image: https://c1.staticflickr.com/1/8/6883860_c6b5c370f4_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/872d1d89-c8d2-4bce-9dc4-97b26f1835c1
   - https://kangaroom.azureedge.net/photos-medium/ebf05a6f-e6ab-4892-8a12-a4fc2a283876
@@ -199,8 +131,7 @@
   - https://kangaroom.azureedge.net/photos-medium/f03773c9-a517-4992-b306-8b7339076439
   - https://kangaroom.azureedge.net/photos-medium/ca704db5-5ee6-4c3e-95d3-b60cc16ae82b
   - https://kangaroom.azureedge.net/photos-medium/3de516b4-183f-479c-88b0-32f3a308a3eb
-- :title: "£1,075 per month double room to rent in a Elephant & Castle flatshare available
-    from 10 July 2017 "
+- :title: Siri Fort
   :monthly_price: 1075
   :description: "En-suite double room in Zone 1 available for sublet from the 10th
     of July, 2017.\nNew tenancy begins on the 10th of October, 2017.\n\nThe property
@@ -218,15 +149,13 @@
     come to roughly £50 each per month, including Council Tax, electricity, gas, water,
     and Super Fibre. \n\nWe are Juan and Paolo and we're looking for someone to join
     us in what is currently our home."
-  :number_of_flatmates: 1
-  :flat_size: 86
-  :amenities: Washer,Kitchen,Doorman,Dryer,Elevator,TV
+  :number_of_flatmates: 3
+  :amenities: Hot tub,Iron,Elevator,Kitchen,Gym,Wifi
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49364139999999
-  :lng: -0.10378370000000814
-  :room_size: 15
-  :has_parking: false
+  :address: 175A Brook Dr, London SE11 4TG, UK
+  :latitude: 51.49364139999999
+  :longitude: -0.10378370000000814
   :deposit: 1600
   :allow_students: false
   :allow_pets: false
@@ -239,31 +168,26 @@
   :minimum_stay: 12
   :preffered_min_age: 25
   :preffered_max_age: 40
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/d9072642-8ade-4b34-8444-936a59a8e014
+  :card_image: https://c1.staticflickr.com/1/4/4601296_cd8b0dcd6c_z.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/d9072642-8ade-4b34-8444-936a59a8e014
   - https://kangaroom.azureedge.net/photos-medium/5e62abb0-01f7-40f8-b06f-a02ca078aaf1
   - https://kangaroom.azureedge.net/photos-medium/e0367e3a-59af-4f55-842a-f617cd438cfe
   - https://kangaroom.azureedge.net/photos-medium/dde141fc-b7de-4fb4-bd2f-4ec462216698
   - https://kangaroom.azureedge.net/photos-medium/32edf9af-3fbf-4721-9b87-3439d402d6ff
-- :title: "£850 per month double room to rent in a Elephant & Castle flatshare available
-    from 1 February 2018 "
+- :title: The Bat Cave
   :monthly_price: 850
   :description: "Hey guys, my is Arune and I am currently living here until 1 of October.
     I am self-employed. I am looking for short, long term flatmates. Respectful, clean,
     easy going  - would be great. \n3 bedroom apartment no living room.\L \nPlease
     feel free to contact."
-  :number_of_flatmates: 2
-  :flat_size: 95
-  :amenities: Air conditioning,Washer,Wifi,Dryer,Hot tub,Iron
+  :number_of_flatmates: 3
+  :amenities: Dryer,Kitchen,Wifi,Doorman,Air conditioning,Heating
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49286310000001
-  :lng: -0.10014249999994718
-  :room_size: 23
-  :has_parking: false
+  :address: Draper House, London SE1 6TH, UK
+  :latitude: 51.49286310000001
+  :longitude: -0.10014249999994718
   :deposit: 850
   :allow_students: false
   :allow_pets: false
@@ -276,13 +200,7 @@
   :minimum_stay: 1
   :preffered_min_age: 24
   :preffered_max_age: 37
-  :preffered_gender: 0
-  :searching_for: "Hey guys, my is Arune and I am currently living here until 1 of
-    October. I am self-employed. I am looking for short, long term flatmates. Respectful,
-    clean, easy going  - would be great. \nI am staying in the lounge room.  \nI am
-    an active person. Love dancing salsa. watersports, jogging. if you have any questions
-    feel free to contact.\n\nBest, \nArune"
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/f1ff65df-5d12-4f58-980c-2d01675c056d
+  :card_image: https://c1.staticflickr.com/1/51/178269213_b08d9617b0_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f1ff65df-5d12-4f58-980c-2d01675c056d
   - https://kangaroom.azureedge.net/photos-medium/0a9bd17d-3df4-4e17-b4dc-8c1462195eba
@@ -294,22 +212,19 @@
   - https://kangaroom.azureedge.net/photos-medium/fc3af9ae-3d8e-4d46-ae59-ba5c50dcc8bf
   - https://kangaroom.azureedge.net/photos-medium/a325749f-cb08-4859-a96f-2091079d79b0
   - https://kangaroom.azureedge.net/photos-medium/fb7507db-2653-4ac7-b9ec-db584481cc88
-- :title: "£850 per month double room to rent in a Elephant & Castle flatshare available
-    from 1 February 2018 "
+- :title: Hamilton’s Hottub
   :monthly_price: 850
   :description: "Hey guys, my name is Arune and I am currently living here until 1
     of October. I am self-employed. I am looking for short, long term flatmates. Respectful,
     clean, easy going  - would be great. \n3 bedroom apartment no living room\nPlease
     feel free to contact."
   :number_of_flatmates: 1
-  :flat_size: 92
-  :amenities: Dryer,Iron,Heating,Washer,TV,Gym
+  :amenities: Hot tub,Elevator,Kitchen,Gym,TV,Wifi
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49286310000001
-  :lng: -0.10014249999994718
-  :room_size: 26
-  :has_parking: false
+  :address: Draper House, London SE1 6TH, UK
+  :latitude: 51.49286310000001
+  :longitude: -0.10014249999994718
   :deposit: 850
   :allow_students: false
   :allow_pets: false
@@ -322,13 +237,7 @@
   :minimum_stay: 1
   :preffered_min_age: 24
   :preffered_max_age: 37
-  :preffered_gender: 0
-  :searching_for: "Hey guys, my is Arune and I am currently living here until 1 of
-    October. I am self-employed. I am looking for short, long term flatmates. Respectful,
-    clean, easy going  - would be great. \nI am staying in the lounge room.  \nI am
-    an active person. Love dancing salsa. watersports, jogging. if you have any questions
-    feel free to contact.\n\nBest, \nArune"
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/808f151b-973e-4150-9759-6a8b3edce4e1
+  :card_image: https://c2.staticflickr.com/8/7182/6805801950_117dc11224_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/808f151b-973e-4150-9759-6a8b3edce4e1
   - https://kangaroom.azureedge.net/photos-medium/4c30a3a1-9aab-4ae6-9891-e0c2ba1346b6
@@ -339,8 +248,7 @@
   - https://kangaroom.azureedge.net/photos-medium/fc3af9ae-3d8e-4d46-ae59-ba5c50dcc8bf
   - https://kangaroom.azureedge.net/photos-medium/a325749f-cb08-4859-a96f-2091079d79b0
   - https://kangaroom.azureedge.net/photos-medium/fb7507db-2653-4ac7-b9ec-db584481cc88
-- :title: "£1,000 per month double room to rent in a King's Cross flatshare available
-    from 18 August 2017 "
+- :title: The Good Good Morning
   :monthly_price: 1000
   :description: Hey guys! I am moving out of my flat and I am looking for someone
     to take my double-bed room from end-august/beginning September. The apartment
@@ -349,14 +257,12 @@
     terrace and has access to a shared rooftop garden. The other flatmates are two
     young professionals working in the City. The price is £1,000 per month
   :number_of_flatmates: 2
-  :flat_size: 82
-  :amenities: Air conditioning,Iron,Kitchen,Washer,TV,Doorman
+  :amenities: Air conditioning,Wifi,Doorman,Hot tub,Gym,Heating
   :neighborhood: King's Cross
   :currency: "£"
-  :lat: 51.5312657
-  :lng: -0.11882990000003701
-  :room_size: 21
-  :has_parking: false
+  :address: 210 Pentonville Rd, Kings Cross, London N1 9JY, UK
+  :latitude: 51.5312657
+  :longitude: -0.11882990000003701
   :deposit: 1000
   :allow_students: false
   :allow_pets: false
@@ -369,9 +275,7 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/f0346bb7-cb5f-4dd9-9faa-70aa01058789
+  :card_image: https://c2.staticflickr.com/4/3824/9338735256_c4c774b2ba_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f0346bb7-cb5f-4dd9-9faa-70aa01058789
   - https://kangaroom.azureedge.net/photos-medium/40eae659-293a-4ae3-b701-d716015d2746
@@ -385,8 +289,7 @@
   - https://kangaroom.azureedge.net/photos-medium/7dd98fbe-6231-4d6d-b20e-7f8c5a73483e
   - https://kangaroom.azureedge.net/photos-medium/1b6c7f9f-7ed5-46ec-8a34-4614e4dab70c
   - https://kangaroom.azureedge.net/photos-medium/20978f64-0fd8-49d3-9b12-967f766ba7c7
-- :title: "£1,100 per month single room to rent in a Elephant & Castle flatshare available
-    from 24 October 2017 "
+- :title: Chateau Volary
   :monthly_price: 1100
   :description: "URGENT \n\nI am looking for one student to move into my Standard
     Studio Room at Dashwood Studio. It is a large double bed room with ensuite, kitchen
@@ -398,15 +301,13 @@
     \n3 minute walk from a gym. \n\nBus stop directly outside \n5 minute walk from
     Elephant and Castle Station \n5 minute walk from UAL: London College of Communication
     \n10 minute walk from Southbank University \n\nSE17 1RW"
-  :number_of_flatmates: 2
-  :flat_size: 99
-  :amenities: Air conditioning,Heating,Dryer,Wifi,Washer,Hot tub
+  :number_of_flatmates: 1
+  :amenities: Air conditioning,Washer,Hot tub,Iron,Wifi,Doorman
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.4908911
-  :lng: -0.0977612000000363
-  :room_size: 16
-  :has_parking: false
+  :address: John Smith House, 144-152 Walworth Rd, London SE17 1JL, UK
+  :latitude: 51.4908911
+  :longitude: -0.0977612000000363
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -419,9 +320,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/57974ae4-1031-45e5-b4ba-13f38ab9681f
+  :card_image: https://c1.staticflickr.com/3/2553/4038612045_4986377614_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/57974ae4-1031-45e5-b4ba-13f38ab9681f
   - https://kangaroom.azureedge.net/photos-medium/73f23777-411f-4c94-82f7-65d9dccab10e
@@ -431,19 +330,16 @@
   - https://kangaroom.azureedge.net/photos-medium/5c3366ab-c3b8-4737-9b92-5b8b41ecbf51
   - https://kangaroom.azureedge.net/photos-medium/44b57686-7954-4cfc-a03c-b029e6bdae59
   - https://kangaroom.azureedge.net/photos-medium/c888685a-6a36-457d-9f1e-c64cd7d4a123
-- :title: "£800 per month double room to rent in a Old Street flatshare available
-    from 8 November 2017 "
+- :title: Glenugie
   :monthly_price: 800
   :description: Double room , double bed and furniture is provided.  Ask for viewings.
   :number_of_flatmates: 2
-  :flat_size: 102
-  :amenities: Heating,Iron,Hot tub,TV,Dryer,Doorman
+  :amenities: Kitchen,Dryer,Air conditioning,Heating,Wifi,TV
   :neighborhood: Old Street
   :currency: "£"
-  :lat: 51.5274005
-  :lng: -0.09995939999998882
-  :room_size: 23
-  :has_parking: false
+  :address: Turnpike House, Goswell Rd, Clerkenwell, London EC1V, UK
+  :latitude: 51.5274005
+  :longitude: -0.09995939999998882
   :deposit: 400
   :allow_students: false
   :allow_pets: false
@@ -456,17 +352,12 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 40
-  :preffered_gender: 0
-  :searching_for: Young professional couple is living in the house. Flat is clean
-    and tidy. Close to Angel station. Central location. Any questions please drop
-    me a shout. 07449976150
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/bfbe6c05-dd07-4dc2-89d1-e84816051a84
+  :card_image: https://c1.staticflickr.com/1/141/380530258_7af5b3117b_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/bfbe6c05-dd07-4dc2-89d1-e84816051a84
   - https://kangaroom.azureedge.net/photos-medium/3b78a90b-9d4d-4215-85d9-59a31e4cf502
   - https://kangaroom.azureedge.net/photos-medium/5bc4f5f1-14ec-4b82-ac04-27119c276ade
-- :title: "£780 per month single room to rent in a Southwark flatshare available from
-    24 November 2017 "
+- :title: Naughty House
   :monthly_price: 780
   :description: "Really nice double bedroom, furnished in a quiet area about 5-10
     minutes walk from Elephant and Castle or 20 minutes walk from London Bridge. \nThe
@@ -496,15 +387,13 @@
     many places and all places will charge council tax of course)\n\n(This current
     tenancy is 8 months but there may a chance to renew for another year at the end
     of the contract with come of the other housemates)"
-  :number_of_flatmates: 1
-  :flat_size: 105
-  :amenities: Washer,Iron,Kitchen,Heating,Wifi,Doorman
+  :number_of_flatmates: 3
+  :amenities: Kitchen,Gym,TV,Doorman,Elevator,Heating
   :neighborhood: Southwark
   :currency: "£"
-  :lat: 51.4928392
-  :lng: -0.08981459999995423
-  :room_size: 13
-  :has_parking: false
+  :address: 40 Henshaw St, London SE17 1PD, UK
+  :latitude: 51.4928392
+  :longitude: -0.08981459999995423
   :deposit: 1000
   :allow_students: false
   :allow_pets: false
@@ -517,12 +406,7 @@
   :minimum_stay: 7
   :preffered_min_age: 18
   :preffered_max_age: 35
-  :preffered_gender: 0
-  :searching_for: We are students at Kings College London, we are all very tidy and
-    clean and really look after the shared areas. We like doing a roast dinner together
-    once a month and we all love food. We also enjoy going to the gym, playing netball,
-    theatre and travelling.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/4e70aaab-6890-481d-965e-b88da5289515
+  :card_image: https://c1.staticflickr.com/1/140/339497355_4307f3898a_z.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4e70aaab-6890-481d-965e-b88da5289515
   - https://kangaroom.azureedge.net/photos-medium/e0694ad8-3737-477c-a452-7f0b21918701
@@ -532,23 +416,20 @@
   - https://kangaroom.azureedge.net/photos-medium/558287ac-d638-45ff-a3a2-c12d36c16deb
   - https://kangaroom.azureedge.net/photos-medium/86cc933d-ed24-43f7-bbdd-c303bdb24e3b
   - https://kangaroom.azureedge.net/photos-medium/1eb994a1-39eb-4aeb-8d68-ce40c95f69ca
-- :title: "£730 per month double room to rent in a Vauxhall flatshare available from
-    21 November 2017 "
+- :title: Casa de Sarita!
   :monthly_price: 730
   :description: Large Double Room in a quiet and clean flat. Fast WIFI, own Tv (com-bi),
     A Desk. Near Vauxhall and Oval stations 5-8 minutes walk. Also many Buses to the
     city.  Easy commute to anywhere in London. Quiet neighborhood, near Vauxhall park.
-    Have  washing machine and  dryer. Gas and electric is not included in the Rent,
-    cost Estimate £30-35 per month.
+    Have  washing machine and  dryer. Gas and electric is not included in the Rent,  Estimate
+    £30-35 per month.
   :number_of_flatmates: 1
-  :flat_size: 78
-  :amenities: Washer,Doorman,Iron,Heating,Gym,Kitchen
+  :amenities: Heating,Gym,Doorman,Air conditioning,Iron,Kitchen
   :neighborhood: Vauxhall
   :currency: "£"
-  :lat: 51.4811323
-  :lng: -0.11919499999999061
-  :room_size: 29
-  :has_parking: false
+  :address: 91-99 Fentiman Rd, London SW8 1LA, UK
+  :latitude: 51.4811323
+  :longitude: -0.11919499999999061
   :deposit: 730
   :allow_students: false
   :allow_pets: false
@@ -561,17 +442,12 @@
   :minimum_stay: 12
   :preffered_min_age: 21
   :preffered_max_age: 55
-  :preffered_gender: 0
-  :searching_for: Ideally looking for a clean, honest and considerate person., to
-    live with a mature lady. I am respectful and quiet, i work long hours,  very busy
-    during the week.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/9f7e8b0e-b3a7-403f-adb7-0f581b4e5c2b
+  :card_image: https://c1.staticflickr.com/1/204/498983561_df368160af_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/9f7e8b0e-b3a7-403f-adb7-0f581b4e5c2b
   - https://kangaroom.azureedge.net/photos-medium/f6477b71-ae10-40c4-979f-46910141361b
   - https://kangaroom.azureedge.net/photos-medium/0a3a57f1-c116-4d97-b645-0d2ba2ead7af
-- :title: "£620 per month double room to rent in a Marylebone flatshare available
-    from 14 September 2017 "
+- :title: House of Confusion
   :monthly_price: 620
   :description: "Double room in house share of three - very central!\n\nDouble bed
     room in house share of three tenants available from 14/09/2017. This house is
@@ -586,15 +462,13 @@
     interests (music or exercise a plus), where you’re from and what you’re looking
     for from a shared tenancy. \n\nWe are looking for someone friendly, interesting,
     clean/tidy and responsible to join this tenancy."
-  :number_of_flatmates: 2
-  :flat_size: 122
-  :amenities: Doorman,Hot tub,Washer,Gym,Kitchen,TV
+  :number_of_flatmates: 1
+  :amenities: Iron,Heating,Hot tub,Washer,TV,Kitchen
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.5215233
-  :lng: -0.1657331000000113
-  :room_size: 17
-  :has_parking: false
+  :address: Church Army Hostel, 1-5 Cosway St, Marylebone, London NW1 5NR, UK
+  :latitude: 51.5215233
+  :longitude: -0.1657331000000113
   :deposit: 830
   :allow_students: false
   :allow_pets: false
@@ -607,21 +481,7 @@
   :minimum_stay: 12
   :preffered_min_age: 22
   :preffered_max_age: 32
-  :preffered_gender: 0
-  :searching_for: "Double room in house share of three - very central!\n\nDouble bed
-    room in house share of three tenants available from 14/09/2017. This house is
-    a ground floor flat in central London, two minutes walk from Marylebone and Edgware
-    Road tube stations and seven minutes walk from Baker Street.\n\nIdeal location
-    for anyone working in central London or wishing to live somewhere well-connected
-    and central.\n\nTwo housemates seek third to complete shared tenancy for 12 months+.\n\nBills
-    are not included in listed price. Gas/electric, council tax, water, broadband
-    and TV licence are all to be split equally three ways.\n\nViewings are possible,
-    usually between 1700 and 2200. To be eligible for a viewing and meet, please make
-    contact describing a few things about yourself: what you’re doing for work, your
-    interests (music or exercise a plus), where you’re from and what you’re looking
-    for from a shared tenancy. \n\nWe are looking for someone friendly, interesting,
-    clean/tidy and responsible to join this tenancy."
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/6c661fa5-35b9-4b2b-8a8e-a91ec478aa04
+  :card_image: https://c2.staticflickr.com/2/1098/1483575085_763ce843c9_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/6c661fa5-35b9-4b2b-8a8e-a91ec478aa04
   - https://kangaroom.azureedge.net/photos-medium/464c4f81-bb9c-4b9f-b2e1-64269cc09de9
@@ -631,8 +491,7 @@
   - https://kangaroom.azureedge.net/photos-medium/5064310e-e210-4078-8412-82225cdb07f3
   - https://kangaroom.azureedge.net/photos-medium/03577e33-8aa7-4c70-8825-ba6b88898e1c
   - https://kangaroom.azureedge.net/photos-medium/1b7ac334-26d9-476c-a7c6-9e4f2fc80b26
-- :title: "£1,343 per month double room to rent in a Paddington flatshare available
-    from 1 August 2017 "
+- :title: Goodnight Johnboy
   :monthly_price: 1343
   :description: "I am looking for someone to take over my room in our flatshare in
     Lancaster Gate. \n\nThe room is exceptionally big and has its own bathroom. It
@@ -647,15 +506,13 @@
     cleaner (I think you can negotiate with the flatmates if you want them less) Heating
     and hot water is included in the rent. \n\nAvailable 8 September or earlier if
     needed."
-  :number_of_flatmates: 1
-  :flat_size: 109
-  :amenities: Kitchen,Gym,Wifi,Hot tub,Iron,Dryer
+  :number_of_flatmates: 3
+  :amenities: Hot tub,Kitchen,Gym,Iron,Wifi,TV
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5126353
-  :lng: -0.17473719999998139
-  :room_size: 15
-  :has_parking: false
+  :address: March House, 13-15 Westbourne St, London W2 2TZ, UK
+  :latitude: 51.5126353
+  :longitude: -0.17473719999998139
   :deposit: 1600
   :allow_students: false
   :allow_pets: false
@@ -668,17 +525,14 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/2ab1e2a7-4c60-4938-8524-efd6de380758
+  :card_image: https://c1.staticflickr.com/1/171/398818798_c5cf0b9b2f_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2ab1e2a7-4c60-4938-8524-efd6de380758
   - https://kangaroom.azureedge.net/photos-medium/160a701c-6407-456f-b0f1-7294e686191b
   - https://kangaroom.azureedge.net/photos-medium/542b67ea-68fa-4d4d-9a2e-092e9268285f
   - https://kangaroom.azureedge.net/photos-medium/b3be53b8-8406-4a66-94e3-a56f55e3dd0a
   - https://kangaroom.azureedge.net/photos-medium/e69830e1-b9f1-497d-a153-26d3b2916f8f
-- :title: "£759 per month double room to rent in a Spitalfields flatshare available
-    from 20 October 2017 "
+- :title: Superfantastic Dishwasher
   :monthly_price: 759
   :description: "PERFECT LOCATION  FOR  YOU’RE NEW HOME!!!!\n\nYOUR NEW HOME COULD
     NOT BE IN A BETTER LOCATION WITH EVERYTHING AT ARM REACH. \n\nHOT 4 bedrooms Flat
@@ -696,15 +550,13 @@
     CLEANING SERVICE\nTHERE ARE OTHER ROOMS AVAILABLE IN OTHER LOCATIONS\n\nTO BOOK
     APPOINTMENT: CALL, TEXT, EMAIL\nGood luck on finding your home.\t\n\nThanks.\n\nCHANEL
     X"
-  :number_of_flatmates: 3
-  :flat_size: 70
-  :amenities: Kitchen,Hot tub,Doorman,Heating,TV,Gym
+  :number_of_flatmates: 1
+  :amenities: Doorman,Washer,Elevator,Iron,TV,Hot tub
   :neighborhood: Spitalfields
   :currency: "£"
-  :lat: 51.5162238
-  :lng: -0.07410630000003948
-  :room_size: 27
-  :has_parking: false
+  :address: Herbert House, Old Castle St, London E1 7TW, UK
+  :latitude: 51.5162238
+  :longitude: -0.07410630000003948
   :deposit: 760
   :allow_students: false
   :allow_pets: false
@@ -717,9 +569,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: All welcome to inquire from all walks of life.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/79b7ac0e-d5b4-4dc8-a8dd-1baae0736497
+  :card_image: https://images.pexels.com/photos/546162/pexels-photo-546162.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/79b7ac0e-d5b4-4dc8-a8dd-1baae0736497
   - https://kangaroom.azureedge.net/photos-medium/b2c33208-145f-4942-88e5-99cf303ca3bb
@@ -728,8 +578,7 @@
   - https://kangaroom.azureedge.net/photos-medium/b61a44ad-10b3-423b-9df4-4e8f2849287d
   - https://kangaroom.azureedge.net/photos-medium/c8951b2f-aa96-4ca3-944a-f7b1fe877fb3
   - https://kangaroom.azureedge.net/photos-medium/49ef6ca6-c48b-440d-9eed-138eb5c925d5
-- :title: "£600 per month double room to rent in a Bermondsey flatshare available
-    from 21 September 2017 "
+- :title: Our House in The Middle of Our Street
   :monthly_price: 600
   :description: |-
     Property description
@@ -740,15 +589,13 @@
     2 large double bedrooms
     Spacious living room
     Water views.
-  :number_of_flatmates: 3
-  :flat_size: 101
-  :amenities: Air conditioning,Doorman,TV,Wifi,Washer,Iron
+  :number_of_flatmates: 1
+  :amenities: Elevator,Iron,Gym,Doorman,Dryer,Kitchen
   :neighborhood: Bermondsey
   :currency: "£"
-  :lat: 51.50107320000001
-  :lng: -0.07313130000000001
-  :room_size: 27
-  :has_parking: false
+  :address: St Georges Wharf, 6 Shad Thames, London SE1 2YS, UK
+  :latitude: 51.50107320000001
+  :longitude: -0.07313130000000001
   :deposit: 600
   :allow_students: false
   :allow_pets: false
@@ -761,21 +608,13 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: Am Diagnostic Radiology doctor, I enjoy cooking and I am very passionate
-    about food. I am not into junk food, frozen food and love to dish up something
-    fresh no matter how late it is at night! I am a stickler for cleanliness and organization.
-    I spend most of my time reading. My other interests are games, board games,poker,
-    crosswords, theater, painting, housekeeping, gift wrapping, film making, stationery,
-    different cultures..
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/36f8e1cf-7e4d-471b-b977-0aeac39aba59
+  :card_image: https://images.pexels.com/photos/573306/pexels-photo-573306.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/36f8e1cf-7e4d-471b-b977-0aeac39aba59
   - https://kangaroom.azureedge.net/photos-medium/fa830951-d6b2-40d1-af36-bfec63735f80
   - https://kangaroom.azureedge.net/photos-medium/e4778a38-2ed4-48f7-af6c-5cd403fa0b5a
   - https://kangaroom.azureedge.net/photos-medium/1dd469f2-5804-4134-afef-0aefaa51fd50
-- :title: "£710 per month double room to rent in a Islington flatshare available from
-    24 July 2017 "
+- :title: Affluent Attic
   :monthly_price: 710
   :description: |-
     Available from the 24th July 2017
@@ -794,14 +633,12 @@
     *** Bills are approx £100-130 PCM (which includes a fortnightly cleaner) ***
     *** There will also be a lease admin fee of £120 ***
   :number_of_flatmates: 2
-  :flat_size: 121
-  :amenities: Iron,TV,Air conditioning,Hot tub,Kitchen,Doorman
+  :amenities: Doorman,Hot tub,Iron,Dryer,Wifi,Elevator
   :neighborhood: Islington
   :currency: "£"
-  :lat: 51.54101800000001
-  :lng: -0.11071259999994254
-  :room_size: 21
-  :has_parking: false
+  :address: Barnes Court, Lofting Rd, London N1 1JD, UK
+  :latitude: 51.54101800000001
+  :longitude: -0.11071259999994254
   :deposit: 870
   :allow_students: false
   :allow_pets: false
@@ -814,15 +651,7 @@
   :minimum_stay: 1
   :preffered_min_age: 25
   :preffered_max_age: 40
-  :preffered_gender: 1
-  :searching_for: You will be sharing with 2 professional males. The first is Scott,
-    A 32-Year-old Australian (has lived in the UK for 9 years) male who is the manager
-    of a UK Settlements team for Ticketmaster. The second is a 34-year-old Italian
-    Medical Engineer / Entrepreneur (has lived in the UK for 10+ years). Both flatmates
-    are pretty quiet during the week due to working long hours, however we are chilled
-    out and sociable and come the weekend, we do enjoy getting out for a good time.
-    We’re both avid music fans having both played in bands many years ago.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/519aa5fd-a0ac-4365-9f6a-191ae8e9e3bb
+  :card_image: https://images.pexels.com/photos/246367/pexels-photo-246367.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/519aa5fd-a0ac-4365-9f6a-191ae8e9e3bb
   - https://kangaroom.azureedge.net/photos-medium/bebcfa54-1a9f-4792-94cb-361ca3387df0
@@ -832,8 +661,7 @@
   - https://kangaroom.azureedge.net/photos-medium/1c62729c-cdb1-4675-863b-e7eac9a005bd
   - https://kangaroom.azureedge.net/photos-medium/6e207138-6c63-41a2-bad9-7e52ad585d31
   - https://kangaroom.azureedge.net/photos-medium/3770f0e6-4161-4c91-86ce-c0e958f69226
-- :title: "£640 per month double room to rent in a Chalk Farm flatshare available
-    from 30 October 2017 "
+- :title: The Vampire Nest
   :monthly_price: 640
   :description: |-
     Stunning one double bedroom apartment in the heart of Primrose Hill. This beautiful apartment is set within a period conversion and offers a lovely double bedroom, a spacious lounge, a separate kitchen and a modern fully tiled bathroom.
@@ -841,15 +669,13 @@
     Further benefits include charming high ceilings, an enviable location and an abundance of natural light due to the large windows.
 
     Perfectly located in an attractive residential location with the wide range of shops, bars and restaurants of Primrose Hill and vibrant Camden close by. The nearest underground stations are Camden Town and Chalk Farm (Northern Line) providing direct links to the City and the West End.
-  :number_of_flatmates: 1
-  :flat_size: 124
-  :amenities: TV,Dryer,Heating,Gym,Wifi,Iron
+  :number_of_flatmates: 3
+  :amenities: Iron,Doorman,TV,Dryer,Hot tub,Elevator
   :neighborhood: Chalk Farm
   :currency: "£"
-  :lat: 51.5397994
-  :lng: -0.15163059999997586
-  :room_size: 29
-  :has_parking: false
+  :address: 51 Princess Rd, London NW1 8JS, UK
+  :latitude: 51.5397994
+  :longitude: -0.15163059999997586
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -862,15 +688,12 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/40a7965e-40a8-4590-b828-f39aa28b5d0e
+  :card_image: https://images.pexels.com/photos/351330/pexels-photo-351330.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/40a7965e-40a8-4590-b828-f39aa28b5d0e
   - https://kangaroom.azureedge.net/photos-medium/afd98663-75ae-4a42-8ffd-0a7b4e672e6d
   - https://kangaroom.azureedge.net/photos-medium/854bda3d-3575-4fb9-a4ff-2a0b8d84a8a7
-- :title: "£850 per month double room to rent in a Marylebone flatshare available
-    from 1 August 2017 "
+- :title: Dreamland
   :monthly_price: 850
   :description: "Double Room In a spacious 2 bedroom flat.\n\nThe flat will be shared
     only with 1 person - I'm Italian and easygoing person.\n\nThe room consist of:
@@ -881,15 +704,13 @@
     Warwick Avenue.\n\nPostcode: W2 1TH\n\nSupermarket: Tesco, Waitrose, Saisburys
     and many off licence.\n\nPerson clean and tidy\nNo Time waster\n\nFor more info
     call me after 5pm or txt\nor email (no time preference)\n\nThanks,\nAntonio"
-  :number_of_flatmates: 3
-  :flat_size: 113
-  :amenities: Wifi,Iron,Hot tub,Gym,Heating,Doorman
+  :number_of_flatmates: 1
+  :amenities: Wifi,Elevator,Heating,Air conditioning,Gym,Iron
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.5242026
-  :lng: -0.1766675999999734
-  :room_size: 28
-  :has_parking: false
+  :address: 445 Edgware Rd, London W2 1TH, UK
+  :latitude: 51.5242026
+  :longitude: -0.1766675999999734
   :deposit: 425
   :allow_students: false
   :allow_pets: false
@@ -902,17 +723,14 @@
   :minimum_stay: 1
   :preffered_min_age: 25
   :preffered_max_age: 41
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/260c65bb-71d9-4577-a32d-bb953b7b8de9
+  :card_image: https://images.pexels.com/photos/55811/pretty-girls-happy-young-55811.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/260c65bb-71d9-4577-a32d-bb953b7b8de9
   - https://kangaroom.azureedge.net/photos-medium/e96c99af-c58c-4a3f-9ad9-bd77e7638226
   - https://kangaroom.azureedge.net/photos-medium/3e764748-362f-4fb0-b5af-a31f1e63255d
   - https://kangaroom.azureedge.net/photos-medium/98c4dd46-8e68-41a7-89ab-e3eb9eddc67e
   - https://kangaroom.azureedge.net/photos-medium/624fdb54-c928-4c14-b4d0-a0b2e1e03eeb
-- :title: "£843 per month double room to rent in a Paddington flatshare available
-    from 1 December 2017 "
+- :title: My House, My Rules!
   :monthly_price: 843
   :description: "One beautiful & bright master bedroom available in a three bedroom
     apartment in Paddington / Little Venice. \nThe flat is very spacious, with one
@@ -926,14 +744,12 @@
     December 1st - Immediately \n\nIf you are interested please send us a short description
     of yourself with your interest, what you've been doing before etc."
   :number_of_flatmates: 3
-  :flat_size: 88
-  :amenities: Dryer,Doorman,Gym,Iron,TV,Washer
+  :amenities: Elevator,Doorman,Dryer,Kitchen,Hot tub,Gym
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.52171519999999
-  :lng: -0.17862650000006397
-  :room_size: 19
-  :has_parking: false
+  :address: 85 John Aird Ct, London W2 1UZ, UK
+  :latitude: 51.52171519999999
+  :longitude: -0.17862650000006397
   :deposit: 90
   :allow_students: false
   :allow_pets: false
@@ -946,20 +762,14 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 45
-  :preffered_gender: 0
-  :searching_for: "Two remaining flatmates are two frenchies working in London. We
-    are serious and focused on work. This is not a party flat but are looking for
-    someone social, that would enjoy gathering on the weekends. We are looking for
-    someone friendly and very clean. \nNo couples unfortunately."
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/988d4703-2779-4f74-baa5-19590b039d71
+  :card_image: https://images.pexels.com/photos/386134/pexels-photo-386134.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/988d4703-2779-4f74-baa5-19590b039d71
   - https://kangaroom.azureedge.net/photos-medium/253e82b3-dcae-49ca-bd49-ba193d7851be
   - https://kangaroom.azureedge.net/photos-medium/e5c3fff0-b157-4a47-93da-ed550439bc69
   - https://kangaroom.azureedge.net/photos-medium/1121f0a8-5eff-49bc-b1d4-1fba5b1c2a02
   - https://kangaroom.azureedge.net/photos-medium/6d84680f-d951-4060-aabb-56642acc340a
-- :title: "£606 per month double room to rent in a Brick Lane flatshare available
-    from 21 June 2017 "
+- :title: Wine Mountain
   :monthly_price: 606
   :description: "Hi Lovelies, I am delightful to offer 2 cosy doubled bed room in
     the ever popular hip and trendy Brick Lane!\n\nThe rooms are close to all local
@@ -968,15 +778,13 @@
     room do not worry, keep my number and call me i will help to get your expected
     room in your budget. \n\nDue to the high demand please write us to arrange an
     appointment ASAP\n\nThanks"
-  :number_of_flatmates: 1
-  :flat_size: 125
-  :amenities: Kitchen,Heating,Doorman,Washer,Iron,Hot tub
+  :number_of_flatmates: 2
+  :amenities: Hot tub,Doorman,Air conditioning,Kitchen,Iron,Wifi
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.5217064
-  :lng: -0.0722892999999658
-  :room_size: 21
-  :has_parking: false
+  :address: The Old Truman Brewery, London E1, UK
+  :latitude: 51.5217064
+  :longitude: -0.0722892999999658
   :deposit: 606
   :allow_students: false
   :allow_pets: false
@@ -989,15 +797,12 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/60550fd9-cd12-4e8e-9dfa-a3b3e3d75ba9
+  :card_image: https://images.pexels.com/photos/272864/pexels-photo-272864.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/60550fd9-cd12-4e8e-9dfa-a3b3e3d75ba9
   - https://kangaroom.azureedge.net/photos-medium/5c0e6aab-07ac-472c-9b82-6f27ee06be78
   - https://kangaroom.azureedge.net/photos-medium/217110a1-ed85-4b4e-b756-d63ba2282c42
-- :title: "£541 per month double room to rent in a Brick Lane flatshare available
-    from 21 June 2017 "
+- :title: Da Crib
   :monthly_price: 541
   :description: "Hi Lovelies, I am delightful to offer 2 cosy doubled bed room in
     the ever popular hip and trendy Brick Lane!\n\nThe rooms are close to all local
@@ -1006,15 +811,13 @@
     room do not worry, keep my number and call me i will help to get your expected
     room in your budget. \n\nDue to the high demand please write us to arrange an
     appointment ASAP\n\nThanks"
-  :number_of_flatmates: 1
-  :flat_size: 110
-  :amenities: Washer,Dryer,Hot tub,Doorman,Air conditioning,Heating
+  :number_of_flatmates: 3
+  :amenities: Elevator,Gym,Dryer,Washer,TV,Air conditioning
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.5217064
-  :lng: -0.0722892999999658
-  :room_size: 16
-  :has_parking: false
+  :address: The Old Truman Brewery, London E1, UK
+  :latitude: 51.5217064
+  :longitude: -0.0722892999999658
   :deposit: 541
   :allow_students: false
   :allow_pets: false
@@ -1027,15 +830,12 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/d5fe1128-0e87-430c-8deb-e428c938aff5
+  :card_image: https://images.pexels.com/photos/573300/pexels-photo-573300.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/d5fe1128-0e87-430c-8deb-e428c938aff5
   - https://kangaroom.azureedge.net/photos-medium/5c0e6aab-07ac-472c-9b82-6f27ee06be78
   - https://kangaroom.azureedge.net/photos-medium/217110a1-ed85-4b4e-b756-d63ba2282c42
-- :title: "£823 per month double room to rent in a Hoxton flatshare available from
-    20 July 2017 "
+- :title: 2Sexy 2Fine 2Fly Zone
   :monthly_price: 823
   :description: "Excellent size double room recently refurbished,  Good size Double
     Room, Separate Kitchen and Bathroom , Secure Entrance, \n\nThe property is Located
@@ -1048,15 +848,13 @@
     \n*Near station (bus, tube)-few mins away from station \n*Shops, restaurants,
     pubs and supermarket nearby \n*Nice and friendly roommates \n\n\nINTERESTED?\n**CONTACT
     ASAP**"
-  :number_of_flatmates: 1
-  :flat_size: 124
-  :amenities: Hot tub,Dryer,Wifi,Iron,Air conditioning,Gym
+  :number_of_flatmates: 2
+  :amenities: Air conditioning,Dryer,Iron,Doorman,Washer,Wifi
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53229140000001
-  :lng: -0.08096839999996064
-  :room_size: 25
-  :has_parking: false
+  :address: Juliet House, London N1 6PL, UK
+  :latitude: 51.53229140000001
+  :longitude: -0.08096839999996064
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -1069,31 +867,26 @@
   :minimum_stay: 10
   :preffered_min_age: 19
   :preffered_max_age: 40
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/4efde143-9770-4620-ac0b-bdf7751a3fe7
+  :card_image: https://images.pexels.com/photos/616427/pexels-photo-616427.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4efde143-9770-4620-ac0b-bdf7751a3fe7
   - https://kangaroom.azureedge.net/photos-medium/50535596-8194-4c15-b2af-af476c2e118b
   - https://kangaroom.azureedge.net/photos-medium/01bbdfb2-4e43-4397-87e4-07412cda54b6
   - https://kangaroom.azureedge.net/photos-medium/426b99d4-4315-422e-a01f-07ede7e5cf92
   - https://kangaroom.azureedge.net/photos-medium/1b099515-698a-4964-9071-3dc6be167d85
-- :title: "£950 per month double room to rent in a Hoxton flatshare available from
-    22 June 2017 "
+- :title: The Goddess Pad
   :monthly_price: 950
   :description: "Beautiful double bedroom available in four bed flat. \n\nThere is
     a wooden floor, two wardrobes and super fast internet.\n\nAll bills included!!
     \n\nCouples are welcome.\n\nAvailable from 27th June.\n\n5 minutes from Hoxton
     overground, 10 min from Old Street Station and many buses available."
-  :number_of_flatmates: 1
-  :flat_size: 115
-  :amenities: Dryer,Washer,Heating,Air conditioning,Elevator,Gym
+  :number_of_flatmates: 2
+  :amenities: Elevator,Washer,Iron,Hot tub,Gym,Heating
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.5323518
-  :lng: -0.0804040000000441
-  :room_size: 26
-  :has_parking: false
+  :address: Hoxton Shopping Walk, 181 Hoxton St, London N1 6RA, UK
+  :latitude: 51.5323518
+  :longitude: -0.0804040000000441
   :deposit: 1250
   :allow_students: false
   :allow_pets: false
@@ -1106,16 +899,13 @@
   :minimum_stay: 3
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/a63902aa-4f48-4162-a328-dcd12ee58f0e
+  :card_image: https://images.pexels.com/photos/220474/pexels-photo-220474.jpeg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/a63902aa-4f48-4162-a328-dcd12ee58f0e
   - https://kangaroom.azureedge.net/photos-medium/77440137-f85b-427e-a67f-38b4688e4bb3
   - https://kangaroom.azureedge.net/photos-medium/0ddd77da-1bb8-429e-8a66-f9383ce789be
   - https://kangaroom.azureedge.net/photos-medium/49c5798a-1762-4458-b48c-e2fd4e483ca1
-- :title: "£883 per month double room to rent in a Whitechapel flatshare available
-    from 10 June 2017 "
+- :title: Pink Paradise
   :monthly_price: 883
   :description: "I am letting my room in the Woolhouse. The Woolhouse is a refurbished
     industrial building which has lots of character, yet a modern interior and high
@@ -1127,15 +917,13 @@
     works long hours. There is an enormous living room, and a new modern kitchen with
     all appliances. The bedroom is spacious and includes all furniture, desk, cupboards
     etc. \n\nThe flat is available now and you can move in immediately."
-  :number_of_flatmates: 1
-  :flat_size: 98
-  :amenities: Heating,Air conditioning,Iron,Wifi,Hot tub,Gym
+  :number_of_flatmates: 2
+  :amenities: Kitchen,Doorman,Washer,Wifi,Air conditioning,Gym
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5119103
-  :lng: -0.06663560000004054
-  :room_size: 23
-  :has_parking: false
+  :address: 74 Back Church Ln, Whitechapel, London E1 1LX, UK
+  :latitude: 51.5119103
+  :longitude: -0.06663560000004054
   :deposit: 1000
   :allow_students: false
   :allow_pets: false
@@ -1148,16 +936,13 @@
   :minimum_stay: 3
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/4c8ffc68-52f7-4acb-87f8-e25bcfe1c23b
+  :card_image: https://images.pexels.com/photos/35205/portrait-photography-girls-women.jpg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4c8ffc68-52f7-4acb-87f8-e25bcfe1c23b
   - https://kangaroom.azureedge.net/photos-medium/848a57ad-1e6b-4212-8b44-132b5c4f2f5c
   - https://kangaroom.azureedge.net/photos-medium/eabb041d-ff97-40d8-964e-1e0eb0fc891a
   - https://kangaroom.azureedge.net/photos-medium/b40d9954-b98e-4ada-a0ad-046700a00e95
-- :title: "£530 per month single room to rent in a Shoreditch flatshare available
-    from 3 August 2017 "
+- :title: Anaconda’s Lair
   :monthly_price: 530
   :description: |-
     Cozy Single Room Near Shoreditch High Street! E2 7ED
@@ -1171,15 +956,13 @@
     6 minutes  walkable distance from Shoreditch High Street Station.
 
     Price - £530 PER MONTH
-  :number_of_flatmates: 1
-  :flat_size: 93
-  :amenities: Dryer,Kitchen,Air conditioning,Elevator,Gym,Heating
+  :number_of_flatmates: 3
+  :amenities: Doorman,Hot tub,Washer,Air conditioning,Dryer,Heating
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5262357
-  :lng: -0.0726603000000523
-  :room_size: 14
-  :has_parking: false
+  :address: 247 Brick Ln, London E2 7ED, UK
+  :latitude: 51.5262357
+  :longitude: -0.0726603000000523
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -1192,15 +975,12 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/a494e1d1-b8cf-4463-a7b3-e99e59e7b6b1
+  :card_image: https://images.pexels.com/photos/88650/pexels-photo-88650.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/a494e1d1-b8cf-4463-a7b3-e99e59e7b6b1
   - https://kangaroom.azureedge.net/photos-medium/7ff71567-27eb-4cf4-8eba-136ab0fe40f7
   - https://kangaroom.azureedge.net/photos-medium/07428a9e-31df-4d61-b991-f137d0d32593
-- :title: "£953 per month double room to rent in a Shoreditch flatshare available
-    from 3 December 2017 "
+- :title: Home By The Sea
   :monthly_price: 953
   :description: "Hi guys\n\n************* STRESS FREE LOCATION ***********\n\nAMAZING
     ROOM available from 20th November!\n\n- Have you ever wanted to live walking distance
@@ -1219,15 +999,13 @@
     EAST END - BETHNAL GREEN, MILE END!\n\nTO BOOK APPOINTMENT feel free to: \nCall,
     Email, Text! \n\nFinally I wish you all the best and good luck in your room search.\n\nThanks\n\nAnesa\n\nI
     speak Slovenian and Croatian too ;)"
-  :number_of_flatmates: 3
-  :flat_size: 98
-  :amenities: Gym,TV,Kitchen,Doorman,Washer,Elevator
+  :number_of_flatmates: 1
+  :amenities: Air conditioning,Gym,Doorman,Elevator,TV,Hot tub
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5110683
-  :lng: -0.0651073000000224
-  :room_size: 21
-  :has_parking: false
+  :address: 78 Cable St, Whitechapel, London E1 8GT, UK
+  :latitude: 51.5110683
+  :longitude: -0.0651073000000224
   :deposit: 880
   :allow_students: false
   :allow_pets: false
@@ -1240,19 +1018,14 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: Great and social flat with all the entertainment just across the
-    road.  Great location where everyone wants to be in with super travel distance
-    to any part or London.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/50aa7a3d-2abc-45d7-91f1-c3e07bd023b7
+  :card_image: https://images.pexels.com/photos/275717/pexels-photo-275717.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/50aa7a3d-2abc-45d7-91f1-c3e07bd023b7
   - https://kangaroom.azureedge.net/photos-medium/d647c3ab-f855-48bd-8240-9f3e1a151777
   - https://kangaroom.azureedge.net/photos-medium/05663b8f-367d-443f-9381-64329d178c1a
   - https://kangaroom.azureedge.net/photos-medium/17106116-af85-4949-8ebb-a7b09514802c
   - https://kangaroom.azureedge.net/photos-medium/513f338e-5ab2-45d6-8509-e7305e8c9681
-- :title: "£2,015 per month double room to rent in a Kensington flatshare available
-    from 20 November 2017 "
+- :title: Robin Williams’ House
   :monthly_price: 2015
   :description: "Mezzanine Studio 8 Available Now\n£465pw inc ALL bills\n\nStudio
     features:\n\nDouble bed with memory foam mattress\nDesk\nWardrobe\nWall mounted
@@ -1269,15 +1042,13 @@
     without compromising on the living space. Of course, the studio also come with
     luxurious en-suite facilities. For work or play, the rooms are fully equipped
     to suit your needs, and with \n\nYou can guarantee an unbeatable level of satisfaction."
-  :number_of_flatmates: 1
-  :flat_size: 98
-  :amenities: TV,Air conditioning,Elevator,Gym,Hot tub,Wifi
+  :number_of_flatmates: 3
+  :amenities: Iron,Gym,Hot tub,Kitchen,Elevator,Doorman
   :neighborhood: Kensington
   :currency: "£"
-  :lat: 51.5114262
-  :lng: -0.18664609999996173
-  :room_size: 19
-  :has_parking: false
+  :address: Olympia Mews, London W2 3SA, UK
+  :latitude: 51.5114262
+  :longitude: -0.18664609999996173
   :deposit: 2015
   :allow_students: false
   :allow_pets: false
@@ -1290,9 +1061,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/ee364b2f-e617-4145-a194-d847081deb2c
+  :card_image: https://images.pexels.com/photos/604894/pexels-photo-604894.jpeg?h=350&dpr=2&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/ee364b2f-e617-4145-a194-d847081deb2c
   - https://kangaroom.azureedge.net/photos-medium/36a5a3a6-051b-4f63-bbcd-7da4f6d42f44
@@ -1300,8 +1069,7 @@
   - https://kangaroom.azureedge.net/photos-medium/e1727011-d3a1-4de1-bc31-e8bb82c9caa2
   - https://kangaroom.azureedge.net/photos-medium/ff119ca8-c9e3-4988-9de7-4b8001fe2db8
   - https://kangaroom.azureedge.net/photos-medium/2d3cef61-01c8-4081-94e1-cc40d017c875
-- :title: "£1,560 per month double room to rent in a Bayswater flatshare available
-    from 20 November 2017 "
+- :title: Mrs Doubtfire’s House
   :monthly_price: 1560
   :description: "Studio 13 Available Available Now!\n£467pw inc ALL bills\n\nStudio
     features:\n\nDouble bed with memory foam mattress\nDesk\nWardrobe\nWall mounted
@@ -1318,15 +1086,13 @@
     without compromising on the living space. Of course, the studio also come with
     luxurious en-suite facilities. For work or play, the rooms are fully equipped
     to suit your needs, and with \n\nYou can guarantee an unbeatable level of satisfaction."
-  :number_of_flatmates: 3
-  :flat_size: 72
-  :amenities: Doorman,Heating,Hot tub,Gym,Air conditioning,Washer
+  :number_of_flatmates: 2
+  :amenities: Elevator,Hot tub,Air conditioning,Heating,Dryer,Gym
   :neighborhood: Bayswater
   :currency: "£"
-  :lat: 51.5114262
-  :lng: -0.18664609999996173
-  :room_size: 30
-  :has_parking: false
+  :address: Olympia Mews, London W2 3SA, UK
+  :latitude: 51.5114262
+  :longitude: -0.18664609999996173
   :deposit: 1560
   :allow_students: false
   :allow_pets: false
@@ -1339,17 +1105,14 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/33bfbf6d-2196-4fc3-b600-a1c4193e9c07
+  :card_image: https://images.pexels.com/photos/8268/pexels-photo.jpg?h=350&auto=compress&cs=tinysrgb
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/33bfbf6d-2196-4fc3-b600-a1c4193e9c07
   - https://kangaroom.azureedge.net/photos-medium/6b807817-8095-4d87-8f5e-6e089ac0c328
   - https://kangaroom.azureedge.net/photos-medium/4790cec7-04fb-42c6-ad02-d92d86a2180f
   - https://kangaroom.azureedge.net/photos-medium/8bf4ef59-41ed-405f-a3a7-5fbca0bc98a4
   - https://kangaroom.azureedge.net/photos-medium/f49efb1d-a2e5-467f-88c3-0a4a7537d711
-- :title: "£759 per month double room to rent in a Stockwell flatshare available from
-    13 June 2017 "
+- :title: The Full House
   :monthly_price: 759
   :description: "Fully furnished contemporary flat 200m from Stockwell tube. Minutes
     from Brixton, bursting with great restaurants, bars and clubs.\n\nRent includes
@@ -1370,15 +1133,13 @@
     and Clapham's vibrant nightlife!\n-Array of excellent pubs and restaurants within
     10 mins walk.\n\nLOCAL AMENITIES\n\n-Multiple supermarkets within 5-10 minutes
     walk"
-  :number_of_flatmates: 2
-  :flat_size: 93
-  :amenities: TV,Iron,Dryer,Washer,Wifi,Heating
+  :number_of_flatmates: 1
+  :amenities: TV,Hot tub,Heating,Dryer,Washer,Elevator
   :neighborhood: Stockwell
   :currency: "£"
-  :lat: 51.4702281
-  :lng: -0.12243599999999333
-  :room_size: 23
-  :has_parking: false
+  :address: Sidgwick House, Stockwell Rd, London SW9 9EZ, UK
+  :latitude: 51.4702281
+  :longitude: -0.12243599999999333
   :deposit: 1073
   :allow_students: false
   :allow_pets: false
@@ -1391,9 +1152,7 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/2d269d82-e4d2-474d-9174-d8fcb0b37a88
+  :card_image: https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2d269d82-e4d2-474d-9174-d8fcb0b37a88
   - https://kangaroom.azureedge.net/photos-medium/9add14ed-7133-404b-826b-e365402c504a
@@ -1402,8 +1161,7 @@
   - https://kangaroom.azureedge.net/photos-medium/5e72cad4-ad39-45a8-8490-89987cf68788
   - https://kangaroom.azureedge.net/photos-medium/afde8546-bd79-4433-b250-7aa3c4457342
   - https://kangaroom.azureedge.net/photos-medium/8d5e4fb1-8fcb-4c05-9ecf-35003766d391
-- :title: "£850 per month double room to rent in a Battersea flatshare available from
-    1 July 2017 "
+- :title: Bat Cave
   :monthly_price: 850
   :description: "The flat is within an estate building just off Battersea Park Road,
     with excellent connections to central London. Situated among Vauxhall, Victoria
@@ -1427,14 +1185,12 @@
     in arranging a tour of the house please send me a message writing a little bit
     about yourself. \n\nThank you"
   :number_of_flatmates: 2
-  :flat_size: 82
-  :amenities: Kitchen,Air conditioning,Dryer,TV,Iron,Elevator
+  :amenities: Wifi,Gym,Doorman,TV,Dryer,Washer
   :neighborhood: Battersea
   :currency: "£"
-  :lat: 51.47333759999999
-  :lng: -0.15403029999993123
-  :room_size: 17
-  :has_parking: false
+  :address: Arthur Court, Charlotte Despard Ave, London SW11 5JA, UK
+  :latitude: 51.47333759999999
+  :longitude: -0.15403029999993123
   :deposit: 850
   :allow_students: false
   :allow_pets: false
@@ -1447,23 +1203,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 2
-  :searching_for: "The flat is a newly refurbished and nicely decorated duplex, with
-    open plan spacious kitchen and living room and 3 double bedrooms. If you are looking
-    for a home rather than only a room, this property offers a cosy and friendly environment
-    to share with 2 other young professionals. \n\nSandra and I (Stefania) have been
-    living in the house for the last 3 years and we completely feel at home, spending
-    most time in the living room chatting, organising some dinner parties and watching
-    movies. We are looking for sociable, easy going and considerate people. I promise
-    that we are not 2 crazy housewives, and if we had a long day at work the dishes
-    can definitely wait till the following day, but we like to keep the house pretty
-    clean. \n\nThe room, which will be available from the 1st of July, is the largest
-    bedroom in the house with double bed, spacious wardrobe and storage with enough
-    room to accommodate also a sofa bed. (If you would like to) \nAll bills are included,
-    Streaming TV, NowTV, Netflix, Water, Council Tax, Electricity Gas, Fibre Optic
-    Superfast Broadband. \n\nIf interested in arranging a tour of the house please
-    send me a message writing a little bit about yourself. \n\nThank you"
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/4f9629d2-0bd6-4926-84bf-772ce21e6dfd
+  :card_image: https://images.unsplash.com/photo-1504022462188-88f023db97bf?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/4f9629d2-0bd6-4926-84bf-772ce21e6dfd
   - https://kangaroom.azureedge.net/photos-medium/75266127-72bc-4c11-8c6a-6a9154ffe856
@@ -1472,8 +1212,7 @@
   - https://kangaroom.azureedge.net/photos-medium/85d9d014-1f0b-43cd-a496-12c86ff2b9bb
   - https://kangaroom.azureedge.net/photos-medium/2ebb72e8-d5e8-4b47-acec-1a3bb229f4fa
   - https://kangaroom.azureedge.net/photos-medium/7f0bac91-5d13-4f14-ad98-41cb796a7275
-- :title: "£845 per month double room to rent in a Clapham North flatshare available
-    from 2 August 2017 "
+- :title: Somewhere Downstairs
   :monthly_price: 845
   :description: |-
     Stunning Double Sized Room in Battersea!
@@ -1485,14 +1224,12 @@
     Closest Station:
     3 minutes  walkable distance from Wandsworth Road Station.
   :number_of_flatmates: 3
-  :flat_size: 124
-  :amenities: Hot tub,Gym,Elevator,Kitchen,Washer,Heating
+  :amenities: Kitchen,Doorman,Air conditioning,Heating,TV,Hot tub
   :neighborhood: Clapham North
   :currency: "£"
-  :lat: 51.4697294
-  :lng: -0.1374018999999862
-  :room_size: 17
-  :has_parking: false
+  :address: 35 Killyon Rd, London SW8 2XS, UK
+  :latitude: 51.4697294
+  :longitude: -0.1374018999999862
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -1505,9 +1242,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: NON SMOKERS PLEASE - NO PETS
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/87bcf1d2-eab8-4144-bec9-78fa19c56614
+  :card_image: https://images.unsplash.com/photo-1461280360983-bd93eaa5051b?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/87bcf1d2-eab8-4144-bec9-78fa19c56614
   - https://kangaroom.azureedge.net/photos-medium/78513305-2a5c-481a-aa2f-f31021d2c896
@@ -1516,8 +1251,7 @@
   - https://kangaroom.azureedge.net/photos-medium/025d7186-0fee-40aa-b192-967767d97537
   - https://kangaroom.azureedge.net/photos-medium/c7b7ccac-fb47-45d6-970b-b0a76742fa55
   - https://kangaroom.azureedge.net/photos-medium/c63f5fc7-86f4-4c3f-8c66-04c0e5774113
-- :title: "£866 per month single room to rent in a Shoreditch flatshare available
-    from 18 July 2017 "
+- :title: Little House in the Woods
   :monthly_price: 866
   :description: |-
     I'M HAPPY to be PRESENTING This GORGEOUS Double Room for Single Use Located in a Very CONVENIENT Location with Great Transport Links Connect you to Central London in Less than 30mins, 8mins Away From the Lively and Trendy Shoreditch.
@@ -1534,15 +1268,13 @@
 
     INTERESTED?
     ***CONTACT ME ASAP**
-  :number_of_flatmates: 3
-  :flat_size: 121
-  :amenities: Washer,Heating,Air conditioning,Iron,TV,Gym
+  :number_of_flatmates: 2
+  :amenities: Wifi,Air conditioning,Iron,TV,Elevator,Dryer
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5330124
-  :lng: -0.07370800000001054
-  :room_size: 22
-  :has_parking: false
+  :address: 53 Pearson St, London E2 8JD, UK
+  :latitude: 51.5330124
+  :longitude: -0.07370800000001054
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -1555,9 +1287,7 @@
   :minimum_stay: 9
   :preffered_min_age: 20
   :preffered_max_age: 40
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/3ba421e5-337c-4343-b56c-004a80ca9b42
+  :card_image: https://images.unsplash.com/photo-1445052693476-5134dfe40f70?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/3ba421e5-337c-4343-b56c-004a80ca9b42
   - https://kangaroom.azureedge.net/photos-medium/78709fe0-8746-48ec-bb57-53bd69e82ce6
@@ -1565,8 +1295,7 @@
   - https://kangaroom.azureedge.net/photos-medium/79cbf0d2-2703-4690-b04f-6009177a8705
   - https://kangaroom.azureedge.net/photos-medium/42b19345-8b25-4fb1-874d-351f29f7bcbd
   - https://kangaroom.azureedge.net/photos-medium/338eff95-e235-457c-80d1-e7910743c729
-- :title: "£587 per month double room to rent in a Bermondsey flatshare available
-    from 26 September 2017 "
+- :title: The 5pm Shower
   :monthly_price: 587
   :description: |-
     This room is available NOW !
@@ -1591,14 +1320,12 @@
 
     total £640 ish x month.
   :number_of_flatmates: 3
-  :flat_size: 81
-  :amenities: Air conditioning,Dryer,Kitchen,Elevator,Heating,Doorman
+  :amenities: Hot tub,Kitchen,Doorman,TV,Dryer,Air conditioning
   :neighborhood: Bermondsey
   :currency: "£"
-  :lat: 51.4982157
-  :lng: -0.06234540000002653
-  :room_size: 23
-  :has_parking: false
+  :address: Spar Stores, 180 Jamaica Rd, London SE16 4RT, UK
+  :latitude: 51.4982157
+  :longitude: -0.06234540000002653
   :deposit: 825
   :allow_students: false
   :allow_pets: false
@@ -1611,9 +1338,7 @@
   :minimum_stay: 12
   :preffered_min_age: 25
   :preffered_max_age: 50
-  :preffered_gender: 2
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/f575a975-c91f-479c-a0a6-3f60efbd8a5d
+  :card_image: https://images.unsplash.com/photo-1500771309643-de18b0aea901?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f575a975-c91f-479c-a0a6-3f60efbd8a5d
   - https://kangaroom.azureedge.net/photos-medium/100f6f87-8e4e-4c02-be16-df43e24889f9
@@ -1622,8 +1347,7 @@
   - https://kangaroom.azureedge.net/photos-medium/1d27b974-f9fd-4fea-a76b-cdea6367393e
   - https://kangaroom.azureedge.net/photos-medium/67c12beb-f094-426a-bf2e-986423c9260c
   - https://kangaroom.azureedge.net/photos-medium/d5faf960-8c46-49c9-b638-899abeb25e82
-- :title: "£628 per month double room to rent in a Bethnal Green flatshare available
-    from 18 July 2017 "
+- :title: The Dirt Racing Connection International Headquarters
   :monthly_price: 628
   :description: |-
     Double Room for Single use, in shared 5 Bedroom flat 5 min away from Bethnal green and Whitechapel stations.
@@ -1642,15 +1366,13 @@
 
     INTERESTED?
     ***CONTACT ME ASAP**
-  :number_of_flatmates: 3
-  :flat_size: 106
-  :amenities: Dryer,Doorman,TV,Heating,Elevator,Washer
+  :number_of_flatmates: 2
+  :amenities: Air conditioning,Doorman,Iron,Dryer,Wifi,TV
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.52624299999999
-  :lng: -0.06658229999993637
-  :room_size: 16
-  :has_parking: false
+  :address: 252 Bethnal Green Rd, London E2, UK
+  :latitude: 51.52624299999999
+  :longitude: -0.06658229999993637
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -1663,32 +1385,27 @@
   :minimum_stay: 9
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/208ce8f2-1d46-4d7d-9d6a-2724817c0917
+  :card_image: https://images.unsplash.com/photo-1491846094985-ea8f99c3cb36?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/208ce8f2-1d46-4d7d-9d6a-2724817c0917
   - https://kangaroom.azureedge.net/photos-medium/29a8c355-a984-4536-bde9-0f7ef99eb7db
   - https://kangaroom.azureedge.net/photos-medium/7d70796e-6e99-4873-9c1c-51a54909d521
   - https://kangaroom.azureedge.net/photos-medium/659b4bb9-84d2-4262-8461-afe2a52f7a43
   - https://kangaroom.azureedge.net/photos-medium/51161fb2-ddc2-4591-992d-ff498d342683
-- :title: "£715 per month double room to rent in a Chalk Farm flatshare available
-    from 3 October 2017 "
+- :title: Hot Shower
   :monthly_price: 715
   :description: Double bedroom available NOW in a quiet, clean 5 bed flat just 5 minutes
     from Chalk Farm Station and also very close to Kentish Town for a single tenant.
     All occupants are friendly professionals and tend to be out of the flat during
     most of the day. Fully furnished with WiFi and bills included. Contact me to any
     further information or to arrange a viewing
-  :number_of_flatmates: 3
-  :flat_size: 125
-  :amenities: Washer,Iron,Doorman,Dryer,Air conditioning,Kitchen
+  :number_of_flatmates: 2
+  :amenities: Doorman,Dryer,Washer,Kitchen,Air conditioning,Hot tub
   :neighborhood: Chalk Farm
   :currency: "£"
-  :lat: 51.5464127
-  :lng: -0.15416060000006837
-  :room_size: 28
-  :has_parking: false
+  :address: Penshurst, Marsden St, Belsize Park, London NW5 3QH, UK
+  :latitude: 51.5464127
+  :longitude: -0.15416060000006837
   :deposit: 495
   :allow_students: false
   :allow_pets: false
@@ -1701,16 +1418,13 @@
   :minimum_stay: 3
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/6feb0705-339b-41fb-863a-b92054262a8a
+  :card_image: https://images.unsplash.com/photo-1502828250233-d933701408a1?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/6feb0705-339b-41fb-863a-b92054262a8a
   - https://kangaroom.azureedge.net/photos-medium/7d6d564e-ba72-4b6b-bc69-32419a5f27c6
   - https://kangaroom.azureedge.net/photos-medium/a1654915-1519-4a4f-9689-cdc2838ce543
   - https://kangaroom.azureedge.net/photos-medium/e580054d-3272-4bbe-872e-9a892b9b4e64
-- :title: "£715 per month double room to rent in a Bethnal Green flatshare available
-    from 20 June 2017 "
+- :title: Dwelling Place
   :monthly_price: 715
   :description: |-
     New Brand 4 bedroom Flat with 3 current professional flatmates, has 1 double room fully furnished available now. There is a spacious kitchen with dining area and refurbished bathroom. This is a great location for who work in the City.
@@ -1741,14 +1455,12 @@
     Regards,
     Alex Letting Agent
   :number_of_flatmates: 2
-  :flat_size: 110
-  :amenities: Doorman,Washer,Hot tub,Gym,Iron,Elevator
+  :amenities: Iron,Heating,Wifi,Air conditioning,Elevator,Doorman
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5260343
-  :lng: -0.06424970000000485
-  :room_size: 26
-  :has_parking: false
+  :address: Redgrave Terrace, Derbyshire St, London E2 6JF, UK
+  :latitude: 51.5260343
+  :longitude: -0.06424970000000485
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -1761,15 +1473,12 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 35
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/0db2ae6a-d9d2-463b-a22b-26149e820fdb
+  :card_image: https://images.unsplash.com/photo-1506094640885-1eec4b1c9f94?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0db2ae6a-d9d2-463b-a22b-26149e820fdb
   - https://kangaroom.azureedge.net/photos-medium/d8d55120-a368-46d4-b964-e332daa4e4db
   - https://kangaroom.azureedge.net/photos-medium/f48a528f-ea70-4d7b-8413-05595f26fe44
-- :title: "£640 per month double room to rent in a Whitechapel flatshare available
-    from 4 July 2017 "
+- :title: My Aunt That Lives In the Middle of Nowhere
   :monthly_price: 640
   :description: |-
     Double bedroom available in Whitechapel. Shared with two professionals.
@@ -1780,15 +1489,13 @@
 
     £640 BILLS INCLUDED
     It's a short term let, from the 4th of July to the 4th of September (possibility to extend it to the end of the month)
-  :number_of_flatmates: 2
-  :flat_size: 95
-  :amenities: Air conditioning,Doorman,Elevator,Heating,Iron,Washer
+  :number_of_flatmates: 1
+  :amenities: Washer,Dryer,Elevator,Kitchen,Air conditioning,Heating
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5151008
-  :lng: -0.05835720000004585
-  :room_size: 26
-  :has_parking: false
+  :address: Philson Mansions, Whitechapel, London E1, UK
+  :latitude: 51.5151008
+  :longitude: -0.05835720000004585
   :deposit: 640
   :allow_students: false
   :allow_pets: false
@@ -1801,9 +1508,7 @@
   :minimum_stay: 2
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/0cc4462b-591c-4e44-a221-88067b3986e2
+  :card_image: https://images.unsplash.com/photo-1502790400347-5c4330620ae3?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0cc4462b-591c-4e44-a221-88067b3986e2
   - https://kangaroom.azureedge.net/photos-medium/14a46e34-6968-4387-9980-c924453a6662
@@ -1812,8 +1517,7 @@
   - https://kangaroom.azureedge.net/photos-medium/e0b90542-8c29-4f03-a7e3-85093f81f309
   - https://kangaroom.azureedge.net/photos-medium/61c1ff12-70b2-4e74-aa8d-711fcaa70c0d
   - https://kangaroom.azureedge.net/photos-medium/f3664aba-784c-464a-aa3c-043ee5992749
-- :title: "£890 per month double room to rent in a Whitechapel flatshare available
-    from 10 December 2017 "
+- :title: Queen Bee’s Palace
   :monthly_price: 890
   :description: |-
     Spacious bedroom in a modern 2 bedroom apartment to let for one person. The second floor apartment overlooking the well-known Whitechapel market consists of a living room with an open kitchen, 1 bedroom with en suite bathroom (taken), another bathroom (in practice belonging to the second bedroom) and the bedroom to let.
@@ -1836,15 +1540,13 @@
     Contract change - 300 (one time)
     Happy to answer any questions you might have, just call/message me.
     -Michal
-  :number_of_flatmates: 1
-  :flat_size: 102
-  :amenities: Dryer,Gym,Doorman,Elevator,Washer,Air conditioning
+  :number_of_flatmates: 3
+  :amenities: Gym,Wifi,Iron,Elevator,Heating,Hot tub
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.51958769999999
-  :lng: -0.0594204000000218
-  :room_size: 29
-  :has_parking: false
+  :address: 285 Whitechapel Rd, London E1, UK
+  :latitude: 51.51958769999999
+  :longitude: -0.0594204000000218
   :deposit: 1260
   :allow_students: false
   :allow_pets: false
@@ -1857,9 +1559,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: Please be normal, that is usually more than enough in London.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/0420d98e-1622-45d6-8c76-09f1678c90a3
+  :card_image: https://images.unsplash.com/photo-1498661367879-c2085689eed4?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0420d98e-1622-45d6-8c76-09f1678c90a3
   - https://kangaroom.azureedge.net/photos-medium/2fee76fe-525f-4587-bd0f-7e2fd855306a
@@ -1871,8 +1571,7 @@
   - https://kangaroom.azureedge.net/photos-medium/0e702892-6672-4227-9938-7fe074e076db
   - https://kangaroom.azureedge.net/photos-medium/63254be0-9310-4c45-bf18-a30abcdb53e0
   - https://kangaroom.azureedge.net/photos-medium/2cc0ed2d-263c-47ac-b7e3-1c80ef629863
-- :title: "£840 per month double room to rent in a Camberwell flatshare available
-    from 1 July 2017 "
+- :title: Good Morning World
   :monthly_price: 840
   :description: "Looking for someone (or a couple) who is responsible and really easy
     going to take over a great attic room while im in Los Angeles. I am away for work
@@ -1884,14 +1583,12 @@
     a mix of people doing their own stuff but with a good healthy flat vibe.\n\nAttic
     room is free from July 1 . \n\nFeel free to drop me a line..\n\nMarcos"
   :number_of_flatmates: 3
-  :flat_size: 114
-  :amenities: Heating,TV,Iron,Kitchen,Gym,Washer
+  :amenities: Wifi,TV,Dryer,Iron,Kitchen,Hot tub
   :neighborhood: Camberwell
   :currency: "£"
-  :lat: 51.4696718
-  :lng: -0.09574989999998706
-  :room_size: 14
-  :has_parking: false
+  :address: 91 Coldharbour Ln, Brixton, London SE5 9NS, UK
+  :latitude: 51.4696718
+  :longitude: -0.09574989999998706
   :deposit: 600
   :allow_students: false
   :allow_pets: false
@@ -1904,22 +1601,14 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 1
-  :searching_for: |-
-    Looking to rent out my attic room as im away in LA for work for quite a while. I am into sports, working out, music, good company.
-
-    The other flatmates are into football, one is creating his own start up, one works in advertising and the other is a basketball coach.
-
-    They are open minded and very relaxed. I guess the only non spoken rule is that we was our dishes after use. I think that helps keep the peace lol.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/f4e9329e-fcf1-47ed-a1d1-3c430ed332f9
+  :card_image: https://images.unsplash.com/photo-1503683954291-ca08d5c21f3e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/f4e9329e-fcf1-47ed-a1d1-3c430ed332f9
   - https://kangaroom.azureedge.net/photos-medium/07cf0259-d1f5-4490-8224-bfdebafec01d
   - https://kangaroom.azureedge.net/photos-medium/bb1851f1-41b4-4427-8427-db4533cd1767
   - https://kangaroom.azureedge.net/photos-medium/3fe18881-39f6-408e-b4dc-55d941b73d26
   - https://kangaroom.azureedge.net/photos-medium/a2655b9e-1b5c-4b35-b878-7ce98138c781
-- :title: "£1,127 per month double room to rent in a Kentish Town flatshare available
-    from 15 August 2017 "
+- :title: The Rack
   :monthly_price: 1127
   :description: "Two of our flatmates are graduating from university and therefore
     departing from London, leaving the pictured double-room free and available from
@@ -1934,14 +1623,12 @@
     between all five townhouse-inhabitants, and does usually exceed 30 pounds per
     person. \n\nIf this sounds interesting, please get in touch!\n\nPer & Oscar"
   :number_of_flatmates: 3
-  :flat_size: 85
-  :amenities: Iron,Hot tub,Wifi,TV,Gym,Washer
+  :amenities: Gym,Washer,Air conditioning,Dryer,Hot tub,Iron
   :neighborhood: Kentish Town
   :currency: "£"
-  :lat: 51.54848699999999
-  :lng: -0.1522592999999688
-  :room_size: 20
-  :has_parking: false
+  :address: 82 Malden Rd, Belsize Park, London NW5, UK
+  :latitude: 51.54848699999999
+  :longitude: -0.1522592999999688
   :deposit: 1600
   :allow_students: false
   :allow_pets: false
@@ -1954,16 +1641,7 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: "We are a bunch of KCL and UCL students (a Norwegian, an English
-    and a German, yeah sounds like the beginning of a joke). \n\nWe will be in the
-    final year of our BAs and probably have to work a fair bit and so won't be doing
-    loads of partying. Nonetheless, there will of course be the occasional communal
-    dinner with wine etc. (we all like to cook).\n\nWe are all pretty relaxed and
-    never had any problem when living with people. So if you are also laid back and
-    just want to enjoy life while fulfilling the minimum of your moral and practical
-    responsibilities, get in touch !"
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/35887916-45f3-4396-9616-8db51aa63b5b
+  :card_image: https://images.unsplash.com/photo-1511854027438-1549025c5eff?auto=format&fit=crop&w=1226&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/35887916-45f3-4396-9616-8db51aa63b5b
   - https://kangaroom.azureedge.net/photos-medium/434b5ce6-3179-49d4-9890-ec434fec62f8
@@ -1974,8 +1652,7 @@
   - https://kangaroom.azureedge.net/photos-medium/a067fa87-91c2-4512-9f35-64d2d4132832
   - https://kangaroom.azureedge.net/photos-medium/d011e8f5-ad69-4771-b080-511a34b1d90b
   - https://kangaroom.azureedge.net/photos-medium/f6174473-bdf6-483b-9c38-dbbbdd4e7b4c
-- :title: "£800 per month single room to rent in a Clapham North flatshare available
-    from 29 October 2017 "
+- :title: Da Lair
   :monthly_price: 800
   :description: "Hello!\n\nWe are looking for a person to join our house! We offer:\n\n-1
     double room with wardrobe\n-1 Living room with dining table, 2 sofas and TV\n-1
@@ -1996,15 +1673,13 @@
     food shop and cool coffee shop. Not to mention the off licences that can save
     lives at late nights :P\n\nHolding viewings from now! It is also available for
     now! So give us a shout."
-  :number_of_flatmates: 2
-  :flat_size: 105
-  :amenities: Kitchen,Air conditioning,Wifi,Gym,Washer,Doorman
+  :number_of_flatmates: 3
+  :amenities: Hot tub,TV,Doorman,Dryer,Washer,Gym
   :neighborhood: Clapham North
   :currency: "£"
-  :lat: 51.465
-  :lng: -0.12784780000004048
-  :room_size: 24
-  :has_parking: false
+  :address: 73 Fenwick Pl, London SW9 9NN, UK
+  :latitude: 51.465
+  :longitude: -0.12784780000004048
   :deposit: 900
   :allow_students: false
   :allow_pets: false
@@ -2017,17 +1692,7 @@
   :minimum_stay: 10
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: "We have a lovely and funny Australian couple from Brisbane, Ray
-    and John, who has just joined the house. In the other room there is a Spanish
-    girl, Isa, from the Canary Islands, who is not only super easy going, but also
-    very sensible. \n\nI must say they're all very concerned about the cleanliness
-    and organization of the flat, but they are super chilled! \n\nWe have an extra
-    mattress in case you want to bring a friend to visit for few days, we like to
-    have pre-drinks together and going out afterwards. We often cook some stuff together,
-    and we laugh a looot together! \nWe can't wait for summer to properly enjoy our
-    garden and our barbecue grill. \nCome visit and chat with us. You'll be very welcome!"
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/c21926ac-9a3d-4fea-8879-f63b21fa3474
+  :card_image: https://images.unsplash.com/photo-1508956225111-e10f3ac4a5a8?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/c21926ac-9a3d-4fea-8879-f63b21fa3474
   - https://kangaroom.azureedge.net/photos-medium/3bcae351-f88b-458f-9ef8-f1c6a5a19484
@@ -2037,8 +1702,7 @@
   - https://kangaroom.azureedge.net/photos-medium/3ba776d7-4364-4fe0-8caf-2a9202334ed6
   - https://kangaroom.azureedge.net/photos-medium/7ad34a84-0047-4092-8d2e-0af5b826bf47
   - https://kangaroom.azureedge.net/photos-medium/9e7fa4a3-e965-434e-aeaa-0854eaed7245
-- :title: "£1,200 per month double room to rent in a Lower Holloway flatshare available
-    from 11 November 0017 "
+- :title: Our Tin House
   :monthly_price: 1200
   :description: "Hi! We are seeking a person or couple to share our beautiful penthouse
     apartment on Holloway Road. The house is stunning. It is in a converted 19th century
@@ -2067,15 +1731,13 @@
     please send us a message and tell us a little bit about yourself. We would like
     to live with someone that we click with and that will make the house a warm and
     pleasant place to live."
-  :number_of_flatmates: 1
-  :flat_size: 74
-  :amenities: Dryer,TV,Elevator,Air conditioning,Doorman,Heating
+  :number_of_flatmates: 3
+  :amenities: Hot tub,Gym,Doorman,Kitchen,TV,Iron
   :neighborhood: Lower Holloway
   :currency: "£"
-  :lat: 51.5515021
-  :lng: -0.11287459999994098
-  :room_size: 28
-  :has_parking: false
+  :address: Mt Carmel Court, London N7, UK
+  :latitude: 51.5515021
+  :longitude: -0.11287459999994098
   :deposit: 1800
   :allow_students: false
   :allow_pets: false
@@ -2088,9 +1750,7 @@
   :minimum_stay: 6
   :preffered_min_age: 25
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: see room details
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/11392ef8-2770-4f4b-8ec4-2fd8a81e075e
+  :card_image: https://images.unsplash.com/photo-1510752767627-d099a7f3e38e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/11392ef8-2770-4f4b-8ec4-2fd8a81e075e
   - https://kangaroom.azureedge.net/photos-medium/871ad1eb-6fe4-41ad-a37a-e525a402ddf8
@@ -2100,8 +1760,7 @@
   - https://kangaroom.azureedge.net/photos-medium/c08a79fd-ce5f-4542-a360-596ab8bce67e
   - https://kangaroom.azureedge.net/photos-medium/4b13741c-754b-42b2-9ade-83c7857e9857
   - https://kangaroom.azureedge.net/photos-medium/1f312bc1-cdd3-47ef-8bbc-87d1d6e3e1be
-- :title: "£693 per month double room to rent in a Whitechapel flatshare available
-    from 26 October 2017 "
+- :title: Grindle Road
   :monthly_price: 693
   :description: "we are a mixed group of people studying working and traveling. we
     live in a big house brilliantly located at 3 minutes walking from whitechapel
@@ -2113,15 +1772,13 @@
     rooms\n2 bathrooms\n1 extra toilet\nliving room\ndining area\nequipped kitchen\nbackyard
     terrace garden\n\nwe are looking for someone to feel at home with and sharing
     is not a problem. \ncheers."
-  :number_of_flatmates: 1
-  :flat_size: 73
-  :amenities: Kitchen,Washer,Dryer,Heating,TV,Iron
+  :number_of_flatmates: 2
+  :amenities: Washer,Wifi,TV,Dryer,Doorman,Elevator
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5171681
-  :lng: -0.05612169999994876
-  :room_size: 12
-  :has_parking: false
+  :address: 94 Newark St, Whitechapel, London E1 2ES, UK
+  :latitude: 51.5171681
+  :longitude: -0.05612169999994876
   :deposit: 696
   :allow_students: false
   :allow_pets: false
@@ -2134,17 +1791,10 @@
   :minimum_stay: 6
   :preffered_min_age: 24
   :preffered_max_age: 42
-  :preffered_gender: 0
-  :searching_for: im an italian  free lance tour operator graduated in economics and
-    postgraduated in tourism.i play sax and guitar and i like to spend time on my
-    own studying and have nice conversation with housemates.i other people in the  are
-    aged between 24 and 28 years old there are girls from switzerland spain one couple
-    from netherland one english guy and one french.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/b600e4e2-4f2f-4314-8174-0043fc465571
+  :card_image: https://c2.staticflickr.com/4/3812/11142775244_a59ec23c29_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/b600e4e2-4f2f-4314-8174-0043fc465571
-- :title: "£850 per month double room to rent in a Kentish Town flatshare available
-    from 29 July 2017 "
+- :title: Restless Legs Hideaway
   :monthly_price: 850
   :description: "Hi, \n\nWe are looking for a new housemate to move into our house
     in Kentish Town - the room is a big, light and airy double room. \n\nAbout the
@@ -2158,15 +1808,13 @@
     jobs and are looking for a good match to fill the empty room.\n\nMove in date:
     29 July\nDeposit: £1268\n\nWe will be arranging viewings over the next few weeks
     - Thanks\n\nEva, Rosie + Dom xx"
-  :number_of_flatmates: 1
-  :flat_size: 114
-  :amenities: Hot tub,Wifi,Washer,Dryer,TV,Gym
+  :number_of_flatmates: 3
+  :amenities: TV,Iron,Doorman,Gym,Air conditioning,Washer
   :neighborhood: Kentish Town
   :currency: "£"
-  :lat: 51.5522249
-  :lng: -0.1401212000000669
-  :room_size: 23
-  :has_parking: false
+  :address: 5 Falkland Rd, London NW5 2PS, UK
+  :latitude: 51.5522249
+  :longitude: -0.1401212000000669
   :deposit: 1268
   :allow_students: false
   :allow_pets: false
@@ -2179,9 +1827,7 @@
   :minimum_stay: 12
   :preffered_min_age: 22
   :preffered_max_age: 35
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/2b298a86-c239-4a5a-9c53-7837cf27711a
+  :card_image: https://c1.staticflickr.com/3/2240/2074238986_b69574e757_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2b298a86-c239-4a5a-9c53-7837cf27711a
   - https://kangaroom.azureedge.net/photos-medium/0840eb78-b929-4ef6-9284-caf7466baa15
@@ -2191,8 +1837,7 @@
   - https://kangaroom.azureedge.net/photos-medium/07b1a012-8a83-47d1-acb5-d7ab58a96ceb
   - https://kangaroom.azureedge.net/photos-medium/17b53eb5-8f90-4569-b690-53d50380d97b
   - https://kangaroom.azureedge.net/photos-medium/e018550b-3778-464e-aa57-08ea9a2d60c5
-- :title: "£823 per month double room to rent in a Whitechapel flatshare available
-    from 29 July 2017 "
+- :title: The Legion of McConnell Doom
   :monthly_price: 823
   :description: |-
     This AMAZING Modern Double Room for Single use, well-presented, Large, Bright, Clean, Tidy and totally furnished Located in Bethnal Green is now AVAILABLE!!
@@ -2219,14 +1864,12 @@
     INTERESTED?
     **CONTACT ASAP**
   :number_of_flatmates: 2
-  :flat_size: 123
-  :amenities: Air conditioning,Wifi,Elevator,Doorman,Washer,Heating
+  :amenities: TV,Washer,Hot tub,Iron,Dryer,Gym
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.5172341
-  :lng: -0.055156099999976504
-  :room_size: 19
-  :has_parking: false
+  :address: 1 Miranda Cl, Whitechapel, London E1 2EQ, UK
+  :latitude: 51.5172341
+  :longitude: -0.055156099999976504
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -2239,9 +1882,7 @@
   :minimum_stay: 8
   :preffered_min_age: 20
   :preffered_max_age: 40
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/7b00798d-592f-483b-a475-fab7394ac70d
+  :card_image: https://c1.staticflickr.com/3/2493/3786467912_b7b2f5f0e6_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/7b00798d-592f-483b-a475-fab7394ac70d
   - https://kangaroom.azureedge.net/photos-medium/1332cffe-8008-46d4-8fa3-f138a91db88a
@@ -2249,8 +1890,7 @@
   - https://kangaroom.azureedge.net/photos-medium/3de390fd-64f5-4dcf-b20f-85c02fc6fdc2
   - https://kangaroom.azureedge.net/photos-medium/1b9fbdb1-0f56-4322-97bd-a9de4aeb6702
   - https://kangaroom.azureedge.net/photos-medium/4d14d2eb-288e-42fd-95b8-229b1870ce23
-- :title: "£995 per month double room to rent in a Wapping flatshare available from
-    8 November 2017 "
+- :title: Tasha’s House AKA The Nut House
   :monthly_price: 995
   :description: |-
     DOUBLE BEDROOM TO RENT in a two-bedroom flat in WAPPING, E1W. Walking distance from the City and Canary Wharf.
@@ -2261,14 +1901,12 @@
 
     I have been living here for 1 year and a half and really enjoyed the place. It's definitely worth it!
   :number_of_flatmates: 2
-  :flat_size: 83
-  :amenities: Gym,Air conditioning,TV,Elevator,Wifi,Heating
+  :amenities: Gym,Iron,Washer,Air conditioning,Wifi,Doorman
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.5075164
-  :lng: -0.053789400000027854
-  :room_size: 24
-  :has_parking: false
+  :address: 164-235 Milk Yard, St Katharine's & Wapping, London E1W, UK
+  :latitude: 51.5075164
+  :longitude: -0.053789400000027854
   :deposit: 100
   :allow_students: false
   :allow_pets: false
@@ -2281,11 +1919,7 @@
   :minimum_stay: 4
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: The second flamate is a young professional from New-Zealand, funny
-    and easy to live with. For her, we would like to find another young professional
-    quiet and friendly.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/746d98e8-c0ca-4058-b2c6-0aa49c32a8ed
+  :card_image: https://c1.staticflickr.com/9/8334/8127325309_e1e8a9bee0_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/746d98e8-c0ca-4058-b2c6-0aa49c32a8ed
   - https://kangaroom.azureedge.net/photos-medium/cc9c65c2-83d1-48a9-af63-9c6865989f34
@@ -2297,8 +1931,7 @@
   - https://kangaroom.azureedge.net/photos-medium/b33b2781-a65c-41f3-83d4-50797cbdb23d
   - https://kangaroom.azureedge.net/photos-medium/849f1611-789b-485f-9ccf-a7448a982daf
   - https://kangaroom.azureedge.net/photos-medium/ce6d587e-1b34-4c7b-84b6-c58e7a5c7234
-- :title: "£715 per month single room to rent in a Bethnal Green flatshare available
-    from 30 September 2017 "
+- :title: Doxie Crashpad
   :monthly_price: 715
   :description: |-
     * Nice double room for one person only.
@@ -2329,15 +1962,13 @@
     Call/text or Message for any further information.
     Cheers
     (:
-  :number_of_flatmates: 1
-  :flat_size: 113
-  :amenities: Doorman,Kitchen,Dryer,TV,Hot tub,Washer
+  :number_of_flatmates: 3
+  :amenities: Iron,Gym,Washer,Air conditioning,Hot tub,Doorman
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5250449
-  :lng: -0.058251400000017384
-  :room_size: 13
-  :has_parking: false
+  :address: 143 Corfield St, London E2 0DS, UK
+  :latitude: 51.5250449
+  :longitude: -0.058251400000017384
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -2350,9 +1981,7 @@
   :minimum_stay: 4
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/2ac3f2ed-56aa-4f87-812e-24026820900a
+  :card_image: https://c1.staticflickr.com/1/61/191056818_7f4ab27465_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/2ac3f2ed-56aa-4f87-812e-24026820900a
   - https://kangaroom.azureedge.net/photos-medium/8aef3c28-2a53-4ca9-b3fc-75800fca02e4
@@ -2362,8 +1991,7 @@
   - https://kangaroom.azureedge.net/photos-medium/e3e12752-e657-43cc-90ab-2906853eba40
   - https://kangaroom.azureedge.net/photos-medium/10026a15-03e0-4725-9884-8a93ec4c5211
   - https://kangaroom.azureedge.net/photos-medium/c9e87506-b8e1-4e04-9bc9-8dcb74908c06
-- :title: "£730 per month double room to rent in a West Brompton flatshare available
-    from 15 July 2017 "
+- :title: Magenta Rd
   :monthly_price: 730
   :description: Lovely and cosy room available located in the borough of Kensington
     and Chelsea in a nice and quiet area. 5 min from West Brompton station and 10
@@ -2376,14 +2004,12 @@
     in their 30s. This stunning house is offered furnished and is available middle/end
     of July.
   :number_of_flatmates: 2
-  :flat_size: 90
-  :amenities: Doorman,Gym,Kitchen,Washer,TV,Dryer
+  :amenities: Washer,Elevator,Heating,Kitchen,Iron,Hot tub
   :neighborhood: West Brompton
   :currency: "£"
-  :lat: 51.48495769999999
-  :lng: -0.18815719999997782
-  :room_size: 14
-  :has_parking: false
+  :address: 173 Ifield Rd, Kensington, London SW10 9AU, UK
+  :latitude: 51.48495769999999
+  :longitude: -0.18815719999997782
   :deposit: 815
   :allow_students: false
   :allow_pets: false
@@ -2396,9 +2022,7 @@
   :minimum_stay: 6
   :preffered_min_age: 26
   :preffered_max_age: 36
-  :preffered_gender: 2
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/fe9e1beb-31d4-4817-8b54-4b095b0a3ad2
+  :card_image: https://c1.staticflickr.com/5/4096/4905659252_93e3231d0b_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/fe9e1beb-31d4-4817-8b54-4b095b0a3ad2
   - https://kangaroom.azureedge.net/photos-medium/2ca6fb9a-d537-4543-8ffc-3fb1499e9465
@@ -2407,22 +2031,19 @@
   - https://kangaroom.azureedge.net/photos-medium/0dead3fc-462d-4f69-b9b5-ffb5b1a8391e
   - https://kangaroom.azureedge.net/photos-medium/7bec1d9a-cc0d-4bd5-9034-ca4a781325d6
   - https://kangaroom.azureedge.net/photos-medium/e8841bab-fb74-4462-af84-373a4427a81a
-- :title: "£730 per month double room to rent in a Chelsea flatshare available from
-    20 July 2017 "
+- :title: Fpr Sale by Imagine
   :monthly_price: 730
   :description: |-
     Lovely and cosy room available located in the borough of Kensington and Chelsea.
     Nice and quiet area, 5 min from West Brompton station and 10 from Earl’s Court station. The room comes with a double bed, a desk and wardrobe. The flat comprises a pretty big kitchen with all appliances and dining table, a spacious bathroom with power shower. Further benefits include high ceilings, windows that allow plenty of natural light into the property. £730 pcm. The bills and Council tax and Internet access will be around £100. We are looking for someone that has a job contract, clean and tidy. You will be sharing the flat with two professional ladies in their 30s ;)
     This stunning house is offered furnished and is available middle/end of July.
-  :number_of_flatmates: 1
-  :flat_size: 121
-  :amenities: Dryer,Doorman,Wifi,Washer,Kitchen,Gym
+  :number_of_flatmates: 3
+  :amenities: Kitchen,Air conditioning,Elevator,Dryer,TV,Iron
   :neighborhood: Chelsea
   :currency: "£"
-  :lat: 51.4848783
-  :lng: -0.18835139999998773
-  :room_size: 19
-  :has_parking: false
+  :address: 86-94 Ifield Rd, Kensington, London SW10, UK
+  :latitude: 51.4848783
+  :longitude: -0.18835139999998773
   :deposit: 815
   :allow_students: false
   :allow_pets: false
@@ -2435,11 +2056,7 @@
   :minimum_stay: 1
   :preffered_min_age: 26
   :preffered_max_age: 36
-  :preffered_gender: 0
-  :searching_for: |-
-    We are looking for someone that has a job contract, clean and tidy. You will be sharing the flat with two professional ladies in their 30s ;)
-    This stunning house is offered furnished and is available middle/end of Jul
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/ea3ff984-144f-4b78-85f4-38aec6a3b09b
+  :card_image: https://c1.staticflickr.com/5/4090/4971869001_64343878f9_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/ea3ff984-144f-4b78-85f4-38aec6a3b09b
   - https://kangaroom.azureedge.net/photos-medium/cb91da6f-9dbf-407a-adb0-1e94ba2b625a
@@ -2447,8 +2064,7 @@
   - https://kangaroom.azureedge.net/photos-medium/df9ccdb9-67c5-4e9a-ae4b-ad0ac02d7c84
   - https://kangaroom.azureedge.net/photos-medium/983f344b-b498-4f9c-b457-b281fc018fe7
   - https://kangaroom.azureedge.net/photos-medium/a59fecc0-b5d1-491f-9c4a-5f16a45efbe4
-- :title: "£732 per month single room to rent in a Earls Court flatshare available
-    from 4 September 2017 "
+- :title: The Three Broomsticks
   :monthly_price: 732
   :description: "(AVAILABLE IMMEDIATELY. STUDENTS ONLY) \nValue for money, large cosy
     room with a beautiful view available immediately in Ifield Road, Chelsea. Friendly
@@ -2457,14 +2073,12 @@
     out dining table and comfy chair included. \n\nVery quiet and safe area with great
     connectivity. 8 minute walk to Earls Court Station and West Brompton Station"
   :number_of_flatmates: 1
-  :flat_size: 112
-  :amenities: Elevator,Wifi,Kitchen,Hot tub,Gym,Iron
+  :amenities: Elevator,TV,Heating,Air conditioning,Kitchen,Dryer
   :neighborhood: Earls Court
   :currency: "£"
-  :lat: 51.4845634
-  :lng: -0.18824480000000676
-  :room_size: 25
-  :has_parking: false
+  :address: 76 Ifield Rd, Kensington, London SW10 9AD, UK
+  :latitude: 51.4845634
+  :longitude: -0.18824480000000676
   :deposit: 600
   :allow_students: false
   :allow_pets: false
@@ -2477,14 +2091,11 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/c067a440-7cd6-43b8-89b8-8480448031bb
+  :card_image: https://c1.staticflickr.com/3/2070/2219602019_ac2b8e5b69_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/c067a440-7cd6-43b8-89b8-8480448031bb
   - https://kangaroom.azureedge.net/photos-medium/4cbbfe87-656f-40cb-b16c-06119a58cab5
-- :title: "£800 per month double room to rent in a Bethnal Green flatshare available
-    from 2 November 2017 "
+- :title: Working On My New Book
   :monthly_price: 800
   :description: |-
     Spacious double bedroom in a new build apartment block in Bethnal Green.
@@ -2495,14 +2106,12 @@
 
     Bills not included: Electricity and water
   :number_of_flatmates: 1
-  :flat_size: 120
-  :amenities: Hot tub,Air conditioning,Elevator,TV,Dryer,Iron
+  :amenities: Elevator,Air conditioning,Hot tub,Wifi,Heating,Doorman
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5250953
-  :lng: -0.0569517999999789
-  :room_size: 27
-  :has_parking: false
+  :address: 27 Mint St, London E2 6FY, UK
+  :latitude: 51.5250953
+  :longitude: -0.0569517999999789
   :deposit: 800
   :allow_students: false
   :allow_pets: false
@@ -2515,14 +2124,7 @@
   :minimum_stay: 12
   :preffered_min_age: 23
   :preffered_max_age: 33
-  :preffered_gender: 0
-  :searching_for: |-
-    Looking for a single professional who works full time that is friendly, social and enjoys getting out and about in London.
-
-    Someone that likes to go out but doesn't bring the party home with them. Not a couch potato.
-
-    Will be sharing  with a couple - Australia guy from Sydney and English girl both working full time in the creative industry.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/04cbf5cf-4b96-4ee3-bf98-36d40fae18dc
+  :card_image: https://c1.staticflickr.com/1/77/195649140_84ca8f1eed_o.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/04cbf5cf-4b96-4ee3-bf98-36d40fae18dc
   - https://kangaroom.azureedge.net/photos-medium/b4974438-49e4-4a7b-ba76-fa7e4808d30e
@@ -2531,8 +2133,7 @@
   - https://kangaroom.azureedge.net/photos-medium/8fb6c2a4-81e1-4f10-b748-c76335af6e6e
   - https://kangaroom.azureedge.net/photos-medium/a48ab1c2-d49c-4f20-8bc0-912633f009f7
   - https://kangaroom.azureedge.net/photos-medium/32e90b0d-1c63-4c74-a933-ece4aa8666c2
-- :title: "£985 per month double room to rent in a Surrey Quays flatshare available
-    from 1 August 2017 "
+- :title: Wolf Castle
   :monthly_price: 985
   :description: "Hello There,\n\nWe have a large double bedroom in our fantastic 3
     bedrooms house available from the 1st of August. £985 pm - all bills included.
@@ -2551,15 +2152,13 @@
     are welcome. \n\nInterviews will start next week. If you're interested in viewing
     the room, please email  or text me something about yourself and I'll be in touch
     ASAP.\n\nCheers,\n\nDaniela"
-  :number_of_flatmates: 1
-  :flat_size: 81
-  :amenities: Washer,Doorman,Wifi,Kitchen,Dryer,Hot tub
+  :number_of_flatmates: 2
+  :amenities: Wifi,Hot tub,Doorman,Washer,TV,Dryer
   :neighborhood: Surrey Quays
   :currency: "£"
-  :lat: 51.49615169999999
-  :lng: -0.05391850000000886
-  :room_size: 22
-  :has_parking: false
+  :address: 102 Ann Moss Way, London SE16 2TJ, UK
+  :latitude: 51.49615169999999
+  :longitude: -0.05391850000000886
   :deposit: 800
   :allow_students: false
   :allow_pets: false
@@ -2572,9 +2171,7 @@
   :minimum_stay: 3
   :preffered_min_age: 25
   :preffered_max_age: 48
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/8e18dc14-6e74-4268-b262-290563daee10
+  :card_image: https://c1.staticflickr.com/1/72/225504299_72882fcf83_b.jpg
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/8e18dc14-6e74-4268-b262-290563daee10
   - https://kangaroom.azureedge.net/photos-medium/e7ffcda0-4e44-4000-8314-e4b193fb386b
@@ -2585,8 +2182,7 @@
   - https://kangaroom.azureedge.net/photos-medium/8d59a733-5df3-4b94-8869-c2ad337bd2ea
   - https://kangaroom.azureedge.net/photos-medium/dfdab7df-0da6-4af6-8440-708b86f0b216
   - https://kangaroom.azureedge.net/photos-medium/f44aeaee-99bd-4fd5-add5-c740695881da
-- :title: "£875 per month double room to rent in a Swiss Cottage flatshare available
-    from 4 October 2017 "
+- :title: The Never Ending Slumber Party
   :monthly_price: 875
   :description: "* 1 Minute from Swiss Cottage Tube Station (Jubilee Line, Zone 2)
     \n* 2 Cinemas in the area, a Gym 2 minutes walk \n* 3 Grocery Stores + plenty
@@ -2606,15 +2202,13 @@
     term leases considered. Deposit £150. \n\nPlease get in touch! We will be having
     viewings this week, and really want to make a decision by this Thursday! The room
     is available from the 4th October."
-  :number_of_flatmates: 2
-  :flat_size: 119
-  :amenities: Heating,Kitchen,TV,Wifi,Air conditioning,Washer
+  :number_of_flatmates: 1
+  :amenities: Heating,Gym,Wifi,Hot tub,Elevator,Doorman
   :neighborhood: Swiss Cottage
   :currency: "£"
-  :lat: 51.5446617
-  :lng: -0.17328280000003815
-  :room_size: 12
-  :has_parking: false
+  :address: 7-3 Adamson Rd, London NW3 3HX, UK
+  :latitude: 51.5446617
+  :longitude: -0.17328280000003815
   :deposit: 150
   :allow_students: false
   :allow_pets: false
@@ -2627,22 +2221,13 @@
   :minimum_stay: 3
   :preffered_min_age: 18
   :preffered_max_age: 40
-  :preffered_gender: 0
-  :searching_for: You will be sharing the flat with 2 other males. We are both in
-    our 30s, working professionally in London and have been living together for the
-    past 2 years. We are very easy going, both enjoy cycling and we are fairly quiet
-    during the weeknights, but also don't mind a cheeky drink together.  When cooking,
-    we are happy to share meals, and don't worry too much about labelling who's food
-    belongs to whom.  We take care of the flat, treating it like a home, keeping it
-    tidy and clean.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/0c22e2ea-9d1c-40e4-a10f-b5498c84e3fe
+  :card_image: https://images.unsplash.com/photo-1506086484483-b7092b7a774e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/0c22e2ea-9d1c-40e4-a10f-b5498c84e3fe
   - https://kangaroom.azureedge.net/photos-medium/b5321a70-4cb9-4224-a44a-1ee96b1945cd
   - https://kangaroom.azureedge.net/photos-medium/3fa8ca63-7fbf-4e8e-8526-0c690819065f
   - https://kangaroom.azureedge.net/photos-medium/2a3f5600-c92e-4cf1-aa0d-24a848ea3265
-- :title: "£910 per month double room to rent in a Fulham flatshare available from
-    19 June 2017 "
+- :title: Tom & Wanda’s Norwegian Hide-a-Way
   :monthly_price: 910
   :description: "Hi there!\n\nWe have a room for a couple available in our lovely
     flat in Fulham.\n\nThe 2 bedroom flat is on a 6th floor, it has plenty of natural
@@ -2661,14 +2246,12 @@
     dinner. \n\nIf you think you´ll fit, please get in touch to come to see the flat
     and meet us!"
   :number_of_flatmates: 2
-  :flat_size: 72
-  :amenities: Doorman,Iron,Washer,Wifi,Air conditioning,Gym
+  :amenities: Dryer,TV,Elevator,Doorman,Hot tub,Kitchen
   :neighborhood: Fulham
   :currency: "£"
-  :lat: 51.4803519
-  :lng: -0.18805169999995996
-  :room_size: 29
-  :has_parking: false
+  :address: King Charles House, Wandon Rd, Fulham, London SW6 2JH, UK
+  :latitude: 51.4803519
+  :longitude: -0.18805169999995996
   :deposit: 840
   :allow_students: false
   :allow_pets: false
@@ -2681,11 +2264,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: |-
-    Gianluca and I are a Italian-Spanish professional couple.  We've been living in this flat for over a year with another couple, but now they have left to a place on their own.
-    We are looking for a couple or sibgle person to take over that room. We would like someone who we can share the flat with and have a nice talk.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/b15000a8-659d-4789-8619-d804a8920112
+  :card_image: https://images.unsplash.com/photo-1506534067239-9e2fabb3a863?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/b15000a8-659d-4789-8619-d804a8920112
   - https://kangaroom.azureedge.net/photos-medium/a0fa41ff-b88b-41bb-af2c-a05fb8ff74c4
@@ -2694,8 +2273,7 @@
   - https://kangaroom.azureedge.net/photos-medium/a60f2a66-d975-47df-b426-af00c38a54c3
   - https://kangaroom.azureedge.net/photos-medium/847e26ca-885a-4115-90f7-b1eb4127d74d
   - https://kangaroom.azureedge.net/photos-medium/52ef5ea5-8fbb-422f-b9cc-4c6914d1b2c4
-- :title: "£700 per month single room to rent in a Dalston flatshare available from
-    27 November 2017 "
+- :title: Dreamland
   :monthly_price: 700
   :description: "Large Double by Dalston Junction\n\n\nNOTE: 1 MONTH LET ONLY FROM
     20TH - 27TH OF NOVEMBER TO THE 20TH - 27TH OF DECEMBER!\n\nIn terms of the flat,
@@ -2708,14 +2286,12 @@
     No\nGarden/terrace No\nbalcony/Patio No\nDisabled accessNo\nLiving room No\nBroadband
     included Yes"
   :number_of_flatmates: 2
-  :flat_size: 77
-  :amenities: Doorman,Wifi,Dryer,Kitchen,Air conditioning,Heating
+  :amenities: Washer,Gym,Dryer,Doorman,TV,Heating
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54561140000001
-  :lng: -0.07684619999997722
-  :room_size: 17
-  :has_parking: false
+  :address: Repairs, London N1, UK
+  :latitude: 51.54561140000001
+  :longitude: -0.07684619999997722
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -2728,12 +2304,7 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: |-
-    In terms of the flat, you will be sharing kitchen & toilet/bath with two students (two young danish guys).
-
-    The room itself is really big and bright, the windows are really soundproof, which is quite nice at night if you wanna call it an early night.
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/7db988bd-14c5-433c-931e-faaff4951946
+  :card_image: https://images.unsplash.com/photo-1510947565940-a38e2443c426?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/7db988bd-14c5-433c-931e-faaff4951946
   - https://kangaroom.azureedge.net/photos-medium/5ab245fb-6ae5-41a1-bb7c-f4fb7ce7dc65
@@ -2741,8 +2312,7 @@
   - https://kangaroom.azureedge.net/photos-medium/d3c47624-66d5-4e11-b6bd-30cdddbcc29f
   - https://kangaroom.azureedge.net/photos-medium/a5f19b79-67e9-4342-a286-4e5b2a04fca6
   - https://kangaroom.azureedge.net/photos-medium/6f300ec5-1b75-4402-8d61-f8ecbfb17269
-- :title: "£689 per month double room to rent in a Brixton Hill flatshare available
-    from 3 August 2017 "
+- :title: Jeff May Complex
   :monthly_price: 689
   :description: |-
     Nice Double Room Available Near Brixton Station!, SW2 5SP
@@ -2753,15 +2323,13 @@
     Council Tax, Wifi, Gas, Water, Electricity
     Closest Station:
     6 minutes walkable distance from Brixton Station.
-  :number_of_flatmates: 3
-  :flat_size: 100
-  :amenities: Wifi,Kitchen,Doorman,Air conditioning,TV,Heating
+  :number_of_flatmates: 2
+  :amenities: Air conditioning,Washer,TV,Hot tub,Wifi,Doorman
   :neighborhood: Brixton Hill
   :currency: "£"
-  :lat: 51.4603133
-  :lng: -0.12043889999995372
-  :room_size: 13
-  :has_parking: false
+  :address: Cedars House, 52 Acre Ln, Brixton, London SW2 5SP, UK
+  :latitude: 51.4603133
+  :longitude: -0.12043889999995372
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -2774,15 +2342,12 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/62ae11cc-bf2f-4d43-9858-41d322d475e1
+  :card_image: https://images.unsplash.com/photo-1510965428528-6650eba9eabd?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/62ae11cc-bf2f-4d43-9858-41d322d475e1
   - https://kangaroom.azureedge.net/photos-medium/720631c9-c2ce-4f0a-bd87-611a5a519236
   - https://kangaroom.azureedge.net/photos-medium/8994e660-257e-4c4f-9522-e8477cbe2f8b
-- :title: "£573 per month single room to rent in a Brixton Hill flatshare available
-    from 3 August 2017 "
+- :title: GM Squares
   :monthly_price: 573
   :description: "Single Room Near Brixton Station!, SW2 5SP\n \nThe flat is located
     in a residential area, only moments away from Brixton station with all shops,
@@ -2794,14 +2359,12 @@
     Included:\nCouncil Tax, Wifi, Gas, Water, Electricity\nClosest Station:\n6 minutes
     \ walkable distance from Brixton Station.\n\nPrice - £573 per month"
   :number_of_flatmates: 3
-  :flat_size: 86
-  :amenities: Kitchen,Doorman,Gym,Dryer,Iron,Hot tub
+  :amenities: Gym,Wifi,Air conditioning,Iron,Heating,Hot tub
   :neighborhood: Brixton Hill
   :currency: "£"
-  :lat: 51.4603133
-  :lng: -0.12043889999995372
-  :room_size: 16
-  :has_parking: false
+  :address: Cedars House, 52 Acre Ln, Brixton, London SW2 5SP, UK
+  :latitude: 51.4603133
+  :longitude: -0.12043889999995372
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -2814,28 +2377,23 @@
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/3f2178b9-9678-45b8-958d-3deb108684bd
+  :card_image: https://images.unsplash.com/photo-1510672797419-6b85e54d08aa?auto=format&fit=crop&w=1774&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/3f2178b9-9678-45b8-958d-3deb108684bd
   - https://kangaroom.azureedge.net/photos-medium/8cc1d4ad-e292-455c-946b-591415148b56
   - https://kangaroom.azureedge.net/photos-medium/70a23ad5-c869-4798-9d49-f1cc6bc34b8e
-- :title: "£997 per month double room to rent in a Notting Hill flatshare available
-    from 18 October 2017 "
+- :title: Under The Broccoli Tree
   :monthly_price: 997
   :description: Double bedroom in very good conditions, it comes with a good size
     wardrobe, a double bed as well as a side table and chair, and 2 very conserved
     chest of drawers.
   :number_of_flatmates: 3
-  :flat_size: 96
-  :amenities: Heating,Elevator,Washer,Wifi,Hot tub,Iron
+  :amenities: Kitchen,Washer,Dryer,Gym,Air conditioning,Heating
   :neighborhood: Notting Hill
   :currency: "£"
-  :lat: 51.51591079999999
-  :lng: -0.2022500000000491
-  :room_size: 12
-  :has_parking: false
+  :address: 41 Colville Gardens, London W11 2BA, UK
+  :latitude: 51.51591079999999
+  :longitude: -0.2022500000000491
   :deposit: 12046
   :allow_students: false
   :allow_pets: false
@@ -2848,25 +2406,20 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/e5180dc2-820e-43e6-923b-d6dc741e63fd
+  :card_image: https://images.unsplash.com/photo-1511145822182-677fa5800671?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/e5180dc2-820e-43e6-923b-d6dc741e63fd
-- :title: "£953 per month double room to rent in a Notting Hill flatshare available
-    from 18 October 2017 "
+- :title: Stewie’s Beach Pad
   :monthly_price: 953
   :description: single bed, it comes with a good size wardrobe and a study table with
     a chair.
-  :number_of_flatmates: 1
-  :flat_size: 81
-  :amenities: Heating,Hot tub,Doorman,Air conditioning,Dryer,TV
+  :number_of_flatmates: 3
+  :amenities: Kitchen,Gym,Dryer,Wifi,Heating,Elevator
   :neighborhood: Notting Hill
   :currency: "£"
-  :lat: 51.51591079999999
-  :lng: -0.2022500000000491
-  :room_size: 30
-  :has_parking: false
+  :address: 41 Colville Gardens, London W11 2BA, UK
+  :latitude: 51.51591079999999
+  :longitude: -0.2022500000000491
   :deposit: 1203
   :allow_students: false
   :allow_pets: false
@@ -2879,14 +2432,11 @@
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
-  :preffered_gender: 0
-  :searching_for: ''
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/078fafa0-0904-4489-afdc-5f2791fdf82c
+  :card_image: https://images.unsplash.com/photo-1510675810183-cdb4894ce9c9?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/078fafa0-0904-4489-afdc-5f2791fdf82c
   - https://kangaroom.azureedge.net/photos-medium/27f0c3b7-1c92-4c3f-a9e6-8f984aed83f3
-- :title: "£644 per month shared room to rent in a Dalston flatshare available from
-    9 December 2017 "
+- :title: The Princess’ Palace
   :monthly_price: 644
   :description: "Bright double room available asap, The flat is located literally
     seconds away from London Fields! And minutes away from Broadway Market & Mare
@@ -2903,15 +2453,13 @@
     £581.00\nBills included? No\n\nAmenities\nFurnishings Furnished\nParking Yes\nGarage
     No\nGarden/terrace Yes\nBalcony/Patio Yes\nDisabled access No\nLiving room shared\nBroadband
     included No"
-  :number_of_flatmates: 1
-  :flat_size: 124
-  :amenities: Wifi,Air conditioning,Heating,TV,Elevator,Washer
+  :number_of_flatmates: 3
+  :amenities: TV,Wifi,Heating,Dryer,Doorman,Iron
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5396702
-  :lng: -0.06553140000005442
-  :room_size: 16
-  :has_parking: false
+  :address: 71A Albion Dr, London E8 4LT, UK
+  :latitude: 51.5396702
+  :longitude: -0.06553140000005442
   :deposit: 581
   :allow_students: false
   :allow_pets: false
@@ -2924,20 +2472,14 @@
   :minimum_stay: 12
   :preffered_min_age: 24
   :preffered_max_age: 40
-  :preffered_gender: 0
-  :searching_for: |-
-    I'm moving in with my boyfriend. You'd be sharing with 2 guys, who are pretty relaxed, in their early 30s, working in IT sales and vfx/advertising.
-
-    The guys work hard during the week so are pretty chilled and relaxed, but wouldn’t mind the occasional cheeky drink/dinner now and again. They have their own lives but we all hang out often, so would suit someone like minded, but also has their own thing going on. Into all the normal usual stuff gigs/music, films, seeing things etc
-  :card_image: https://kangaroom.azureedge.net/photos-thumbnail/af394e93-9d90-42e2-a6e1-ad13063f367e
+  :card_image: https://images.unsplash.com/photo-1509763988163-d54b5f5d5b67?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls:
   - https://kangaroom.azureedge.net/photos-medium/af394e93-9d90-42e2-a6e1-ad13063f367e
   - https://kangaroom.azureedge.net/photos-medium/15b39e5f-62cc-4fb7-8d79-934b47ff5ade
   - https://kangaroom.azureedge.net/photos-medium/282c297d-c570-48a8-ba16-8b56181ee2a3
   - https://kangaroom.azureedge.net/photos-medium/5481f1d8-ee42-4e30-ad46-912633735148
   - https://kangaroom.azureedge.net/photos-medium/555efe4a-c321-47ba-9944-73dffb2d6f0a
-- :title: "£715 per month double room to rent in a Fitzrovia flatshare available from
-    15 December 2017 "
+- :title: Carol Castle
   :monthly_price: 715
   :description: "A good sized room in a modernised flat in an unbeatable location,
     available from 15 December.\r\n\n\r\n\nPLEASE NOTE: The MINIMUM rental period
@@ -2962,14 +2504,12 @@
     on visiting).\r\n\n\r\n\nReferences must be provided - and it would be great if
     you could start to request them before you visit. No couples please."
   :number_of_flatmates: 1
-  :flat_size: 109
-  :amenities: Elevator,Kitchen,Iron,Doorman,Hot tub,Wifi
+  :amenities: Heating,Kitchen,Gym,Wifi,Doorman,Elevator
   :neighborhood: Fitzrovia
   :currency: "£"
-  :lat: 51.52129
-  :lng: -0.1412089
-  :room_size: 20
-  :has_parking: false
+  :address: Holcroft Court, 10 Carburton St, Fitzrovia, London W1W 5AL, UK
+  :latitude: 51.52129
+  :longitude: -0.1412089
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -2982,12 +2522,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6143981.jpg
+  :card_image: https://images.unsplash.com/photo-1455638083472-fc88b499dc78?auto=format&fit=crop&w=1300&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£1,200 per month double room to rent in a Baker Street flatshare available
-    from 15 December 2017 "
+- :title: Chez Lay
   :monthly_price: 1200
   :description: "Lovely Double room in the Heart of Marylebone\r\n\n\r\n\nHi There
     ,\r\n\n\r\n\nI have a lovely double room available from End of November just stone
@@ -2999,15 +2536,13 @@
     also considered at 1200 a month with all the bills included\".\r\n\n\r\n\n\r\n\nP.
     s. On both scenario 1 month deposit and 1 month current month in advance is required
     .\r\n\n\r\n\nPlease email me or text me for any question or enquire and view.\r\n\n\r\n\nBest\r\n\n\r\n\nFrancesco"
-  :number_of_flatmates: 3
-  :flat_size: 84
-  :amenities: Elevator,Kitchen,Hot tub,Doorman,Washer,Dryer
+  :number_of_flatmates: 2
+  :amenities: Kitchen,Air conditioning,Doorman,Gym,Hot tub,Heating
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52207
-  :lng: -0.1529541
-  :room_size: 23
-  :has_parking: false
+  :address: 36 Nottingham Pl, Marylebone, London W1U 5NT, UK
+  :latitude: 51.52207
+  :longitude: -0.1529541
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3020,12 +2555,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6132838.jpg
+  :card_image: https://images.unsplash.com/photo-1480465481484-e51784253c77?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£725 per month double room to rent in a Elephant & Castle flatshare available
-    from 20 November 2017 "
+- :title: Mothership Compound
   :monthly_price: 725
   :description: "DOUBLE ROOM IN SHARED HOUSE IN ELEPHANT & CASTLE\r\n\n\r\n\nLarge
     double room for rent in a big, bright house in Elephant & Castle/Walworth area,
@@ -3047,15 +2579,13 @@
     LGBT-friendly.\r\n\n\r\n\nIt's a 9 month contract, until August 2018. Bills are
     about 40 a month, council tax about another 25 (though postgraduate students also
     welcome, so we can claim a council tax exemption)."
-  :number_of_flatmates: 2
-  :flat_size: 93
-  :amenities: Hot tub,Iron,Kitchen,TV,Wifi,Dryer
+  :number_of_flatmates: 3
+  :amenities: Gym,Wifi,Doorman,Hot tub,TV,Air conditioning
   :neighborhood: Elephant & Castle
   :currency: "£"
-  :lat: 51.49096
-  :lng: -0.100207
-  :room_size: 16
-  :has_parking: false
+  :address: 48 Crampton St, London SE17 3AJ, UK
+  :latitude: 51.49096
+  :longitude: -0.100207
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3068,12 +2598,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6112891.jpg
+  :card_image: https://images.unsplash.com/photo-1507073995962-8389eb705c2a?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£1,100 per month double room to rent in a Vauxhall flatshare available
-    from 16 December 2017 "
+- :title: Party Time
   :monthly_price: 1100
   :description: "Room to rent for someone looking for a new home (and replace my current
     flatmate who has just purchased his own place) from around the 16th of December
@@ -3093,14 +2620,12 @@
     reference checks (proof of employment, credit check, previous landlord references).
     Minimum 6 months.\r\n\n\r\n\nLook forward to hearing from you"
   :number_of_flatmates: 2
-  :flat_size: 70
-  :amenities: Kitchen,Gym,TV,Doorman,Air conditioning,Wifi
+  :amenities: Heating,Washer,Hot tub,Gym,Elevator,TV
   :neighborhood: Vauxhall
   :currency: "£"
-  :lat: 51.48443
-  :lng: -0.12056
-  :room_size: 14
-  :has_parking: false
+  :address: 7 Bonnington Square, London SW8 1TE, UK
+  :latitude: 51.48443
+  :longitude: -0.12056
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3113,12 +2638,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6138201.jpg
+  :card_image: https://images.unsplash.com/photo-1457656108902-37c1cf080364?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£995 per month double room to rent in a Baker Street flatshare available
-    from 26 November 2017 "
+- :title: Bubble Butts
   :monthly_price: 995
   :description: "**LOVELY DOUBLE ROOM FOR RENT**\r\n\n\r\n\nAmazing flat-mate sought
     to complete the mix --- This is a spacious double room is finished with high ceilings
@@ -3140,14 +2662,12 @@
     Couples \r\n\n\r\n\nNB: The apartment does not have a separate living room \r\n\n\r\n\nIf
     interested, please call or email me for further information, or book a viewing."
   :number_of_flatmates: 2
-  :flat_size: 77
-  :amenities: Air conditioning,Heating,Hot tub,Kitchen,Iron,Dryer
+  :amenities: Doorman,TV,Heating,Gym,Washer,Wifi
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52316
-  :lng: -0.158907
-  :room_size: 25
-  :has_parking: false
+  :address: Clarence Gate Gardens, Glentworth St, Marylebone, London NW1 6AL, UK
+  :latitude: 51.52316
+  :longitude: -0.158907
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3160,12 +2680,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6109428.jpg
+  :card_image: https://images.unsplash.com/photo-1504455583697-3a9b04be6397?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£975 per month double room to rent in a Baker Street flatshare available
-    from 26 November 2017 "
+- :title: Monster Face Daycare
   :monthly_price: 975
   :description: "**LOVELY DOUBLE ROOM FOR RENT**\r\n\n\r\n\nAmazing flat-mate sought
     to complete the mix --- This is a spacious double room is finished with high ceilings
@@ -3186,15 +2703,13 @@
     will not suit the following people: \r\n\n- Smokers \r\n\n- People with pets \r\n\n-
     Couples \r\n\n\r\n\nNB: The apartment does not have a separate living room \r\n\n\r\n\nIf
     interested, please call or email me for further information, or book a viewing."
-  :number_of_flatmates: 3
-  :flat_size: 97
-  :amenities: Hot tub,Heating,Iron,Elevator,Gym,Kitchen
+  :number_of_flatmates: 1
+  :amenities: TV,Gym,Iron,Doorman,Wifi,Kitchen
   :neighborhood: Baker Street
   :currency: "£"
-  :lat: 51.52316
-  :lng: -0.158907
-  :room_size: 24
-  :has_parking: false
+  :address: Clarence Gate Gardens, Glentworth St, Marylebone, London NW1 6AL, UK
+  :latitude: 51.52316
+  :longitude: -0.158907
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3207,12 +2722,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6114514.jpg
+  :card_image: https://images.unsplash.com/photo-1453838956707-38a7aa3cd62d?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£850 per month double room to rent in a Finsbury flatshare available from
-    19 November 2017 "
+- :title: Time To Get A Little Wet
   :monthly_price: 850
   :description: "We are looking for a new housemate to move in asap. We are two architects,
     30 and 31 years old. Ricardo is from Mexico and doing a postgrad, Erik is from
@@ -3230,15 +2742,13 @@
     to Angel Central Shopping mall, restaurants and shops\r\n\n5 mins to Chapel Market\r\n\n\r\n\nIf
     this sounds good and you would like to come see the place/find out more/meet the
     housemates please get in touch!"
-  :number_of_flatmates: 2
-  :flat_size: 107
-  :amenities: Doorman,Iron,Kitchen,Gym,Dryer,Hot tub
+  :number_of_flatmates: 1
+  :amenities: Doorman,Gym,TV,Wifi,Kitchen,Iron
   :neighborhood: Finsbury
   :currency: "£"
-  :lat: 51.53089
-  :lng: -0.1009677
-  :room_size: 25
-  :has_parking: false
+  :address: Langdon Court, 317 City Rd, London EC1V 1LH, UK
+  :latitude: 51.53089
+  :longitude: -0.1009677
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3251,12 +2761,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124750.jpg
+  :card_image: https://images.unsplash.com/photo-1509836594056-5313a3270079?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£750 per month double room to rent in a Marylebone flatshare available
-    from 6 January 2018 "
+- :title: The Crib
   :monthly_price: 750
   :description: "Hi all,\r\n\n\r\n\nI am moving out of my room in January 2018 and
     I am looking for someone to rent it out. \r\n\n\r\n\nThe room has a single bed
@@ -3266,14 +2773,12 @@
     is required. The landlady is great and we have never had any issues getting things
     sorted quickly."
   :number_of_flatmates: 2
-  :flat_size: 70
-  :amenities: Kitchen,Washer,Heating,Air conditioning,Elevator,Dryer
+  :amenities: Hot tub,TV,Doorman,Elevator,Heating,Air conditioning
   :neighborhood: Marylebone
   :currency: "£"
-  :lat: 51.52599
-  :lng: -0.1626128
-  :room_size: 16
-  :has_parking: false
+  :address: rossmore court, Park Rd, Marylebone, London NW1 6XU, UK
+  :latitude: 51.52599
+  :longitude: -0.1626128
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3286,12 +2791,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6123005.jpg
+  :card_image: https://images.unsplash.com/photo-1510702983486-e1b4c48e8c37?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£1,038 per month double room to rent in a Paddington flatshare available
-    from 23 November 2017 "
+- :title: Ash and T’s Spot
   :monthly_price: 1038
   :description: "Double room to rent in the popular Paddington, located in central
     London. Few minutes walk and you can reach Paddington stations. Also, one can
@@ -3306,14 +2808,12 @@
     agency fee of 200. \r\n\n\r\n\nPlease contact me for more details or to arrange
     a viewing."
   :number_of_flatmates: 2
-  :flat_size: 121
-  :amenities: Wifi,Elevator,Heating,Air conditioning,TV,Gym
+  :amenities: Doorman,TV,Dryer,Heating,Gym,Iron
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5194
-  :lng: -0.1764701
-  :room_size: 22
-  :has_parking: false
+  :address: Montgomery House, London W2, UK
+  :latitude: 51.5194
+  :longitude: -0.1764701
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3326,12 +2826,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6132836.jpg
+  :card_image: https://images.unsplash.com/photo-1511814267646-cbd188d60c35?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£428 per month double room to rent in a Islington flatshare available from
-    20 November 2017 "
+- :title: Land of Nod
   :monthly_price: 428
   :description: "Small, cosy room in amazing central location. Available as of now.\r\n\n\r\n\n428
     per month + bills (roughly 60 pounds)\r\n\n\r\n\nThe room is furnished with a
@@ -3345,15 +2842,13 @@
     distance  (5-10 min from Angel, Highbury and Islington to the North and Regents
     canal to the South ...)\r\n\n\r\n\nWrite us an email if you want to come take
     a look!"
-  :number_of_flatmates: 2
-  :flat_size: 90
-  :amenities: Dryer,Heating,Doorman,Wifi,Kitchen,Iron
+  :number_of_flatmates: 1
+  :amenities: Iron,Wifi,Washer,Doorman,Dryer,Hot tub
   :neighborhood: Islington
   :currency: "£"
-  :lat: 51.53986
-  :lng: -0.09743613
-  :room_size: 27
-  :has_parking: false
+  :address: Essex House, 145 Essex Rd, London N1 2ST, UK
+  :latitude: 51.53986
+  :longitude: -0.09743613
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3366,12 +2861,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6111205.jpg
+  :card_image: https://images.unsplash.com/photo-1502781252888-9143ba7f074e?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£720 per month double room to rent in a Old Street flatshare available
-    from 19 December 2017 "
+- :title: The Pad
   :monthly_price: 720
   :description: "Hello All,\r\n\n\r\n\nI am looking for 2 people to fill in this 3
     bed house in Hoxton. The house is refurbished and in a very good standard with
@@ -3399,15 +2891,13 @@
     December.\r\n\nLong term\r\n\n\r\n\nIf you feel interested drop me a message with
     a bit about you and i will text you back as soon as i can for a viewing.\r\n\n\r\n\nThanks
     a lot for reading,\r\n\nLina."
-  :number_of_flatmates: 2
-  :flat_size: 80
-  :amenities: Heating,Dryer,Washer,Gym,TV,Air conditioning
+  :number_of_flatmates: 3
+  :amenities: Doorman,Wifi,Dryer,Gym,Kitchen,Heating
   :neighborhood: Old Street
   :currency: "£"
-  :lat: 51.53102
-  :lng: -0.08001342
-  :room_size: 17
-  :has_parking: false
+  :address: 98 Hoxton St, London N1, UK
+  :latitude: 51.53102
+  :longitude: -0.08001342
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3420,12 +2910,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6138198.jpg
+  :card_image: https://images.unsplash.com/photo-1468357161629-c3c530741678?auto=format&fit=crop&w=1320&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£800 per month double room to rent in a Battersea flatshare available from
-    1 December 2017 "
+- :title: Felice in Amore
   :monthly_price: 800
   :description: "This is a large, top (5th floor) apartment of 110 m2 in a bloc of
     flats situated on the Battersea Park Road. It contains three double and one single
@@ -3458,15 +2945,13 @@
     be a suitable flat-share for you please get in touch so we can arrange a viewing
     and answer any further questions about the flat-share you might have.\r\n\nWe
     look forward to meeting you soon.\r\n\nKind regards\r\n\nDeki"
-  :number_of_flatmates: 1
-  :flat_size: 75
-  :amenities: Doorman,Iron,Dryer,Hot tub,Gym,Kitchen
+  :number_of_flatmates: 2
+  :amenities: Doorman,Washer,Kitchen,Iron,Elevator,Hot tub
   :neighborhood: Battersea
   :currency: "£"
-  :lat: 51.4751
-  :lng: -0.1493221
-  :room_size: 25
-  :has_parking: false
+  :address: 17 Strasburg Rd, London SW11, UK
+  :latitude: 51.4751
+  :longitude: -0.1493221
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3479,12 +2964,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6131054.jpg
+  :card_image: https://images.unsplash.com/photo-1503532036150-0266dd2f0969?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£720 per month double room to rent in a Brick Lane flatshare available
-    from 20 December 2017 "
+- :title: Cleaning House
   :monthly_price: 720
   :description: "Hi there, \r\n\n\r\n\nMy room is available to a male or female from
     Dec 20th. \r\n\nI am moving to Ireland and sadly will be saying goodbye to this
@@ -3503,15 +2985,13 @@
     \r\n\n\r\n\nSo...if you are a socialable person, like to cook, relax during the
     week and are possibly interested then please drop me an email to arrange viewings.
     \r\n\n\r\n\nThanks, \r\n\nAisling"
-  :number_of_flatmates: 2
-  :flat_size: 113
-  :amenities: Hot tub,Washer,Elevator,Air conditioning,Kitchen,Wifi
+  :number_of_flatmates: 3
+  :amenities: Kitchen,Doorman,Hot tub,Wifi,Heating,Iron
   :neighborhood: Brick Lane
   :currency: "£"
-  :lat: 51.52363
-  :lng: -0.07220819
-  :room_size: 20
-  :has_parking: false
+  :address: 93-95 Sclater St, London E1 6HR, UK
+  :latitude: 51.52363
+  :longitude: -0.07220819
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3524,12 +3004,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6115463.jpg
+  :card_image: https://images.unsplash.com/photo-1468277799724-b8ecdfa2cd7a?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£809 per month double room to rent in a Shoreditch flatshare available
-    from 4 December 2017 "
+- :title: House of Pimpin’
   :monthly_price: 809
   :description: "Luminous double room available in a 4 bedrooms flat in the heart
     of Shoreditch, 2 minutes away from brick lane and from fashionable Red Church
@@ -3540,14 +3017,12 @@
     tube station. London's hippest bars, vintage clothes shops and cool caf all at
     your doorstep! \r\n\nIf interested please get in touch! Matteo"
   :number_of_flatmates: 3
-  :flat_size: 113
-  :amenities: Heating,Kitchen,Doorman,Hot tub,Elevator,Washer
+  :amenities: Doorman,Kitchen,Elevator,Air conditioning,Gym,Wifi
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5261
-  :lng: -0.07299737
-  :room_size: 20
-  :has_parking: false
+  :address: 70 Swanfield St, London E2 7DS, UK
+  :latitude: 51.5261
+  :longitude: -0.07299737
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3560,12 +3035,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6140071.jpg
+  :card_image: https://images.unsplash.com/photo-1472282247117-0f0d016ec570?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£600 per month double room to rent in a Paddington flatshare available
-    from 10 November 2017 "
+- :title: Just One Little Flat
   :monthly_price: 600
   :description: "Hello! \r\n\nWere looking for a new flatmate, please read the description
     for all the details then get in touch with a bit of info about yourself if youre
@@ -3588,15 +3060,13 @@
     permanent employment \r\n\n\r\n\nAbout the deal: \r\n\n\r\n\nRent = 818 per calendar
     month \r\n\nBills = 80-100 \r\n\n\r\n\nDeposit = 755\r\n\n\r\n\nIf you have any
     other questions drop us an email. We look forward to hearing from you!"
-  :number_of_flatmates: 3
-  :flat_size: 111
-  :amenities: Iron,Air conditioning,Gym,Hot tub,Kitchen,Dryer
+  :number_of_flatmates: 2
+  :amenities: Iron,Dryer,Elevator,Hot tub,Doorman,Air conditioning
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5207
-  :lng: -0.1827463
-  :room_size: 14
-  :has_parking: false
+  :address: Water Side Little Venice, London W2 6NE, UK
+  :latitude: 51.5207
+  :longitude: -0.1827463
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3609,12 +3079,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6098370.jpg
+  :card_image: https://images.unsplash.com/photo-1511892549826-a48122d9b258?auto=format&fit=crop&w=1351&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£818 per month double room to rent in a Paddington flatshare available
-    from 10 November 2017 "
+- :title: Alone
   :monthly_price: 818
   :description: "Hello! \r\n\nWere looking for a new flatmate, please read the description
     for all the details then get in touch with a bit of info about yourself if youre
@@ -3637,15 +3104,13 @@
     permanent employment \r\n\n\r\n\nAbout the deal: \r\n\n\r\n\nRent = 818 per calendar
     month \r\n\nBills = 80-100 \r\n\n\r\n\nDeposit = 755\r\n\n\r\n\nIf you have any
     other questions drop us an email. We look forward to hearing from you!"
-  :number_of_flatmates: 2
-  :flat_size: 85
-  :amenities: Kitchen,Iron,Dryer,Doorman,Elevator,TV
+  :number_of_flatmates: 1
+  :amenities: Elevator,Iron,Gym,Doorman,Heating,Wifi
   :neighborhood: Paddington
   :currency: "£"
-  :lat: 51.5207
-  :lng: -0.1827463
-  :room_size: 17
-  :has_parking: false
+  :address: Water Side Little Venice, London W2 6NE, UK
+  :latitude: 51.5207
+  :longitude: -0.1827463
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3658,12 +3123,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6098373.jpg
+  :card_image: https://images.unsplash.com/photo-1483965907773-04d18dd757c9?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£900 per month double room to rent in a Hoxton flatshare available from
-    1 December 2017 "
+- :title: IWantHerShoes
   :monthly_price: 900
   :description: "Hi. I'm a French digital designer working in Shoredtich. My lovely
     flatmate is moving out and I'd like to replace him by a friendly person with who
@@ -3671,15 +3133,13 @@
     listening to music, cooking when I am inspired... The usual stuff. I feel at home
     in the flat because it is a beautiful space and a warmly atmosphere. \r\n\nIf
     you'd like to visit, please drop me a line."
-  :number_of_flatmates: 2
-  :flat_size: 70
-  :amenities: Hot tub,Iron,Doorman,Wifi,Kitchen,Washer
+  :number_of_flatmates: 3
+  :amenities: Doorman,Elevator,TV,Wifi,Iron,Air conditioning
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53407
-  :lng: -0.08067809
-  :room_size: 14
-  :has_parking: false
+  :address: 259 Hoxton St, London N1, UK
+  :latitude: 51.53407
+  :longitude: -0.08067809
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3692,12 +3152,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124752.jpg
+  :card_image: https://images.unsplash.com/photo-1500817181271-52e5b31651f2?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£1,015 per month double room to rent in a Shoreditch flatshare available
-    from 2 December 2017 "
+- :title: Count My Blessings
   :monthly_price: 1015
   :description: "A huge, beautiful double room on the top floor of a 3 story house.
     Sharing with two lovely females near Columbia Rd flower market and Shoreditch.
@@ -3721,15 +3178,13 @@
     agency.\r\n\n\r\n\nLooking to have house viewings later this week so please send
     us an email with a brief description of yourself and we can arrange a time to
     visit and meet everyone.  \r\n\n\r\n\nThanks!"
-  :number_of_flatmates: 2
-  :flat_size: 90
-  :amenities: Air conditioning,Heating,Wifi,Dryer,Kitchen,Iron
+  :number_of_flatmates: 1
+  :amenities: Kitchen,Air conditioning,Doorman,Hot tub,Heating,Washer
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.52794
-  :lng: -0.07316488
-  :room_size: 12
-  :has_parking: false
+  :address: 98 Virginia Rd, London E2 7NG, UK
+  :latitude: 51.52794
+  :longitude: -0.07316488
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3742,12 +3197,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6111209.jpg
+  :card_image: https://images.unsplash.com/photo-1511107426995-9f2a136ea788?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£750 per month double room to rent in a Wapping flatshare available from
-    1 January 2018 "
+- :title: My Tomb
   :monthly_price: 750
   :description: "Hi Everyone!\r\n\n\r\n\nA nice double bedroom is going to be available
     in our lovely house on the 1st of January, to share with David, Sandeep and Giacommo.
@@ -3762,14 +3214,12 @@
     depending upon the time of year.\r\n\n\r\n\nIf you are interested, please feel
     free to drop me a message!\r\n\n\r\n\nCheers,\r\n\nEm"
   :number_of_flatmates: 1
-  :flat_size: 118
-  :amenities: Iron,TV,Washer,Air conditioning,Kitchen,Gym
+  :amenities: Doorman,Washer,Hot tub,Wifi,Heating,Air conditioning
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.50667
-  :lng: -0.06378792
-  :room_size: 13
-  :has_parking: false
+  :address: 33 Welland Mews, St Katharine's & Wapping, London E1W 2JW, UK
+  :latitude: 51.50667
+  :longitude: -0.06378792
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3782,12 +3232,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124755.jpg
+  :card_image: https://images.unsplash.com/photo-1511469322974-9730c82eb261?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£750 per month double room to rent in a Shoreditch flatshare available
-    from 24 November 2017 "
+- :title: The White House
   :monthly_price: 750
   :description: "The home:\r\n\nWe have a double room available in a flat inside of
     a converted church in Hoxton. Fully furnished, has a kitchen and a living room
@@ -3801,15 +3248,13 @@
     station. 5 mins to Dalston Junction though the Overground, 20 mins walk and 15
     minutes to Old Street. Victory park is not too far, 20 mins walk, and Columbia
     Flower Market is right next! Broadway Market is a 10 minutes walk."
-  :number_of_flatmates: 1
-  :flat_size: 118
-  :amenities: Gym,Doorman,Dryer,Kitchen,Washer,Elevator
+  :number_of_flatmates: 2
+  :amenities: Kitchen,Air conditioning,Heating,Washer,Hot tub,Elevator
   :neighborhood: Shoreditch
   :currency: "£"
-  :lat: 51.5305
-  :lng: -0.07276858
-  :room_size: 19
-  :has_parking: false
+  :address: 116-118 Hackney Rd, London E2 7QL, UK
+  :latitude: 51.5305
+  :longitude: -0.07276858
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3822,12 +3267,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6111212.jpg
+  :card_image: https://images.unsplash.com/photo-1489525655354-27d7ef86c6f0?auto=format&fit=crop&w=1352&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£730 per month double room to rent in a Bethnal Green flatshare available
-    from 2 December 2017 "
+- :title: Deaths Crypt
   :monthly_price: 730
   :description: "I will be moving out from this friendly flatshare in Bethnal Green.
     You will be sharing with three others - Adrian, 26 from Spain, Liam, 30 from the
@@ -3844,15 +3286,13 @@
     is available from the end of November. If you think this sounds like a home for
     you, then drop us a line and well schedule a visit. Viewings will start asap.\r\n\nLots
     of love,\r\n\nAdrian, Valeria, Jess and Liam x"
-  :number_of_flatmates: 1
-  :flat_size: 125
-  :amenities: Iron,Wifi,TV,Gym,Elevator,Washer
+  :number_of_flatmates: 3
+  :amenities: Hot tub,Kitchen,Air conditioning,Elevator,Wifi,Gym
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.5276
-  :lng: -0.06839285
-  :room_size: 17
-  :has_parking: false
+  :address: Monk Bretton House, Turin St, London E2 6BL, UK
+  :latitude: 51.5276
+  :longitude: -0.06839285
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3865,12 +3305,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6132167.jpg
+  :card_image: https://images.unsplash.com/photo-1511148672734-98014884c11e?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£1,050 per month double room to rent in a Wapping flatshare available from
-    8 December 2017 "
+- :title: Man Cave
   :monthly_price: 1050
   :description: "The master bedroom with its own ensuite bathroom is available in
     this lovely and homely house in Wapping. It occupies the entire top floor, so
@@ -3892,15 +3329,13 @@
     a glass of wine or a cup of tea as well. I work quite hard and enjoy a relaxed,
     calm, homely atmosphere; someone similar, looking for a nice, grown-up home, would
     be ideal. Please get in touch if you would like to view the room and house."
-  :number_of_flatmates: 1
-  :flat_size: 112
-  :amenities: Kitchen,Gym,TV,Dryer,Iron,Air conditioning
+  :number_of_flatmates: 3
+  :amenities: Doorman,Dryer,Heating,Wifi,Hot tub,Gym
   :neighborhood: Wapping
   :currency: "£"
-  :lat: 51.50728
-  :lng: -0.05965528
-  :room_size: 16
-  :has_parking: false
+  :address: 71 Discovery Walk, St Katharine's & Wapping, London E1W 2JG, UK
+  :latitude: 51.50728
+  :longitude: -0.05965528
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3913,12 +3348,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6098810.jpg
+  :card_image: https://images.unsplash.com/photo-1511546395756-590dffdcdbd1?auto=format&fit=crop&w=1350&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
   :photo_urls: []
-- :title: "£1,050 per month double room to rent in a Hoxton flatshare available from
-    1 February 2018 "
+- :title: Mi Casa, Mi Cama
   :monthly_price: 1050
   :description: "Room to rent in my lovely two floor maisonette in Haggerston. The
     double room overlooks Regent's Canal and has it's own private entrance! The room
@@ -3935,14 +3367,12 @@
     the City or Canary Wharf. \r\n\nIncluded in rent:\r\n\nHyperoptic Broadband (great
     downloading / streaming speeds)\r\n\nAll bills including Council tax"
   :number_of_flatmates: 2
-  :flat_size: 85
-  :amenities: Dryer,Hot tub,Air conditioning,Gym,Wifi,Doorman
+  :amenities: Dryer,Elevator,Kitchen,Washer,Heating,Gym
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53618
-  :lng: -0.07642189
-  :room_size: 30
-  :has_parking: false
+  :address: Timber Wharf, London E2, UK
+  :latitude: 51.53618
+  :longitude: -0.07642189
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3955,12 +3385,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6120850.jpg
+  :card_image: https://c2.staticflickr.com/4/3693/11470002884_00fd384d85_b.jpg
   :photo_urls: []
-- :title: "£1,018 per month double room to rent in a Hoxton flatshare available from
-    15 November 2017 "
+- :title: The Nudist Colony
   :monthly_price: 1018
   :description: "Based in the newly built Soda Studios next to Haggerston Station
     \r\n\nSplit level property with own bathroom \r\n\nWould suit someone who is into
@@ -3969,14 +3396,12 @@
     with bath \r\n\n1018.34 per month \r\n\nAvailable Now\r\n\nWalking distance to
     Dalston, London Fields, Shoreditch, Old Street"
   :number_of_flatmates: 3
-  :flat_size: 73
-  :amenities: Wifi,Heating,Iron,Air conditioning,Gym,Washer
+  :amenities: Washer,Hot tub,Elevator,Iron,Doorman,TV
   :neighborhood: Hoxton
   :currency: "£"
-  :lat: 51.53746
-  :lng: -0.0760507
-  :room_size: 16
-  :has_parking: false
+  :address: Soda Studios, London E8, UK
+  :latitude: 51.53746
+  :longitude: -0.0760507
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -3989,12 +3414,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6113837.jpg
+  :card_image: https://c2.staticflickr.com/4/3175/2876987952_7f0751d5b7_b.jpg
   :photo_urls: []
-- :title: "£730 per month double room to rent in a Bethnal Green flatshare available
-    from 14 November 2017 "
+- :title: Haus of Meleocoton Nord
   :monthly_price: 730
   :description: "Hello!\r\n\n\r\n\nWe have a good sized double bedroom in our recently
     refurbished flat for rent. The room comes with solid, white stained pine wood
@@ -4019,15 +3441,13 @@
     and tidy, that will be expected form the new housemate too. There is not a lot
     of storage, so room would suit someone who doesn't have an entire household to
     fit.\r\n\n\r\n\nMany thanks!"
-  :number_of_flatmates: 3
-  :flat_size: 118
-  :amenities: Washer,Gym,Doorman,Kitchen,Iron,Air conditioning
+  :number_of_flatmates: 1
+  :amenities: Wifi,Gym,Washer,Doorman,Air conditioning,Elevator
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53329
-  :lng: -0.0703869
-  :room_size: 15
-  :has_parking: false
+  :address: Kent Court, Kent St, London E2 8NU, UK
+  :latitude: 51.53329
+  :longitude: -0.0703869
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4040,12 +3460,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6111215.jpg
+  :card_image: https://c1.staticflickr.com/1/72/163242793_aa74b690df_o.jpg
   :photo_urls: []
-- :title: "£740 per month double room to rent in a Bethnal Green flatshare available
-    from 9 November 2017 "
+- :title: Batgirl’s Batcave
   :monthly_price: 740
   :description: "Hello!\r\n\n\r\n\nWe have a good sized double bedroom in our recently
     refurbished flat for rent. The room comes with solid, white stained pine wood
@@ -4070,14 +3487,12 @@
     too. There is not a lot of storage, so room would suit someone who doesn't have
     an entire household to fit.\r\n\n\r\n\nMany thanks!"
   :number_of_flatmates: 1
-  :flat_size: 102
-  :amenities: Hot tub,Wifi,Iron,Gym,Washer,Heating
+  :amenities: Gym,Iron,Dryer,Doorman,Heating,Washer
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53329
-  :lng: -0.0703869
-  :room_size: 17
-  :has_parking: false
+  :address: Kent Court, Kent St, London E2 8NU, UK
+  :latitude: 51.53329
+  :longitude: -0.0703869
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4090,12 +3505,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6092751.jpg
+  :card_image: https://c1.staticflickr.com/1/127/354751360_e089c99cc8_o.jpg
   :photo_urls: []
-- :title: "£890 per month double room to rent in a Whitechapel flatshare available
-    from 10 December 2017 "
+- :title: Home Sweet Home
   :monthly_price: 890
   :description: "Spacious bedroom in a modern 2 bedroom apartment to let for one person.
     The second floor apartment overlooking the well-known Whitechapel market consists
@@ -4116,15 +3528,13 @@
     - 210pw\r\n\nInternet - 10pm\r\n\nElectricity - ca45pm\r\n\nCouncil - 58pm\r\n\nContract
     change - 300 (one time)\r\n\n\r\n\nHappy to answer any questions you might have,
     just message me.\r\n\n-Michal"
-  :number_of_flatmates: 1
-  :flat_size: 89
-  :amenities: Air conditioning,Washer,TV,Dryer,Heating,Hot tub
+  :number_of_flatmates: 2
+  :amenities: TV,Dryer,Doorman,Heating,Air conditioning,Hot tub
   :neighborhood: Whitechapel
   :currency: "£"
-  :lat: 51.51958
-  :lng: -0.05942089
-  :room_size: 28
-  :has_parking: false
+  :address: 285 Whitechapel Rd, London E1, UK
+  :latitude: 51.51958
+  :longitude: -0.05942089
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4137,12 +3547,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6141990.jpg
+  :card_image: https://c1.staticflickr.com/1/180/443813950_5efe82a95b_b.jpg
   :photo_urls: []
-- :title: "£475 per month double room to rent in a Chelsea flatshare available from
-    16 December 2017 "
+- :title: A Roland for an Oliver
   :monthly_price: 475
   :description: "Hello lovely females, \r\n\n\r\n\nI will be moving out out of the
     lovely Battersea flatshare and my 3 flatmates would like somebody easy going and
@@ -4163,15 +3570,13 @@
     can continue following it all the way to Embankment and beyond, but i just did.
     \r\n\nBills come up to around 60 each.\r\n\nPlease get in touch and tell us something
     about yourself. :)"
-  :number_of_flatmates: 3
-  :flat_size: 105
-  :amenities: Hot tub,Kitchen,Doorman,Wifi,TV,Air conditioning
+  :number_of_flatmates: 1
+  :amenities: Gym,Kitchen,Dryer,Elevator,Heating,Air conditioning
   :neighborhood: Chelsea
   :currency: "£"
-  :lat: 51.47679
-  :lng: -0.172986
-  :room_size: 12
-  :has_parking: false
+  :address: Exford Court, Bolingbroke Walk, London SW11 3NJ, UK
+  :latitude: 51.47679
+  :longitude: -0.172986
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4184,12 +3589,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6143980.jpg
+  :card_image: https://c1.staticflickr.com/5/4070/5078719738_dd9caaa061_b.jpg
   :photo_urls: []
-- :title: "£960 per month double room to rent in a Shadwell flatshare available from
-    2 December 2017 "
+- :title: Outgoing and Sexy
   :monthly_price: 960
   :description: "Hiiii..!!!\r\n\n\r\n\nWe are looking for a flexible term (long or
     short) flatmate to take a spare double room in our flat in Shadwell. We are a
@@ -4215,14 +3617,12 @@
     / Westminster 22 min / Candem Road 26 min.\r\n\n\r\n\nDo not hesitate in giving
     us a hit if whats above interest you.\r\n\n\r\n\n^_^ See you!"
   :number_of_flatmates: 2
-  :flat_size: 71
-  :amenities: Dryer,Iron,Gym,TV,Doorman,Washer
+  :amenities: Heating,Doorman,Dryer,Wifi,Gym,Iron
   :neighborhood: Shadwell
   :currency: "£"
-  :lat: 51.51214
-  :lng: -0.05643684
-  :room_size: 20
-  :has_parking: false
+  :address: Kelday Heights, 1 Martha St, London E1 2PX, UK
+  :latitude: 51.51214
+  :longitude: -0.05643684
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4235,12 +3635,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6141991.jpg
+  :card_image: https://c1.staticflickr.com/1/79/216332641_57f6e79e5f_o.jpg
   :photo_urls: []
-- :title: "£869 per month double room to rent in a Dalston flatshare available from
-    25 November 2017 "
+- :title: Trash talk buddies
   :monthly_price: 869
   :description: "We are looking for a flat mate for a big Double room in an elegant
     modern flat. \r\n\n\r\n\n2 minutes walk to Haggerston Station, 4 min to Dalston
@@ -4270,14 +3667,12 @@
     contact me if you would like to come around to meet us and have a look at our
     delightful flat :)"
   :number_of_flatmates: 3
-  :flat_size: 120
-  :amenities: Dryer,Air conditioning,TV,Hot tub,Iron,Kitchen
+  :amenities: Kitchen,Elevator,TV,Iron,Heating,Air conditioning
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54115
-  :lng: -0.07788516
-  :room_size: 24
-  :has_parking: false
+  :address: 30 De Beauvoir Square, London N1 4LE, UK
+  :latitude: 51.54115
+  :longitude: -0.07788516
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4290,12 +3685,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6113838.jpg
+  :card_image: https://c2.staticflickr.com/4/3403/3268488325_d8634b7765_o.jpg
   :photo_urls: []
-- :title: "£780 per month double room to rent in a Bethnal Green flatshare available
-    from 5 December 2017 "
+- :title: Princess-for-life Flat
   :monthly_price: 780
   :description: "As I am moving in with a friend elsewhere, I am leaving my double
     room in a flatshare with 3 other people beginning of December and am looking for
@@ -4311,14 +3703,12 @@
     water, internet, weekly cleaning, ...).\r\n\n\r\n\nContact me if you want further
     information."
   :number_of_flatmates: 1
-  :flat_size: 83
-  :amenities: Air conditioning,TV,Gym,Elevator,Doorman,Heating
+  :amenities: Kitchen,Dryer,Washer,Elevator,Heating,Wifi
   :neighborhood: Bethnal Green
   :currency: "£"
-  :lat: 51.53094
-  :lng: -0.06362344
-  :room_size: 13
-  :has_parking: false
+  :address: Blythendale House, Mansford St, London E2 7AW, UK
+  :latitude: 51.53094
+  :longitude: -0.06362344
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4331,12 +3721,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124759.jpg
+  :card_image: https://c1.staticflickr.com/3/2844/13207853024_3a21830712_b.jpg
   :photo_urls: []
-- :title: "£750 per month double room to rent in a Maida Hill flatshare available
-    from 22 January 2018 "
+- :title: We. Love. The. Party
   :monthly_price: 750
   :description: "Amazing room in a modern three bedroom penthouse flat in Maida Vale
     with great amenities including free gym & club membership.  The flat is in the
@@ -4368,14 +3755,12 @@
     come twice a month for 10 a visit.  \r\n\n\r\n\nThere are one off agency and reference
     fees to set up the lease."
   :number_of_flatmates: 1
-  :flat_size: 70
-  :amenities: Air conditioning,Washer,TV,Dryer,Wifi,Doorman
+  :amenities: Iron,Wifi,Air conditioning,Gym,Kitchen,Hot tub
   :neighborhood: Maida Hill
   :currency: "£"
-  :lat: 51.52205
-  :lng: -0.1947147
-  :room_size: 13
-  :has_parking: false
+  :address: Nuffield Lodge, Admiral Walk, London W9 3TP, UK
+  :latitude: 51.52205
+  :longitude: -0.1947147
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4388,12 +3773,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124757.jpg
+  :card_image: https://c1.staticflickr.com/5/4091/5205006495_c52dc467da_b.jpg
   :photo_urls: []
-- :title: "£736 per month double room to rent in a Dalston flatshare available from
-    16 November 2017 "
+- :title: Friends for life
   :monthly_price: 736
   :description: "Looking for two single person to take two double room in De Beauvoir,
     Hackney, from December as Im moving abroad. Its a really nice and peaceful house,
@@ -4424,15 +3806,13 @@
     a month. Energy bills are approx 30-40 a month, with 7 for internet. We take turns
     to pay 20 each week for the cleaner.\r\n\nIf this sounds interesting, get in touch
     with a bit about yourself. Cheers!"
-  :number_of_flatmates: 3
-  :flat_size: 110
-  :amenities: Hot tub,Washer,Dryer,TV,Wifi,Air conditioning
+  :number_of_flatmates: 2
+  :amenities: Hot tub,Kitchen,Wifi,TV,Doorman,Gym
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5455
-  :lng: -0.0821151
-  :room_size: 21
-  :has_parking: false
+  :address: 113A Tottenham Rd, London N1 4EA, UK
+  :latitude: 51.5455
+  :longitude: -0.0821151
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4445,12 +3825,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6115462.jpg
+  :card_image: https://c1.staticflickr.com/1/81/276258145_ca189d9d0c_o.jpg
   :photo_urls: []
-- :title: "£750 per month double room to rent in a Clapham flatshare available from
-    6 January 2018 "
+- :title: Get in and find out
   :monthly_price: 750
   :description: "Hi there\r\n\n\r\n\nWe are a small family looking for a long-term
     lodger, who is employed full-time, is well-mannered, considerate, quiet, tidy
@@ -4479,15 +3856,13 @@
     any potential housemates, deposit of 6 weeks is required and 2 references please.\r\n\n\r\n\nRoom
     could be available earlier, depending on your needs and mutual convenience.\r\n\n\r\n\nThanks!
     \ Sarah and Johnny"
-  :number_of_flatmates: 3
-  :flat_size: 79
-  :amenities: Heating,Gym,Wifi,Iron,Doorman,Hot tub
+  :number_of_flatmates: 2
+  :amenities: Hot tub,TV,Dryer,Wifi,Heating,Washer
   :neighborhood: Clapham
   :currency: "£"
-  :lat: 51.46433
-  :lng: -0.1515867
-  :room_size: 24
-  :has_parking: false
+  :address: 4B Freke Rd, London SW11 5PU, UK
+  :latitude: 51.46433
+  :longitude: -0.1515867
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4500,12 +3875,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6141992.jpg
+  :card_image: https://c1.staticflickr.com/9/8251/8462434122_285ef5a8eb_b.jpg
   :photo_urls: []
-- :title: "£800 per month double room to rent in a Dalston flatshare available from
-    1 January 2018 "
+- :title: Revolution Baby
   :monthly_price: 800
   :description: "Hello hello,\r\n\n\r\n\nWhat I've got here is a square, white room
     with \r\n\n- a big bed \r\n\n- a big window\r\n\n- a big emphasis on exposed brick\r\n\n-
@@ -4541,15 +3913,13 @@
     1 shared bathroom/shower for the flat\r\n\n- hifi system is a bit shit but it's
     functional\r\n\n\r\n\nI think that's the important stuff. Any other questions,
     just ask."
-  :number_of_flatmates: 3
-  :flat_size: 119
-  :amenities: Washer,Air conditioning,Heating,Gym,Wifi,Elevator
+  :number_of_flatmates: 2
+  :amenities: Dryer,Kitchen,Heating,Wifi,Washer,Gym
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54535
-  :lng: -0.07734763
-  :room_size: 15
-  :has_parking: false
+  :address: Sales Office & Showroom, 32-36 Tottenham Rd, London N1 4DW, UK
+  :latitude: 51.54535
+  :longitude: -0.07734763
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4562,12 +3932,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6131602.jpg
+  :card_image: https://c1.staticflickr.com/9/8207/8177664418_b762f10c6b_b.jpg
   :photo_urls: []
-- :title: "£710 per month double room to rent in a Dalston flatshare available from
-    1 January 2018 "
+- :title: A friend in need is a friend indeed
   :monthly_price: 710
   :description: "Hello hello,\r\n\n\r\n\nWhat I've got here is a square, white room
     with \r\n\n- a big bed \r\n\n- a big window\r\n\n- a big emphasis on exposed brick\r\n\n-
@@ -4603,15 +3970,13 @@
     washer/dryer combo machine\r\n\n- 1 shared bathroom/shower for the flat\r\n\n-
     hifi system is a bit shit but it's functional\r\n\n\r\n\nI think that's the important
     stuff. Any other questions, just ask."
-  :number_of_flatmates: 3
-  :flat_size: 70
-  :amenities: Gym,TV,Kitchen,Heating,Elevator,Wifi
+  :number_of_flatmates: 2
+  :amenities: Washer,Hot tub,TV,Wifi,Dryer,Air conditioning
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.54535
-  :lng: -0.07734763
-  :room_size: 14
-  :has_parking: false
+  :address: Sales Office & Showroom, 32-36 Tottenham Rd, London N1 4DW, UK
+  :latitude: 51.54535
+  :longitude: -0.07734763
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4624,12 +3989,9 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6132835.jpg
+  :card_image: https://c1.staticflickr.com/5/4123/4776280677_801be073d8_b.jpg
   :photo_urls: []
-- :title: "£850 per month double room to rent in a Dalston flatshare available from
-    16 November 2017 "
+- :title: Flatsharing Party People
   :monthly_price: 850
   :description: "This is a beautiful flat in the heart of Newington Green. Set over
     3 floors - a maisonette with a terrace - its very spacious, full of period features
@@ -4637,15 +3999,13 @@
     writer and novelist) who is sociable, clean and tidy. There is a kitchen, living
     room, bathroom, terrace and two bedrooms.\r\n\n\r\n\nThe bedroom is very spacious,
     south facing with a lot of light."
-  :number_of_flatmates: 2
-  :flat_size: 116
-  :amenities: Kitchen,Air conditioning,Heating,Wifi,Hot tub,Elevator
+  :number_of_flatmates: 1
+  :amenities: Gym,Hot tub,Doorman,Elevator,Dryer,Kitchen
   :neighborhood: Dalston
   :currency: "£"
-  :lat: 51.5492
-  :lng: -0.08585372
-  :room_size: 26
-  :has_parking: false
+  :address: Caughley House, Lambeth Walk, Lambeth, London SE11 6NA, UK
+  :latitude: 51.5492
+  :longitude: -0.08585372
   :deposit: 0
   :allow_students: false
   :allow_pets: false
@@ -4658,94 +4018,5 @@
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6115536.jpg
-  :photo_urls: []
-- :title: "£640 per month double room to rent in a Brixton flatshare available from
-    2 December 2017 "
-  :monthly_price: 640
-  :description: "We have a lovely single room in a quiet, relaxed household available
-    for rent in Brixton / London from the 2ND OF DECEMBER\r\n\n\r\n\nThe 3 bedroom
-    flat is spacious, situated in a newly refurbished Victorian house, equipped with
-    all amenities you need, we have a new washing machine, shower, lovely bathtub
-    and new boiler installed. Flat is within short walking distance (5min) to Brixton
-    Underground Station / Victoria line - overnight tube and numerous buses provide
-    fantastic connection options to different parts of the city!\r\n\n\r\n\nAlthough
-    very close to Brixton Village, Market Row, Ritzy Cinema and Pop Up Village (wide
-    selection of eating out places , local shops and supermarkets) the flat is hidden
-    away from the local buzz on a residential street. \r\n\n\r\n\nM&S / Sainsbury's
-    /Tesco are a few blocks away. The room faces the residential sunny street. There's
-    a courtyard, where you can also store your bike.\r\n\nThe room is 640 plus bills
-    (council tax / water / internet / electricity which comes up to around 70 month
-    extra). \r\n\nThere's an entry code panel in front of the main door for enhanced
-    security.\r\n\n\r\n\nDEPOSIT> will have to be paid once you decide to move in
-    + \r\n\none month's rent - this will need to paid on the 1st of December and 1st
-    of every month onwards.\r\n\n\r\n\nThe room contains a double bed, desk (but landlord
-    has lots of spare furniture available). Feel free to bring any of your own furniture
-    or ask the landlord for any extras.\r\n\n\r\n\nPreferably no students (sorry!)
-    unless you can provide a proof of stable income / no crazy party people. This
-    is a no smoking home.\r\n\n\r\n\nIf you have any other questions please feel free
-    to get in touch : )\r\n\nRaman."
-  :number_of_flatmates: 3
-  :flat_size: 84
-  :amenities: Air conditioning,Wifi,Gym,Heating,Doorman,Washer
-  :neighborhood: Brixton
-  :currency: "£"
-  :lat: 51.46127
-  :lng: -0.11313
-  :room_size: 27
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124749.jpg
-  :photo_urls: []
-- :title: "£1,150 per month double room to rent in a Earls Court flatshare available
-    from 3 January 2018 "
-  :monthly_price: 1150
-  :description: "Ideally, looking for someone who has a permanent job, or a post graduate
-    student to stay at least six months. Tidy, non smoker and most importantly clean
-    (emphasis on last point). Cleaner once every 2 weeks. Kitchen has washing machine,
-    dishwasher. Room has its own bathroom (not en suite). Large living room. Fibre
-    internet. House comes with access to a private park. Flat is on last floor and
-    has a private rooftop. House recently renovated: fitted with wooden floor and
-    walls repainted. 2 min walk from Earl's Court underground station. 4 min walk
-    from 24h Tesco.\r\n\nI am 24. Work long hours. Not at home a lot. If this sounds
-    like it might suit you, contact me by mail. Thanks."
-  :number_of_flatmates: 2
-  :flat_size: 118
-  :amenities: TV,Doorman,Washer,Kitchen,Gym,Elevator
-  :neighborhood: Earls Court
-  :currency: "£"
-  :lat: 51.49059
-  :lng: -0.1982334
-  :room_size: 21
-  :has_parking: false
-  :deposit: 0
-  :allow_students: false
-  :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
-  :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
-  :minimum_stay: 0
-  :preffered_min_age: 0
-  :preffered_max_age: 0
-  :preffered_gender: 0
-  :searching_for:
-  :card_image: https://kangaroom.azureedge.net/photos-external-thumbnail/6124119.jpg
+  :card_image: https://c1.staticflickr.com/9/8486/8177803239_00d514cab3_b.jpg
   :photo_urls: []
