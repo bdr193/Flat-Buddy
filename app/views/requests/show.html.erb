@@ -5,7 +5,7 @@
   <h6><b><%= @request.viewing.start_time %></b></h6>
   <p>To get off on the right foot, why don't you send these great people a message.</p>
   <div class="container text-center button">
-    <%= link_to("Send Message", class: "btn btn-green text-center btn-space" ) %>
+    <%= link_to("Send Message", chat_room(@request.chat_room) class: "btn btn-green text-center btn-space" ) %>
     <%= link_to("View All My Requests", requests_path, class: "btn btn-pink text-center btn-space") %>
   </div>
   <p class="signature">The FlatBuddy Team </p>
