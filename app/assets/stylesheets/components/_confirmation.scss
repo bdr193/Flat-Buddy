@@ -1,0 +1,35 @@
+.note {
+  background-color: white;
+  margin-top: 30px;
+  padding-bottom: 70px;
+  line-height: 40px;
+}
+
+.note h1, h3 {
+  padding-bottom: 20px;
+}
+
+
+.note h1 {
+  padding-top: 50px;
+  font-family: $body-font;
+  color: $pink;
+}
+
+.note-image {
+  padding: 30px;
+  height: 30%;
+  width: 40%;
+}
+
+.btn-space {
+  margin-top: 30px;
+  margin-right: 25px;
+}
+
+.signature {
+  margin-top: 20px;
+  font-family: $body-font;
+  color: $pink;
+  font-size: 22px;
+}
