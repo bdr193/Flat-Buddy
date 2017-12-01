@@ -20,7 +20,7 @@ class RequestsController < ApplicationController
     @request.user = current_user
     @request.viewing = @viewing
     if @request.save
-      redirect_to requests_path
+      redirect_to request_path(@request)
     else
       render :new
     end
