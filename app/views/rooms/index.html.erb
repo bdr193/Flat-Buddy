@@ -8,21 +8,21 @@
       <div class="col-xs-12 col-md-6 wrapper">
         <%= link_to('', room_path(room), class: "card-link") %>
         <div class="card">
-          <div class="card-header", style="background-image: url('<%= cl_image_path(room.flat.card_image) %>')">
+          <div class="card-header", style="background-image: url('<%= cl_image_path room.flat.card_image, crop: :fit %>')">
           </div>
           <div class="card-footer">
             <h6><%= room.flat.title %></h6>
             <!-- <div class="flat-price"><%= room.flat.monthly_price %>£</div> -->
             <p>
               <% room.flat.users.each do |user| %>
-              <%= user.first_name %>
+              <%= user.first_name %> |
               <% end %>
             </p>
-            <p><%= room.flat.address %>(show on map)</p>
+            <strong> <%= room.flat.neighborhood %></strong>
+            <p class="card-address"><%= room.flat.address[0..-21]%></p>
           </div>
         </div>
       </div>
       <% end %>
     </div>
   </div>
-
