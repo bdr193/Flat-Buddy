@@ -1,4 +1,4 @@
    <%= simple_form_for @request do |m| %>
       <%= m.association :viewing, collection: @room.viewings, label_method: :start_time %>
-      <%= m.submit "Create Request", class: "btn" %>
+      <%= m.submit "Create Request", class: "btn btn-primary" %>
     <% end %>

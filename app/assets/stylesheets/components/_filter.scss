@@ -1,18 +1,43 @@
+.filter {
+  margin-top: 20px;
+  position: relative;
+}
+
+
 .filter-form {
   background-color: $green;
   color: $white;
-  padding: 30px 30px 50px 30px;
+  padding: 30px 30px 0 30px;
   font-size: 18px;
   border-radius: 4px;
   margin-top: 18px;
+  position: sticky !important;
 }
 
-.filter {
-  margin-top: 20px;
+.button-sticky {
+  width: 100%;
 }
 
 
-.filter-style {
-  font-size: 22px;
+.toggle-alignment {
+  display: flex;
+  justify-content: space-between;
+
+  .toggle {
+    border: 1px solid $pink;
+  }
+  .toggle-off.btn {
+    color: black;
+  }
+}
+
+.control-label {
   font-weight: lighter;
+  font-size: 22px;
+  text-shadow: 1px 1px 20px $pink;
+}
+
+.form-control {
+  background-color: #F4E2E5;
+  border: 1px solid $pink;
 }
