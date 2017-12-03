@@ -9,9 +9,9 @@
       </div>
       <div id="create-message">
         <%= simple_form_for [ @chat_room, Message.new ], remote: true do |f| %>
-        <%= f.input :content, label: false %>
+        <%= f.input :content, placeholder: 'Type your message here', label: false %>
         <div class="text-center">
-          <%= f.button :submit, class: "btn btn-green margin-btn" %>
+          <%= f.button :submit, 'Send', class: "btn btn-green margin-btn" %>
         </div>
         <% end %>
       </div>
