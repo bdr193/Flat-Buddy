@@ -3,7 +3,6 @@
   <p class="btn btn-primary btn-hover btn-calendar" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
 
   <% @requests.each do |request| %>
-
   <div class="listing">
     <% if request.status == "pending" %>
       <div class="pending request-status request request-border-right">
@@ -16,27 +15,28 @@
     <% end %>
 
     <div class="request request-border">
-      <div class="request-price"> <%= request.viewing.room.flat.monthly_price %>€ </div>
-      <div class="request-title">
-        <h3><%= request.viewing.room.flat.title %></h3>
-      </div>
-
+      <div class="request-price"><%= request.viewing.room.flat.monthly_price %>€ </div>
       <div class="request-body text-left">
-        <p><strong><%= request.viewing.room.flat.neighborhood %></strong></p>
-        <p><%= request.viewing.room.flat.address %></p>
+        <%= link_to request_path(request) do %>
+        <div class="request-title">
+          <h3><%= request.viewing.room.flat.title %></h3>
+        </div>
+        <p class="request-address"><strong><%= request.viewing.room.flat.neighborhood %></strong>, <%= request.viewing.room.flat.address %></p>
       </div>
+      <% end %>
 
       <div>
         <% if chat = request.chat_room && request.status == "accepted" %>
-          <%= link_to "Send Message", chat_room_path(request.chat_room), class: "btn btn-pink" %>
+          <%= link_to "Send Message", chat_room_path(request.chat_room), class: "btn btn-pink btn-requests-card" %>
         <% else %>
-          <div class="btn btn-pale">Send Message</div>
+          <div class="btn btn-pink btn-pale btn-requests-card">Send Message</div>
         <%  end %>
       </div>
 
       <div>
-        <p class="btn btn-primary btn-hover">Cancel</p>
+        <p class="btn btn-primary btn-hover btn-requests-card">Cancel</p>
       </div>
+
     </div>
 
   </div>

@@ -1,6 +1,6 @@
 <div class="container text-center note">
   <% if @request.status == "accepted" %>
-  <h1>Your rock! Your viewing has been confirmed!</h1>
+  <h1>You rock! Your viewing has been confirmed!</h1>
   <p>The Flat Buddies at <b><%= @request.viewing.room.flat.title %></b> have checked out your profile and think you could be a great match. The would love you to come for a viewing at: </p>
   <h4><b><%= @request.viewing.start_time.strftime("%A %dth %B %I:%M%p") %></b></h4>
   <p>Why don't you send these great people a message!</p>

@@ -11,21 +11,42 @@
   width: 90%;
   height: 100px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease;
+  border-radius: 3px;
+  padding: 20px;
+  &:hover {
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
-.request-title h3 {
+.request-title {
   text-decoration: none;
-  font-size: 14px;
   margin-bottom: 0px;
+  margin-top: 10px;
+  h3 {
+    font-size: 23px;
+    line-height: 1;
+    margin: -5px 0;
+  }
 }
-.request-body p {
-  font-size: 14px;
-  font-weight: medium;
-  opacity: 0.8;
-  margin-top: 5px;
-  padding-left: 10px;
+.request-body {
+  flex: 1 1 auto;
+  p {
+    font-size: 14px;
+    font-weight: medium;
+    opacity: 0.8;
+    margin-top: 5px;
+    padding-left: 0px;
+    font-weight: lighter;
+    color: #999999;
+    margin-bottom: 0;
+  }
+  .request-address {
+    overflow-wrap: normal;
+  }
 }
-
 
 .request-status {
   font-size: 18px;
@@ -40,8 +61,8 @@
 
 .request-price {
   font-weight: bold;
-  font-size: 20px;
-
+  font-size: 15px;
+  width: 10%;
 }
 
 .btn-calendar {
@@ -56,17 +77,43 @@
 }
 
 .request-border {
-  border: 1px solid grey;
+  border: 1px solid $gray;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
+  &:hover {
+    background: #f7f7fa;
+    cursor: pointer;
+  }
 }
 
 .request-border-right {
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
-  border-left: 1px solid grey;
+  border-top: 1px solid $gray;
+  border-bottom: 1px solid $gray;
+  border-left: 1px solid $gray;
 }
 
 .pending {
   background-color: #E9658C;
 }
+
+/* request image */
+.request-image {
+  border-radius: 10px;
+  margin-right: 20px;
+  width: 175px;
+}
+
+.btn-pale {
+  opacity: 0.4;
+  color: white;
+  background-color: $pink;
+  text-decoration: none;
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-requests-card {
+  margin: 10px;
+}
+
