@@ -52,6 +52,21 @@ class RoomsController < ApplicationController
         @rooms = @rooms.select("*").joins(:flat).where("flats.allow_pets = ?", @allow_pets )
       end
 
+      if params[:room][:couples_allowed].present?
+        @couples_allowed = params[:room][:couples_allowed]
+        @rooms = @rooms.select("*").joins(:flat).where("flats.couples_allowed = ?", @couples_allowed )
+      end
+
+      if params[:room][:ensuite].present?
+        @ensuite = params[:room][:ensuite]
+        @rooms = @rooms.select("*").joins(:flat).where("flats.ensuite = ?", @ensuite )
+      end
+
+      if params[:room][:accessible].present?
+        @accessible = params[:room][:accessible]
+        @rooms = @rooms.select("*").joins(:flat).where("flats.accessible = ?", @accessible )
+      end
+      
     end
 
     info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
@@ -59,9 +74,7 @@ class RoomsController < ApplicationController
     # bills_included
     # allow_smokers
     # furnished
-    # couples_allowed
-    # ensuite
-    # accessible
+
 
     # @search = Search.new(search_params)
     # if @search.valid?
