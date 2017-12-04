@@ -83,6 +83,39 @@ def create_users
   end
 end
 
+flat_one = Flat.create!(
+  title: "Le Wagon Dreamteam",
+  description: "dsfffffffffffffffffffffffffffffff",
+  number_of_flatmates: 3,
+  flat_size: 100,
+  amenities: ["Wifi", "TV", "Elevator", "Doorman", "Washer", "Dryer", "Gym", "Iron", "Kitchen", "Hot tub", "Air conditioning", "Heating"],
+  address: "11 Hoxton Square, London N1 6NU",
+  currency: "£",
+  neighborhood: "Shoreditch",
+   searching_for: nil,
+   monthly_price: 540,
+   room_size: 20,
+   card_image: '/assets/lewagonflat.jpg',
+   deposit: 600,
+   has_parking: nil,
+   allow_students: false,
+   allow_pets: false,
+   bills_included: 1,
+   allow_smokers: 0,
+   furnished: 2,
+   couples_allowed: false,
+   ensuite: false,
+   accessible: false,
+   minimum_stay: 6,
+   preffered_min_age: 20,
+   preffered_max_age: 30,
+   preffered_gender: nil,
+   latitude: 51.528001,
+   longitude: -0.081881
+  )
+
+  puts "Flat 1"
+
 user_one = User.create!(
   email: "rabea_bader@gmail.com",
   password: "secret123",
@@ -91,8 +124,54 @@ user_one = User.create!(
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/11267855_494475644050145_7650517800177078839_n.jpg?oh=88f598f1fc8228a3a81f204d69ab47bb&oe=5A916072"
 )
 
-create_flats_and_rooms
-create_users
+puts "User 1"
+
+
+user_two = User.create!(
+  email: "sarah_lafer@yahoo.com",
+  password: "secret123",
+  first_name: "Sarah",
+  last_name: "Lafer",
+  flat_id: 1,
+  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15123387_1524489700911298_8540080221667972968_o.jpg?oh=81c74c24d54e1d3f4989184e7a9ee45a&oe=5AA0CACD"
+)
+
+puts "User 2"
+
+
+user_three = User.create!(
+  email: "stephan_is_great@gmail.com",
+  password: "secret123",
+  first_name: "Stephan",
+  last_name: "Schmidbauer",
+  flat_id: 1,
+  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/12472516_1150297835028069_8300065499297260894_n.jpg?oh=61fd7f780e66b7d600be2918c009e714&oe=5AA8DD43"
+)
+
+puts "User 3"
+
+
+user_four = User.create!(
+  email: "richard_ogrady@gmail.com",
+  password: "secret123",
+  first_name: "Richard",
+  last_name: "O'Grady",
+  flat_id: 1,
+  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15972751_237246466721822_1634594414421206870_o.jpg?oh=51c4df723a1a2e64c7972c3e34468b0b&oe=5A8F41B5"
+)
+
+puts "User 4"
+
+
+
+
+room_one = Room.create!(
+  move_in_date: '01/01/2017',
+  flat_id: 1
+  )
+
+# create_flats_and_rooms
+# create_users
 
 
 
