@@ -10,8 +10,8 @@ class RoomsController < ApplicationController
   def index
     @neighborhoods = ["Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
 
-    @lat = session[:lat] || params[:search][:lat]
-    @lng = session[:lng] || params[:search][:lng]
+    @lat = params[:search].nil? ? session[:lat] : params[:search][:lat]
+    @lng = params[:search].nil? ? session[:lng] : params[:search][:lng]
 
     @move_in_date = session[:move_in_date] || params[:search][:move_in_date]
     @move_out_date = session[:move_out_date] || params[:search][:move_out_date]
@@ -29,8 +29,12 @@ class RoomsController < ApplicationController
       end
 
       if params[:room][:number_of_flatmates].present?
-        @number_of_flatmates = params[:room][:number_of_flatmates]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= ?", @number_of_flatmates )
+        @number_of_flatmates = params[:room][:number_of_flatmates].size
+        if params[:room][:number_of_flatmates].include? "➕"
+          @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates >= ?", @number_of_flatmates )
+        else
+          @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= ?", @number_of_flatmates )
+        end
       end
 
       if params[:room][:monthly_price].present?
@@ -42,12 +46,16 @@ class RoomsController < ApplicationController
         @allow_students = params[:room][:allow_students]
         @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students )
       end
-    end
 
+      if params[:room][:allow_pets].present?
+        @allow_pets = params[:room][:allow_pets]
+        @rooms = @rooms.select("*").joins(:flat).where("flats.allow_pets = ?", @allow_pets )
+      end
+
+    end
 
     info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
 
-    # allow_pets
     # bills_included
     # allow_smokers
     # furnished
@@ -57,7 +65,7 @@ class RoomsController < ApplicationController
 
     # @search = Search.new(search_params)
     # if @search.valid?
-      # @rooms = Room.all
+    # @rooms = Room.all
     # else
     #   render "pages/home"
     # end
