@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   has_many :requests
   has_many :messages, dependent: :destroy
+  has_many :interests, dependent: :destroy
   belongs_to :flat, optional: true
 
   # Include default devise modules. Others available are:
