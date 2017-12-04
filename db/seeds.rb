@@ -16,7 +16,6 @@ puts "Clearing users"
 User.destroy_all
 
 
-
 def create_request(viewing)
   request = Request.new(
     slot: Time.strptime('28/12/2017 19:00', '%d/%m/%Y %H:%M') + rand(2..20).to_i.day,

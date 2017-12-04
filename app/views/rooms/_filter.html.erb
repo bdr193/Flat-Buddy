@@ -1,5 +1,5 @@
 <%= simple_form_for :room, url: rooms_path, method: 'GET', :html => { :class => 'form-group row filter-style' } do |f| %>
-<%= f.input :neighborhood, name: 'neighborhood', :prompt => "Neighborhood", value: '', label: 'Neighborhood', required: false, collection: @flats_neighbourhood, wrapper_html: { class: 'font-style' }, selected: @neighborhood %>
+<%= f.input :neighborhood, name: 'neighborhood', :prompt => "Neighborhood", value: '', label: 'Neighborhood', required: false, collection: @neighborhoods, wrapper_html: { class: 'font-style' }, selected: @neighborhood %>
 <%= f.input :number_of_flatmates, name: 'number_of_flatmates', value: '', label: 'Maximum FlatBuddies', required: false, collection: [ "👤","👤👤","👤👤👤", "👤👤👤➕"], selected: @number_of_flatmates %>
 <%= f.input :furnished, name: 'furnished', value: '', label: 'Furnished', required: false, collection: [ 'furnished', 'semi-furnished', 'unfurnished'], selected: @furnished %>
 <%= f.input :monthly_price, name: 'monthly_price', value: '', :prompt => "min", label: 'Rent £', required: false, placeholder: 'max price per month', selected: @monthly_price %>

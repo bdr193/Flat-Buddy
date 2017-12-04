@@ -17,10 +17,10 @@
   :latitude: 51.4951174
   :longitude: -0.11389329999997244
   :deposit: 610
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -49,10 +49,10 @@
   :latitude: 51.4951174
   :longitude: -0.11389329999997244
   :deposit: 435
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -78,10 +78,10 @@
   :latitude: 51.52270129999999
   :longitude: -0.14230459999998857
   :deposit: 1214
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -114,8 +114,8 @@
   :deposit: 997
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -157,10 +157,10 @@
   :latitude: 51.49364139999999
   :longitude: -0.10378370000000814
   :deposit: 1600
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 0
+  :allow_smokers: true
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -191,8 +191,8 @@
   :deposit: 850
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -226,10 +226,10 @@
   :latitude: 51.49286310000001
   :longitude: -0.10014249999994718
   :deposit: 850
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -264,10 +264,10 @@
   :latitude: 51.5312657
   :longitude: -0.11882990000003701
   :deposit: 1000
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 0
+  :allow_smokers: true
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -311,8 +311,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -343,8 +343,8 @@
   :deposit: 400
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -395,10 +395,10 @@
   :latitude: 51.4928392
   :longitude: -0.08981459999995423
   :deposit: 1000
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -433,8 +433,8 @@
   :deposit: 730
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -472,8 +472,8 @@
   :deposit: 830
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 0
+  :allow_smokers: true
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -514,10 +514,10 @@
   :latitude: 51.5126353
   :longitude: -0.17473719999998139
   :deposit: 1600
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 2
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -560,8 +560,8 @@
   :deposit: 760
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -597,10 +597,10 @@
   :latitude: 51.50107320000001
   :longitude: -0.07313130000000001
   :deposit: 600
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -642,8 +642,8 @@
   :deposit: 870
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -679,8 +679,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -712,10 +712,10 @@
   :latitude: 51.5242026
   :longitude: -0.1766675999999734
   :deposit: 425
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -753,8 +753,8 @@
   :deposit: 90
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -788,8 +788,8 @@
   :deposit: 606
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -819,10 +819,10 @@
   :latitude: 51.5217064
   :longitude: -0.0722892999999658
   :deposit: 541
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -858,8 +858,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -888,10 +888,10 @@
   :latitude: 51.5323518
   :longitude: -0.0804040000000441
   :deposit: 1250
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -927,8 +927,8 @@
   :deposit: 1000
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -964,10 +964,10 @@
   :latitude: 51.5262357
   :longitude: -0.0726603000000523
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1009,8 +1009,8 @@
   :deposit: 880
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -1050,10 +1050,10 @@
   :latitude: 51.5114262
   :longitude: -0.18664609999996173
   :deposit: 2015
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1096,8 +1096,8 @@
   :deposit: 1560
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1143,8 +1143,8 @@
   :deposit: 1073
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1194,8 +1194,8 @@
   :deposit: 850
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1233,8 +1233,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1276,10 +1276,10 @@
   :latitude: 51.5330124
   :longitude: -0.07370800000001054
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1329,8 +1329,8 @@
   :deposit: 825
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1374,10 +1374,10 @@
   :latitude: 51.52624299999999
   :longitude: -0.06658229999993637
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1409,8 +1409,8 @@
   :deposit: 495
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1464,8 +1464,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1497,10 +1497,10 @@
   :latitude: 51.5151008
   :longitude: -0.05835720000004585
   :deposit: 640
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1550,8 +1550,8 @@
   :deposit: 1260
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 0
+  :allow_smokers: true
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1592,8 +1592,8 @@
   :deposit: 600
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1632,8 +1632,8 @@
   :deposit: 1600
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1681,10 +1681,10 @@
   :latitude: 51.465
   :longitude: -0.12784780000004048
   :deposit: 900
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1741,8 +1741,8 @@
   :deposit: 1800
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1782,8 +1782,8 @@
   :deposit: 696
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1818,8 +1818,8 @@
   :deposit: 1268
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 0
+  :allow_smokers: true
+  :bills_included: false
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -1873,8 +1873,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1908,10 +1908,10 @@
   :latitude: 51.5075164
   :longitude: -0.053789400000027854
   :deposit: 100
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -1972,8 +1972,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -2013,8 +2013,8 @@
   :deposit: 815
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2045,10 +2045,10 @@
   :latitude: 51.4848783
   :longitude: -0.18835139999998773
   :deposit: 815
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -2082,8 +2082,8 @@
   :deposit: 600
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2115,8 +2115,8 @@
   :deposit: 800
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2160,10 +2160,10 @@
   :latitude: 51.49615169999999
   :longitude: -0.05391850000000886
   :deposit: 800
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2212,8 +2212,8 @@
   :deposit: 150
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 2
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2255,8 +2255,8 @@
   :deposit: 840
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 0
+  :allow_smokers: true
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2293,10 +2293,10 @@
   :latitude: 51.54561140000001
   :longitude: -0.07684619999997722
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 1
+  :allow_smokers: true
+  :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
@@ -2333,8 +2333,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2368,8 +2368,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2395,10 +2395,10 @@
   :latitude: 51.51591079999999
   :longitude: -0.2022500000000491
   :deposit: 12046
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2423,8 +2423,8 @@
   :deposit: 1203
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 1
+  :allow_smokers: false
+  :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2461,10 +2461,10 @@
   :latitude: 51.5396702
   :longitude: -0.06553140000005442
   :deposit: 581
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 1
-  :bills_included: 0
+  :allow_smokers: true
+  :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
@@ -2513,8 +2513,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2546,8 +2546,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2589,8 +2589,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2629,8 +2629,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2671,8 +2671,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2711,10 +2711,10 @@
   :latitude: 51.52316
   :longitude: -0.158907
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2752,8 +2752,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2782,8 +2782,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2817,8 +2817,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2852,8 +2852,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2901,8 +2901,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2953,10 +2953,10 @@
   :latitude: 51.4751
   :longitude: -0.1493221
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -2995,8 +2995,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3026,8 +3026,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3070,8 +3070,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3114,8 +3114,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3143,8 +3143,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3188,8 +3188,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3223,8 +3223,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3256,10 +3256,10 @@
   :latitude: 51.5305
   :longitude: -0.07276858
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3296,8 +3296,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3339,8 +3339,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3374,10 +3374,10 @@
   :latitude: 51.53618
   :longitude: -0.07642189
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3405,8 +3405,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3451,8 +3451,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3496,8 +3496,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3538,8 +3538,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3580,8 +3580,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3624,10 +3624,10 @@
   :latitude: 51.51214
   :longitude: -0.05643684
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3676,8 +3676,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3712,8 +3712,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3764,8 +3764,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3816,8 +3816,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3866,8 +3866,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3921,10 +3921,10 @@
   :latitude: 51.54535
   :longitude: -0.07734763
   :deposit: 0
-  :allow_students: false
+  :allow_students: true
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -3980,8 +3980,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
@@ -4009,8 +4009,8 @@
   :deposit: 0
   :allow_students: false
   :allow_pets: false
-  :allow_smokers: 0
-  :bills_included: 0
+  :allow_smokers: false
+  :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
