@@ -66,7 +66,7 @@ class RoomsController < ApplicationController
         @accessible = params[:room][:accessible]
         @rooms = @rooms.select("*").joins(:flat).where("flats.accessible = ?", @accessible )
       end
-      
+
     end
 
     info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
