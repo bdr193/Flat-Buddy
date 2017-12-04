@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171130171958) do
+ActiveRecord::Schema.define(version: 20171204153623) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -71,6 +71,14 @@ ActiveRecord::Schema.define(version: 20171130171958) do
     t.datetime "updated_at",          null: false
     t.float    "latitude"
     t.float    "longitude"
+  end
+
+  create_table "interests", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_interests_on_user_id", using: :btree
   end
 
   create_table "messages", force: :cascade do |t|
@@ -139,6 +147,7 @@ ActiveRecord::Schema.define(version: 20171130171958) do
   end
 
   add_foreign_key "chat_rooms", "requests"
+  add_foreign_key "interests", "users"
   add_foreign_key "messages", "chat_rooms"
   add_foreign_key "messages", "users"
   add_foreign_key "requests", "users"
