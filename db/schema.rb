@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171204153623) do
+ActiveRecord::Schema.define(version: 20171204180522) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -46,6 +46,8 @@ ActiveRecord::Schema.define(version: 20171204153623) do
     t.text     "amenities"
     t.string   "address"
     t.string   "currency"
+    t.string   "lat"
+    t.string   "lng"
     t.string   "neighborhood"
     t.text     "searching_for"
     t.integer  "monthly_price"
@@ -87,6 +89,49 @@ ActiveRecord::Schema.define(version: 20171204153623) do
     t.integer  "chat_room_id"
     t.index ["chat_room_id"], name: "index_messages_on_chat_room_id", using: :btree
     t.index ["user_id"], name: "index_messages_on_user_id", using: :btree
+  end
+
+  create_table "profiles", force: :cascade do |t|
+    t.integer  "user_id"
+    t.boolean  "art_museum"
+    t.boolean  "art_photography"
+    t.boolean  "art_theatre"
+    t.boolean  "art_live"
+    t.boolean  "art_cinema"
+    t.boolean  "art_reading"
+    t.boolean  "sport_ball"
+    t.boolean  "sport_endurance"
+    t.boolean  "sport_wellbeing"
+    t.boolean  "sport_snow"
+    t.boolean  "sport_extreme"
+    t.boolean  "sport_watersports"
+    t.boolean  "film_romcom"
+    t.boolean  "film_action"
+    t.boolean  "film_horror"
+    t.boolean  "film_documentary"
+    t.boolean  "film_animation"
+    t.boolean  "film_scifi"
+    t.boolean  "music_pop"
+    t.boolean  "music_electronic"
+    t.boolean  "music_classical"
+    t.boolean  "music_rock"
+    t.boolean  "music_jazz"
+    t.boolean  "music_hiphop"
+    t.boolean  "holiday_beach"
+    t.boolean  "holiday_trek"
+    t.boolean  "holiday_city"
+    t.boolean  "holiday_party"
+    t.boolean  "holiday_home"
+    t.boolean  "holiday_historic"
+    t.boolean  "food_vegetarian"
+    t.boolean  "food_meat"
+    t.boolean  "food_quick"
+    t.boolean  "food_restaurant"
+    t.boolean  "food_delivery"
+    t.boolean  "food_drink"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.index ["user_id"], name: "index_profiles_on_user_id", using: :btree
   end
 
   create_table "requests", force: :cascade do |t|
@@ -148,6 +193,7 @@ ActiveRecord::Schema.define(version: 20171204153623) do
   add_foreign_key "interests", "users"
   add_foreign_key "messages", "chat_rooms"
   add_foreign_key "messages", "users"
+  add_foreign_key "profiles", "users"
   add_foreign_key "requests", "users"
   add_foreign_key "requests", "viewings"
   add_foreign_key "rooms", "flats"
