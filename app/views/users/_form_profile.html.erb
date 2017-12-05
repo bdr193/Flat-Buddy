@@ -1,0 +1,251 @@
+<%= simple_form_for @user do |f| %>
+<div class="container">
+    <div class="arts-container">
+      <h3>Here are the arts</h3>
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('yfaciidh8lr8nqeqk6vr', width: 200, crop: :fill) %>
+        <p><%= f.label "Museums & Galleries" %>
+        <%= f.input_field :art_museum, as: :boolean, checked_value: true, unchecked_value: false %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+          <%= cl_image_tag('wu1d832tjimrdmxlomzt', width: 200, crop: :fill) %>
+          <p><%= f.label "Photography & Film-Making" %>
+            <%= f.input_field :art_photography, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+          <%= cl_image_tag('rpxgsmaxvgxcqiycfnes', width: 200, crop: :fill) %>
+          <p><%= f.label "Theatre & Opera" %>
+            <%= f.input_field :art_theatre, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+          <%= cl_image_tag('ls28tbywndbo1fe7aguy', width: 200, crop: :fill) %>
+          <p><%= f.label "Live Music" %>
+            <%= f.input_field :art_live, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+          <%= cl_image_tag('fg3ihdxs76zpwhqaa3zr', width: 200, crop: :fill) %>
+          <p><%= f.label "Reading" %>
+            <%= f.input_field :art_reading, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+          <%= cl_image_tag('qepztvxoeefvbht6t6fq', width: 200, crop: :fill) %>
+          <p><%= f.label "Cinema" %>
+            <%= f.input_field :art_cinema, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="sports-container">
+      <h3>Here are the sports</h3>
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('ndm7hvuedho1sz1bryyg', width: 200, crop: :fill) %>
+        <p><%= f.label "Ball Sports" %>
+          <%= f.input_field :sport_ball, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('kbmqepa9etj1uzbuqmhw', width: 200, crop: :fill) %>
+        <p><%= f.label "Running & Cycling" %>
+          <%= f.input_field :sport_endurance, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('qss63ceyw9wvq9ln49i5', width: 200, crop: :fill) %>
+        <p><%= f.label "Yoga & Gym" %>
+          <%= f.input_field :sport_wellbeing, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('ntanecg0r47futvq0zol', width: 200, crop: :fill) %>
+        <p><%= f.label "Snow Sports" %>
+          <%= f.input_field :sport_snow, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('j6og9ujhjzugpsrulzou', width: 200, crop: :fill) %>
+        <p><%= f.label "Extreme Sports" %>
+          <%= f.input_field :sport_extreme, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('tguudrc6li5zzcwuepwr', width: 200, crop: :fill) %>
+        <p><%= f.label "Watersports" %>
+          <%= f.input_field :sport_watersports, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="films-container">
+      <h3>Here are the films</h3>
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('wckgpkwoq9bsx5wx5cro', width: 200, crop: :fill) %>
+        <p><%= f.label "Romance & Comedy" %>
+          <%= f.input_field :film_romcom, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('gnc1chn1bfxaygy3u7nf', width: 200, crop: :fill) %>
+        <p><%= f.label "Action & Thriller" %>
+          <%= f.input_field :film_action, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('kt8dioraaz7zlgnzglh8', width: 200, crop: :fill) %>
+        <p><%= f.label "Horror" %>
+          <%= f.input_field :film_horror, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('jsljdyn0lag4ciimtrzz', width: 200, crop: :fill) %>
+        <p><%= f.label "Documentary" %>
+          <%= f.input_field :film_documentary, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('upoqx3wfc5xccfw85hu9', width: 200, crop: :fill) %>
+        <p><%= f.label "Animation" %>
+          <%= f.input_field :film_animation, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('hla3nawaxbqef5wzzn9n', width: 200, crop: :fill) %>
+        <p><%= f.label "SciFi" %>
+          <%= f.input_field :film_scifi, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="music-container">
+      <h3>Here is the music</h3>
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('ifgsovsyze2hc8aoenfx', width: 200, crop: :fill) %>
+        <p><%= f.label "Pop" %>
+          <%= f.input_field :music_pop, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('gmpdjcff2dkrijrdwik0', width: 200, crop: :fill) %>
+        <p><%= f.label "Electronic" %>
+          <%= f.input_field :music_electronic, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('tlgtwwmqnheyvawqrz5j', width: 200, crop: :fill) %>
+        <p><%= f.label "Classical" %>
+          <%= f.input_field :music_classical, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('trqnlzzwpau3x6c8muth', width: 200, crop: :fill) %>
+        <p><%= f.label "Rock & Indie" %>
+          <%= f.input_field :music_rock, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('app4gzhq96srenzb6vc8', width: 200, crop: :fill) %>
+        <p><%= f.label "Jazz" %>
+          <%= f.input_field :music_jazz, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('cq91lfxkv5tondy6tgof', width: 200, crop: :fill) %>
+        <p><%= f.label "Hip Hop & Rap" %>
+          <%= f.input_field :music_hiphop, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="holidays-container">
+      <h3>Here are the holidays</h3>
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('sb3k0ebvzkwws9wpaz2x', width: 200, crop: :fill) %>
+        <p><%= f.label "Relaxing on a beach" %>
+          <%= f.input_field :holiday_beach, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('whdgpmnjvyjnmlexmvsi', width: 200, crop: :fill) %>
+        <p><%= f.label "Trekking" %>
+          <%= f.input_field :holiday_trek, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('uo1dnctzlyz6tzittdvf', width: 200, crop: :fill) %>
+        <p><%= f.label "City getaway" %>
+          <%= f.input_field :holiday_city, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('wvh0kmqho4epdtrqtv0k', width: 200, crop: :fill) %>
+        <p><%= f.label "Party holiday" %>
+          <%= f.input_field :holiday_party, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('wl1mew9cg2brhjv8mq3e', width: 200, crop: :fill) %>
+        <p><%= f.label "Stay at home" %>
+          <%= f.input_field :holiday_home, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('lfwbt2mgcxzwu9idpx4l', width: 200, crop: :fill) %>
+        <p><%= f.label "Historic" %>
+          <%= f.input_field :holiday_historic, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="food-container">
+      <h3>Here is the food</h3>
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('jijehgkomishcu1l7f0e', width: 200, crop: :fill) %>
+        <p><%= f.label "Vegetarian" %>
+          <%= f.input_field :food_vegetarian, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('ao5gcdwazjz0m8tsisiy', width: 200, crop: :fill) %>
+        <p><%= f.label "Meat" %>
+          <%= f.input_field :food_meat, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('ryio8vwvxffzmg4aietf', width: 200, crop: :fill) %>
+        <p><%= f.label "Quick homemade food" %>
+          <%= f.input_field :food_quick, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('hwtuegrmyvkdazzojzwo', width: 200, crop: :fill) %>
+        <p><%= f.label "Eat Out" %>
+          <%= f.input_field :food_restaurant, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('yeaun4khdnnw3xschwmk', width: 200, crop: :fill) %>
+        <p><%= f.label "Take Out" %>
+          <%= f.input_field :food_delivery, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('rlozzn6k4li0wjknfzuq', width: 200, crop: :fill) %>
+        <p><%= f.label "Drink is more important..." %>
+          <%= f.input_field :food_drink, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+    </div>
+</div>
+<div class="container text-center">
+  <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
+</div>
+<% end  %>
+
