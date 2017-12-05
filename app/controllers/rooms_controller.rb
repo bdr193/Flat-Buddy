@@ -1,25 +1,20 @@
 class RoomsController < ApplicationController
   before_action :find_room_id, only: [:show, :edit]
 
-  def info(opts = {})
-    opts.each do |key, value|
-      session[key.to_sym] = value
-    end
-  end
-
   def index
     @neighborhoods = ["Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
 
-    @lat = params[:search].nil? ? session[:lat] : params[:search][:lat]
-    @lng = params[:search].nil? ? session[:lng] : params[:search][:lng]
+    @lat =  session[:lat]
+    @lng =  session[:lng]
 
-    @move_in_date = session[:move_in_date] || params[:search][:move_in_date]
-    @move_out_date = session[:move_out_date] || params[:search][:move_out_date]
+    @move_in_date = session[:move_in_date]
+    @move_out_date = session[:move_out_date]
 
     @flats_ids = Flat.near([@lat, @lng], 30).map(&:id)
     @rooms = Room.where(flat_id: @flats_ids)
 
     @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
+
     @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
 
     unless params[:room].nil?
@@ -95,8 +90,6 @@ class RoomsController < ApplicationController
       @allow_smokers = params[:room][:allow_smokers] == "1"
 
     end
-
-    info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
 
 
 
