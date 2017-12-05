@@ -205,8 +205,8 @@ viewing_five = Viewing.create!(
 
 #ALL OTHER USERS AND FLATS AND ROOMS
 
-create_flats_and_rooms
-create_users
+# create_flats_and_rooms
+# create_users
 
 
 

@@ -34,6 +34,7 @@
   padding: 10px;
   box-shadow: 1px 0 12px #888888;
   height: 170px;
+  position: relative;
 }
 
 .card-address {
@@ -60,8 +61,33 @@
   }
   font-weight: medium;
   font-size: 22px;
+  border-radius: 50%;
 }
 
+.icon-wrapper {
+  position: absolute;
+  align-items: center;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+}
 
+.icon-title {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
 
+.icons {
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+}
 
+.icon-img {
+  margin: 5px;
+  border-radius: 50%;
+  border: 3px solid black;
+  padding: 5px;
+}
