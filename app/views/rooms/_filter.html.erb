@@ -10,12 +10,5 @@
 <%= f.input :allow_pets, name: 'allow_pets', value: '', :prompt => "Allow pets", label: 'Allow pets', required: false, as: :boolean, selected: @allow_pets, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
 <%= f.input :couples_allowed, name: 'couples_allowed', value: '', :prompt => "Allow couples", label: 'Allow couples', required: false, as: :boolean, selected: @couples_allowed, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
 <%= f.input :allow_smokers, name: 'allow_smokers', value: '', :prompt => "Allow smokers", label: 'Allow smokers', required: false, as: :boolean, selected: @allow_smokers, wrapper_html: { class: 'toggle-alignment' }, input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" }} %>
-
-
-
-
-
-
-
 <%= f.submit "Filter", class: "btn btn-primary button-sticky"%>
 <% end %>
