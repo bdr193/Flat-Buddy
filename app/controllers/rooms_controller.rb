@@ -29,22 +29,35 @@ class RoomsController < ApplicationController
       end
 
       if params[:room][:number_of_flatmates].present?
+        @flat_mates_value = params[:room][:number_of_flatmates]
         @number_of_flatmates = params[:room][:number_of_flatmates].size
         if params[:room][:number_of_flatmates].include? "➕"
-          @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates >= ?", @number_of_flatmates )
+          @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= 10")
         else
           @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= ?", @number_of_flatmates )
         end
       end
 
+      if params[:room][:furnished].present?
+        @furnished = params[:room][:furnished]
+        case @furnished
+        when "furnished"
+          @rooms = @rooms.select("*").joins(:flat).where("flats.furnished = 2")
+        when "semi-furnished"
+          @rooms = @rooms.select("*").joins(:flat).where("flats.furnished = 1")
+        when "unfurnished"
+          @rooms = @rooms.select("*").joins(:flat).where("flats.furnished = 0")
+        end
+      end
+
       if params[:room][:monthly_price].present?
         @monthly_price = params[:room][:monthly_price]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.monthly_price <= ?", @monthly_price )
+        @rooms = @rooms.select("*").joins(:flat).where("flats.monthly_price <= ?", @monthly_price)
       end
 
       if params[:room][:allow_students].present?
         @allow_students = params[:room][:allow_students]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students )
+        @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students)
       end
 
       if params[:room][:allow_pets].present?
@@ -54,26 +67,34 @@ class RoomsController < ApplicationController
 
       if params[:room][:couples_allowed].present?
         @couples_allowed = params[:room][:couples_allowed]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.couples_allowed = ?", @couples_allowed )
+        @rooms = @rooms.select("*").joins(:flat).where("flats.couples_allowed = ?", @couples_allowed)
       end
 
       if params[:room][:ensuite].present?
         @ensuite = params[:room][:ensuite]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.ensuite = ?", @ensuite )
+        @rooms = @rooms.select("*").joins(:flat).where("flats.ensuite = ?", @ensuite)
       end
 
       if params[:room][:accessible].present?
         @accessible = params[:room][:accessible]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.accessible = ?", @accessible )
+        @rooms = @rooms.select("*").joins(:flat).where("flats.accessible = ?", @accessible)
       end
+
+      if params[:room][:bills_included].present?
+        @bills_included = params[:room][:bills_included]
+        @rooms = @rooms.select("*").joins(:flat).where("flats.bills_included = ?", @bills_included)
+      end
+
+      if params[:room][:allow_smokers].present?
+        @allow_smokers = params[:room][:allow_smokers]
+        @rooms = @rooms.select("*").joins(:flat).where("flats.allow_smokers = ?", @allow_smokers)
+      end
+
 
     end
 
     info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
 
-    # bills_included
-    # allow_smokers
-    # furnished
 
 
     # @search = Search.new(search_params)

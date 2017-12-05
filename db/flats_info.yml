@@ -22,8 +22,8 @@
   :allow_smokers: false
   :bills_included: true
   :furnished: 2
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
@@ -50,11 +50,11 @@
   :longitude: -0.11389329999997244
   :deposit: 435
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 2
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 6
@@ -79,13 +79,13 @@
   :longitude: -0.14230459999998857
   :deposit: 1214
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -113,12 +113,12 @@
   :longitude: -0.14230459999998857
   :deposit: 997
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 1
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
@@ -162,7 +162,7 @@
   :allow_smokers: true
   :bills_included: false
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 12
@@ -190,13 +190,13 @@
   :longitude: -0.10014249999994718
   :deposit: 850
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 24
   :preffered_max_age: 37
@@ -231,8 +231,8 @@
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 24
@@ -265,11 +265,11 @@
   :longitude: -0.11882990000003701
   :deposit: 1000
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: false
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 6
@@ -310,13 +310,13 @@
   :longitude: -0.0977612000000363
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -347,7 +347,7 @@
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
@@ -396,12 +396,12 @@
   :longitude: -0.08981459999995423
   :deposit: 1000
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 1
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 7
   :preffered_min_age: 18
@@ -432,13 +432,13 @@
   :longitude: -0.11919499999999061
   :deposit: 730
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 12
   :preffered_min_age: 21
   :preffered_max_age: 55
@@ -477,7 +477,7 @@
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 12
   :preffered_min_age: 22
   :preffered_max_age: 32
@@ -515,13 +515,13 @@
   :longitude: -0.17473719999998139
   :deposit: 1600
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :couples_allowed: true
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -563,8 +563,8 @@
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
@@ -598,13 +598,13 @@
   :longitude: -0.07313130000000001
   :deposit: 600
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -641,13 +641,13 @@
   :longitude: -0.11071259999994254
   :deposit: 870
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 2
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 25
   :preffered_max_age: 40
@@ -682,7 +682,7 @@
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -718,8 +718,8 @@
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 25
   :preffered_max_age: 41
@@ -752,13 +752,13 @@
   :longitude: -0.17862650000006397
   :deposit: 90
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 45
@@ -787,13 +787,13 @@
   :longitude: -0.0722892999999658
   :deposit: 606
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 2
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -824,8 +824,8 @@
   :allow_smokers: true
   :bills_included: true
   :furnished: 2
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
@@ -857,13 +857,13 @@
   :longitude: -0.08096839999996064
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 10
   :preffered_min_age: 19
   :preffered_max_age: 40
@@ -895,7 +895,7 @@
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 3
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -926,11 +926,11 @@
   :longitude: -0.06663560000004054
   :deposit: 1000
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 3
@@ -965,13 +965,13 @@
   :longitude: -0.0726603000000523
   :deposit: 0
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1013,8 +1013,8 @@
   :bills_included: true
   :furnished: 2
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1051,7 +1051,7 @@
   :longitude: -0.18664609999996173
   :deposit: 2015
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
@@ -1095,13 +1095,13 @@
   :longitude: -0.18664609999996173
   :deposit: 1560
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1146,8 +1146,8 @@
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 18
@@ -1197,9 +1197,9 @@
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1232,13 +1232,13 @@
   :longitude: -0.1374018999999862
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1277,12 +1277,12 @@
   :longitude: -0.07370800000001054
   :deposit: 0
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 9
   :preffered_min_age: 20
@@ -1332,7 +1332,7 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 12
@@ -1379,9 +1379,9 @@
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 9
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1408,13 +1408,13 @@
   :longitude: -0.15416060000006837
   :deposit: 495
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 3
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1463,7 +1463,7 @@
   :longitude: -0.06424970000000485
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
@@ -1502,9 +1502,9 @@
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 2
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1549,13 +1549,13 @@
   :longitude: -0.0594204000000218
   :deposit: 1260
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: false
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1631,13 +1631,13 @@
   :longitude: -0.1522592999999688
   :deposit: 1600
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -1682,7 +1682,7 @@
   :longitude: -0.12784780000004048
   :deposit: 900
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
@@ -1781,13 +1781,13 @@
   :longitude: -0.05612169999994876
   :deposit: 696
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :couples_allowed: true
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 6
   :preffered_min_age: 24
   :preffered_max_age: 42
@@ -1909,13 +1909,13 @@
   :longitude: -0.053789400000027854
   :deposit: 100
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 4
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -2017,7 +2017,7 @@
   :bills_included: false
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 6
   :preffered_min_age: 26
@@ -2046,13 +2046,13 @@
   :longitude: -0.18835139999998773
   :deposit: 815
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 2
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 26
   :preffered_max_age: 36
@@ -2119,7 +2119,7 @@
   :bills_included: false
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 12
   :preffered_min_age: 23
@@ -2161,13 +2161,13 @@
   :longitude: -0.05391850000000886
   :deposit: 800
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 3
   :preffered_min_age: 25
   :preffered_max_age: 48
@@ -2216,7 +2216,7 @@
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 3
   :preffered_min_age: 18
@@ -2294,13 +2294,13 @@
   :longitude: -0.07684619999997722
   :deposit: 0
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: true
   :bills_included: true
   :furnished: 2
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 1
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -2337,7 +2337,7 @@
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 1
   :preffered_min_age: 18
@@ -2371,7 +2371,7 @@
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 1
@@ -2396,13 +2396,13 @@
   :longitude: -0.2022500000000491
   :deposit: 12046
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: true
   :furnished: 1
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 6
   :preffered_min_age: 18
   :preffered_max_age: 70
@@ -2512,13 +2512,13 @@
   :longitude: -0.1412089
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -2549,8 +2549,8 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -2628,13 +2628,13 @@
   :longitude: -0.12056
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -2675,7 +2675,7 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -2712,7 +2712,7 @@
   :longitude: -0.158907
   :deposit: 0
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
@@ -2757,7 +2757,7 @@
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -2785,8 +2785,8 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -2816,12 +2816,12 @@
   :longitude: -0.1764701
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -2855,9 +2855,9 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -2954,12 +2954,12 @@
   :longitude: -0.1493221
   :deposit: 0
   :allow_students: true
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -2999,8 +2999,8 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3029,7 +3029,7 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
   :accessible: false
   :minimum_stay: 0
@@ -3069,7 +3069,7 @@
   :longitude: -0.1827463
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
@@ -3118,8 +3118,8 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3147,7 +3147,7 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -3187,7 +3187,7 @@
   :longitude: -0.07316488
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
@@ -3227,8 +3227,8 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3295,12 +3295,12 @@
   :longitude: -0.06839285
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -3344,7 +3344,7 @@
   :furnished: 0
   :couples_allowed: false
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3404,12 +3404,12 @@
   :longitude: -0.0760507
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -3455,8 +3455,8 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3537,7 +3537,7 @@
   :longitude: -0.05942089
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
@@ -3583,9 +3583,9 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :couples_allowed: true
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3675,7 +3675,7 @@
   :longitude: -0.07788516
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
@@ -3716,8 +3716,8 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3767,8 +3767,8 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
-  :ensuite: false
+  :couples_allowed: true
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -3815,7 +3815,7 @@
   :longitude: -0.0821151
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
@@ -3869,9 +3869,9 @@
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
-  :couples_allowed: false
+  :couples_allowed: true
   :ensuite: false
-  :accessible: false
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
@@ -3927,7 +3927,7 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
+  :ensuite: true
   :accessible: false
   :minimum_stay: 0
   :preffered_min_age: 0
@@ -3979,7 +3979,7 @@
   :longitude: -0.07734763
   :deposit: 0
   :allow_students: false
-  :allow_pets: false
+  :allow_pets: true
   :allow_smokers: false
   :bills_included: false
   :furnished: 0
@@ -4013,8 +4013,8 @@
   :bills_included: false
   :furnished: 0
   :couples_allowed: false
-  :ensuite: false
-  :accessible: false
+  :ensuite: true
+  :accessible: true
   :minimum_stay: 0
   :preffered_min_age: 0
   :preffered_max_age: 0
