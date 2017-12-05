@@ -11,7 +11,13 @@
   font-size: 18px;
   border-radius: 4px;
   margin-top: 18px;
-  position: sticky !important;
+  min-width: 263px;
+  height: 92vh;
+  overflow: scroll;
+}
+
+.affix {
+  top: 20px;
 }
 
 .button-sticky {
