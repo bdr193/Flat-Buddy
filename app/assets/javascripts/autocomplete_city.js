@@ -3,15 +3,15 @@ function onPlaceChanged() {
  var lat = place.geometry.location.lat();
  var lng = place.geometry.location.lng();
 
- document.getElementById('room_lat').setAttribute('value', lat);
- document.getElementById('room_lng').setAttribute('value', lng);
+ document.getElementById('search_lat').setAttribute('value', lat);
+ document.getElementById('search_lng').setAttribute('value', lng);
 
- var flatAddress = document.getElementById('room_city');
+ var flatAddress = document.getElementById('search_city');
  flatAddress.blur();
 }
 
 document.addEventListener("DOMContentLoaded", function() {
- var flatAddress = document.getElementById('room_city');
+ var flatAddress = document.getElementById('search_city');
 
  if (flatAddress) {
    var autocomplete = new google.maps.places.Autocomplete(flatAddress, { types: ['geocode'] });
