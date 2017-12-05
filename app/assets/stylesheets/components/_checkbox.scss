@@ -38,7 +38,9 @@
       outline-offset: -2px; }
     .checkbox input[type="checkbox"]:checked + label::after {
       font-family: 'FontAwesome';
-      content: "\f00c"; }
+      content: "\f00c";
+      background-color: $pink !important;
+    }
     .checkbox input[type="checkbox"]:disabled + label {
       opacity: 0.65; }
       .checkbox input[type="checkbox"]:disabled + label::before {
@@ -78,3 +80,29 @@
   border-color: #5cb85c; }
 .checkbox-success input[type="checkbox"]:checked + label::after {
   color: #fff; }
+
+input[type="checkbox"] {
+  width: 16px;
+}
+
+input:not([disabled]):checked {
+  appearance: none;
+
+  &:after{
+    position: relative;
+    display: block;
+    left: 0px;
+    top: 2px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-family: "FontAwesome";
+    content: "\f14a";
+    color: $pink !important;
+  }
+}
+
+input:not([disabled]):focus {
+  outline: none;
+  outline-offset: 0px;
+}
