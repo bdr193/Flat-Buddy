@@ -82,12 +82,15 @@ def create_users
   end
 end
 
+
+#START OF DATA FOR DEMO DAY!!!
+
 flat_one = Flat.create!(
   title: "Le Wagon Dreamteam",
-  description: "dsfffffffffffffffffffffffffffffff",
+  description: "We all met at Le Wagon Berlin in 2017 and decided to bring our cool platform FlatBuddy to London. How could we better represent our idea than moving in together? Of course our choice fell to Shoreditch. We are all Hipsters, out of money and love to drink! The connection is super good with the Underground just around the corner. The neighborhood is tidy, not the calmest though with all the party people around. Supermarket, bank and gym just nearby.",
   number_of_flatmates: 3,
   flat_size: 100,
-  amenities: ["Wifi", "TV", "Elevator", "Doorman", "Washer", "Dryer", "Gym", "Iron", "Kitchen", "Hot tub", "Air conditioning", "Heating"],
+  amenities: "Wifi, TV, Elevator, Doorman, Washer, Dryer, Iron, Air conditioning",
   address: "11 Hoxton Square, London N1 6NU",
   currency: "£",
   neighborhood: "Shoreditch",
@@ -125,7 +128,6 @@ user_one = User.create!(
 
 puts "User 1"
 
-
 user_two = User.create!(
   email: "sarah_lafer@yahoo.com",
   password: "secret123",
@@ -136,7 +138,6 @@ user_two = User.create!(
 )
 
 puts "User 2"
-
 
 user_three = User.create!(
   email: "stephan_is_great@gmail.com",
@@ -149,7 +150,6 @@ user_three = User.create!(
 
 puts "User 3"
 
-
 user_four = User.create!(
   email: "richard_ogrady@gmail.com",
   password: "secret123",
@@ -161,16 +161,45 @@ user_four = User.create!(
 
 puts "User 4"
 
-
-
-
 room_one = Room.create!(
   move_in_date: '01/01/2017',
   flat_id: 1
   )
 
-# create_flats_and_rooms
-# create_users
+viewing_one = Viewing.create!(
+  start_time: Time.strptime('11/12/2017 19:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 1,
+  )
+
+viewing_two = Viewing.create!(
+  start_time: Time.strptime('12/12/2017 20:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 1,
+  )
+
+viewing_three = Viewing.create!(
+  start_time: Time.strptime('13/12/2017 18:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 1,
+  )
+
+viewing_four = Viewing.create!(
+  start_time: Time.strptime('13/12/2017 19:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 1,
+  )
+
+viewing_five = Viewing.create!(
+  start_time: Time.strptime('14/12/2017 20:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 1,
+  )
+
+#ALL OTHER USERS AND FLATS AND ROOMS
+
+create_flats_and_rooms
+create_users
 
 
 
