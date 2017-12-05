@@ -1,10 +1,5 @@
-<div class="container">
-  <h1>First let's ask some questions about yourself</h1>
-  <button class="btn btn-primary">Let's Go</button>
-</div>
-
 <%= simple_form_for @user do |f| %>
-<section id="arts-container">
+<section class="interest-section activated" id="arts-container">
   <div class="container">
     <h3>Which artsy activities do you like?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
@@ -46,10 +41,10 @@
             <%= f.input_field :art_cinema, as: :boolean, checked_value: true, unchecked_value: false, class: "interest-check"  %></p>
       </div>
     </div>
-    <button>Next</button>
+    <button class="btn btn-primary next" type="button">Next</button>
 </section>
 
-<section id="sports-container">
+<section class="interest-section" id="sports-container">
   <div class="container">
       <h3>Which sports make you sweaty?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
@@ -87,11 +82,16 @@
         <p><%= f.label "Watersports" %>
           <%= f.input_field :sport_watersports, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
-      <button>Next</button>
     </div>
+    <button class="btn btn-primary back" type="button">Back
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <button class="btn btn-primary next" type="button">Next</button>
 </section>
 
-<section id="films-container">
+<section class="interest-section" id="films-container">
   <div class="container">
       <h3>This music makes you hit the dance floor</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
@@ -129,11 +129,16 @@
         <p><%= f.label "Hip Hop & Rap" %>
           <%= f.input_field :music_hiphop, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
-      <button>Next</button>
     </div>
+    <button class="btn btn-primary back" type="button">Back
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <button class="btn btn-primary next" type="button">Next</button>
 </section>
 
-<section id="music-container">
+<section class="interest-section" id="music-container">
   <div class="container">
       <h3>What are you favourite films?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
@@ -171,12 +176,17 @@
         <p><%= f.label "SciFi" %>
           <%= f.input_field :film_scifi, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
-      <button>Next</button>
     </div>
+    <button class="btn btn-primary back" type="button">Back
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <button class="btn btn-primary next" type="button">Next</button>
 </section>
 
 
-<section id="holidays-container">
+<section class="interest-section" id="holidays-container">
   <div class="container">
       <h3>What is your dream holiday?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
@@ -214,11 +224,16 @@
         <p><%= f.label "Historic" %>
           <%= f.input_field :holiday_historic, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
-      <button>Next</button>
     </div>
+    <button class="btn btn-primary back" type="button">Back
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <button class="btn btn-primary next" type="button">Next</button>
 </section>
 
-<section id="food-container">
+<section class="interest-section" id="food-container">
   <div class="container">
       <h3>It's dinner time! What's going to be on your plate?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
@@ -257,7 +272,8 @@
           <%= f.input_field :food_drink, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
     </div>
-    <div class="container text-center">
+    <div class="text-center">
+      <button class="btn btn-primary back" type="button">Back</button>
       <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
     </div>
 </section>
