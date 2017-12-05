@@ -1,6 +1,11 @@
-<%= simple_form_for @user do |f| %>
 <div class="container">
-    <div class="arts-container">
+  <h1>First let's ask some questions about yourself</h1>
+  <button class="btn btn-primary">Let's Go</button>
+</div>
+
+<%= simple_form_for @user do |f| %>
+<section id="arts-container">
+  <div class="container">
       <h3>Here are the arts</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('yfaciidh8lr8nqeqk6vr', width: 200, crop: :fill) %>
@@ -37,12 +42,12 @@
           <p><%= f.label "Cinema" %>
             <%= f.input_field :art_cinema, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
-      <button>Next</button>
     </div>
-</div>
+    <button>Next</button>
+</section>
 
-<div class="container">
-    <div class="sports-container">
+<section id="sports-container">
+  <div class="container">
       <h3>Here are the sports</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('ndm7hvuedho1sz1bryyg', width: 200, crop: :fill) %>
@@ -81,10 +86,10 @@
       </div>
       <button>Next</button>
     </div>
-</div>
+</section>
 
-<div class="container">
-    <div class="films-container">
+<section id="films-container">
+  <div class="container">
       <h3>Here are the films</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('wckgpkwoq9bsx5wx5cro', width: 200, crop: :fill) %>
@@ -123,10 +128,10 @@
       </div>
       <button>Next</button>
     </div>
-</div>
+</section>
 
-<div class="container">
-    <div class="music-container">
+<section id="music-container">
+  <div class="container">
       <h3>Here is the music</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('ifgsovsyze2hc8aoenfx', width: 200, crop: :fill) %>
@@ -165,10 +170,10 @@
       </div>
       <button>Next</button>
     </div>
-</div>
+</section>
 
-<div class="container">
-    <div class="holidays-container">
+<section id="holidays-container">
+  <div class="container">
       <h3>Here are the holidays</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('sb3k0ebvzkwws9wpaz2x', width: 200, crop: :fill) %>
@@ -207,10 +212,10 @@
       </div>
       <button>Next</button>
     </div>
-</div>
+</section>
 
-<div class="container">
-    <div class="food-container">
+<section id="food-container">
+  <div class="container">
       <h3>Here is the food</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('jijehgkomishcu1l7f0e', width: 200, crop: :fill) %>
@@ -247,11 +252,11 @@
         <p><%= f.label "Drink is more important..." %>
           <%= f.input_field :food_drink, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
-      <button>Next</button>
     </div>
-</div>
-<div class="container text-center">
-  <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
-</div>
+    <div class="container text-center">
+      <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
+    </div>
+</section>
+
 <% end  %>
 
