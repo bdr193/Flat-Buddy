@@ -1,27 +1,21 @@
 class RoomsController < ApplicationController
   before_action :find_room_id, only: [:show, :edit]
 
-  def info(opts = {})
-    opts.each do |key, value|
-      session[key.to_sym] = value
-    end
-  end
-
   def index
     @neighborhoods = ["Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
 
-    @lat = params[:search].nil? ? session[:lat] : params[:search][:lat]
-    @lng = params[:search].nil? ? session[:lng] : params[:search][:lng]
+    @lat =  session[:lat]
+    @lng =  session[:lng]
 
-    @move_in_date = session[:move_in_date] || params[:search][:move_in_date]
-    @move_out_date = session[:move_out_date] || params[:search][:move_out_date]
+    @move_in_date = session[:move_in_date]
+    @move_out_date = session[:move_out_date]
 
     @flats_ids = Flat.near([@lat, @lng], 30).map(&:id)
     @rooms = Room.where(flat_id: @flats_ids)
 
     @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
-    @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
 
+    @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
     unless params[:room].nil?
       if params[:room][:neighborhood].present?
         @neighborhood = params[:room][:neighborhood]
@@ -96,8 +90,6 @@ class RoomsController < ApplicationController
 
     end
 
-    info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
-
 
 
     # @search = Search.new(search_params)
@@ -109,6 +101,20 @@ class RoomsController < ApplicationController
   end
 
   def show
+    @user = current_user
+    @buddy = @room.flat.users.first
+    @renter = @user.attributes.select{ |k,v| v.to_s == "true" }
+    @owner = @buddy.attributes.select{ |k,v| v.to_s == "true" }
+    @merge = @renter.to_a & @owner.to_a
+    interest_array = @merge.flatten
+    @interests = []
+    x = 2
+    interest_array.each_index do |index|
+      if index % x == 0
+        @interests << interest_array[index]
+      end
+    end
+
     @room.viewings
     # @viewing_times = []
     # @room.viewings.each do |viewing|

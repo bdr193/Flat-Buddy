@@ -1,0 +1,27 @@
+.interests-wrapper {
+  background-color: $pink;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 250px;
+}
+
+.interest-img {
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 30px;
+  padding: 10px;
+  margin: 20px;
+  }
+
+.interest-card {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.interest-title {
+  padding-bottom: 10px;
+  font-weight: bold;
+  height: 30px;
+}

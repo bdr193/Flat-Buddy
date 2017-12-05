@@ -1,15 +1,30 @@
 class UsersController < ApplicationController
   before_action :find_user, only: [:edit, :update]
 
+  def info(opts = {})
+    opts.each do |key, value|
+      session[key.to_sym] = value
+    end
+  end
+
   def edit
+    @lat = params[:search].nil? ? session[:lat] : params[:search][:lat]
+    @lng = params[:search].nil? ? session[:lng] : params[:search][:lng]
+
+    @move_in_date = params[:search].nil? ? session[:move_in_date] : params[:search][:move_in_date]
+    @move_out_date = params[:search].nil? ? session[:move_out_date] : params[:search][:move_out_date]
+
+    info(move_in_date: @move_in_date, move_out_date: @move_out_date, lat: @lat, lng: @lng)
   end
 
   def update
     if @user.update(user_params)
-      redirect_to root_path
+      redirect_to rooms_path
     else
       render :edit
     end
+
+
   end
 
   private
