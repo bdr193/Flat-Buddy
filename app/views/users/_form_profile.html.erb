@@ -1,48 +1,52 @@
+<!-- <div class="main-container text-center"> -->
 <%= simple_form_for @user do |f| %>
-<div class="container">
+<div class="container question-container">
     <div class="arts-container">
-      <h3>Here are the arts</h3>
+      <h3>Which artsy activities do you like?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('yfaciidh8lr8nqeqk6vr', width: 200, crop: :fill) %>
         <p><%= f.label "Museums & Galleries" %>
+
         <%= f.input_field :art_museum, as: :boolean, checked_value: true, unchecked_value: false %></p>
       </div>
 
+      <!-- input_html: { data: { toggle: "toggle", on: "Yes", off: "No", offstyle: "info" } -->
+
       <div class="question-card col-xs-12 col-md-4 text-center">
           <%= cl_image_tag('wu1d832tjimrdmxlomzt', width: 200, crop: :fill) %>
-          <p><%= f.label "Photography & Film-Making" %>
-            <%= f.input_field :art_photography, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+          <p><%= f.label "Photography & Film" %>
+            <%= f.input_field :art_photography, as: :boolean, checked_value: true, unchecked_value: false, class: "interest-check" %></p>
       </div>
 
       <div class="question-card col-xs-12 col-md-4 text-center">
           <%= cl_image_tag('rpxgsmaxvgxcqiycfnes', width: 200, crop: :fill) %>
           <p><%= f.label "Theatre & Opera" %>
-            <%= f.input_field :art_theatre, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+            <%= f.input_field :art_theatre, as: :boolean, checked_value: true, unchecked_value: false, class: "interest-check"  %></p>
       </div>
 
       <div class="question-card col-xs-12 col-md-4 text-center">
           <%= cl_image_tag('ls28tbywndbo1fe7aguy', width: 200, crop: :fill) %>
           <p><%= f.label "Live Music" %>
-            <%= f.input_field :art_live, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+            <%= f.input_field :art_live, as: :boolean, checked_value: true, unchecked_value: false, class: "interest-check"  %></p>
       </div>
 
       <div class="question-card col-xs-12 col-md-4 text-center">
           <%= cl_image_tag('fg3ihdxs76zpwhqaa3zr', width: 200, crop: :fill) %>
           <p><%= f.label "Reading" %>
-            <%= f.input_field :art_reading, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+            <%= f.input_field :art_reading, as: :boolean, checked_value: true, unchecked_value: false, class: "interest-check"  %></p>
       </div>
 
       <div class="question-card col-xs-12 col-md-4 text-center">
           <%= cl_image_tag('qepztvxoeefvbht6t6fq', width: 200, crop: :fill) %>
           <p><%= f.label "Cinema" %>
-            <%= f.input_field :art_cinema, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+            <%= f.input_field :art_cinema, as: :boolean, checked_value: true, unchecked_value: false, class: "interest-check"  %></p>
       </div>
     </div>
 </div>
 
-<div class="container">
+<div class="container question-container">
     <div class="sports-container">
-      <h3>Here are the sports</h3>
+      <h3>Which sports make you sweaty?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('ndm7hvuedho1sz1bryyg', width: 200, crop: :fill) %>
         <p><%= f.label "Ball Sports" %>
@@ -81,50 +85,9 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="films-container">
-      <h3>Here are the films</h3>
-      <div class="question-card col-xs-12 col-md-4 text-center">
-        <%= cl_image_tag('wckgpkwoq9bsx5wx5cro', width: 200, crop: :fill) %>
-        <p><%= f.label "Romance & Comedy" %>
-          <%= f.input_field :film_romcom, as: :boolean, checked_value: true, unchecked_value: false  %></p>
-      </div>
-
-      <div class="question-card col-xs-12 col-md-4 text-center">
-        <%= cl_image_tag('gnc1chn1bfxaygy3u7nf', width: 200, crop: :fill) %>
-        <p><%= f.label "Action & Thriller" %>
-          <%= f.input_field :film_action, as: :boolean, checked_value: true, unchecked_value: false  %></p>
-      </div>
-
-      <div class="question-card col-xs-12 col-md-4 text-center">
-        <%= cl_image_tag('kt8dioraaz7zlgnzglh8', width: 200, crop: :fill) %>
-        <p><%= f.label "Horror" %>
-          <%= f.input_field :film_horror, as: :boolean, checked_value: true, unchecked_value: false  %></p>
-      </div>
-
-      <div class="question-card col-xs-12 col-md-4 text-center">
-        <%= cl_image_tag('jsljdyn0lag4ciimtrzz', width: 200, crop: :fill) %>
-        <p><%= f.label "Documentary" %>
-          <%= f.input_field :film_documentary, as: :boolean, checked_value: true, unchecked_value: false  %></p>
-      </div>
-
-      <div class="question-card col-xs-12 col-md-4 text-center">
-        <%= cl_image_tag('upoqx3wfc5xccfw85hu9', width: 200, crop: :fill) %>
-        <p><%= f.label "Animation" %>
-          <%= f.input_field :film_animation, as: :boolean, checked_value: true, unchecked_value: false  %></p>
-      </div>
-
-      <div class="question-card col-xs-12 col-md-4 text-center">
-        <%= cl_image_tag('hla3nawaxbqef5wzzn9n', width: 200, crop: :fill) %>
-        <p><%= f.label "SciFi" %>
-          <%= f.input_field :film_scifi, as: :boolean, checked_value: true, unchecked_value: false  %></p>
-      </div>
-    </div>
-</div>
-
-<div class="container">
+<div class="container question-container">
     <div class="music-container">
-      <h3>Here is the music</h3>
+      <h3>This music makes you hit the dance floor</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('ifgsovsyze2hc8aoenfx', width: 200, crop: :fill) %>
         <p><%= f.label "Pop" %>
@@ -163,9 +126,51 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container question-container">
+    <div class="films-container">
+      <h3>Netflix and chill? What are you favourite films?</h3>
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('wckgpkwoq9bsx5wx5cro', width: 200, crop: :fill) %>
+        <p><%= f.label "Romance & Comedy" %>
+          <%= f.input_field :film_romcom, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('gnc1chn1bfxaygy3u7nf', width: 200, crop: :fill) %>
+        <p><%= f.label "Action & Thriller" %>
+          <%= f.input_field :film_action, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('kt8dioraaz7zlgnzglh8', width: 200, crop: :fill) %>
+        <p><%= f.label "Horror" %>
+          <%= f.input_field :film_horror, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('jsljdyn0lag4ciimtrzz', width: 200, crop: :fill) %>
+        <p><%= f.label "Documentary" %>
+          <%= f.input_field :film_documentary, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('upoqx3wfc5xccfw85hu9', width: 200, crop: :fill) %>
+        <p><%= f.label "Animation" %>
+          <%= f.input_field :film_animation, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+
+      <div class="question-card col-xs-12 col-md-4 text-center">
+        <%= cl_image_tag('hla3nawaxbqef5wzzn9n', width: 200, crop: :fill) %>
+        <p><%= f.label "SciFi" %>
+          <%= f.input_field :film_scifi, as: :boolean, checked_value: true, unchecked_value: false  %></p>
+      </div>
+    </div>
+</div>
+
+
+<div class="container question-container">
     <div class="holidays-container">
-      <h3>Here are the holidays</h3>
+      <h3>What is your dream holiday?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('sb3k0ebvzkwws9wpaz2x', width: 200, crop: :fill) %>
         <p><%= f.label "Relaxing on a beach" %>
@@ -204,9 +209,9 @@
     </div>
 </div>
 
-<div class="container">
+<div class="container question-container">
     <div class="food-container">
-      <h3>Here is the food</h3>
+      <h3>It's dinner time! What's going to be on your plate?</h3>
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('jijehgkomishcu1l7f0e', width: 200, crop: :fill) %>
         <p><%= f.label "Vegetarian" %>
@@ -221,7 +226,7 @@
 
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('ryio8vwvxffzmg4aietf', width: 200, crop: :fill) %>
-        <p><%= f.label "Quick homemade food" %>
+        <p><%= f.label "Something quick" %>
           <%= f.input_field :food_quick, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
 
@@ -239,7 +244,7 @@
 
       <div class="question-card col-xs-12 col-md-4 text-center">
         <%= cl_image_tag('rlozzn6k4li0wjknfzuq', width: 200, crop: :fill) %>
-        <p><%= f.label "Drink is more important..." %>
+        <p><%= f.label "Just drinks" %>
           <%= f.input_field :food_drink, as: :boolean, checked_value: true, unchecked_value: false  %></p>
       </div>
     </div>
@@ -248,4 +253,4 @@
   <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
 </div>
 <% end  %>
-
+<!-- </div> -->
