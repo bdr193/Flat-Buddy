@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171204153623) do
+ActiveRecord::Schema.define(version: 20171204180522) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -46,6 +46,8 @@ ActiveRecord::Schema.define(version: 20171204153623) do
     t.text     "amenities"
     t.string   "address"
     t.string   "currency"
+    t.string   "lat"
+    t.string   "lng"
     t.string   "neighborhood"
     t.text     "searching_for"
     t.integer  "monthly_price"
@@ -110,18 +112,18 @@ ActiveRecord::Schema.define(version: 20171204153623) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "", null: false
-    t.string   "encrypted_password",     default: "", null: false
+    t.string   "email",                  default: "",    null: false
+    t.string   "encrypted_password",     default: "",    null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0,  null: false
+    t.integer  "sign_in_count",          default: 0,     null: false
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.inet     "current_sign_in_ip"
     t.inet     "last_sign_in_ip"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.datetime "created_at",                             null: false
+    t.datetime "updated_at",                             null: false
     t.integer  "flat_id"
     t.string   "provider"
     t.string   "uid"
@@ -130,6 +132,42 @@ ActiveRecord::Schema.define(version: 20171204153623) do
     t.string   "last_name"
     t.string   "token"
     t.datetime "token_expiry"
+    t.boolean  "art_museum",             default: false
+    t.boolean  "art_photography",        default: false
+    t.boolean  "art_theatre",            default: false
+    t.boolean  "art_live",               default: false
+    t.boolean  "art_cinema",             default: false
+    t.boolean  "art_reading",            default: false
+    t.boolean  "sport_ball",             default: false
+    t.boolean  "sport_endurance",        default: false
+    t.boolean  "sport_wellbeing",        default: false
+    t.boolean  "sport_snow",             default: false
+    t.boolean  "sport_extreme",          default: false
+    t.boolean  "sport_watersports",      default: false
+    t.boolean  "film_romcom",            default: false
+    t.boolean  "film_action",            default: false
+    t.boolean  "film_horror",            default: false
+    t.boolean  "film_documentary",       default: false
+    t.boolean  "film_animation",         default: false
+    t.boolean  "film_scifi",             default: false
+    t.boolean  "music_pop",              default: false
+    t.boolean  "music_electronic",       default: false
+    t.boolean  "music_classical",        default: false
+    t.boolean  "music_rock",             default: false
+    t.boolean  "music_jazz",             default: false
+    t.boolean  "music_hiphop",           default: false
+    t.boolean  "holiday_beach",          default: false
+    t.boolean  "holiday_trek",           default: false
+    t.boolean  "holiday_city",           default: false
+    t.boolean  "holiday_party",          default: false
+    t.boolean  "holiday_home",           default: false
+    t.boolean  "holiday_historic",       default: false
+    t.boolean  "food_vegetarian",        default: false
+    t.boolean  "food_meat",              default: false
+    t.boolean  "food_quick",             default: false
+    t.boolean  "food_restaurant",        default: false
+    t.boolean  "food_delivery",          default: false
+    t.boolean  "food_drink",             default: false
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["flat_id"], name: "index_users_on_flat_id", using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
