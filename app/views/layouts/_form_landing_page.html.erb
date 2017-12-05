@@ -1,4 +1,4 @@
-<%=  simple_form_for @search, url: edit_user_path(current_user), validate: true, method: 'GET', :html => { :class => 'form-inline search-form' } do |f|  %>
+<%=  simple_form_for @search, url: current_user ? edit_user_path(current_user) : new_user_session_path, validate: true, method: 'GET', :html => { :class => 'form-inline search-form' } do |f|  %>
   <%= f.input :city, name: 'city', value: '', placeholder: 'City', label: false %>
   <%= f.input :lat, as: :hidden %>
   <%= f.input :lng, as: :hidden %>

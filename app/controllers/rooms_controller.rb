@@ -16,7 +16,6 @@ class RoomsController < ApplicationController
     @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
 
     @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
-
     unless params[:room].nil?
       if params[:room][:neighborhood].present?
         @neighborhood = params[:room][:neighborhood]
