@@ -55,41 +55,44 @@ class RoomsController < ApplicationController
         @rooms = @rooms.select("*").joins(:flat).where("flats.monthly_price <= ?", @monthly_price)
       end
 
-      if params[:room][:allow_students].present?
-        @allow_students = params[:room][:allow_students]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students)
-      end
-
-      if params[:room][:allow_pets].present?
-        @allow_pets = params[:room][:allow_pets]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.allow_pets = ?", @allow_pets )
-      end
-
-      if params[:room][:couples_allowed].present?
-        @couples_allowed = params[:room][:couples_allowed]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.couples_allowed = ?", @couples_allowed)
-      end
-
-      if params[:room][:ensuite].present?
-        @ensuite = params[:room][:ensuite]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.ensuite = ?", @ensuite)
-      end
-
-      if params[:room][:accessible].present?
-        @accessible = params[:room][:accessible]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.accessible = ?", @accessible)
-      end
-
-      if params[:room][:bills_included].present?
-        @bills_included = params[:room][:bills_included]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.bills_included = ?", @bills_included)
-      end
-
-      if params[:room][:allow_smokers].present?
-        @allow_smokers = params[:room][:allow_smokers]
-        @rooms = @rooms.select("*").joins(:flat).where("flats.allow_smokers = ?", @allow_smokers)
-      end
-
+      # if params[:room][:allow_students].present?
+      #   @allow_students = params[:room][:allow_students]
+      #   @rooms = @rooms.select("*").joins(:flat).where("flats.allow_students = ?", @allow_students)
+      # end
+      #
+      @allow_students = params[:room][:allow_students] == "1"
+      # if params[:room][:allow_pets].present?
+      #   @allow_pets = params[:room][:allow_pets]
+      #   @rooms = @rooms.select("*").joins(:flat).where("flats.allow_pets = ?", @allow_pets )
+      # end
+      @allow_pets = params[:room][:allow_pets] == "1"
+      # if params[:room][:couples_allowed].present?
+      #   @couples_allowed = params[:room][:couples_allowed]
+      #   @rooms = @rooms.select("*").joins(:flat).where("flats.couples_allowed = ?", @couples_allowed)
+      # end
+      #
+      @couples_allowed = params[:room][:couples_allowed] == "1"
+      # if params[:room][:ensuite].present?
+      #   @ensuite = params[:room][:ensuite]
+      #   @rooms = @rooms.select("*").joins(:flat).where("flats.ensuite = ?", @ensuite)
+      # end
+      @ensuite = params[:room][:ensuite] == "1"
+      # if params[:room][:accessible].present?
+      #   @accessible = params[:room][:accessible]
+      #   @rooms = @rooms.select("*").joins(:flat).where("flats.accessible = ?", @accessible)
+      # end
+      @accessible = params[:room][:accessible] == "1"
+      # if params[:room][:bills_included].present?
+      #   @bills_included = params[:room][:bills_included]
+      #   @rooms = @rooms.select("*").joins(:flat).where("flats.bills_included = ?", @bills_included)
+      # end
+      @bills_included = params[:room][:bills_included] == "1"
+      #
+      # if params[:room][:allow_smokers].present?
+      #   @allow_smokers = params[:room][:allow_smokers]
+      #   @rooms = @rooms.select("*").joins(:flat).where("flats.allow_smokers = ?", @allow_smokers)
+      # end
+      @allow_smokers = params[:room][:allow_smokers] == "1"
 
     end
 
