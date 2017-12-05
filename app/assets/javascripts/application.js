@@ -9,6 +9,7 @@
 //= require attachinary
 //= require bootstrap-datepicker
 //= require moment
+//= require jquery-icheck
 //= require fullcalendar
 //= require rails.validations
 //= require rails.validations.simple_form
