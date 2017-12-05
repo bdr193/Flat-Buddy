@@ -87,6 +87,7 @@ user_one = User.create!(
   password: "secret123",
   first_name: "Rabea",
   last_name: "Badea",
+  art_museum: true,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/11267855_494475644050145_7650517800177078839_n.jpg?oh=88f598f1fc8228a3a81f204d69ab47bb&oe=5A916072"
 )
 
