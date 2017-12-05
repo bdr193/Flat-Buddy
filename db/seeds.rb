@@ -135,6 +135,11 @@ user_two = User.create!(
   first_name: "Sarah",
   last_name: "Lafer",
   art_museum: true,
+  sport_endurance: true,
+  film_animation: true,
+  music_jazz: true,
+  holiday_home: true,
+  food_delivery: true,
   flat_id: 1,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15123387_1524489700911298_8540080221667972968_o.jpg?oh=81c74c24d54e1d3f4989184e7a9ee45a&oe=5AA0CACD"
 )
