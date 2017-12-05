@@ -109,6 +109,18 @@ class RoomsController < ApplicationController
   end
 
   def show
+    @user = current_user
+    @buddy = @room.flat.users.first
+    @renter = @user.attributes.select{ |k,v| v.true?}
+    @owner = @buddy.attributes.select{ |k,v| v.true?}
+    @merge = @renter.to_a & @owner.to_a
+    interest_array = @merge.flatten
+    @interests = []
+    x = 2
+    interest_array.each_index do |index|
+      @interests << interest_array[index] if index % x = 0
+    end
+
     @room.viewings
     # @viewing_times = []
     # @room.viewings.each do |viewing|
