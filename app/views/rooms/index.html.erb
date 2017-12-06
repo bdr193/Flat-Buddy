@@ -12,11 +12,11 @@
           <%= link_to('', room_path(room), class: "card-link") %>
           <div class="card">
             <div class="card-header", style="background-image: url('<%= cl_image_path room.flat.card_image, crop: :fit %>')">
+                <div class="flat-price">£<%= room.flat.monthly_price %></div>
             </div>
             <div class="card-footer">
               <div class="line-one">
                 <h6><%= room.flat.title %></h6>
-                <div class="flat-price">£<%= room.flat.monthly_price %></div>
               </div>
               <p>
                 <% room.flat.users.each do |user| %>
@@ -25,10 +25,38 @@
               </p>
               <strong> <%= room.flat.neighborhood %></strong>
               <p class="card-address"><%= room.flat.address[0..-21]%></p>
+
+              <div class="icon-wrapper">
+                <% common = room.shared_interests(current_user) %>
+                <div class="icon-title">
+                  <% if common.nil?%>
+                    <%= "0" %>
+                    <% else %>
+                      <%= common.length %>
+                  <% end %>
+                  Matches
+                </div>
+                <div class="icons">
+                  <% if common != nil%>
+                    <% common.first(3).each do |interest| %>
+                      <div>
+                        <%= image_tag "/assets/#{interest}.png", {class: "icon-img", id: "#{interest}", :width =>30, :height => 30, :crop => :thumb, :gravity => :face} %>
+                      </div>
+                    <% end %>
+                  <% end %>
+                </div>
+              </div>
+
             </div>
+
+
           </div>
         </div>
         <% end %>
       </div>
     </div>
   </div>
+</div>
+
+
+
