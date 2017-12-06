@@ -60,22 +60,6 @@ class RoomsController < ApplicationController
       #   @rooms = @rooms.select("*").joins(:flat).where("flats.allow_pets = ?", @allow_pets )
       # end
       @allow_pets = params[:room][:allow_pets] == "1"
-      # if params[:room][:couples_allowed].present?
-      #   @couples_allowed = params[:room][:couples_allowed]
-      #   @rooms = @rooms.select("*").joins(:flat).where("flats.couples_allowed = ?", @couples_allowed)
-      # end
-      #
-      @couples_allowed = params[:room][:couples_allowed] == "1"
-      # if params[:room][:ensuite].present?
-      #   @ensuite = params[:room][:ensuite]
-      #   @rooms = @rooms.select("*").joins(:flat).where("flats.ensuite = ?", @ensuite)
-      # end
-      @ensuite = params[:room][:ensuite] == "1"
-      # if params[:room][:accessible].present?
-      #   @accessible = params[:room][:accessible]
-      #   @rooms = @rooms.select("*").joins(:flat).where("flats.accessible = ?", @accessible)
-      # end
-      @accessible = params[:room][:accessible] == "1"
       # if params[:room][:bills_included].present?
       #   @bills_included = params[:room][:bills_included]
       #   @rooms = @rooms.select("*").joins(:flat).where("flats.bills_included = ?", @bills_included)
