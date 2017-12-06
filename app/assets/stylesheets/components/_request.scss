@@ -24,11 +24,10 @@
 .request-title {
   text-decoration: none;
   margin-bottom: 0px;
-  margin-top: 10px;
   h3 {
     font-size: 23px;
     line-height: 1;
-    margin: -5px 0;
+    margin: -20px 0;
   }
 }
 .request-body {
@@ -36,11 +35,11 @@
   p {
     font-size: 14px;
     font-weight: medium;
-    opacity: 0.8;
+    opacity: 1;
     margin-top: 5px;
     padding-left: 0px;
     font-weight: lighter;
-    color: #999999;
+    color: #272822;
     margin-bottom: 0;
   }
   .request-address {
