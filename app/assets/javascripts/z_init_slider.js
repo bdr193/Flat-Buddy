@@ -8,8 +8,5 @@ var mySlider = new Slider("#room_monthly_price", {
 });
 
 var value = mySlider.getValue();
-console.log("the current value is");
-console.log(value);
 
-console.log("setting the value");
 mySlider.setValue(value)
