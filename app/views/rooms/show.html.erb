@@ -20,7 +20,8 @@
     <% @interests.each do |interest| %>
     <div class="interest-card">
       <div>
-        <%= image_tag "/assets/#{interest}.png", {class: "interest-img", id: "#{interest}", :width =>100, :height => 100, :crop => :thumb, :gravity => :face} %>
+        <% asset_url = "#{interest}.png" %>
+        <%= image_tag(asset_url, {class: "interest-img", id: "#{interest}", :width =>100, :height => 100, :crop => :thumb, :gravity => :face}) %>
       </div>
       <div class="interest-title">
         <%= MATCHING[interest.to_sym] %>
