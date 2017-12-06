@@ -7,10 +7,11 @@
 .filter-form {
   background-color: $green;
   color: $white;
-  padding: 30px 30px 0 30px;
-  font-size: 18px;
+  padding: 20px 30px 0 30px;
+  font-size: 16px;
   border-radius: 4px;
   margin-top: 18px;
+  margin-bottom: 18px;
   min-width: 263px;
   height: 92vh;
   overflow: scroll;
@@ -45,7 +46,10 @@
   }
 .control-label {
   font-weight: lighter;
-  font-size: 22px;
+  font-size: 19px;
   text-shadow: 1px 1px 20px $pink;
+}
+.form-control {
+  height: 33px;
 }
 }
