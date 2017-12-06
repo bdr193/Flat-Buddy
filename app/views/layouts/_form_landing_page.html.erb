@@ -2,7 +2,7 @@
   <%= f.input :city, name: 'city', value: '', placeholder: 'City', label: false %>
   <%= f.input :lat, as: :hidden %>
   <%= f.input :lng, as: :hidden %>
-  <%= f.input :move_in_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move in', label: false, required: true %>
-  <%= f.input :move_out_date, as: :string, input_html: { class: 'datepicker label-margin' },placeholder: 'Move out (optional)', label: false %>
+  <%= f.input :move_in_date, as: :string, input_html: { class: 'label-margin', data: { provide: "datepicker", "date-format": 'yyyy-mm-dd', "date-autoclose": true, "date-start-date": Date.today.strftime('%Y/%m/%d'), "date-today-highlight": true } },placeholder: 'Move in', label: false, required: true  %>
+  <%= f.input :move_out_date, as: :string, input_html: { class: 'label-margin', data: { provide: "datepicker", "date-format": 'yyyy-mm-dd', "date-autoclose": true, "date-start-date": Date.today.strftime('%Y/%m/%d'), "date-today-highlight": true } },placeholder: 'Move out (optional)', label: false %>
   <%= f.submit "Find FlatBuddies", class: "btn btn-success" %>
 <% end %>
