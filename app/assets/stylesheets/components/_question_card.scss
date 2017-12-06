@@ -1,6 +1,43 @@
+.interest-section {
+  display: none;
+  padding-top: 30px;
+  height: 100vh;
+  margin: 0 auto;
+  width: 80%;
+  // border: 2px solid black;
+  h3 {
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+
+.back {
+  position: fixed;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.next {
+  position: fixed;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .question-card {
+  margin-bottom: 20px;
   width: 300px;
-  margin: 10px;
+  height: 255px;
+  // margin: 10px;
+
   img {
     // border-radius: 50%;
     width: 80%;
@@ -12,6 +49,23 @@
     box-shadow: 1px 0 12px #888888;
   }
   // padding: 0 30px 12.5px;
+}
+
+
+
+
+
+.checkbox-label {
+  color: $pink;
+}
+
+
+.activated {
+  display: block;
+}
+
+#form-intro {
+  margin-top: 70px;
 }
 
 // .question-container {
@@ -26,27 +80,6 @@
 //      color: $pink !important; // some color
 // }
 // }
-
-
-.checkbox-label {
-  color: $pink;
-}
-
-.interest-section {
-  display: none;
-  height: 100vh;
-  margin: 0 auto;
-  width: 80%;
-}
-
-.activated {
-  display: block;
-}
-
-#form-intro {
-  margin-top: 70px;
-}
-
 //* Beneath is the styling from Codepen *//
 
 // body{
