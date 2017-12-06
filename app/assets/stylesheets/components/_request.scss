@@ -9,7 +9,7 @@
   justify-content: space-around;
   margin: 10px 0px;
   width: 90%;
-  height: 100px;
+  height: 150px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   transition: all 0.15s ease;
   border-radius: 3px;
@@ -24,23 +24,26 @@
 .request-title {
   text-decoration: none;
   margin-bottom: 0px;
-  margin-top: 10px;
   h3 {
     font-size: 23px;
     line-height: 1;
-    margin: -5px 0;
+    margin-bottom: -15px;
+    margin-top: 10px;
   }
 }
 .request-body {
   flex: 1 1 auto;
+  h5 {
+    color: #272822;
+  }
   p {
     font-size: 14px;
     font-weight: medium;
-    opacity: 0.8;
+    opacity: 1;
     margin-top: 5px;
     padding-left: 0px;
-    font-weight: lighter;
-    color: #999999;
+    // font-weight: lighter;
+    color: #272822;
     margin-bottom: 0;
   }
   .request-address {
@@ -52,7 +55,7 @@
   font-size: 18px;
   font-weight: bold;
   width: 10%;
-  height: 100px;
+  height: 150px;
   background-color: $green;
   border-top-left-radius-radius: 4px;
   border-bottom-left-radius: 4px;
@@ -62,7 +65,7 @@
 .request-price {
   font-weight: bold;
   font-size: 15px;
-  width: 10%;
+  width: 20%;
 }
 
 .btn-calendar {

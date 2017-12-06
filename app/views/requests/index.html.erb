@@ -17,11 +17,14 @@
     <% end %>
 
     <div class="request request-border">
-      <div class="request-price"><%= request.viewing.room.flat.monthly_price %>€ </div>
+      <div class="request-price">
+        <%=  cl_image_tag(request.viewing.room.flat.card_image, crop: :fill, height: 120) %>
+      </div>
       <div class="request-body text-left">
         <%= link_to request_path(request) do %>
         <div class="request-title">
           <h3><%= request.viewing.room.flat.title %></h3>
+          <h5><%= request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></h5>
         </div>
         <p class="request-address"><strong><%= request.viewing.room.flat.neighborhood %></strong>, <%= request.viewing.room.flat.address %></p>
       </div>

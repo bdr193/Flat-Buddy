@@ -2,7 +2,7 @@
   <% if @request.status == "accepted" %>
   <h1>You rock! Your viewing has been confirmed!</h1>
   <p>The Flat Buddies at <b><%= @request.viewing.room.flat.title %></b> have checked out your profile and think you could be a great match. The would love you to come for a viewing at: </p>
-  <h4><b><%= @request.viewing.start_time.strftime("%A %dth %B %I:%M%p") %></b></h4>
+  <h4><b><%= @request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></b></h4>
   <p>Why don't you send these great people a message!</p>
   <div class="container text-center button">
     <% if chat = @request.chat_room && @request.status == "accepted" %>
@@ -14,7 +14,7 @@
   <% else %>
   <h1>Your viewing request has been sent!</h1>
   <p>The Flat Buddies at <b><%= @request.viewing.room.flat.title %></b> have received your request! We will let you know when they accept it. <em>If your request is accepted,</em> your requested viewing will be at:</p>
-  <h4><b><%= @request.viewing.start_time.strftime("%A %dth %B %I:%M%p") %></b></h4>
+  <h4><b><%= @request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></b></h4>
   <div class="container text-center button">
     <%= link_to("See all your Requests", requests_path, class: "btn btn-pink text-center btn-space") %>
   </div>
