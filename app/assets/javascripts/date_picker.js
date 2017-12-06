@@ -4,7 +4,3 @@ $('.datepicker').datepicker({
   todayHighlight: true,
   startDate: new Date(),
 });
-
-$('#calendar').fullCalendar({
-  events: '/requests.json'
-});
