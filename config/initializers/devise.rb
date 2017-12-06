@@ -31,6 +31,10 @@ Devise.setup do |config|
   # available as additional gems.
   require 'devise/orm/active_record'
 
+
+  #TO PUSH ASSETS TO HEROKU
+  config.secret_key = '5d9e92da18b9796b40ef6c20e5e014d3d7702106f4b3a1981b2cd6b153a02ccdb1aea22f0ded086e016d299823ef0b625b5a5b0444643ead9f8bf50199367cf8'
+
   # ==> Configuration for any authentication mechanism
   # Configure which keys are used when authenticating a user. The default is
   # just :email. You can configure it to use [:username, :subdomain], so for
