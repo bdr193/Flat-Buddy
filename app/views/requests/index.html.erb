@@ -20,8 +20,9 @@
       <div class="request-price"><%= request.viewing.room.flat.monthly_price %>€ </div>
       <div class="request-body text-left">
         <%= link_to request_path(request) do %>
-        <div class="request-title">
-          <h3><%= request.viewing.room.flat.title %></h3>
+        <div class="request-title ">
+          <h3><%= request.viewing.room.flat.title %>,</h3>
+          <p><%= request.viewing.start_time %></p>
         </div>
         <p class="request-address"><strong><%= request.viewing.room.flat.neighborhood %></strong>, <%= request.viewing.room.flat.address %></p>
       </div>
