@@ -1,15 +1,22 @@
+.interest-title {
+  h3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+}
+
 .interests-wrapper {
-  background-color: $pink;
-  margin-bottom: 10px;
+  height: 165px;
+  margin-bottom: 60px;
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 250px;
 }
 
 .interest-img {
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   margin-right: 30px;
   padding: 10px;
   margin: 20px;
