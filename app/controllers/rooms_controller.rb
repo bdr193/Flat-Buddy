@@ -16,6 +16,7 @@ class RoomsController < ApplicationController
     @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
 
     @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
+
     unless params[:room].nil?
       if params[:room][:neighborhood].present?
         @neighborhood = params[:room][:neighborhood]
@@ -99,7 +100,11 @@ class RoomsController < ApplicationController
       end
     end
 
-    @room.viewings
+    @room_viewings = []
+    @room.viewings.each do |viewing|
+      string_viewing = viewing.start_time.strftime("%l:%M %P -  %A %eth %B")
+      @room_viewings << string_viewing
+    end
     # @viewing_times = []
     # @room.viewings.each do |viewing|
     #   @viewing_times << viewing.start_time.to_s
