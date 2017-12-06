@@ -14,19 +14,18 @@
   // padding: 0 30px 12.5px;
 }
 
-
-.question-container {
-  // margin-right: 0px;
-  // margin-left: auto;
-  // padding-left: 40px;
-  width: 1000px;
-  h3 {
-    text-align: center;
-  }
-  .control-label {
-     color: $pink !important; // some color
-}
-}
+// .question-container {
+//   // margin-right: 0px;
+//   // margin-left: auto;
+//   // padding-left: 40px;
+//   width: 1000px;
+//   h3 {
+//     text-align: center;
+//   }
+//   .control-label {
+//      color: $pink !important; // some color
+// }
+// }
 
 
 .checkbox-label {
@@ -34,11 +33,18 @@
 }
 
 .interest-section {
-  display: none
+  display: none;
+  height: 100vh;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .activated {
   display: block;
+}
+
+#form-intro {
+  margin-top: 70px;
 }
 
 //* Beneath is the styling from Codepen *//

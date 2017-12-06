@@ -1,6 +1,18 @@
+$('#form-intro .next').on("click", function(){
+  $("#form-intro").hide("slide", { easing: "easeInQuart", direction: "left" }, 700, function(){
+    $("#arts-container").show("slide", { easing: "easeOutQuart", direction: "right" }, 700);
+  });
+});
+
 $('#arts-container .next').on("click", function(){
   $("#arts-container").hide("slide", { easing: "easeInQuart", direction: "left" }, 700, function(){
     $("#sports-container").show("slide", { easing: "easeOutQuart", direction: "right" }, 700);
+  });
+});
+
+$('#arts-container .back').on("click", function(){
+  $("#arts-container").hide("slide", { easing: "easeInQuart", direction: "right" }, 700, function(){
+    $("#form-intro").show("slide", { easing: "easeOutQuart", direction: "left" }, 700);
   });
 });
 
