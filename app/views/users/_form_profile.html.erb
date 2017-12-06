@@ -1,7 +1,7 @@
 <section id="form-intro" class="activated">
   <div class="container text-center">
-    <%= cl_image_tag('eqio0sr4bopipohpevgy', width: 400, crop: :fill) %>
     <h3>But first, we'd like to get to know what you're like...</h3>
+    <div class="giff"><%= cl_image_tag('eqio0sr4bopipohpevgy', width: 400, crop: :fill) %></div>
     <button class="btn btn-primary next">Let's go</button>
   </div>
 </section>
@@ -10,7 +10,7 @@
 <section class="interest-section" id="arts-container">
   <h3>Which artsy activities do you like?</h3>
   <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right" type="button">Next</button>
+  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -65,7 +65,7 @@
 <section class="interest-section" id="sports-container">
   <h3>Which sports make you sweaty?</h3>
   <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right" type="button">Next</button>
+  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -120,7 +120,7 @@
 <section class="interest-section" id="films-container">
   <h3>This music makes you hit the dance floor</h3>
   <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right" type="button">Next</button>
+  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -177,7 +177,7 @@
 <section class="interest-section" id="music-container">
   <h3>What are you favourite films?</h3>
   <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right" type="button">Next</button>
+  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -235,7 +235,7 @@
 <section class="interest-section" id="holidays-container">
   <h3>What is your dream holiday?</h3>
   <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right" type="button">Next</button>
+  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -339,7 +339,9 @@
   </div>
   <div class="text-center">
     <button class="btn btn-primary back" type="button">Back</button>
-    <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
+    <div class="next-question">
+      <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
+    </div>
   </div>
 </section>
 
