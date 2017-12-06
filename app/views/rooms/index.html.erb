@@ -41,7 +41,7 @@
                     <% common.first(3).each do |interest| %>
                       <div>
 
-                          <% asset_url = "#{interest}" %>
+                          <% asset_url = "#{interest}.png" %>
 
                         <%= image_tag(asset_url, {class: "icon-img", id: "#{interest}", :width =>30, :height => 30, :crop => :thumb, :gravity => :face}) %>
                       </div>
