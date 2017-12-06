@@ -3,7 +3,6 @@
   padding-top: 30px;
   height: 100vh;
   margin: 0 auto;
-  width: 85%;
   // border: 2px solid black;
   h3 {
     font-size: 26px;
@@ -67,6 +66,7 @@
 #form-intro {
   display: flex;
   flex-direction: column;
+  background-color: green;
   h3 {
     font-size: 26px;
   }
