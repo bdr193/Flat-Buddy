@@ -11,10 +11,6 @@ class Room < ApplicationRecord
       owner = buddy.attributes.select{ |k,v| v.to_s == "true" }
       merge = renter.to_a & owner.to_a
       interest_array = merge.flatten
-      p renter
-      p owner
-      p merge
-      p interest_array
       interests = []
       x = 2
       interest_array.each_index do |index|
