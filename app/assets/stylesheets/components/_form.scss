@@ -78,8 +78,10 @@
   border-radius: 4px;
 }
 
-.btn:hover {
-  color: $gray;
+
+.btn-green:hover {
+  color: $white;
+  background-color: $dark-green;
 }
 
 .btn-pink {
@@ -89,5 +91,6 @@
 }
 
 .btn-pink:hover {
-  color: $gray;
+  color: $white;
+  background-color: $dark-pink;
 }

@@ -2,15 +2,15 @@
   <div class="container text-center">
     <h3>But first, we'd like to get to know what you're like...</h3>
     <div class="tenor-gif-embed" data-postid="8803801" data-share-method="host" data-width="65%" data-aspect-ratio="1.900763358778626"><a href="https://tenor.com/view/get-ready-gif-8803801">Get Ready GIF</a> from <a href="https://tenor.com/search/getready-gifs">Getready GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-    <button class="btn btn-primary next">Let's go</button>
+    <button class="btn btn-pink next">Let's go</button>
   </div>
 </section>
 
-<%= simple_form_for @user do |f| %>
+<%= simple_form_for @user, html: { id: "interest-form" } do |f| %>
 <section class="interest-section" id="arts-container">
   <h3>Which artsy activities do you like?</h3>
-  <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
+  <button class="btn btn-pink back" type="button">Back</button>
+  <button class="btn btn-pink next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -64,8 +64,8 @@
 
 <section class="interest-section" id="sports-container">
   <h3>Which sports make you sweaty?</h3>
-  <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
+  <button class="btn btn-pink back" type="button">Back</button>
+  <button class="btn btn-pink next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -119,8 +119,8 @@
 
 <section class="interest-section" id="films-container">
   <h3>This music makes you hit the dance floor</h3>
-  <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
+  <button class="btn btn-pink back" type="button">Back</button>
+  <button class="btn btn-pink next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -176,8 +176,8 @@
 
 <section class="interest-section" id="music-container">
   <h3>What are you favourite films?</h3>
-  <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
+  <button class="btn btn-pink back" type="button">Back</button>
+  <button class="btn btn-pink next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -234,8 +234,8 @@
 
 <section class="interest-section" id="holidays-container">
   <h3>What is your dream holiday?</h3>
-  <button class="btn btn-primary back" type="button">Back</button>
-  <button class="btn btn-primary next pull-right next-question" type="button">Next</button>
+  <button class="btn btn-pink back" type="button">Back</button>
+  <button class="btn btn-pink next pull-right next-question" type="button">Next</button>
 
   <div class="container">
     <div class="question-container">
@@ -291,6 +291,8 @@
 
 <section class="interest-section" id="food-container">
   <h3>It's dinner time! What's going to be on your plate?</h3>
+  <button class="btn btn-pink back" type="button">Back</button>
+  <button class="btn btn-pink next next-question" type="button">Get results</button>
   <div class="container">
     <div class="question-container">
       <div class="row">
@@ -337,11 +339,13 @@
       </div>
     </div>
   </div>
-  <div class="text-center">
-    <button class="btn btn-primary back" type="button">Back</button>
-    <div class="next-question">
-      <%= f.button :submit, as: :boolean, checked_value: true, unchecked_value: false, class: "btn btn-primary" %>
-    </div>
+
+</section>
+
+<section class="interest-section" id="form-outro">
+  <div class="container text-center">
+    <h3>Get ready to see your matches!</h3>
+    <div class="tenor-gif-embed" data-postid="7389474" data-share-method="host" data-width="65%" data-aspect-ratio="1.8513011152416354"><a href="https://tenor.com/view/sing-sing-universal-drum-roll-buster-moon-gif-7389474">Drumroll GIF</a> from <a href="https://tenor.com/search/sing-gifs">Sing GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
   </div>
 </section>
 
