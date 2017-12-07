@@ -5,6 +5,21 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 2
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Amber123@gmail.com
   :password: secret123
   :first_name: Amber
@@ -12,6 +27,13 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/female/9.jpg
   :flat_id: 2
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Mina123@gmail.com
   :password: secret123
   :first_name: Mina
@@ -19,6 +41,13 @@
   :bio: Entertainer, Volunteer, Multi-sportlete, Branding Expert, Papercut Survivor. I like to step on crunchy leaves.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 2
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Carlo123@gmail.com
   :password: secret123
   :first_name: Carlo
@@ -26,6 +55,14 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/male/18.jpg
   :flat_id: 3
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
 - :email: Velva123@gmail.com
   :password: secret123
   :first_name: Velva
@@ -33,6 +70,14 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/40.jpg
   :flat_id: 3
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
 - :email: Sergio123@gmail.com
   :password: secret123
   :first_name: Sergio
@@ -40,6 +85,14 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/male/17.jpg
   :flat_id: 3
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
 - :email: Valeria123@gmail.com
   :password: secret123
   :first_name: Valeria
@@ -47,6 +100,12 @@
   :bio: Community Volunteer, Mastermind, Powerful Multitasker, Ninja in Training, Part-time Lion Tamer. I hide my sweat well.
   :facebook_picture_url: https://uinames.com/api/photos/female/37.jpg
   :flat_id: 4
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Ollie123@gmail.com
   :password: secret123
   :first_name: Ollie
@@ -54,6 +113,12 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/28.jpg
   :flat_id: 4
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Ladonna210@gmail.com
   :password: secret123
   :first_name: Ladonna
@@ -61,6 +126,12 @@
   :bio: Performer, Philanthropist, Ninja in Training, Social Media Guru, Diseased Cat. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/1.jpg
   :flat_id: 4
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Eda210@gmail.com
   :password: secret123
   :first_name: Eda
@@ -68,6 +139,12 @@
   :bio: Achiever, Accountant, Idea Pimp, Gender Activist, Meryl Streep's Personal Trainer. I slapped a chicken once.
   :facebook_picture_url: https://uinames.com/api/photos/female/26.jpg
   :flat_id: 5
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Lavonda210@gmail.com
   :password: secret123
   :first_name: Lavonda
@@ -75,6 +152,14 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/20.jpg
   :flat_id: 5
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Christoper210@gmail.com
   :password: secret123
   :first_name: Christoper
@@ -82,6 +167,14 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 5
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Fernande210@gmail.com
   :password: secret123
   :first_name: Fernande
@@ -89,6 +182,13 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 6
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Marcus210@gmail.com
   :password: secret123
   :first_name: Marcus
@@ -96,6 +196,13 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 6
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Bill387@gmail.com
   :password: secret123
   :first_name: Bill
@@ -103,6 +210,13 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 6
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Bok210@gmail.com
   :password: secret123
   :first_name: Bok
@@ -110,6 +224,13 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/41.jpg
   :flat_id: 7
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Burton210@gmail.com
   :password: secret123
   :first_name: Burton
@@ -117,6 +238,13 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/4.jpg
   :flat_id: 7
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Junko210@gmail.com
   :password: secret123
   :first_name: Junko
@@ -124,6 +252,13 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/male/41.jpg
   :flat_id: 7
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Dinorah210@gmail.com
   :password: secret123
   :first_name: Dinorah
@@ -131,6 +266,13 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/female/5.jpg
   :flat_id: 8
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Maximo210@gmail.com
   :password: secret123
   :first_name: Maximo
@@ -138,6 +280,13 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 8
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Cristal210@gmail.com
   :password: secret123
   :first_name: Cristal
@@ -145,6 +294,13 @@
   :bio: Curator, Snowboarder, Strategic Storyteller, Life-long Learner, Mayonaise Tester. Pikachu chooses me.
   :facebook_picture_url: https://uinames.com/api/photos/female/35.jpg
   :flat_id: 8
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Santiago210@gmail.com
   :password: secret123
   :first_name: Santiago
@@ -152,6 +308,13 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/2.jpg
   :flat_id: 9
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Kylee210@gmail.com
   :password: secret123
   :first_name: Kylee
@@ -159,6 +322,13 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 9
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Mallie210@gmail.com
   :password: secret123
   :first_name: Mallie
@@ -166,6 +336,13 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 9
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :sport_endurance: true
 - :email: Renita210@gmail.com
   :password: secret123
   :first_name: Renita
@@ -173,6 +350,13 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/female/6.jpg
   :flat_id: 10
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Latoria849@gmail.com
   :password: secret123
   :first_name: Latoria
@@ -180,6 +364,13 @@
   :bio: Community Volunteer, Olympian, Idea Pimp, Social Media Guru, Paper slapper. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/female/37.jpg
   :flat_id: 10
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Leonie849@gmail.com
   :password: secret123
   :first_name: Leonie
@@ -187,6 +378,13 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/female/6.jpg
   :flat_id: 10
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Starla849@gmail.com
   :password: secret123
   :first_name: Starla
@@ -194,6 +392,13 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 11
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Corrie849@gmail.com
   :password: secret123
   :first_name: Corrie
@@ -201,6 +406,13 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 11
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Lydia849@gmail.com
   :password: secret123
   :first_name: Lydia
@@ -208,6 +420,13 @@
   :bio: Singer, Stylist, Powerful Multitasker, Gender Activist, Bunny Destroyer. More than meets the eye.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 11
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Kiara849@gmail.com
   :password: secret123
   :first_name: Kiara
@@ -215,6 +434,13 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/female/34.jpg
   :flat_id: 12
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Lakendra849@gmail.com
   :password: secret123
   :first_name: Lakendra
@@ -222,6 +448,13 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/female/14.jpg
   :flat_id: 12
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Syreeta849@gmail.com
   :password: secret123
   :first_name: Syreeta
@@ -229,6 +462,13 @@
   :bio: Community Volunteer, Mastermind, Powerful Multitasker, Ninja in Training, Part-time Lion Tamer. I hide my sweat well.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 12
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Meghan849@gmail.com
   :password: secret123
   :first_name: Meghan
@@ -236,6 +476,13 @@
   :bio: Achiever, Accountant, Idea Pimp, Gender Activist, Meryl Streep's Personal Trainer. I slapped a chicken once.
   :facebook_picture_url: https://uinames.com/api/photos/female/7.jpg
   :flat_id: 13
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Krissy849@gmail.com
   :password: secret123
   :first_name: Krissy
@@ -243,6 +490,13 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 13
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Charlie849@gmail.com
   :password: secret123
   :first_name: Charlie
@@ -250,6 +504,13 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 13
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Carmel849@gmail.com
   :password: secret123
   :first_name: Carmel
@@ -257,6 +518,13 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 14
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Kerry849@gmail.com
   :password: secret123
   :first_name: Kerry
@@ -264,6 +532,13 @@
   :bio: Redhead, Lawyer, Creator of Systems, Choco-holic, Cigarette Butt Collector. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/38.jpg
   :flat_id: 14
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: September849@gmail.com
   :password: secret123
   :first_name: September
@@ -271,6 +546,13 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/42.jpg
   :flat_id: 14
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Tanisha849@gmail.com
   :password: secret123
   :first_name: Tanisha
@@ -278,6 +560,13 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/female/5.jpg
   :flat_id: 15
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Sherril849@gmail.com
   :password: secret123
   :first_name: Sherril
@@ -285,6 +574,13 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 15
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Sherry849@gmail.com
   :password: secret123
   :first_name: Sherry
@@ -292,6 +588,13 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/3.jpg
   :flat_id: 15
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Ophelia849@gmail.com
   :password: secret123
   :first_name: Ophelia
@@ -299,6 +602,13 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 16
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Elfreda849@gmail.com
   :password: secret123
   :first_name: Elfreda
@@ -306,6 +616,13 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 16
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Gaylene346@gmail.com
   :password: secret123
   :first_name: Gaylene
@@ -313,6 +630,13 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 16
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Janine346@gmail.com
   :password: secret123
   :first_name: Janine
@@ -320,6 +644,13 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 17
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Gretchen346@gmail.com
   :password: secret123
   :first_name: Gretchen
@@ -327,6 +658,13 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/male/24.jpg
   :flat_id: 17
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Alfredo346@gmail.com
   :password: secret123
   :first_name: Alfredo
@@ -334,6 +672,13 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 17
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Adrien346@gmail.com
   :password: secret123
   :first_name: Adrien
@@ -341,6 +686,13 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/16.jpg
   :flat_id: 18
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Megan346@gmail.com
   :password: secret123
   :first_name: Megan
@@ -348,6 +700,13 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 18
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Cira346@gmail.com
   :password: secret123
   :first_name: Cira
@@ -355,6 +714,13 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/1.jpg
   :flat_id: 18
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Williemae346@gmail.com
   :password: secret123
   :first_name: Williemae
@@ -362,6 +728,13 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/male/43.jpg
   :flat_id: 19
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Louann346@gmail.com
   :password: secret123
   :first_name: Louann
@@ -369,6 +742,13 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/15.jpg
   :flat_id: 19
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Giuseppina346@gmail.com
   :password: secret123
   :first_name: Giuseppina
@@ -376,6 +756,13 @@
   :bio: Curator, Snowboarder, Strategic Storyteller, Life-long Learner, Mayonaise Tester. Pikachu chooses me.
   :facebook_picture_url: https://uinames.com/api/photos/female/13.jpg
   :flat_id: 19
+  :art_museum: true
+  :art_reading: true
+  :sport_extreme: true
+  :film_scifi: true
+  :music_jazz: true
+  :holiday_party: true
+  :food_restaurant: true
 - :email: Blossom346@gmail.com
   :password: secret123
   :first_name: Blossom
@@ -383,215 +770,461 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/female/33.jpg
   :flat_id: 20
-- :email: Vashti346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Vashti346@gmail.com
   :password: secret123
   :first_name: Vashti
   :last_name: Warburton
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 20
-- :email: Sherlyn346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Sherlyn346@gmail.com
   :password: secret123
   :first_name: Sherlyn
   :last_name: Simonetti
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/female/39.jpg
   :flat_id: 20
-- :email: Yadira346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Yadira346@gmail.com
   :password: secret123
   :first_name: Yadira
   :last_name: Prevo
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/female/28.jpg
   :flat_id: 21
-- :email: Jacquline346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Jacquline346@gmail.com
   :password: secret123
   :first_name: Jacquline
   :last_name: Hamiter
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/20.jpg
   :flat_id: 21
-- :email: Setsuko346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Setsuko346@gmail.com
   :password: secret123
   :first_name: Setsuko
   :last_name: Conway
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/24.jpg
   :flat_id: 21
-- :email: Aimee346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Aimee346@gmail.com
   :password: secret123
   :first_name: Aimee
   :last_name: Brotzman
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/female/7.jpg
   :flat_id: 22
-- :email: Daria346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Daria346@gmail.com
   :password: secret123
   :first_name: Daria
   :last_name: Amesquita
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/female/9.jpg
   :flat_id: 22
-- :email: Cari346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Cari346@gmail.com
   :password: secret123
   :first_name: Cari
   :last_name: Mcmillin
   :bio: Singer, Stylist, Powerful Multitasker, Gender Activist, Bunny Destroyer. More than meets the eye.
   :facebook_picture_url: https://uinames.com/api/photos/male/17.jpg
   :flat_id: 22
-- :email: Omega346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Omega346@gmail.com
   :password: secret123
   :first_name: Omega
   :last_name: Goodale
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 23
-- :email: Zane346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Zane346@gmail.com
   :password: secret123
   :first_name: Zane
   :last_name: Mccarron
   :bio: Entertainer, Volunteer, Multi-sportlete, Branding Expert, Papercut Survivor. I like to step on crunchy leaves.
   :facebook_picture_url: https://uinames.com/api/photos/male/7.jpg
   :flat_id: 23
-- :email: Carlee346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Carlee346@gmail.com
   :password: secret123
   :first_name: Carlee
   :last_name: Culver
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/40.jpg
   :flat_id: 23
-- :email: Jesusa346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Jesusa346@gmail.com
   :password: secret123
   :first_name: Jesusa
   :last_name: Walton
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/28.jpg
   :flat_id: 24
-- :email: Morton346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Morton346@gmail.com
   :password: secret123
   :first_name: Morton
   :last_name: Crotts
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/10.jpg
   :flat_id: 24
-- :email: Simonne346@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Simonne346@gmail.com
   :password: secret123
   :first_name: Simonne
   :last_name: Flohr
   :bio: Believer, Volunteer, Beer Fanatic, Branding Expert, Your long lost twin. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 24
-- :email: grace-87@example.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: grace-87@example.com
   :password: Robertson87_)
   :first_name: Grace
   :last_name: Robertson
   :facebook_picture_url: https://uinames.com/api/photos/female/24.jpg
   :flat_id: 25
-- :email: Glayds503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Glayds503@gmail.com
   :password: secret123
   :first_name: Glayds
   :last_name: Friley
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 25
-- :email: Deidra503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Deidra503@gmail.com
   :password: secret123
   :first_name: Deidra
   :last_name: Trego
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/female/4.jpg
   :flat_id: 25
-- :email: Soraya503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Soraya503@gmail.com
   :password: secret123
   :first_name: Soraya
   :last_name: Rippel
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/20.jpg
   :flat_id: 26
-- :email: Catrice503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Catrice503@gmail.com
   :password: secret123
   :first_name: Catrice
   :last_name: Weisberg
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/male/21.jpg
   :flat_id: 26
-- :email: Alfredia503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Alfredia503@gmail.com
   :password: secret123
   :first_name: Alfredia
   :last_name: Disandro
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 26
-- :email: Wendell503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Wendell503@gmail.com
   :password: secret123
   :first_name: Wendell
   :last_name: Wentzel
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/9.jpg
   :flat_id: 27
-- :email: Tabatha503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Tabatha503@gmail.com
   :password: secret123
   :first_name: Tabatha
   :last_name: Ruckman
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 27
-- :email: Rueben503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Rueben503@gmail.com
   :password: secret123
   :first_name: Rueben
   :last_name: Matte
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/37.jpg
   :flat_id: 27
-- :email: Kathrine503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Kathrine503@gmail.com
   :password: secret123
   :first_name: Kathrine
   :last_name: Saine
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/female/16.jpg
   :flat_id: 28
-- :email: Noma503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Noma503@gmail.com
   :password: secret123
   :first_name: Noma
   :last_name: Manjarrez
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/male/2.jpg
   :flat_id: 28
-- :email: Joe503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Joe503@gmail.com
   :password: secret123
   :first_name: Joe
   :last_name: Depaul
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/male/37.jpg
   :flat_id: 28
-- :email: Youlanda503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Youlanda503@gmail.com
   :password: secret123
   :first_name: Youlanda
   :last_name: Hoggatt
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 29
-- :email: Coleman503@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Coleman503@gmail.com
   :password: secret123
   :first_name: Coleman
   :last_name: Capozzi
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 29
-- :email: kevin123@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: kevin123@gmail.com
   :password: secret123
   :first_name: Keven
   :last_name: Harvill
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/male/16.jpg
   :flat_id: 29
-- :email: Gregoria387@gmail.com
+  :art_photography: true
+  :sport_ball: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :film_romcom: true
+  :music_classical: true
+ :email: Gregoria387@gmail.com
   :password: secret123
   :first_name: Gregoria
   :last_name: Payson
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 30
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Kristin387@gmail.com
   :password: secret123
   :first_name: Kristin
@@ -599,6 +1232,12 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 30
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Jeannine387@gmail.com
   :password: secret123
   :first_name: Jeannine
@@ -606,6 +1245,12 @@
   :bio: Performer, Philanthropist, Ninja in Training, Social Media Guru, Diseased Cat. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/14.jpg
   :flat_id: 30
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Kaley387@gmail.com
   :password: secret123
   :first_name: Kaley
@@ -613,6 +1258,12 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/female/27.jpg
   :flat_id: 31
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Shelley387@gmail.com
   :password: secret123
   :first_name: Shelley
@@ -620,6 +1271,12 @@
   :bio: Redhead, Lawyer, Creator of Systems, Choco-holic, Cigarette Butt Collector. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/13.jpg
   :flat_id: 31
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Cecelia387@gmail.com
   :password: secret123
   :first_name: Cecelia
@@ -627,6 +1284,12 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 31
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Keisha387@gmail.com
   :password: secret123
   :first_name: Keisha
@@ -634,6 +1297,12 @@
   :bio: Community Volunteer, Olympian, Idea Pimp, Social Media Guru, Paper slapper. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 32
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Demetrius387@gmail.com
   :password: secret123
   :first_name: Demetrius
@@ -641,6 +1310,12 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/male/19.jpg
   :flat_id: 32
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Tom387@gmail.com
   :password: secret123
   :first_name: Tom
@@ -648,6 +1323,12 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 32
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Lamont123@gmail.com
   :password: secret123
   :first_name: Lamont
@@ -655,6 +1336,12 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 33
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Jenni123@yahoo.com
   :password: secret123
   :first_name: Jenni
@@ -662,6 +1349,12 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 33
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Valeri123@yahoo.com
   :password: secret123
   :first_name: Valeri
@@ -669,6 +1362,12 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 33
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Albina123@yahoo.com
   :password: secret123
   :first_name: Albina
@@ -676,6 +1375,12 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 33
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Amber123@yahoo.com
   :password: secret123
   :first_name: Amber
@@ -683,6 +1388,12 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/female/9.jpg
   :flat_id: 33
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Mina123@yahoo.com
   :password: secret123
   :first_name: Mina
@@ -690,6 +1401,12 @@
   :bio: Entertainer, Volunteer, Multi-sportlete, Branding Expert, Papercut Survivor. I like to step on crunchy leaves.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 33
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Carlo123@yahoo.com
   :password: secret123
   :first_name: Carlo
@@ -697,6 +1414,12 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/male/18.jpg
   :flat_id: 34
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Velva123@yahoo.com
   :password: secret123
   :first_name: Velva
@@ -704,6 +1427,12 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/40.jpg
   :flat_id: 34
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Sergio123@yahoo.com
   :password: secret123
   :first_name: Sergio
@@ -711,6 +1440,12 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/male/17.jpg
   :flat_id: 34
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Valeria123@yahoo.com
   :password: secret123
   :first_name: Valeria
@@ -718,6 +1453,12 @@
   :bio: Community Volunteer, Mastermind, Powerful Multitasker, Ninja in Training, Part-time Lion Tamer. I hide my sweat well.
   :facebook_picture_url: https://uinames.com/api/photos/female/37.jpg
   :flat_id: 35
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Ollie123@yahoo.com
   :password: secret123
   :first_name: Ollie
@@ -725,6 +1466,12 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/28.jpg
   :flat_id: 35
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Ladonna210@yahoo.com
   :password: secret123
   :first_name: Ladonna
@@ -732,6 +1479,12 @@
   :bio: Performer, Philanthropist, Ninja in Training, Social Media Guru, Diseased Cat. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/1.jpg
   :flat_id: 35
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Eda210@yahoo.com
   :password: secret123
   :first_name: Eda
@@ -739,6 +1492,12 @@
   :bio: Achiever, Accountant, Idea Pimp, Gender Activist, Meryl Streep's Personal Trainer. I slapped a chicken once.
   :facebook_picture_url: https://uinames.com/api/photos/female/26.jpg
   :flat_id: 36
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Lavonda210@yahoo.com
   :password: secret123
   :first_name: Lavonda
@@ -746,6 +1505,12 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/20.jpg
   :flat_id: 36
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Christoper210@yahoo.com
   :password: secret123
   :first_name: Christoper
@@ -753,6 +1518,12 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 36
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Fernande210@yahoo.com
   :password: secret123
   :first_name: Fernande
@@ -760,6 +1531,12 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 37
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Marcus210@yahoo.com
   :password: secret123
   :first_name: Marcus
@@ -767,6 +1544,12 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 37
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Steven387@yahoo.com
   :password: secret123
   :first_name: Steven
@@ -774,6 +1557,12 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 37
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Bok210@yahoo.com
   :password: secret123
   :first_name: Bok
@@ -781,6 +1570,12 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/41.jpg
   :flat_id: 38
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Burton210@yahoo.com
   :password: secret123
   :first_name: Burton
@@ -788,6 +1583,12 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/4.jpg
   :flat_id: 38
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Junko210@yahoo.com
   :password: secret123
   :first_name: Junko
@@ -795,6 +1596,12 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/male/41.jpg
   :flat_id: 38
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Dinorah210@yahoo.com
   :password: secret123
   :first_name: Dinorah
@@ -802,6 +1609,12 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/female/5.jpg
   :flat_id: 39
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Maximo210@yahoo.com
   :password: secret123
   :first_name: Maximo
@@ -809,6 +1622,12 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 39
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Cristal210@yahoo.com
   :password: secret123
   :first_name: Cristal
@@ -816,6 +1635,12 @@
   :bio: Curator, Snowboarder, Strategic Storyteller, Life-long Learner, Mayonaise Tester. Pikachu chooses me.
   :facebook_picture_url: https://uinames.com/api/photos/female/35.jpg
   :flat_id: 39
+  :art_cinema: true
+  :sport_snow: true
+  :film_animation: true
+  :holiday_beach: true
+  :holiday_historic: true
+  :food_delivery: true
 - :email: Santiago210@yahoo.com
   :password: secret123
   :first_name: Santiago
@@ -823,6 +1648,14 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/2.jpg
   :flat_id: 40
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Kylee210@yahoo.com
   :password: secret123
   :first_name: Kylee
@@ -830,6 +1663,14 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 40
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Mallie210@yahoo.com
   :password: secret123
   :first_name: Mallie
@@ -837,6 +1678,14 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 40
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Renita210@yahoo.com
   :password: secret123
   :first_name: Renita
@@ -844,6 +1693,14 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/female/6.jpg
   :flat_id: 41
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Latoria849@yahoo.com
   :password: secret123
   :first_name: Latoria
@@ -851,6 +1708,14 @@
   :bio: Community Volunteer, Olympian, Idea Pimp, Social Media Guru, Paper slapper. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/female/37.jpg
   :flat_id: 41
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Leonie849@yahoo.com
   :password: secret123
   :first_name: Leonie
@@ -858,6 +1723,14 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/female/6.jpg
   :flat_id: 41
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Starla849@yahoo.com
   :password: secret123
   :first_name: Starla
@@ -865,6 +1738,14 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 42
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Corrie849@yahoo.com
   :password: secret123
   :first_name: Corrie
@@ -872,6 +1753,14 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 42
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Lydia849@yahoo.com
   :password: secret123
   :first_name: Lydia
@@ -879,6 +1768,14 @@
   :bio: Singer, Stylist, Powerful Multitasker, Gender Activist, Bunny Destroyer. More than meets the eye.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 42
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Kiara849@yahoo.com
   :password: secret123
   :first_name: Kiara
@@ -886,6 +1783,14 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/female/34.jpg
   :flat_id: 43
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Lakendra849@yahoo.com
   :password: secret123
   :first_name: Lakendra
@@ -893,6 +1798,14 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/female/14.jpg
   :flat_id: 43
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Syreeta849@yahoo.com
   :password: secret123
   :first_name: Syreeta
@@ -900,6 +1813,14 @@
   :bio: Community Volunteer, Mastermind, Powerful Multitasker, Ninja in Training, Part-time Lion Tamer. I hide my sweat well.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 43
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Meghan849@yahoo.com
   :password: secret123
   :first_name: Meghan
@@ -907,6 +1828,14 @@
   :bio: Achiever, Accountant, Idea Pimp, Gender Activist, Meryl Streep's Personal Trainer. I slapped a chicken once.
   :facebook_picture_url: https://uinames.com/api/photos/female/7.jpg
   :flat_id: 44
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Krissy849@yahoo.com
   :password: secret123
   :first_name: Krissy
@@ -914,6 +1843,14 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 44
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Charlie849@yahoo.com
   :password: secret123
   :first_name: Charlie
@@ -921,6 +1858,14 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 44
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Carmel849@yahoo.com
   :password: secret123
   :first_name: Carmel
@@ -928,6 +1873,14 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 45
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Kerry849@yahoo.com
   :password: secret123
   :first_name: Kerry
@@ -935,6 +1888,14 @@
   :bio: Redhead, Lawyer, Creator of Systems, Choco-holic, Cigarette Butt Collector. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/38.jpg
   :flat_id: 45
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: September849@yahoo.com
   :password: secret123
   :first_name: September
@@ -942,6 +1903,14 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/42.jpg
   :flat_id: 45
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Tanisha849@yahoo.com
   :password: secret123
   :first_name: Tanisha
@@ -949,6 +1918,14 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/female/5.jpg
   :flat_id: 45
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Sherril849@yahoo.com
   :password: secret123
   :first_name: Sherril
@@ -956,6 +1933,14 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 45
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Sherry849@yahoo.com
   :password: secret123
   :first_name: Sherry
@@ -963,6 +1948,14 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/3.jpg
   :flat_id: 45
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Ophelia849@yahoo.com
   :password: secret123
   :first_name: Ophelia
@@ -970,6 +1963,14 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 46
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Elfreda849@yahoo.com
   :password: secret123
   :first_name: Elfreda
@@ -977,6 +1978,14 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 46
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Gaylene346@yahoo.com
   :password: secret123
   :first_name: Gaylene
@@ -984,6 +1993,14 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 46
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Janine346@yahoo.com
   :password: secret123
   :first_name: Janine
@@ -991,6 +2008,14 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 47
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Gretchen346@yahoo.com
   :password: secret123
   :first_name: Gretchen
@@ -998,6 +2023,14 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/male/24.jpg
   :flat_id: 47
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Alfredo346@yahoo.com
   :password: secret123
   :first_name: Alfredo
@@ -1005,6 +2038,14 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 47
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Adrien346@yahoo.com
   :password: secret123
   :first_name: Adrien
@@ -1012,6 +2053,14 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/16.jpg
   :flat_id: 48
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Megan346@yahoo.com
   :password: secret123
   :first_name: Megan
@@ -1019,6 +2068,14 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 48
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Cira346@yahoo.com
   :password: secret123
   :first_name: Cira
@@ -1026,6 +2083,14 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/1.jpg
   :flat_id: 48
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Williemae346@yahoo.com
   :password: secret123
   :first_name: Williemae
@@ -1033,6 +2098,14 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/male/43.jpg
   :flat_id: 49
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Louann346@yahoo.com
   :password: secret123
   :first_name: Louann
@@ -1040,6 +2113,14 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/15.jpg
   :flat_id: 49
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Giuseppina346@yahoo.com
   :password: secret123
   :first_name: Giuseppina
@@ -1047,6 +2128,14 @@
   :bio: Curator, Snowboarder, Strategic Storyteller, Life-long Learner, Mayonaise Tester. Pikachu chooses me.
   :facebook_picture_url: https://uinames.com/api/photos/female/13.jpg
   :flat_id: 49
+  :art_live: true
+  :sport_wellbeing: true
+  :film_action: true
+  :music_electronic: true
+  :holiday_home: true
+  :food_quick: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Blossom346@yahoo.com
   :password: secret123
   :first_name: Blossom
@@ -1054,6 +2143,13 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/female/33.jpg
   :flat_id: 50
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Vashti346@yahoo.com
   :password: secret123
   :first_name: Vashti
@@ -1061,6 +2157,13 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 50
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Sherlyn346@yahoo.com
   :password: secret123
   :first_name: Sherlyn
@@ -1068,6 +2171,13 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/female/39.jpg
   :flat_id: 50
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Yadira346@yahoo.com
   :password: secret123
   :first_name: Yadira
@@ -1075,6 +2185,13 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/female/28.jpg
   :flat_id: 51
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Jacquline346@yahoo.com
   :password: secret123
   :first_name: Jacquline
@@ -1082,6 +2199,13 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/20.jpg
   :flat_id: 51
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Setsuko346@yahoo.com
   :password: secret123
   :first_name: Setsuko
@@ -1089,6 +2213,13 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/24.jpg
   :flat_id: 51
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Aimee346@yahoo.com
   :password: secret123
   :first_name: Aimee
@@ -1096,6 +2227,13 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/female/7.jpg
   :flat_id: 52
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Daria346@yahoo.com
   :password: secret123
   :first_name: Daria
@@ -1103,6 +2241,13 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/female/9.jpg
   :flat_id: 52
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Cari346@yahoo.com
   :password: secret123
   :first_name: Cari
@@ -1110,6 +2255,13 @@
   :bio: Singer, Stylist, Powerful Multitasker, Gender Activist, Bunny Destroyer. More than meets the eye.
   :facebook_picture_url: https://uinames.com/api/photos/male/17.jpg
   :flat_id: 52
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Omega346@yahoo.com
   :password: secret123
   :first_name: Omega
@@ -1117,6 +2269,13 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 53
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Zane346@yahoo.com
   :password: secret123
   :first_name: Zane
@@ -1124,6 +2283,13 @@
   :bio: Entertainer, Volunteer, Multi-sportlete, Branding Expert, Papercut Survivor. I like to step on crunchy leaves.
   :facebook_picture_url: https://uinames.com/api/photos/male/7.jpg
   :flat_id: 53
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Carlee346@yahoo.com
   :password: secret123
   :first_name: Carlee
@@ -1131,6 +2297,13 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/40.jpg
   :flat_id: 53
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Jesusa346@yahoo.com
   :password: secret123
   :first_name: Jesusa
@@ -1138,6 +2311,13 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/28.jpg
   :flat_id: 54
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Morton346@yahoo.com
   :password: secret123
   :first_name: Morton
@@ -1145,6 +2325,13 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/10.jpg
   :flat_id: 54
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Simonne346@yahoo.com
   :password: secret123
   :first_name: Simonne
@@ -1152,12 +2339,26 @@
   :bio: Believer, Volunteer, Beer Fanatic, Branding Expert, Your long lost twin. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 54
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: grace-87@example.com
   :password: Robertson87_)
   :first_name: Grace
   :last_name: Robertson
   :facebook_picture_url: https://uinames.com/api/photos/female/24.jpg
   :flat_id: 55
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Glayds503@yahoo.com
   :password: secret123
   :first_name: Glayds
@@ -1165,6 +2366,13 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 55
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Deidra503@yahoo.com
   :password: secret123
   :first_name: Deidra
@@ -1172,6 +2380,13 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/female/4.jpg
   :flat_id: 55
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Soraya503@yahoo.com
   :password: secret123
   :first_name: Soraya
@@ -1179,6 +2394,13 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/20.jpg
   :flat_id: 56
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Catrice503@yahoo.com
   :password: secret123
   :first_name: Catrice
@@ -1186,6 +2408,13 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/male/21.jpg
   :flat_id: 56
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Alfredia503@yahoo.com
   :password: secret123
   :first_name: Alfredia
@@ -1193,6 +2422,13 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 56
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Wendell503@yahoo.com
   :password: secret123
   :first_name: Wendell
@@ -1200,6 +2436,13 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/9.jpg
   :flat_id: 57
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Tabatha503@yahoo.com
   :password: secret123
   :first_name: Tabatha
@@ -1207,6 +2450,13 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 57
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Rueben503@yahoo.com
   :password: secret123
   :first_name: Rueben
@@ -1214,6 +2464,13 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/37.jpg
   :flat_id: 57
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Kathrine503@yahoo.com
   :password: secret123
   :first_name: Kathrine
@@ -1221,6 +2478,13 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/female/16.jpg
   :flat_id: 58
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Noma503@yahoo.com
   :password: secret123
   :first_name: Noma
@@ -1228,6 +2492,13 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/male/2.jpg
   :flat_id: 58
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Joe503@yahoo.com
   :password: secret123
   :first_name: Joe
@@ -1235,6 +2506,13 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/male/37.jpg
   :flat_id: 58
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Youlanda503@yahoo.com
   :password: secret123
   :first_name: Youlanda
@@ -1242,6 +2520,13 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 59
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Coleman503@yahoo.com
   :password: secret123
   :first_name: Coleman
@@ -1249,6 +2534,13 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 59
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: kevin123@yahoo.com
   :password: secret123
   :first_name: Keven
@@ -1256,6 +2548,13 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/male/16.jpg
   :flat_id: 59
+  :art_theatre: true
+  :sport_endurance: true
+  :film_romcom: true
+  :music_classical: true
+  :food_drink: true
+  :film_animation: true
+  :holiday_beach: true
 - :email: Gregoria387@yahoo.com
   :password: secret123
   :first_name: Gregoria
@@ -1263,6 +2562,12 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 60
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Kristin387@yahoo.com
   :password: secret123
   :first_name: Kristin
@@ -1270,6 +2575,12 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 60
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Jeannine387@yahoo.com
   :password: secret123
   :first_name: Jeannine
@@ -1277,6 +2588,12 @@
   :bio: Performer, Philanthropist, Ninja in Training, Social Media Guru, Diseased Cat. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/14.jpg
   :flat_id: 60
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Kaley387@yahoo.com
   :password: secret123
   :first_name: Kaley
@@ -1284,6 +2601,12 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/female/27.jpg
   :flat_id: 61
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Shelley387@yahoo.com
   :password: secret123
   :first_name: Shelley
@@ -1291,6 +2614,12 @@
   :bio: Redhead, Lawyer, Creator of Systems, Choco-holic, Cigarette Butt Collector. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/13.jpg
   :flat_id: 61
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Cecelia387@yahoo.com
   :password: secret123
   :first_name: Cecelia
@@ -1298,6 +2627,12 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 61
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Keisha387@yahoo.com
   :password: secret123
   :first_name: Keisha
@@ -1305,6 +2640,12 @@
   :bio: Community Volunteer, Olympian, Idea Pimp, Social Media Guru, Paper slapper. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 62
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Demetrius387@yahoo.com
   :password: secret123
   :first_name: Demetrius
@@ -1312,6 +2653,12 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/male/19.jpg
   :flat_id: 62
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Michael387@yahoo.com
   :password: secret123
   :first_name: Michael
@@ -1319,6 +2666,12 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 62
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Albina123@hotmail.com
   :password: secret123
   :first_name: Albina
@@ -1326,6 +2679,12 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 63
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Amber123@hotmail.com
   :password: secret123
   :first_name: Amber
@@ -1333,6 +2692,12 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/female/9.jpg
   :flat_id: 63
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Mina123@hotmail.com
   :password: secret123
   :first_name: Mina
@@ -1340,6 +2705,12 @@
   :bio: Entertainer, Volunteer, Multi-sportlete, Branding Expert, Papercut Survivor. I like to step on crunchy leaves.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 63
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Carlo123@hotmail.com
   :password: secret123
   :first_name: Carlo
@@ -1347,6 +2718,12 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/male/18.jpg
   :flat_id: 64
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Velva123@hotmail.com
   :password: secret123
   :first_name: Velva
@@ -1354,6 +2731,12 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/40.jpg
   :flat_id: 64
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Sergio123@hotmail.com
   :password: secret123
   :first_name: Sergio
@@ -1361,6 +2744,12 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/male/17.jpg
   :flat_id: 64
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Valeria123@hotmail.com
   :password: secret123
   :first_name: Valeria
@@ -1368,6 +2757,12 @@
   :bio: Community Volunteer, Mastermind, Powerful Multitasker, Ninja in Training, Part-time Lion Tamer. I hide my sweat well.
   :facebook_picture_url: https://uinames.com/api/photos/female/37.jpg
   :flat_id: 65
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Ollie123@hotmail.com
   :password: secret123
   :first_name: Ollie
@@ -1375,6 +2770,12 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/28.jpg
   :flat_id: 65
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Ladonna210@hotmail.com
   :password: secret123
   :first_name: Ladonna
@@ -1382,6 +2783,12 @@
   :bio: Performer, Philanthropist, Ninja in Training, Social Media Guru, Diseased Cat. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/1.jpg
   :flat_id: 65
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Eda210@hotmail.com
   :password: secret123
   :first_name: Eda
@@ -1389,6 +2796,12 @@
   :bio: Achiever, Accountant, Idea Pimp, Gender Activist, Meryl Streep's Personal Trainer. I slapped a chicken once.
   :facebook_picture_url: https://uinames.com/api/photos/female/26.jpg
   :flat_id: 66
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Lavonda210@hotmail.com
   :password: secret123
   :first_name: Lavonda
@@ -1396,6 +2809,12 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/20.jpg
   :flat_id: 66
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Christoper210@hotmail.com
   :password: secret123
   :first_name: Christoper
@@ -1403,6 +2822,12 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 66
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Fernande210@hotmail.com
   :password: secret123
   :first_name: Fernande
@@ -1410,6 +2835,12 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 67
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Marcus210@hotmail.com
   :password: secret123
   :first_name: Marcus
@@ -1417,6 +2848,12 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 67
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Peter387@hotmail.com
   :password: secret123
   :first_name: Peter
@@ -1424,6 +2861,12 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 67
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Bok210@hotmail.com
   :password: secret123
   :first_name: Bok
@@ -1431,6 +2874,12 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/41.jpg
   :flat_id: 68
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Burton210@hotmail.com
   :password: secret123
   :first_name: Burton
@@ -1438,6 +2887,12 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/4.jpg
   :flat_id: 68
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Junko210@hotmail.com
   :password: secret123
   :first_name: Junko
@@ -1445,6 +2900,12 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/male/41.jpg
   :flat_id: 68
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Dinorah210@hotmail.com
   :password: secret123
   :first_name: Dinorah
@@ -1452,6 +2913,12 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/female/5.jpg
   :flat_id: 69
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Maximo210@hotmail.com
   :password: secret123
   :first_name: Maximo
@@ -1459,6 +2926,12 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 69
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Cristal210@hotmail.com
   :password: secret123
   :first_name: Cristal
@@ -1466,6 +2939,12 @@
   :bio: Curator, Snowboarder, Strategic Storyteller, Life-long Learner, Mayonaise Tester. Pikachu chooses me.
   :facebook_picture_url: https://uinames.com/api/photos/female/35.jpg
   :flat_id: 69
+  :sport_watersports: true
+  :film_documentary: true
+  :music_pop: true
+  :music_hiphop: true
+  :holiday_trek: true
+  :food_vegetarian: true
 - :email: Santiago210@hotmail.com
   :password: secret123
   :first_name: Santiago
@@ -1473,6 +2952,14 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/2.jpg
   :flat_id: 70
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Kylee210@hotmail.com
   :password: secret123
   :first_name: Kylee
@@ -1480,6 +2967,14 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 70
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Mallie210@hotmail.com
   :password: secret123
   :first_name: Mallie
@@ -1487,6 +2982,14 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 70
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Renita210@hotmail.com
   :password: secret123
   :first_name: Renita
@@ -1494,6 +2997,14 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/female/6.jpg
   :flat_id: 71
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Latoria849@hotmail.com
   :password: secret123
   :first_name: Latoria
@@ -1501,6 +3012,14 @@
   :bio: Community Volunteer, Olympian, Idea Pimp, Social Media Guru, Paper slapper. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/female/37.jpg
   :flat_id: 71
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Leonie849@hotmail.com
   :password: secret123
   :first_name: Leonie
@@ -1508,6 +3027,14 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/female/6.jpg
   :flat_id: 71
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Starla849@hotmail.com
   :password: secret123
   :first_name: Starla
@@ -1515,6 +3042,14 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 72
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Corrie849@hotmail.com
   :password: secret123
   :first_name: Corrie
@@ -1522,6 +3057,14 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 72
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Lydia849@hotmail.com
   :password: secret123
   :first_name: Lydia
@@ -1529,6 +3072,14 @@
   :bio: Singer, Stylist, Powerful Multitasker, Gender Activist, Bunny Destroyer. More than meets the eye.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 72
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Kiara849@hotmail.com
   :password: secret123
   :first_name: Kiara
@@ -1536,6 +3087,14 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/female/34.jpg
   :flat_id: 73
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Lakendra849@hotmail.com
   :password: secret123
   :first_name: Lakendra
@@ -1543,6 +3102,14 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/female/14.jpg
   :flat_id: 73
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Syreeta849@hotmail.com
   :password: secret123
   :first_name: Syreeta
@@ -1550,6 +3117,14 @@
   :bio: Community Volunteer, Mastermind, Powerful Multitasker, Ninja in Training, Part-time Lion Tamer. I hide my sweat well.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 73
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Meghan849@hotmail.com
   :password: secret123
   :first_name: Meghan
@@ -1557,6 +3132,14 @@
   :bio: Achiever, Accountant, Idea Pimp, Gender Activist, Meryl Streep's Personal Trainer. I slapped a chicken once.
   :facebook_picture_url: https://uinames.com/api/photos/female/7.jpg
   :flat_id: 74
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Krissy849@hotmail.com
   :password: secret123
   :first_name: Krissy
@@ -1564,6 +3147,14 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 74
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Charlie849@hotmail.com
   :password: secret123
   :first_name: Charlie
@@ -1571,6 +3162,14 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 74
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Carmel849@hotmail.com
   :password: secret123
   :first_name: Carmel
@@ -1578,6 +3177,14 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 75
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Kerry849@hotmail.com
   :password: secret123
   :first_name: Kerry
@@ -1585,6 +3192,14 @@
   :bio: Redhead, Lawyer, Creator of Systems, Choco-holic, Cigarette Butt Collector. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/38.jpg
   :flat_id: 75
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: September849@hotmail.com
   :password: secret123
   :first_name: September
@@ -1592,6 +3207,14 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/42.jpg
   :flat_id: 75
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Ophelia849@hotmail.com
   :password: secret123
   :first_name: Ophelia
@@ -1599,6 +3222,14 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 76
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Elfreda849@hotmail.com
   :password: secret123
   :first_name: Elfreda
@@ -1606,6 +3237,14 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 76
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Gaylene346@hotmail.com
   :password: secret123
   :first_name: Gaylene
@@ -1613,6 +3252,14 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 76
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Janine346@hotmail.com
   :password: secret123
   :first_name: Janine
@@ -1620,6 +3267,14 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 77
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Gretchen346@hotmail.com
   :password: secret123
   :first_name: Gretchen
@@ -1627,6 +3282,14 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/male/24.jpg
   :flat_id: 77
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Alfredo346@hotmail.com
   :password: secret123
   :first_name: Alfredo
@@ -1634,6 +3297,14 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 77
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Adrien346@hotmail.com
   :password: secret123
   :first_name: Adrien
@@ -1641,6 +3312,14 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/16.jpg
   :flat_id: 78
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Megan346@hotmail.com
   :password: secret123
   :first_name: Megan
@@ -1648,6 +3327,14 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 78
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Cira346@hotmail.com
   :password: secret123
   :first_name: Cira
@@ -1655,6 +3342,14 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/1.jpg
   :flat_id: 78
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Williemae346@hotmail.com
   :password: secret123
   :first_name: Williemae
@@ -1662,6 +3357,14 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/male/43.jpg
   :flat_id: 79
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Louann346@hotmail.com
   :password: secret123
   :first_name: Louann
@@ -1669,6 +3372,14 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/15.jpg
   :flat_id: 79
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Giuseppina346@hotmail.com
   :password: secret123
   :first_name: Giuseppina
@@ -1676,6 +3387,14 @@
   :bio: Curator, Snowboarder, Strategic Storyteller, Life-long Learner, Mayonaise Tester. Pikachu chooses me.
   :facebook_picture_url: https://uinames.com/api/photos/female/13.jpg
   :flat_id: 79
+  :holiday_party: true
+  :music_rock: true
+  :holiday_beach: true
+  :holiday_home: true
+  :film_romcom: true
+  :music_classical: true
+  :music_pop: true
+  :music_hiphop: true
 - :email: Blossom346@hotmail.com
   :password: secret123
   :first_name: Blossom
@@ -1683,6 +3402,15 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/female/33.jpg
   :flat_id: 80
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Vashti346@hotmail.com
   :password: secret123
   :first_name: Vashti
@@ -1690,6 +3418,15 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 80
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Sherlyn346@hotmail.com
   :password: secret123
   :first_name: Sherlyn
@@ -1697,6 +3434,15 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/female/39.jpg
   :flat_id: 80
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Yadira346@hotmail.com
   :password: secret123
   :first_name: Yadira
@@ -1704,6 +3450,15 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/female/28.jpg
   :flat_id: 81
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Jacquline346@hotmail.com
   :password: secret123
   :first_name: Jacquline
@@ -1711,6 +3466,15 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/20.jpg
   :flat_id: 81
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Setsuko346@hotmail.com
   :password: secret123
   :first_name: Setsuko
@@ -1718,6 +3482,15 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/24.jpg
   :flat_id: 81
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Aimee346@hotmail.com
   :password: secret123
   :first_name: Aimee
@@ -1725,6 +3498,15 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/female/7.jpg
   :flat_id: 82
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Daria346@hotmail.com
   :password: secret123
   :first_name: Daria
@@ -1732,6 +3514,15 @@
   :bio: Filmmaker, Genius, Oscar-loser, Visual Facilitator, Food Court Nightwatchman. I don't know what alt-tab does.
   :facebook_picture_url: https://uinames.com/api/photos/female/9.jpg
   :flat_id: 82
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Cari346@hotmail.com
   :password: secret123
   :first_name: Cari
@@ -1739,6 +3530,15 @@
   :bio: Singer, Stylist, Powerful Multitasker, Gender Activist, Bunny Destroyer. More than meets the eye.
   :facebook_picture_url: https://uinames.com/api/photos/male/17.jpg
   :flat_id: 82
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Omega346@hotmail.com
   :password: secret123
   :first_name: Omega
@@ -1746,6 +3546,15 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 83
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Zane346@hotmail.com
   :password: secret123
   :first_name: Zane
@@ -1753,6 +3562,15 @@
   :bio: Entertainer, Volunteer, Multi-sportlete, Branding Expert, Papercut Survivor. I like to step on crunchy leaves.
   :facebook_picture_url: https://uinames.com/api/photos/male/7.jpg
   :flat_id: 83
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Carlee346@hotmail.com
   :password: secret123
   :first_name: Carlee
@@ -1760,6 +3578,15 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/40.jpg
   :flat_id: 83
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Jesusa346@hotmail.com
   :password: secret123
   :first_name: Jesusa
@@ -1767,6 +3594,15 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/28.jpg
   :flat_id: 84
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Morton346@hotmail.com
   :password: secret123
   :first_name: Morton
@@ -1774,6 +3610,15 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/10.jpg
   :flat_id: 84
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Simonne346@hotmail.com
   :password: secret123
   :first_name: Simonne
@@ -1781,12 +3626,30 @@
   :bio: Believer, Volunteer, Beer Fanatic, Branding Expert, Your long lost twin. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 84
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: grace-87@example.com
   :password: Robertson87_)
   :first_name: Grace
   :last_name: Robertson
   :facebook_picture_url: https://uinames.com/api/photos/female/24.jpg
   :flat_id: 85
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Glayds503@hotmail.com
   :password: secret123
   :first_name: Glayds
@@ -1794,6 +3657,15 @@
   :bio: Chef, Researcher, Food Afcionado, Television Host, 2012 Survivor. I walk faster when I see a creepy van.
   :facebook_picture_url: https://uinames.com/api/photos/female/31.jpg
   :flat_id: 85
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Deidra503@hotmail.com
   :password: secret123
   :first_name: Deidra
@@ -1801,6 +3673,15 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/female/4.jpg
   :flat_id: 85
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Soraya503@hotmail.com
   :password: secret123
   :first_name: Soraya
@@ -1808,6 +3689,15 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/20.jpg
   :flat_id: 86
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Catrice503@hotmail.com
   :password: secret123
   :first_name: Catrice
@@ -1815,6 +3705,15 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/male/21.jpg
   :flat_id: 86
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Alfredia503@hotmail.com
   :password: secret123
   :first_name: Alfredia
@@ -1822,6 +3721,15 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 86
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Wendell503@hotmail.com
   :password: secret123
   :first_name: Wendell
@@ -1829,6 +3737,15 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/9.jpg
   :flat_id: 87
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Tabatha503@hotmail.com
   :password: secret123
   :first_name: Tabatha
@@ -1836,6 +3753,15 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 87
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Rueben503@hotmail.com
   :password: secret123
   :first_name: Rueben
@@ -1843,6 +3769,15 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/37.jpg
   :flat_id: 87
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Kathrine503@hotmail.com
   :password: secret123
   :first_name: Kathrine
@@ -1850,6 +3785,15 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/female/16.jpg
   :flat_id: 88
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Noma503@hotmail.com
   :password: secret123
   :first_name: Noma
@@ -1857,6 +3801,15 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/male/2.jpg
   :flat_id: 88
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Joe503@hotmail.com
   :password: secret123
   :first_name: Joe
@@ -1864,6 +3817,15 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/male/37.jpg
   :flat_id: 88
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Youlanda503@hotmail.com
   :password: secret123
   :first_name: Youlanda
@@ -1871,6 +3833,15 @@
   :bio: Writer, Blogger, Idea Agent, Gemologist, Unwashed Mass. I've got 99 problems.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 89
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Coleman503@hotmail.com
   :password: secret123
   :first_name: Coleman
@@ -1878,6 +3849,15 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/male/12.jpg
   :flat_id: 89
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: kevin123@hotmail.com
   :password: secret123
   :first_name: Keven
@@ -1885,6 +3865,15 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/male/16.jpg
   :flat_id: 89
+  :art_reading: true
+  :art_photography: true
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_documentary: true
+  :music_pop: true
+  :food_vegetarian: true
 - :email: Gregoria387@hotmail.com
   :password: secret123
   :first_name: Gregoria
@@ -1899,6 +3888,15 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 90
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Jeannine387@hotmail.com
   :password: secret123
   :first_name: Jeannine
@@ -1906,6 +3904,15 @@
   :bio: Performer, Philanthropist, Ninja in Training, Social Media Guru, Diseased Cat. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/14.jpg
   :flat_id: 90
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Kaley387@hotmail.com
   :password: secret123
   :first_name: Kaley
@@ -1913,6 +3920,15 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/female/27.jpg
   :flat_id: 91
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Shelley387@hotmail.com
   :password: secret123
   :first_name: Shelley
@@ -1920,6 +3936,15 @@
   :bio: Redhead, Lawyer, Creator of Systems, Choco-holic, Cigarette Butt Collector. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/13.jpg
   :flat_id: 91
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Cecelia387@hotmail.com
   :password: secret123
   :first_name: Cecelia
@@ -1927,6 +3952,15 @@
   :bio: Doctor, Author, Beer Fanatic, Scuba Diver, Food Court Nightwatchman. I feed my cats poptarts.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 91
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Keisha387@hotmail.com
   :password: secret123
   :first_name: Keisha
@@ -1934,6 +3968,15 @@
   :bio: Community Volunteer, Olympian, Idea Pimp, Social Media Guru, Paper slapper. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
   :flat_id: 92
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Demetrius387@hotmail.com
   :password: secret123
   :first_name: Demetrius
@@ -1941,6 +3984,15 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/male/19.jpg
   :flat_id: 92
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Roger387@hotmail.com
   :password: secret123
   :first_name: Roger
@@ -1948,6 +4000,15 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 92
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Lamont123@example.com
   :password: secret123
   :first_name: Lamont
@@ -1955,6 +4016,15 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 93
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Jenni123@example.com
   :password: secret123
   :first_name: Jenni
@@ -1962,6 +4032,15 @@
   :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
   :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
   :flat_id: 93
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Valeri123@example.com
   :password: secret123
   :first_name: Valeri
@@ -1969,6 +4048,15 @@
   :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
   :flat_id: 93
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Albina123@example.com
   :password: secret123
   :first_name: Albina
@@ -1976,6 +4064,15 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 93
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Amber123@example.com
   :password: secret123
   :first_name: Amber
@@ -1983,6 +4080,15 @@
   :bio: Editor, Researcher, Cultural Mythologist, Connector of People, Troll King. I unleashed the zombie apocalypse.
   :facebook_picture_url: https://uinames.com/api/photos/female/9.jpg
   :flat_id: 93
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Mina123@example.com
   :password: secret123
   :first_name: Mina
@@ -1990,6 +4096,15 @@
   :bio: Entertainer, Volunteer, Multi-sportlete, Branding Expert, Papercut Survivor. I like to step on crunchy leaves.
   :facebook_picture_url: https://uinames.com/api/photos/female/25.jpg
   :flat_id: 93
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Carlo123@example.com
   :password: secret123
   :first_name: Carlo
@@ -1997,6 +4112,15 @@
   :bio: Communicator, Innovator, Musical Enthusiast, Avid Gamer, Dishwater . My life is the first half of a Spider Man movie.
   :facebook_picture_url: https://uinames.com/api/photos/male/18.jpg
   :flat_id: 94
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Velva123@example.com
   :password: secret123
   :first_name: Velva
@@ -2004,6 +4128,15 @@
   :bio: Misanthrope, Accountant, Anatomy Junkie, Avid Baker, Gym short shorts. Afraid of roller coasters and dry ice.
   :facebook_picture_url: https://uinames.com/api/photos/female/40.jpg
   :flat_id: 94
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Sergio123@example.com
   :password: secret123
   :first_name: Sergio
@@ -2011,6 +4144,15 @@
   :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
   :facebook_picture_url: https://uinames.com/api/photos/male/17.jpg
   :flat_id: 94
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Valeria123@example.com
   :password: secret123
   :first_name: Valeria
@@ -2018,6 +4160,15 @@
   :bio: Community Volunteer, Mastermind, Powerful Multitasker, Ninja in Training, Part-time Lion Tamer. I hide my sweat well.
   :facebook_picture_url: https://uinames.com/api/photos/female/37.jpg
   :flat_id: 95
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Ollie123@example.com
   :password: secret123
   :first_name: Ollie
@@ -2025,6 +4176,15 @@
   :bio: Citizen, Innovator, Movie Fanatic, Sock Hater, Paper slapper. Hitting things to make them work.
   :facebook_picture_url: https://uinames.com/api/photos/male/28.jpg
   :flat_id: 95
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Ladonna210@example.com
   :password: secret123
   :first_name: Ladonna
@@ -2032,6 +4192,15 @@
   :bio: Performer, Philanthropist, Ninja in Training, Social Media Guru, Diseased Cat. The 7th Avenger.
   :facebook_picture_url: https://uinames.com/api/photos/female/1.jpg
   :flat_id: 95
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Eda210@example.com
   :password: secret123
   :first_name: Eda
@@ -2039,6 +4208,15 @@
   :bio: Achiever, Accountant, Idea Pimp, Gender Activist, Meryl Streep's Personal Trainer. I slapped a chicken once.
   :facebook_picture_url: https://uinames.com/api/photos/female/26.jpg
   :flat_id: 96
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Lavonda210@example.com
   :password: secret123
   :first_name: Lavonda
@@ -2046,6 +4224,15 @@
   :bio: Misanthrope, Lawyer, Happiness Seeker, Ex-cheerleader, Dimestore Megatron. I own 25 hoolahoops.
   :facebook_picture_url: https://uinames.com/api/photos/female/20.jpg
   :flat_id: 96
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Christoper210@example.com
   :password: secret123
   :first_name: Christoper
@@ -2053,6 +4240,15 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 96
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Fernande210@example.com
   :password: secret123
   :first_name: Fernande
@@ -2060,6 +4256,15 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/male/39.jpg
   :flat_id: 97
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Marcus210@example.com
   :password: secret123
   :first_name: Marcus
@@ -2067,6 +4272,15 @@
   :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
   :facebook_picture_url: https://uinames.com/api/photos/female/21.jpg
   :flat_id: 97
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Moira387@example.com
   :password: secret123
   :first_name: Moira
@@ -2074,6 +4288,15 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
   :flat_id: 97
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Bok210@example.com
   :password: secret123
   :first_name: Bok
@@ -2088,6 +4311,15 @@
   :bio: Restauranteur, Sculptor, Social Media Guru, Branding Expert, Replacement President of a Major Soft Drink Manufacturer. Blue is my favourite color. It's also the only color.
   :facebook_picture_url: https://uinames.com/api/photos/male/4.jpg
   :flat_id: 98
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Junko210@example.com
   :password: secret123
   :first_name: Junko
@@ -2095,6 +4327,15 @@
   :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
   :facebook_picture_url: https://uinames.com/api/photos/male/41.jpg
   :flat_id: 98
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Dinorah210@example.com
   :password: secret123
   :first_name: Dinorah
@@ -2102,6 +4343,15 @@
   :bio: Dancer, Communicator, Truck Driver, World Traveler, Siri's Ex-Boyfriend. I have invincible minions.
   :facebook_picture_url: https://uinames.com/api/photos/female/5.jpg
   :flat_id: 99
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Maximo210@example.com
   :password: secret123
   :first_name: Maximo
@@ -2109,6 +4359,15 @@
   :bio: Innovator, Alcoholic, The Original Imposter, Empire Builder, Your long lost twin. I like pop-up books.
   :facebook_picture_url: https://uinames.com/api/photos/male/36.jpg
   :flat_id: 99
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Cristal210@example.com
   :password: secret123
   :first_name: Cristal
@@ -2116,6 +4375,15 @@
   :bio: Curator, Snowboarder, Strategic Storyteller, Life-long Learner, Mayonaise Tester. Pikachu chooses me.
   :facebook_picture_url: https://uinames.com/api/photos/female/35.jpg
   :flat_id: 99
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Santiago210@example.com
   :password: secret123
   :first_name: Santiago
@@ -2123,6 +4391,15 @@
   :bio: Community Volunteer, Chef, Creator of Mediums, Hopeless Romantic, Diseased Cat. I excel at bombing job interviews.
   :facebook_picture_url: https://uinames.com/api/photos/male/2.jpg
   :flat_id: 100
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 - :email: Kylee210@example.com
   :password: secret123
   :first_name: Kylee
@@ -2130,6 +4407,15 @@
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/2.jpg
   :flat_id: 100
+  :food_delivery: true
+  :sport_wellbeing: true
+  :film_action: true
+  :film_romcom: true
+  :film_horror: true
+  :music_rock: true
+  :holiday_city: true
+  :food_meat: true
+  :sport_endurance: true
 # - :email: Mallie210@example.com
 #   :password: secret123
 #   :first_name: Mallie
