@@ -1,8 +1,9 @@
-<div class="container text-center col-xs-12 col-sm-12">
+<div class="container">
+  <div class="text-center col-xs-12 col-sm-12">
 
-  <%= link_to("Back to search", "javascript:history.go(-3)", class: "btn btn-pink btn-hover btn-calendar") %>
+  <%= link_to("Back to search", "javascript:history.go(-3)", class: "btn btn-green btn-hover btn-calendar") %>
 
-  <p class="btn btn-primary btn-hover btn-calendar" id="calendar-show" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
+  <p class="btn btn-green btn-hover btn-calendar" id="calendar-show" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
 
   <div class="container">
   <% @requests.each do |request| %>
