@@ -21,6 +21,7 @@ class RequestsController < ApplicationController
     @request.status = "pending"
     @request.user = current_user
     @request.viewing = @viewing
+
     if @request.save
       # redirect_to request_path(@request)
       @flat = @request.viewing.room.flat

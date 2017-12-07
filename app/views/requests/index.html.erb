@@ -5,6 +5,7 @@
 
   <p class="btn btn-green btn-hover btn-calendar" id="calendar-show" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
 
+  <div class="container">
   <% @requests.each do |request| %>
   <div class="listing">
     <% if request.status == "pending" %>

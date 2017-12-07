@@ -107,15 +107,6 @@ class RoomsController < ApplicationController
       end
     end
 
-    @room_viewings = []
-    @room.viewings.each do |viewing|
-      string_viewing = viewing.start_time.strftime("%l:%M %P -  %A %eth %B")
-      @room_viewings << string_viewing
-    end
-    # @viewing_times = []
-    # @room.viewings.each do |viewing|
-    #   @viewing_times << viewing.start_time.to_s
-    # end
     @hash = Gmaps4rails.build_markers(@room.flat) do |room, marker|
       marker.lat room.latitude
       marker.lng room.longitude
