@@ -130,6 +130,7 @@ ActiveRecord::Schema.define(version: 20171204180522) do
     t.string   "last_name"
     t.string   "token"
     t.datetime "token_expiry"
+    t.text     "bio"
     t.boolean  "art_museum",             default: false
     t.boolean  "art_photography",        default: false
     t.boolean  "art_theatre",            default: false
