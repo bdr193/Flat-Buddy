@@ -40,7 +40,7 @@ def create_viewing(room)
     room_id: room.id
   )
   vi.save
-  create_request(vi) if rand(0..7).to_i == 1
+  # create_request(vi) if rand(0..7).to_i == 1
 end
 
 def create_room(flat, room)
@@ -237,9 +237,6 @@ viewing_ten = Viewing.create!(
   duration: 45,
   room_id: 14,
   )
-
-
-
 
 
 request_one = Request.create!(
