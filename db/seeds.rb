@@ -97,7 +97,7 @@ flat_one = Flat.create!(
    searching_for: nil,
    monthly_price: 540,
    room_size: 20,
-   card_image: 'http://res.cloudinary.com/dfzmhmkbf/image/upload/v1512662612/pcyegeugonv3y5hkyxng.jpg',
+   card_image: 'http://res.cloudinary.com/dfzmhmkbf/image/upload/v1512667577/ezsr37bbahy0agzi1hn4.jpg',
    deposit: 600,
    has_parking: nil,
    allow_students: false,
