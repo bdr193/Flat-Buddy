@@ -174,12 +174,9 @@ puts "User 4"
 
 #ALL OTHER USERS AND FLATS AND ROOMS
 
-create_flats_and_rooms
-create_users
-
 room_one = Room.create!(
   move_in_date: '01/01/2018',
-  flat_id: 1
+  flat_id: 1,
   )
 
 viewing_one = Viewing.create!(
@@ -292,6 +289,9 @@ request_five.pending!
 request_five.save!
 
 puts "Request 5 created"
+
+create_flats_and_rooms
+create_users
 
 
 #
