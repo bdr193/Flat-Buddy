@@ -14,14 +14,13 @@ class RoomsController < ApplicationController
     @rooms = Room.where(flat_id: @flats_ids)
 
     @rooms = @rooms.where("move_in_date <= ?", @move_in_date) unless @move_in_date.blank?
-
     @rooms = @rooms.where("move_out_date >= ?", @move_out_date) unless @move_out_date.blank?
 
     unless params[:room].nil?
       if params[:room][:neighborhood].present?
         @neighborhood = params[:room][:neighborhood]
         if @neighborhood == "All neighborhoods"
-          @rooms = Room.all
+          @rooms = @rooms
         else
           @rooms = @rooms.select("*").joins(:flat).where(flats: { neighborhood: @neighborhood } )
         end
@@ -30,8 +29,10 @@ class RoomsController < ApplicationController
       if params[:room][:number_of_flatmates].present?
         @flat_mates_value = params[:room][:number_of_flatmates]
         @number_of_flatmates = params[:room][:number_of_flatmates].size
-        if params[:room][:number_of_flatmates].include? "➕"
+        if @flat_mates_value.include? "➕"
           @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= 10")
+        elsif @flat_mates_value.include? "mind"
+          @rooms = @rooms
         else
           @rooms = @rooms.select("*").joins(:flat).where("flats.number_of_flatmates <= ?", @number_of_flatmates )
         end
