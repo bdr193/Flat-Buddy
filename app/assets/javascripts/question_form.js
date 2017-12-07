@@ -42,7 +42,7 @@ $('#films-container .back').on("click", function(){
 
 $('#music-container .next').on("click", function(){
   $("#music-container").hide("slide", { easing: "easeInQuart", direction: "left" }, 700, function(){
-    $("#holidays-container").show("slide", { easing: "easeOutQuart", direction: "right" }, 700);
+    $("#food-container").show("slide", { easing: "easeOutQuart", direction: "right" }, 700);
   });
 });
 
@@ -52,21 +52,9 @@ $('#music-container .back').on("click", function(){
   });
 });
 
-$('#holidays-container .next').on("click", function(){
-  $("#holidays-container").hide("slide", { easing: "easeInQuart", direction: "left" }, 700, function(){
-    $("#food-container").show("slide", { easing: "easeOutQuart", direction: "right" }, 700);
-  });
-});
-
-$('#holidays-container .back').on("click", function(){
-  $("#holidays-container").hide("slide", { easing: "easeInQuart", direction: "right" }, 700, function(){
-    $("#music-container").show("slide", { easing: "easeOutQuart", direction: "left" }, 700);
-  });
-});
-
 $('#food-container .back').on("click", function(){
   $("#food-container").hide("slide", { easing: "easeInQuart", direction: "right" }, 700, function(){
-    $("#holidays-container").show("slide", { easing: "easeOutQuart", direction: "left" }, 700);
+    $("#music-container").show("slide", { easing: "easeOutQuart", direction: "left" }, 700);
   });
 });
 

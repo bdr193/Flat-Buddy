@@ -232,63 +232,6 @@
 </section>
 
 
-<section class="interest-section" id="holidays-container">
-  <h3>What is your dream holiday?</h3>
-  <button class="btn btn-pink back" type="button">Back</button>
-  <button class="btn btn-pink next pull-right next-question" type="button">Next</button>
-
-  <div class="container">
-    <div class="question-container">
-      <div class="row">
-        <div class="question-card col-xs-12 col-sm-8 col-md-4 text-center">
-          <%= cl_image_tag('sb3k0ebvzkwws9wpaz2x', width: 200, crop: :fill) %>
-          <p>
-            <%= f.label "Relaxing on a beach" %>
-            <%= f.input_field :holiday_beach, as: :boolean, checked_value: true, unchecked_value: false  %>
-          </p>
-        </div>
-        <div class="question-card col-xs-12 col-sm-8 col-md-4 text-center">
-          <%= cl_image_tag('whdgpmnjvyjnmlexmvsi', width: 200, crop: :fill) %>
-          <p>
-            <%= f.label "Trekking" %>
-            <%= f.input_field :holiday_trek, as: :boolean, checked_value: true, unchecked_value: false  %>
-          </p>
-        </div>
-        <div class="question-card col-xs-12 col-sm-8 col-md-4 text-center">
-          <%= cl_image_tag('uo1dnctzlyz6tzittdvf', width: 200, crop: :fill) %>
-          <p>
-            <%= f.label "City getaway" %>
-            <%= f.input_field :holiday_city, as: :boolean, checked_value: true, unchecked_value: false  %>
-          </p>
-        </div>
-       </div>
-        <div class="row">
-        <div class="question-card col-xs-12 col-sm-8 col-md-4 text-center">
-          <%= cl_image_tag('wvh0kmqho4epdtrqtv0k', width: 200, crop: :fill) %>
-          <p>
-            <%= f.label "Party holiday" %>
-            <%= f.input_field :holiday_party, as: :boolean, checked_value: true, unchecked_value: false  %>
-          </p>
-        </div>
-        <div class="question-card col-xs-12 col-sm-8 col-md-4 text-center">
-          <%= cl_image_tag('wl1mew9cg2brhjv8mq3e', width: 200, crop: :fill) %>
-          <p>
-            <%= f.label "Stay at home" %>
-            <%= f.input_field :holiday_home, as: :boolean, checked_value: true, unchecked_value: false  %>
-          </p>
-        </div>
-        <div class="question-card col-xs-12 col-sm-8 col-md-4 text-center">
-          <%= cl_image_tag('lfwbt2mgcxzwu9idpx4l', width: 200, crop: :fill) %>
-          <p>
-            <%= f.label "Historic" %>
-            <%= f.input_field :holiday_historic, as: :boolean, checked_value: true, unchecked_value: false  %>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="interest-section" id="food-container">
   <h3>It's dinner time! What's going to be on your plate?</h3>
   <button class="btn btn-pink back" type="button">Back</button>
