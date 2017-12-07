@@ -1,9 +1,9 @@
+production:
+  adapter: redis
+  url: redis://rediscloud:CBbIDN31j9wLEoUa@redis-10124.c6.eu-west-1-1.ec2.cloud.redislabs.com:10124
+
 development:
   adapter: async
 
 test:
   adapter: async
-
-production:
-  adapter: redis
-  url: redis://localhost:6379/1
