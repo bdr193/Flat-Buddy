@@ -166,6 +166,7 @@ ActiveRecord::Schema.define(version: 20171204180522) do
     t.boolean  "food_restaurant",        default: false
     t.boolean  "food_delivery",          default: false
     t.boolean  "food_drink",             default: false
+    t.text     "bio"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["flat_id"], name: "index_users_on_flat_id", using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
