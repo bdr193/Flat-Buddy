@@ -4,6 +4,7 @@
 
   <p class="btn btn-primary btn-hover btn-calendar" id="calendar-show" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
 
+  <div class="container">
   <% @requests.each do |request| %>
   <div class="listing">
     <% if request.status == "pending" %>
@@ -46,6 +47,7 @@
 
   </div>
   <% end %>
+  </div>
 </div>
 
 <div id="modal-calendar" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">

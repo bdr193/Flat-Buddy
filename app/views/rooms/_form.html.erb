@@ -1,4 +1,5 @@
-   <%= simple_form_for @request do |m| %>
-      <%= m.association :viewing, collection: @room_viewings, label: false %>
+   <%= simple_form_for request do |m| %>
+      <%= m.association :viewing, collection: room.viewings, label_method: lambda { |viewing| viewing.start_time.strftime("%l:%M %P -  %A %eth %B") } %>
       <%= m.submit "Create Request", class: "btn btn-pink" %>
     <% end %>
+
