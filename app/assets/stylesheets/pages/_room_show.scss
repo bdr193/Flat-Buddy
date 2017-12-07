@@ -2,6 +2,7 @@
   border-radius: 50%;
   border: 1px solid $pink;
   margin-right: 30px;
+  margin-top: 20px;
 }
 
 .flat-form {
@@ -14,7 +15,20 @@
   top: 0;
 }
 
+.user-card {
+  height: 120px;
+  display: flex;
+  align-items: middle;
+}
+
+.user-description {
+  padding: 0px;
+  margin: 0px;
+}
+
 #description-list li {
   list-style-type: none;
   margin-left: -40px;
 }
+
+
