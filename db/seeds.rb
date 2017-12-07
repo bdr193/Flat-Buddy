@@ -289,6 +289,51 @@ request_five.save!
 
 puts "Request 5 created"
 
+chat_room_one = ChatRoom.create!(
+  request_id: 1
+  )
+
+puts "Chatroom 1 created"
+
+chat_room_two = ChatRoom.create!(
+  request_id: 2
+  )
+
+puts "Chatroom 2 created"
+
+chat_room_three = ChatRoom.create!(
+  request_id: 3
+  )
+
+puts "Chatroom 3 created"
+
+
+message_one = Message.create!(
+  user_id: 20,
+  content: "Hi Rich, looking forward to meet you next week. Any questions beforehand, please let me know.",
+  chat_room_id: 1
+  )
+
+puts "Message 1 created"
+
+
+message_two = Message.create!(
+  user_id: 30,
+  content: "Yo Rich, u comin next week still up to date?",
+  chat_room_id: 2
+  )
+
+puts "Message 2 created"
+
+message_three = Message.create!(
+  user_id: 40,
+  content: "Looking forward to seeing you next week Rich!",
+  chat_room_id: 3
+  )
+
+puts "Message 3 created"
+
+
 
 #
 # #

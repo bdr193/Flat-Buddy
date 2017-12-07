@@ -24,7 +24,7 @@
         <%= link_to request_path(request) do %>
         <div class="request-title">
           <h3><%= request.viewing.room.flat.title %></h3>
-          <h5><%= request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></h5>
+          <h5><%= request.slot.strftime("%l:%M %P -  %A %eth %B") %></h5>
         </div>
         <p class="request-address"><strong><%= request.viewing.room.flat.neighborhood %></strong>, <%= request.viewing.room.flat.address %></p>
       </div>
