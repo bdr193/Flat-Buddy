@@ -18,7 +18,7 @@
 
     <div class="request request-border">
       <div class="request-price">
-        <%=  cl_image_tag(request.viewing.room.flat.card_image, crop: :fill, height: 120) %>
+        <%=  cl_image_tag(request.viewing.room.flat.card_image, crop: :fill, height: 120, width: 170) %>
       </div>
       <div class="request-body text-left">
         <%= link_to request_path(request) do %>
