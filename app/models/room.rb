@@ -3,7 +3,7 @@ class Room < ApplicationRecord
   has_many :viewings
 
   def shared_interests(user)
-    buddy = flat.users.last
+    buddy = flat.users.first
     if buddy.nil?
       interests = []
     else
