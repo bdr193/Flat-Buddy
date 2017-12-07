@@ -15,7 +15,7 @@
   </div>
 </div>
 <div class="interests text-center">
-  <h3 class="commons-title"> You share some interests! </h3>
+  <h3 class="commons-title"> These are your shared interests! </h3>
   <div class="interests-wrapper">
     <% @interests.each do |interest| %>
     <div class="interest-card">
@@ -115,8 +115,111 @@
 <% content_for(:after_js) do %>
 <%= javascript_tag do %>
 
+var styles = [
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#FB5189"
+            },
+            {
+                "saturation": 59.80000000000001
+            },
+            {
+                "lightness": 21
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#FF00AF"
+            },
+            {
+                "saturation": 32.599999999999994
+            },
+            {
+                "lightness": 20.599999999999994
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#FFAF00"
+            },
+            {
+                "lightness": 50.80000000000001
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#FFE800"
+            },
+            {
+                "lightness": 8.600000000000009
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#FFD900"
+            },
+            {
+                "saturation": 44.79999999999998
+            },
+            {
+                "lightness": 3.6000000000000085
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "hue": "#0078FF"
+            },
+            {
+                "saturation": 24.200000000000003
+            },
+            {
+                "gamma": 1
+            }
+        ]
+    }
+]
+
 var handler = Gmaps.build('Google');
-handler.buildMap({ internal: { id: 'show-map' } }, function() {
+handler.buildMap({provider: {styles:styles},
+internal: { id: 'show-map' } }, function() {
 markers = handler.addMarkers(<%= raw @hash.to_json %>);
 handler.bounds.extendWith(markers);
 handler.fitMapToBounds();
@@ -126,5 +229,8 @@ handler.getMap().setZoom(2);
 handler.getMap().setZoom(14);
 }
 });
+
+
+
 <% end %>
 <% end %>

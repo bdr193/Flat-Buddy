@@ -24,7 +24,7 @@
                 <% end %>
               </p>
               <strong> <%= room.flat.neighborhood %></strong>
-              <p class="card-address"><%= room.flat.address[0..-21]%></p>
+              <p class="card-address"><%= room.flat.address%></p>
 
               <div class="icon-wrapper">
                 <% common = room.shared_interests(current_user) %>

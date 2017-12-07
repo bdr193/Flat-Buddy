@@ -97,7 +97,7 @@ flat_one = Flat.create!(
    searching_for: nil,
    monthly_price: 540,
    room_size: 20,
-   card_image: 'http://res.cloudinary.com/dfzmhmkbf/image/upload/v1512662612/pcyegeugonv3y5hkyxng.jpg',
+   card_image: 'http://res.cloudinary.com/dfzmhmkbf/image/upload/v1512667577/ezsr37bbahy0agzi1hn4.jpg',
    deposit: 600,
    has_parking: nil,
    allow_students: false,
@@ -124,7 +124,6 @@ user_one = User.create!(
   first_name: "Richard",
   last_name: "O'Grady",
   bio: "Singer, Educator, Serial Careerist, Political Activist, Mayonaise Tester. I'm very busy and important.",
-  flat_id: 1,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15972751_237246466721822_1634594414421206870_o.jpg?oh=51c4df723a1a2e64c7972c3e34468b0b&oe=5A8F41B5"
 )
 puts "User 1"
