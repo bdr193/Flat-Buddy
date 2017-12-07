@@ -41,6 +41,8 @@ class RoomsController < ApplicationController
       if params[:room][:furnished].present?
         @furnished = params[:room][:furnished]
         case @furnished
+        when "I don't mind"
+          @rooms = @rooms
         when "furnished"
           @rooms = @rooms.select("*").joins(:flat).where("flats.furnished = 2")
         when "semi-furnished"
