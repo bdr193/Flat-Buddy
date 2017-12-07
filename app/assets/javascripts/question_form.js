@@ -76,7 +76,7 @@ $('#food-container .next').on("click", function(){
   });
   window.setTimeout(function() {
     $("#interest-form").submit();
-  }, 4000);
+  }, 3000);
 });
 
 
