@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
   mount Attachinary::Engine => "/attachinary"
+  mount ActionCable.server => "/cable"
+
 
   resources :flats, only: [:show, :new, :edit] do
     resources :rooms, only: [:new, :edit]
