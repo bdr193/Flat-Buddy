@@ -168,8 +168,13 @@ user_four = User.create!(
 
 puts "User 4"
 
+#ALL OTHER USERS AND FLATS AND ROOMS
+
+create_flats_and_rooms
+create_users
+
 room_one = Room.create!(
-  move_in_date: '01/01/2017',
+  move_in_date: '01/01/2018',
   flat_id: 1
   )
 
@@ -203,33 +208,91 @@ viewing_five = Viewing.create!(
   room_id: 1,
   )
 
-#ALL OTHER USERS AND FLATS AND ROOMS
+viewing_six = Viewing.create!(
+  start_time: Time.strptime('11/12/2017 19:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 10,
+  )
 
-create_flats_and_rooms
-create_users
+viewing_seven = Viewing.create!(
+  start_time: Time.strptime('12/12/2017 19:30', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 11,
+  )
+
+viewing_eight = Viewing.create!(
+  start_time: Time.strptime('14/12/2017 20:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 12,
+  )
+
+viewing_nine = Viewing.create!(
+  start_time: Time.strptime('12/12/2017 18:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 13,
+  )
+
+viewing_ten = Viewing.create!(
+  start_time: Time.strptime('15/12/2017 21:00', '%d/%m/%Y %H:%M'),
+  duration: 45,
+  room_id: 14,
+  )
 
 
 
 
-# request_one = Request.create!(
-#   slot: Time.strptime('28/11/2017 19:00', '%d/%m/%Y %H:%M'),
-#   user_id: 1,
-#   viewing_id: 1,
-# )
-# request_one.accepted!
-# request_one.save!
 
-# puts "Request 1 created"
-#
-# request_two = Request.create!(
-#   slot: Time.strptime('29/11/2017 19:00', '%d/%m/%Y %H:%M'),
-#   user_id: 1,
-#   viewing_id: 2,
-#   )
-# request_two.pending!
-# request_two.save!
-#
-# puts "Request 2 created"
+request_one = Request.create!(
+  slot: Time.strptime('11/12/2017 19:00', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  viewing_id: 6,
+)
+request_one.accepted!
+request_one.save!
+
+puts "Request 1 created"
+
+request_two = Request.create!(
+  slot: Time.strptime('12/12/2017 19:30', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  viewing_id: 7,
+  )
+request_two.accepted!
+request_two.save!
+
+puts "Request 2 created"
+
+request_three = Request.create!(
+  slot: Time.strptime('14/12/2017 20:00', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  viewing_id: 8,
+  )
+request_three.accepted!
+request_three.save!
+
+puts "Request 3 created"
+
+request_four = Request.create!(
+  slot: Time.strptime('12/12/2017 18:00', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  viewing_id: 9,
+  )
+request_four.pending!
+request_four.save!
+
+puts "Request 4 created"
+
+request_five = Request.create!(
+  slot: Time.strptime('15/12/2017 21:00', '%d/%m/%Y %H:%M'),
+  user_id: 1,
+  viewing_id: 10,
+  )
+request_five.pending!
+request_five.save!
+
+puts "Request 5 created"
+
+
 #
 # #
 # flat_attr = {
