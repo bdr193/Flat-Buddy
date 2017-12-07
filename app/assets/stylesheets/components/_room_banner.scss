@@ -13,11 +13,12 @@
   display: flex;
   background-color: $green;
   color: $white;
-  left: -25px;
-  top: 10px;
+  font-weight: bold;
+  left: 20px;
+  top: 20px;
   align-items: center;
   padding: 5px;
-  border-radius: 3px;
+  border-radius: 50%;
   p {
     margin: 0;
   }
