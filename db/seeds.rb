@@ -97,7 +97,7 @@ flat_one = Flat.create!(
    searching_for: nil,
    monthly_price: 540,
    room_size: 20,
-   card_image: '/assets/lewagonflat.jpg',
+   card_image: image_tag('lewagonflat.jpg'),
    deposit: 600,
    has_parking: nil,
    allow_students: false,
@@ -119,15 +119,14 @@ flat_one = Flat.create!(
   puts "Flat 1"
 
 user_one = User.create!(
-  email: "rabea_bader@gmail.com",
+  email: "richard_ogrady@gmail.com",
   password: "secret123",
-  first_name: "Rabea",
-  last_name: "Badea",
-  bio: "Snowboarder, Volunteer, Connector of People, Cultural Mythologist, Ned Stark's Neck Stump. I am a bowl of congee.",
-  art_museum: true,
-  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/11267855_494475644050145_7650517800177078839_n.jpg?oh=88f598f1fc8228a3a81f204d69ab47bb&oe=5A916072"
+  first_name: "Richard",
+  last_name: "O'Grady",
+  bio: "Singer, Educator, Serial Careerist, Political Activist, Mayonaise Tester. I'm very busy and important.",
+  flat_id: 1,
+  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15972751_237246466721822_1634594414421206870_o.jpg?oh=51c4df723a1a2e64c7972c3e34468b0b&oe=5A8F41B5"
 )
-
 puts "User 1"
 
 user_two = User.create!(
@@ -149,6 +148,17 @@ user_two = User.create!(
 puts "User 2"
 
 user_three = User.create!(
+  email: "rabea_bader@gmail.com",
+  password: "secret123",
+  first_name: "Rabea",
+  last_name: "Badea",
+  flat_id: 1,
+  bio: "Snowboarder, Volunteer, Connector of People, Cultural Mythologist, Ned Stark's Neck Stump. I am a bowl of congee.",
+  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/11267855_494475644050145_7650517800177078839_n.jpg?oh=88f598f1fc8228a3a81f204d69ab47bb&oe=5A916072"
+)
+puts "User 3"
+
+user_four = User.create!(
   email: "stephan_is_great@gmail.com",
   password: "secret123",
   first_name: "Stephan",
@@ -156,18 +166,6 @@ user_three = User.create!(
   bio: "Producer, Academic, Travel Junkie, Dollar Store Owner, Cat Stroker. I hide my sweat well.",
   flat_id: 1,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/12472516_1150297835028069_8300065499297260894_n.jpg?oh=61fd7f780e66b7d600be2918c009e714&oe=5AA8DD43"
-)
-
-puts "User 3"
-
-user_four = User.create!(
-  email: "richard_ogrady@gmail.com",
-  password: "secret123",
-  first_name: "Richard",
-  last_name: "O'Grady",
-  bio: "Singer, Educator, Serial Careerist, Political Activist, Mayonaise Tester. I'm very busy and important.",
-  flat_id: 1,
-  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15972751_237246466721822_1634594414421206870_o.jpg?oh=51c4df723a1a2e64c7972c3e34468b0b&oe=5A8F41B5"
 )
 
 puts "User 4"
