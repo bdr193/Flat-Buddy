@@ -52,7 +52,7 @@ def create_room(flat, room)
   end
   ro = Room.new(room)
   ro.save
-  create_viewing(ro)
+  # create_viewing(ro)
 end
 
 def create_flats_and_rooms
@@ -123,6 +123,7 @@ user_one = User.create!(
   password: "secret123",
   first_name: "Rabea",
   last_name: "Badea",
+  bio: "Snowboarder, Volunteer, Connector of People, Cultural Mythologist, Ned Stark's Neck Stump. I am a bowl of congee.",
   art_museum: true,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/11267855_494475644050145_7650517800177078839_n.jpg?oh=88f598f1fc8228a3a81f204d69ab47bb&oe=5A916072"
 )
@@ -134,6 +135,7 @@ user_two = User.create!(
   password: "secret123",
   first_name: "Sarah",
   last_name: "Lafer",
+  bio: "Fisherman, Performer, Amateur Chef, Cultural Mythologist, Human Casserole. I don't want to say I'm a genius, but I'm the guy behind 'Snuggies'.",
   art_museum: true,
   sport_endurance: true,
   film_animation: true,
@@ -141,7 +143,7 @@ user_two = User.create!(
   holiday_home: true,
   food_delivery: true,
   flat_id: 1,
-  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15123387_1524489700911298_8540080221667972968_o.jpg?oh=81c74c24d54e1d3f4989184e7a9ee45a&oe=5AA0CACD"
+  facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15123387_1524489700911298_8540080221667972968_o.jpg?oh=81c74c24d54e1d3f4989184e7a9ee45a&oe=5AA0CACD",
 )
 
 puts "User 2"
@@ -151,6 +153,7 @@ user_three = User.create!(
   password: "secret123",
   first_name: "Stephan",
   last_name: "Schmidbauer",
+  bio: "Producer, Academic, Travel Junkie, Dollar Store Owner, Cat Stroker. I hide my sweat well.",
   flat_id: 1,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t1.0-9/12472516_1150297835028069_8300065499297260894_n.jpg?oh=61fd7f780e66b7d600be2918c009e714&oe=5AA8DD43"
 )
@@ -162,6 +165,7 @@ user_four = User.create!(
   password: "secret123",
   first_name: "Richard",
   last_name: "O'Grady",
+  bio: "Singer, Educator, Serial Careerist, Political Activist, Mayonaise Tester. I'm very busy and important.",
   flat_id: 1,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15972751_237246466721822_1634594414421206870_o.jpg?oh=51c4df723a1a2e64c7972c3e34468b0b&oe=5A8F41B5"
 )
@@ -170,13 +174,13 @@ puts "User 4"
 
 #ALL OTHER USERS AND FLATS AND ROOMS
 
+room_one = Room.create!(
+  move_in_date: '01/01/2018',
+  flat_id: 1,
+  )
 create_flats_and_rooms
 create_users
 
-room_one = Room.create!(
-  move_in_date: '01/01/2018',
-  flat_id: 1
-  )
 
 viewing_one = Viewing.create!(
   start_time: Time.strptime('11/12/2017 19:00', '%d/%m/%Y %H:%M'),
@@ -288,6 +292,50 @@ request_five.pending!
 request_five.save!
 
 puts "Request 5 created"
+
+chat_room_one = ChatRoom.create!(
+  request_id: 1
+  )
+
+puts "Chatroom 1 created"
+
+chat_room_two = ChatRoom.create!(
+  request_id: 2
+  )
+
+puts "Chatroom 2 created"
+
+chat_room_three = ChatRoom.create!(
+  request_id: 3
+  )
+
+puts "Chatroom 3 created"
+
+
+message_one = Message.create!(
+  user_id: 20,
+  content: "Hi Rich, looking forward to meet you next week. Any questions beforehand, please let me know.",
+  chat_room_id: 1
+  )
+
+puts "Message 1 created"
+
+
+message_two = Message.create!(
+  user_id: 30,
+  content: "Yo Rich, u comin next week still up to date?",
+  chat_room_id: 2
+  )
+
+puts "Message 2 created"
+
+message_three = Message.create!(
+  user_id: 40,
+  content: "Looking forward to seeing you next week Rich!",
+  chat_room_id: 3
+  )
+
+puts "Message 3 created"
 
 
 #

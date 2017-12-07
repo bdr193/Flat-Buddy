@@ -69,3 +69,16 @@ $('#food-container .back').on("click", function(){
     $("#holidays-container").show("slide", { easing: "easeOutQuart", direction: "left" }, 700);
   });
 });
+
+$('#food-container .next').on("click", function(){
+  $("#food-container").hide("slide", { easing: "easeInQuart", direction: "left" }, 700, function(){
+    $("#form-outro").show("slide", { easing: "easeOutQuart", direction: "right" }, 700);
+  });
+  window.setTimeout(function() {
+    $("#interest-form").submit();
+  }, 4000);
+});
+
+
+
+
