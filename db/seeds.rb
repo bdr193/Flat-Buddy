@@ -124,7 +124,6 @@ user_one = User.create!(
   first_name: "Richard",
   last_name: "O'Grady",
   bio: "Singer, Educator, Serial Careerist, Political Activist, Mayonaise Tester. I'm very busy and important.",
-  flat_id: 1,
   facebook_picture_url: "https://scontent-frt3-1.xx.fbcdn.net/v/t31.0-8/15972751_237246466721822_1634594414421206870_o.jpg?oh=51c4df723a1a2e64c7972c3e34468b0b&oe=5A8F41B5"
 )
 puts "User 1"
