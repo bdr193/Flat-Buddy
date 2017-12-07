@@ -2,7 +2,7 @@ class RoomsController < ApplicationController
   before_action :find_room_id, only: [:show, :edit]
 
   def index
-    @neighborhoods = ["Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
+    @neighborhoods = ["All neighborhoods", "Baker Street", "Battersea", "Bayswater", "Bermondsey", "Bethnal Green", "Brick Lane", "Brixton", "Brixton Hill", "Camberwell", "Chalk Farm", "Chelsea", "Clapham", "Clapham North", "Dalston", "Earls Court", "Elephant & Castle", "Finsbury", "Fitzrovia", "Fulham", "Hoxton", "Islington", "Kensington", "Kentish Town", "King's Cross", "Lower Holloway", "Maida Hill", "Marylebone", "Notting Hill", "Old Street", "Paddington", "Shadwell", "Shoreditch", "Southwark", "Spitalfields", "Stockwell", "Surrey Quays", "Swiss Cottage", "Vauxhall", "Wapping", "Waterloo", "West Brompton", "Whitechapel"]
 
     @lat =  session[:lat]
     @lng =  session[:lng]
@@ -20,7 +20,11 @@ class RoomsController < ApplicationController
     unless params[:room].nil?
       if params[:room][:neighborhood].present?
         @neighborhood = params[:room][:neighborhood]
-        @rooms = @rooms.select("*").joins(:flat).where(flats: { neighborhood: @neighborhood } )
+        if @neighborhood == "All neighborhoods"
+          @rooms = Room.all
+        else
+          @rooms = @rooms.select("*").joins(:flat).where(flats: { neighborhood: @neighborhood } )
+        end
       end
 
       if params[:room][:number_of_flatmates].present?
