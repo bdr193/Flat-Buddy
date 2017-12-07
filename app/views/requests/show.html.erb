@@ -2,7 +2,7 @@
   <% if @request.status == "accepted" %>
   <h1>You rock! Your viewing has been confirmed!</h1>
   <p>The Flat Buddies at <b><%= @request.viewing.room.flat.title %></b> have checked out your profile and think you could be a great match. The would love you to come for a viewing at: </p>
-  <h4><b><%= @request.viewing.start_time.format_date %></b></h4>
+  <h4><b><%= @request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></b></h4>
   <p>Why don't you send these great people a message!</p>
   <div class="container text-center button">
     <% if chat = @request.chat_room && @request.status == "accepted" %>
