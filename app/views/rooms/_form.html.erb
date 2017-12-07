@@ -1,4 +1,4 @@
    <%= simple_form_for @request do |m| %>
-      <%= m.association :viewing, collection: @room_viewings, label: false %>
+      <%= m.association :viewing, collection: @room_viewings, label: false, value: '', prompt: "Choose time & date" %>
       <%= m.submit "Create Request", class: "btn btn-pink" %>
     <% end %>
