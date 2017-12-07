@@ -7,7 +7,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'pg'
 gem 'puma'
 gem 'rails', '5.0.6'
-gem 'redis', '~> 3.3'
+gem 'redis', '~> 4.0'
 gem 'omniauth-facebook'
 gem "geocoder"
 gem "coffee-rails"
