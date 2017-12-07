@@ -312,7 +312,7 @@ DEPENDENCIES
   rails-assets-jquery-icheck!
   rails-assets-underscore!
   redactor-rails!
-  redis
+  redis (~> 4.0)
   sass-rails
   simple_form
   spring
