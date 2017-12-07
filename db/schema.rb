@@ -130,6 +130,7 @@ ActiveRecord::Schema.define(version: 20171204180522) do
     t.string   "last_name"
     t.string   "token"
     t.datetime "token_expiry"
+    t.text     "bio"
     t.boolean  "art_museum",             default: false
     t.boolean  "art_photography",        default: false
     t.boolean  "art_theatre",            default: false
@@ -166,7 +167,6 @@ ActiveRecord::Schema.define(version: 20171204180522) do
     t.boolean  "food_restaurant",        default: false
     t.boolean  "food_delivery",          default: false
     t.boolean  "food_drink",             default: false
-    t.text     "bio"
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["flat_id"], name: "index_users_on_flat_id", using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
