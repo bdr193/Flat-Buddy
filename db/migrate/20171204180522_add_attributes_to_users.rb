@@ -1,5 +1,6 @@
 class AddAttributesToUsers < ActiveRecord::Migration[5.0]
   def change
+    add_column :users, :bio, :text
     add_column :users, :art_museum, :boolean, default: false
     add_column :users, :art_photography, :boolean, default: false
     add_column :users, :art_theatre, :boolean, default: false
