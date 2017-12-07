@@ -94,3 +94,7 @@
   color: $white;
   background-color: $dark-pink;
 }
+
+.btn-pink:focus {
+  outline-color: $dark-pink;
+}
