@@ -170,13 +170,13 @@ puts "User 4"
 
 #ALL OTHER USERS AND FLATS AND ROOMS
 
-create_flats_and_rooms
-create_users
-
 room_one = Room.create!(
   move_in_date: '01/01/2018',
   flat_id: 1
   )
+create_flats_and_rooms
+create_users
+
 
 viewing_one = Viewing.create!(
   start_time: Time.strptime('11/12/2017 19:00', '%d/%m/%Y %H:%M'),
