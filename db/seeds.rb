@@ -52,7 +52,7 @@ def create_room(flat, room)
   end
   ro = Room.new(room)
   ro.save
-  create_viewing(ro)
+  # create_viewing(ro)
 end
 
 def create_flats_and_rooms
