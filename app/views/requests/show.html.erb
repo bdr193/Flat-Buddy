@@ -1,25 +1,25 @@
 <div class="container">
  <div class="text-center note">
-  <% if @request.status == "accepted" %>
-  <h1>You rock! Your viewing has been confirmed!</h1>
-  <p>The Flat Buddies at <b><%= @request.viewing.room.flat.title %></b> have checked out your profile and think you could be a great match. The would love you to come for a viewing at: </p>
-  <h4><b><%= @request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></b></h4>
-  <p>Why don't you send these great people a message!</p>
-  <div class="container text-center button">
-    <% if chat = @request.chat_room && @request.status == "accepted" %>
-    <%= link_to("Send Message", chat_room_path(@request.chat_room), class: "btn btn-green text-center btn-space" ) %>
+    <% if @request.status == "accepted" %>
+    <h1>You rock! Your viewing has been confirmed!</h1>
+    <p>The Flat Buddies at <b><%= @request.viewing.room.flat.title %></b> have checked out your profile and think you could be a great match. The would love you to come for a viewing at: </p>
+    <h4><b><%= @request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></b></h4>
+    <p>Why don't you send these great people a message!</p>
+    <div class="container text-center button">
+      <% if chat = @request.chat_room && @request.status == "accepted" %>
+      <%= link_to("Send Message", chat_room_path(@request.chat_room), class: "btn btn-green text-center btn-space" ) %>
+      <% end %>
+      <%= link_to("View All My Requests", requests_path, class: "btn btn-pink text-center btn-space") %>
+    </div>
+    <p class="signature">The FlatBuddy Team </p>
+    <% else %>
+    <h1>Your viewing request has been sent!</h1>
+    <p>The FlatBuddies at <b><%= @request.viewing.room.flat.title %></b> have received your request! We will let you know when they accept it.</p><p><em>If your request is accepted,</em> your viewing will be at:</p>
+    <h4><b><%= @request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></b></h4>
+    <div class="container text-center button">
+      <%= link_to("See all your Requests", requests_path, class: "btn btn-pink text-center btn-space") %>
+    </div>
+    <p class="signature">The FlatBuddy Team x</p>
     <% end %>
-    <%= link_to("View All My Requests", requests_path, class: "btn btn-pink text-center btn-space") %>
-  </div>
-  <p class="signature">The FlatBuddy Team </p>
-  <% else %>
-  <h1>Your viewing request has been sent!</h1>
-  <p>The FlatBuddies at <b><%= @request.viewing.room.flat.title %></b> have received your request! We will let you know when they accept it.</p><p><em>If your request is accepted,</em> your viewing will be at:</p>
-  <h4><b><%= @request.viewing.start_time.strftime("%l:%M %P -  %A %eth %B") %></b></h4>
-  <div class="container text-center button">
-    <%= link_to("See all your Requests", requests_path, class: "btn btn-pink text-center btn-space") %>
-  </div>
-  <p class="signature">The FlatBuddy Team x</p>
-  <% end %>
 </div>
 </div>
