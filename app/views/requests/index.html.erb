@@ -1,6 +1,6 @@
 <div class="container">
   <div class="text-center col-xs-12 col-sm-12">
-
+    <div class="min-height">
   <%= link_to("Back to search", "javascript:history.go(-3)", class: "btn btn-green btn-hover btn-calendar") %>
 
   <p class="btn btn-green btn-hover btn-calendar" id="calendar-show" data-toggle="modal" data-target="#modal-calendar">Show calendar</p>
@@ -55,6 +55,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <%= render 'calendar' %>
+      </div>
     </div>
   </div>
 </div>
