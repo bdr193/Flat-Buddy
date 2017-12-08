@@ -60,7 +60,7 @@
   // border-top-left-radius: 4px;
   // border-bottom-left-radius: 4px;
   border-radius: 4px 0 0 4px;
-  box-shadow: 0 0 6px #888888;
+  box-shadow: -1px 0 6px #8888863d;
 
   color: white;
 }
@@ -92,7 +92,7 @@
 
 .request-border {
   // border-bottom: 8px solid $pink;
-  box-shadow: 1px 0 6px #888888;
+  box-shadow: 1px 0 6px rgba(0,0,0,0.1);
   box-shadow-left: none;
   border-radius: 0px 4px 4px 0;
   &:hover {
