@@ -34,7 +34,7 @@
                     <% else %>
                       <%= common.length %>
                   <% end %>
-                  Matches
+                  <%= common.length == 1 ? "Match" : "Matches" %>
                 </div>
                 <div class="icons">
                   <% if common != nil%>
