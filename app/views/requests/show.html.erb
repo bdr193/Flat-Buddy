@@ -1,4 +1,5 @@
-<div class="container text-center note">
+<div class="container">
+ <div class="text-center note">
   <% if @request.status == "accepted" %>
   <h1>You rock! Your viewing has been confirmed!</h1>
   <p>The Flat Buddies at <b><%= @request.viewing.room.flat.title %></b> have checked out your profile and think you could be a great match. The would love you to come for a viewing at: </p>
@@ -6,7 +7,7 @@
   <p>Why don't you send these great people a message!</p>
   <div class="container text-center button">
     <% if chat = @request.chat_room && @request.status == "accepted" %>
-      <%= link_to("Send Message", chat_room_path(@request.chat_room), class: "btn btn-green text-center btn-space" ) %>
+    <%= link_to("Send Message", chat_room_path(@request.chat_room), class: "btn btn-green text-center btn-space" ) %>
     <% end %>
     <%= link_to("View All My Requests", requests_path, class: "btn btn-pink text-center btn-space") %>
   </div>
@@ -20,3 +21,5 @@
   </div>
   <p class="signature">The FlatBuddy Team x</p>
   <% end %>
+</div>
+</div>
