@@ -32,69 +32,71 @@
 </div>
 <div class="col-xs-12 col-sm-7">
   <h4> There are <%= @room.flat.users.length %> FlatBuddies in this flat! </h4>
-  <% @room.flat.users.each do |user| %>
-  <div class="row user-card">
-    <div class="col-xs-3 user-image">
-      <%= cl_image_tag(user.facebook_picture_url, :width =>100, :height => 100, :crop => :thumb, :gravity => :face, class: "user-img") %>
-    </div>
-    <div class="col-xs-9 user-description">
-      <h4><%= user.first_name %></h4>
-      <p><%= user.bio %></p>
-    </div>
+    <% @room.flat.users.each do |user| %>
+    <div class="row user-card">
+      <div class="col-xs-3 user-image">
+        <%= cl_image_tag(user.facebook_picture_url, :width =>100, :height => 100, :crop => :thumb, :gravity => :face, class: "user-img") %>
+      </div>
+      <div class="col-xs-9 user-description">
+        <h4><%= user.first_name %></h4>
+        <p><%= user.bio %></p>
+      </div>
   </div>
   <% end %>
   <div class="room-description">
     <br>
     <h4>About the flat</h4>
-    <%= @room.flat.description%>
-    <br>
-    <br>
-    <ul id="description-list">
-      <% if @room.flat.deposit %>
-      <li><%= "Deposit: #{@room.flat.currency}#{@room.flat.deposit}" %></li>
+    <div class="text-indent">
+      <%= @room.flat.description%>
       <br>
-      <% end %>
-      <% if @room.flat.preffered_max_age %>
-      <li><%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" %></li>
       <br>
-      <% end %>
-      <% if @room.flat.has_parking %>
-      <li><%= "Includes parking" %></li>
-      <br>
-      <% end %>
-      <% if @room.flat.allow_students %>
-      <li><%= "Allows students" %></li>
-      <br>
-      <% end %>
-      <% if @room.flat.allow_pets %>
-      <li><%= "Allows pets" %></li>
-      <br>
-      <% end %>
-      <% if @room.flat.allow_smokers %>
-      <li><%= "Allows smokers" %></li>
-      <br>
-      <% end %>
-      <% if @room.flat.bills_included %>
-      <li><%= "Bills included" %></li>
-      <br>
-      <% end %>
-      <% if @room.flat.couples_allowed %>
-      <li><%= "Couples allowed" %></li>
-      <br>
-      <% end %>
-      <% if @room.flat.ensuite  %>
-      <li><%= "Ensuite included"%></li>
-      <br>
-      <% end %>
-      <% if @room.flat.accessible %>
-      <li><%= "Wheelchair accessible" %></li>
-      <br>
-      <% end %>
-      <% if @room.flat.accessible %>
-      <li><%= "Wheelchair accessible" %></li>
-      <br>
-      <% end %>
-    </ul>
+      <ul id="description-list">
+        <% if @room.flat.deposit %>
+        <li><%= "Deposit: #{@room.flat.currency}#{@room.flat.deposit}" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.preffered_max_age %>
+        <li><%= "Preferred maximum age: #{@room.flat.preffered_max_age} years old" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.has_parking %>
+        <li><%= "Includes parking" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.allow_students %>
+        <li><%= "Allows students" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.allow_pets %>
+        <li><%= "Allows pets" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.allow_smokers %>
+        <li><%= "Allows smokers" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.bills_included %>
+        <li><%= "Bills included" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.couples_allowed %>
+        <li><%= "Couples allowed" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.ensuite  %>
+        <li><%= "Ensuite included"%></li>
+        <br>
+        <% end %>
+        <% if @room.flat.accessible %>
+        <li><%= "Wheelchair accessible" %></li>
+        <br>
+        <% end %>
+        <% if @room.flat.accessible %>
+        <li><%= "Wheelchair accessible" %></li>
+        <br>
+        <% end %>
+      </ul>
+    </div>
   </div>
   <div class="room-amenities list-inline">
     <h4>Amenities</h4>

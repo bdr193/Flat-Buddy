@@ -1342,45 +1342,6 @@
   :holiday_beach: true
   :holiday_historic: true
   :food_delivery: true
-- :email: Jenni123@yahoo.com
-  :password: secret123
-  :first_name: Jenni
-  :last_name: Westby
-  :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
-  :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
-  :flat_id: 33
-  :art_cinema: true
-  :sport_snow: true
-  :film_animation: true
-  :holiday_beach: true
-  :holiday_historic: true
-  :food_delivery: true
-- :email: Valeri123@yahoo.com
-  :password: secret123
-  :first_name: Valeri
-  :last_name: Oberle
-  :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
-  :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
-  :flat_id: 33
-  :art_cinema: true
-  :sport_snow: true
-  :film_animation: true
-  :holiday_beach: true
-  :holiday_historic: true
-  :food_delivery: true
-- :email: Albina123@yahoo.com
-  :password: secret123
-  :first_name: Albina
-  :last_name: Sage
-  :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
-  :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
-  :flat_id: 33
-  :art_cinema: true
-  :sport_snow: true
-  :film_animation: true
-  :holiday_beach: true
-  :holiday_historic: true
-  :food_delivery: true
 - :email: Amber123@yahoo.com
   :password: secret123
   :first_name: Amber
@@ -1896,51 +1857,6 @@
   :food_quick: true
   :film_animation: true
   :holiday_beach: true
-- :email: September849@yahoo.com
-  :password: secret123
-  :first_name: September
-  :last_name: Abril
-  :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
-  :facebook_picture_url: https://uinames.com/api/photos/female/42.jpg
-  :flat_id: 45
-  :art_live: true
-  :sport_wellbeing: true
-  :film_action: true
-  :music_electronic: true
-  :holiday_home: true
-  :food_quick: true
-  :film_animation: true
-  :holiday_beach: true
-- :email: Tanisha849@yahoo.com
-  :password: secret123
-  :first_name: Tanisha
-  :last_name: Croy
-  :bio: Feminist, Author, Man of Winter, Friends of Animals, Unwashed Mass. Born at a very young age.
-  :facebook_picture_url: https://uinames.com/api/photos/female/5.jpg
-  :flat_id: 45
-  :art_live: true
-  :sport_wellbeing: true
-  :film_action: true
-  :music_electronic: true
-  :holiday_home: true
-  :food_quick: true
-  :film_animation: true
-  :holiday_beach: true
-- :email: Sherril849@yahoo.com
-  :password: secret123
-  :first_name: Sherril
-  :last_name: Hosier
-  :bio: Songwriter, Academic, Creator of Systems, Travel Junkie, Nixon in China. I don't believe in showers.
-  :facebook_picture_url: https://uinames.com/api/photos/female/12.jpg
-  :flat_id: 45
-  :art_live: true
-  :sport_wellbeing: true
-  :film_action: true
-  :music_electronic: true
-  :holiday_home: true
-  :food_quick: true
-  :film_animation: true
-  :holiday_beach: true
 - :email: Sherry849@yahoo.com
   :password: secret123
   :first_name: Sherry
@@ -2339,19 +2255,6 @@
   :bio: Believer, Volunteer, Beer Fanatic, Branding Expert, Your long lost twin. Fairy tales are full of shit.
   :facebook_picture_url: https://uinames.com/api/photos/male/30.jpg
   :flat_id: 54
-  :art_theatre: true
-  :sport_endurance: true
-  :film_romcom: true
-  :music_classical: true
-  :food_drink: true
-  :film_animation: true
-  :holiday_beach: true
-- :email: grace-87@example.com
-  :password: Robertson87_)
-  :first_name: Grace
-  :last_name: Robertson
-  :facebook_picture_url: https://uinames.com/api/photos/female/24.jpg
-  :flat_id: 55
   :art_theatre: true
   :sport_endurance: true
   :film_romcom: true
@@ -3635,21 +3538,6 @@
   :film_documentary: true
   :music_pop: true
   :food_vegetarian: true
-- :email: grace-87@example.com
-  :password: Robertson87_)
-  :first_name: Grace
-  :last_name: Robertson
-  :facebook_picture_url: https://uinames.com/api/photos/female/24.jpg
-  :flat_id: 85
-  :art_reading: true
-  :art_photography: true
-  :food_delivery: true
-  :sport_wellbeing: true
-  :film_action: true
-  :film_romcom: true
-  :film_documentary: true
-  :music_pop: true
-  :food_vegetarian: true
 - :email: Glayds503@hotmail.com
   :password: secret123
   :first_name: Glayds
@@ -4015,54 +3903,6 @@
   :last_name: Munch
   :bio: Journalist, Volunteer, Public Speaker, Aspiring Yogi, Human Casserole. I am so funny.
   :facebook_picture_url: https://uinames.com/api/photos/female/30.jpg
-  :flat_id: 93
-  :food_delivery: true
-  :sport_wellbeing: true
-  :film_action: true
-  :film_romcom: true
-  :film_horror: true
-  :music_rock: true
-  :holiday_city: true
-  :food_meat: true
-  :sport_endurance: true
-- :email: Jenni123@example.com
-  :password: secret123
-  :first_name: Jenni
-  :last_name: Westby
-  :bio: Innovator, Writer, Travel Junkie, Golf Junky, Dishwater . I used to think that you could just go to the bank and ask for money.
-  :facebook_picture_url: https://uinames.com/api/photos/female/11.jpg
-  :flat_id: 93
-  :food_delivery: true
-  :sport_wellbeing: true
-  :film_action: true
-  :film_romcom: true
-  :film_horror: true
-  :music_rock: true
-  :holiday_city: true
-  :food_meat: true
-  :sport_endurance: true
-- :email: Valeri123@example.com
-  :password: secret123
-  :first_name: Valeri
-  :last_name: Oberle
-  :bio: Academic, Feminist, Idea Agent, Perpetual Escapist, Yuppie. The 7th Avenger.
-  :facebook_picture_url: https://uinames.com/api/photos/female/18.jpg
-  :flat_id: 93
-  :food_delivery: true
-  :sport_wellbeing: true
-  :film_action: true
-  :film_romcom: true
-  :film_horror: true
-  :music_rock: true
-  :holiday_city: true
-  :food_meat: true
-  :sport_endurance: true
-- :email: Albina123@example.com
-  :password: secret123
-  :first_name: Albina
-  :last_name: Sage
-  :bio: Citizen, Singer, Social Media Guru, Multi-sportlete, Attractive 20-something Yogurt Enthusiast. My life is a green screen.
-  :facebook_picture_url: https://uinames.com/api/photos/female/38.jpg
   :flat_id: 93
   :food_delivery: true
   :sport_wellbeing: true
